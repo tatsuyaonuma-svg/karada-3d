@@ -1,1979 +1,1895 @@
 {
- "p0001": {
+ "bo0001": {
   "en": "Anterior cells of ethmoid bone",
   "ja": "篩骨蜂巣 前群",
   "side": "左",
   "system": "骨",
   "raw": "Anterior cells of ethmoid bone.l"
  },
- "p0002": {
+ "bo0002": {
   "en": "Anterior cells of ethmoid bone",
   "ja": "篩骨蜂巣 前群",
   "side": "右",
   "system": "骨",
   "raw": "Anterior cells of ethmoid bone.r"
  },
- "p0003": {
+ "bo0003": {
   "en": "Arytenoid cartilage",
   "ja": "披裂軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Arytenoid cartilage.r"
  },
- "p0004": {
+ "bo0004": {
   "en": "Arytenoid cartilage",
   "ja": "披裂軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Arytenoid cartilage.l"
  },
- "p0005": {
+ "bo0005": {
   "en": "Atlas (C1)",
   "ja": "環椎（第1頸椎）",
   "side": "",
   "system": "骨",
   "raw": "Atlas (C1)"
  },
- "p0006": {
+ "bo0006": {
   "en": "Axis (C2)",
   "ja": "軸椎（第2頸椎）",
   "side": "",
   "system": "骨",
   "raw": "Axis (C2)"
  },
- "p0007": {
+ "bo0007": {
   "en": "Axis (C2)",
   "ja": "軸椎（第2頸椎）",
   "side": "",
   "system": "骨",
   "raw": "Axis (C2).j"
  },
- "p0008": {
+ "bo0008": {
   "en": "Body of sternum",
   "ja": "胸骨体",
   "side": "",
   "system": "骨",
   "raw": "Body of sternum"
  },
- "p0009": {
+ "bo0009": {
   "en": "Calcaneus",
   "ja": "踵骨",
   "side": "左",
   "system": "骨",
   "raw": "Calcaneus.l"
  },
- "p0010": {
+ "bo0010": {
   "en": "Calcaneus",
   "ja": "踵骨",
   "side": "右",
   "system": "骨",
   "raw": "Calcaneus.r"
  },
- "p0011": {
+ "bo0011": {
   "en": "Capitate bone",
   "ja": "有頭骨",
   "side": "左",
   "system": "骨",
   "raw": "Capitate bone.l"
  },
- "p0012": {
+ "bo0012": {
   "en": "Capitate bone",
   "ja": "有頭骨",
   "side": "右",
   "system": "骨",
   "raw": "Capitate bone.r"
  },
- "p0013": {
+ "bo0013": {
   "en": "Cavity of concha",
   "ja": "",
   "side": "左",
   "system": "骨",
   "raw": "Cavity of concha.l"
  },
- "p0014": {
+ "bo0014": {
   "en": "Cavity of concha",
   "ja": "",
   "side": "右",
   "system": "骨",
   "raw": "Cavity of concha.r"
  },
- "p0015": {
+ "bo0015": {
   "en": "Clavicle",
   "ja": "鎖骨",
   "side": "左",
   "system": "骨",
   "raw": "Clavicle.l"
  },
- "p0016": {
+ "bo0016": {
   "en": "Clavicle",
   "ja": "鎖骨",
   "side": "右",
   "system": "骨",
   "raw": "Clavicle.r"
  },
- "p0017": {
+ "bo0017": {
   "en": "Coccyx",
   "ja": "尾骨",
   "side": "",
   "system": "骨",
   "raw": "Coccyx"
  },
- "p0018": {
+ "bo0018": {
   "en": "Coccyx",
   "ja": "尾骨",
   "side": "",
   "system": "骨",
   "raw": "Coccyx.j"
  },
- "p0019": {
+ "bo0019": {
   "en": "Concha of auricle",
   "ja": "",
   "side": "左",
   "system": "骨",
   "raw": "Concha of auricle.l"
  },
- "p0020": {
+ "bo0020": {
   "en": "Concha of auricle",
   "ja": "",
   "side": "右",
   "system": "骨",
   "raw": "Concha of auricle.r"
  },
- "p0021": {
+ "bo0021": {
   "en": "Corniculate cartilage",
   "ja": "小角軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Corniculate cartilage.r"
  },
- "p0022": {
+ "bo0022": {
   "en": "Corniculate cartilage",
   "ja": "小角軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Corniculate cartilage.l"
  },
- "p0023": {
+ "bo0023": {
   "en": "Costal cartilage of eighth rib",
   "ja": "第8肋軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Costal cartilage of eighth rib.l"
  },
- "p0024": {
+ "bo0024": {
   "en": "Costal cartilage of eighth rib",
   "ja": "第8肋軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Costal cartilage of eighth rib.r"
  },
- "p0025": {
+ "bo0025": {
   "en": "Costal cartilage of fifth rib",
   "ja": "第5肋軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Costal cartilage of fifth rib.l"
  },
- "p0026": {
+ "bo0026": {
   "en": "Costal cartilage of fifth rib",
   "ja": "第5肋軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Costal cartilage of fifth rib.r"
  },
- "p0027": {
+ "bo0027": {
   "en": "Costal cartilage of first rib",
   "ja": "第1肋軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Costal cartilage of first rib.l"
  },
- "p0028": {
+ "bo0028": {
   "en": "Costal cartilage of first rib",
   "ja": "第1肋軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Costal cartilage of first rib.r"
  },
- "p0029": {
+ "bo0029": {
   "en": "Costal cartilage of fourth rib",
   "ja": "第4肋軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Costal cartilage of fourth rib.l"
  },
- "p0030": {
+ "bo0030": {
   "en": "Costal cartilage of fourth rib",
   "ja": "第4肋軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Costal cartilage of fourth rib.r"
  },
- "p0031": {
+ "bo0031": {
   "en": "Costal cartilage of ninth rib",
   "ja": "第9肋軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Costal cartilage of ninth rib.l"
  },
- "p0032": {
+ "bo0032": {
   "en": "Costal cartilage of ninth rib",
   "ja": "第9肋軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Costal cartilage of ninth rib.r"
  },
- "p0033": {
+ "bo0033": {
   "en": "Costal cartilage of second rib",
   "ja": "第2肋軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Costal cartilage of second rib.l"
  },
- "p0034": {
+ "bo0034": {
   "en": "Costal cartilage of second rib",
   "ja": "第2肋軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Costal cartilage of second rib.r"
  },
- "p0035": {
+ "bo0035": {
   "en": "Costal cartilage of seventh rib",
   "ja": "第7肋軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Costal cartilage of seventh rib.l"
  },
- "p0036": {
+ "bo0036": {
   "en": "Costal cartilage of seventh rib",
   "ja": "第7肋軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Costal cartilage of seventh rib.r"
  },
- "p0037": {
+ "bo0037": {
   "en": "Costal cartilage of sixth rib",
   "ja": "第6肋軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Costal cartilage of sixth rib.l"
  },
- "p0038": {
+ "bo0038": {
   "en": "Costal cartilage of sixth rib",
   "ja": "第6肋軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Costal cartilage of sixth rib.r"
  },
- "p0039": {
+ "bo0039": {
   "en": "Costal cartilage of tenth rib",
   "ja": "第10肋軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Costal cartilage of tenth rib.l"
  },
- "p0040": {
+ "bo0040": {
   "en": "Costal cartilage of tenth rib",
   "ja": "第10肋軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Costal cartilage of tenth rib.r"
  },
- "p0041": {
+ "bo0041": {
   "en": "Costal cartilage of third rib",
   "ja": "第3肋軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Costal cartilage of third rib.l"
  },
- "p0042": {
+ "bo0042": {
   "en": "Costal cartilage of third rib",
   "ja": "第3肋軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Costal cartilage of third rib.r"
  },
- "p0043": {
+ "bo0043": {
   "en": "Cricoid cartilage",
   "ja": "輪状軟骨",
   "side": "",
   "system": "骨",
   "raw": "Cricoid cartilage"
  },
- "p0044": {
+ "bo0044": {
   "en": "Cuboid bone",
   "ja": "立方骨",
   "side": "左",
   "system": "骨",
   "raw": "Cuboid bone.l"
  },
- "p0045": {
+ "bo0045": {
   "en": "Cuboid bone",
   "ja": "立方骨",
   "side": "右",
   "system": "骨",
   "raw": "Cuboid bone.r"
  },
- "p0046": {
+ "bo0046": {
   "en": "Distal phalanx of fifth finger of foot",
   "ja": "足の第5趾 末節骨",
   "side": "左",
   "system": "骨",
   "raw": "Distal phalanx of fifth finger of foot.l"
  },
- "p0047": {
+ "bo0047": {
   "en": "Distal phalanx of fifth finger of foot",
   "ja": "足の第5趾 末節骨",
   "side": "右",
   "system": "骨",
   "raw": "Distal phalanx of fifth finger of foot.r"
  },
- "p0048": {
+ "bo0048": {
   "en": "Distal phalanx of fifth finger of hand",
   "ja": "手の第5指 末節骨",
   "side": "左",
   "system": "骨",
   "raw": "Distal phalanx of fifth finger of hand.l"
  },
- "p0049": {
+ "bo0049": {
   "en": "Distal phalanx of fifth finger of hand",
   "ja": "手の第5指 末節骨",
   "side": "右",
   "system": "骨",
   "raw": "Distal phalanx of fifth finger of hand.r"
  },
- "p0050": {
+ "bo0050": {
   "en": "Distal phalanx of first finger of foot",
   "ja": "足の第1趾 末節骨",
   "side": "左",
   "system": "骨",
   "raw": "Distal phalanx of first finger of foot.l"
  },
- "p0051": {
+ "bo0051": {
   "en": "Distal phalanx of first finger of foot",
   "ja": "足の第1趾 末節骨",
   "side": "右",
   "system": "骨",
   "raw": "Distal phalanx of first finger of foot.r"
  },
- "p0052": {
+ "bo0052": {
   "en": "Distal phalanx of first finger of hand",
   "ja": "手の第1指 末節骨",
   "side": "左",
   "system": "骨",
   "raw": "Distal phalanx of first finger of hand.l"
  },
- "p0053": {
+ "bo0053": {
   "en": "Distal phalanx of first finger of hand",
   "ja": "手の第1指 末節骨",
   "side": "右",
   "system": "骨",
   "raw": "Distal phalanx of first finger of hand.r"
  },
- "p0054": {
+ "bo0054": {
   "en": "Distal phalanx of fourth finger of foot",
   "ja": "足の第4趾 末節骨",
   "side": "左",
   "system": "骨",
   "raw": "Distal phalanx of fourth finger of foot.l"
  },
- "p0055": {
+ "bo0055": {
   "en": "Distal phalanx of fourth finger of foot",
   "ja": "足の第4趾 末節骨",
   "side": "右",
   "system": "骨",
   "raw": "Distal phalanx of fourth finger of foot.r"
  },
- "p0056": {
+ "bo0056": {
   "en": "Distal phalanx of fourth finger of hand",
   "ja": "手の第4指 末節骨",
   "side": "左",
   "system": "骨",
   "raw": "Distal phalanx of fourth finger of hand.l"
  },
- "p0057": {
+ "bo0057": {
   "en": "Distal phalanx of fourth finger of hand",
   "ja": "手の第4指 末節骨",
   "side": "右",
   "system": "骨",
   "raw": "Distal phalanx of fourth finger of hand.r"
  },
- "p0058": {
+ "bo0058": {
   "en": "Distal phalanx of second finger of foot",
   "ja": "足の第2趾 末節骨",
   "side": "左",
   "system": "骨",
   "raw": "Distal phalanx of second finger of foot.l"
  },
- "p0059": {
+ "bo0059": {
   "en": "Distal phalanx of second finger of foot",
   "ja": "足の第2趾 末節骨",
   "side": "右",
   "system": "骨",
   "raw": "Distal phalanx of second finger of foot.r"
  },
- "p0060": {
+ "bo0060": {
   "en": "Distal phalanx of second finger of hand",
   "ja": "手の第2指 末節骨",
   "side": "左",
   "system": "骨",
   "raw": "Distal phalanx of second finger of hand.l"
  },
- "p0061": {
+ "bo0061": {
   "en": "Distal phalanx of second finger of hand",
   "ja": "手の第2指 末節骨",
   "side": "右",
   "system": "骨",
   "raw": "Distal phalanx of second finger of hand.r"
  },
- "p0062": {
+ "bo0062": {
   "en": "Distal phalanx of third finger of foot",
   "ja": "足の第3趾 末節骨",
   "side": "左",
   "system": "骨",
   "raw": "Distal phalanx of third finger of foot.l"
  },
- "p0063": {
+ "bo0063": {
   "en": "Distal phalanx of third finger of foot",
   "ja": "足の第3趾 末節骨",
   "side": "右",
   "system": "骨",
   "raw": "Distal phalanx of third finger of foot.r"
  },
- "p0064": {
+ "bo0064": {
   "en": "Distal phalanx of third finger of hand",
   "ja": "手の第3指 末節骨",
   "side": "左",
   "system": "骨",
   "raw": "Distal phalanx of third finger of hand.l"
  },
- "p0065": {
+ "bo0065": {
   "en": "Distal phalanx of third finger of hand",
   "ja": "手の第3指 末節骨",
   "side": "右",
   "system": "骨",
   "raw": "Distal phalanx of third finger of hand.r"
  },
- "p0066": {
+ "bo0066": {
   "en": "Eighth rib",
   "ja": "第8肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Eighth rib.l"
  },
- "p0067": {
+ "bo0067": {
   "en": "Eighth rib",
   "ja": "第8肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Eighth rib.r"
  },
- "p0068": {
+ "bo0068": {
   "en": "Eleventh rib",
   "ja": "第11肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Eleventh rib.l"
  },
- "p0069": {
+ "bo0069": {
   "en": "Eleventh rib",
   "ja": "第11肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Eleventh rib.r"
  },
- "p0070": {
+ "bo0070": {
   "en": "Ethmoid bone",
   "ja": "篩骨",
   "side": "",
   "system": "骨",
   "raw": "Ethmoid bone"
  },
- "p0071": {
-  "en": "Femur",
-  "ja": "大腿骨",
-  "side": "",
-  "system": "骨",
-  "raw": "Femur.i"
- },
- "p0072": {
+ "bo0071": {
   "en": "Femur",
   "ja": "大腿骨",
   "side": "",
   "system": "骨",
   "raw": "Femur.j"
  },
- "p0073": {
+ "bo0072": {
   "en": "Femur",
   "ja": "大腿骨",
   "side": "左",
   "system": "骨",
   "raw": "Femur.l"
  },
- "p0074": {
+ "bo0073": {
   "en": "Femur",
   "ja": "大腿骨",
   "side": "右",
   "system": "骨",
   "raw": "Femur.r"
  },
- "p0075": {
-  "en": "Fibula",
-  "ja": "腓骨",
-  "side": "",
-  "system": "骨",
-  "raw": "Fibula.i"
- },
- "p0076": {
+ "bo0074": {
   "en": "Fibula",
   "ja": "腓骨",
   "side": "",
   "system": "骨",
   "raw": "Fibula.j"
  },
- "p0077": {
+ "bo0075": {
   "en": "Fibula",
   "ja": "腓骨",
   "side": "左",
   "system": "骨",
   "raw": "Fibula.l"
  },
- "p0078": {
+ "bo0076": {
   "en": "Fibula",
   "ja": "腓骨",
   "side": "右",
   "system": "骨",
   "raw": "Fibula.r"
  },
- "p0079": {
+ "bo0077": {
   "en": "Fifth metacarpal bone",
   "ja": "第5中手骨",
   "side": "左",
   "system": "骨",
   "raw": "Fifth metacarpal bone.l"
  },
- "p0080": {
+ "bo0078": {
   "en": "Fifth metacarpal bone",
   "ja": "第5中手骨",
   "side": "右",
   "system": "骨",
   "raw": "Fifth metacarpal bone.r"
  },
- "p0081": {
-  "en": "Fifth metatarsal bone",
-  "ja": "第5中足骨",
-  "side": "",
-  "system": "骨",
-  "raw": "Fifth metatarsal bone.i"
- },
- "p0082": {
+ "bo0079": {
   "en": "Fifth metatarsal bone",
   "ja": "第5中足骨",
   "side": "",
   "system": "骨",
   "raw": "Fifth metatarsal bone.j"
  },
- "p0083": {
+ "bo0080": {
   "en": "Fifth metatarsal bone",
   "ja": "第5中足骨",
   "side": "左",
   "system": "骨",
   "raw": "Fifth metatarsal bone.l"
  },
- "p0084": {
+ "bo0081": {
   "en": "Fifth metatarsal bone",
   "ja": "第5中足骨",
   "side": "右",
   "system": "骨",
   "raw": "Fifth metatarsal bone.r"
  },
- "p0085": {
+ "bo0082": {
   "en": "Fifth rib",
   "ja": "第5肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Fifth rib.l"
  },
- "p0086": {
+ "bo0083": {
   "en": "Fifth rib",
   "ja": "第5肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Fifth rib.r"
  },
- "p0087": {
+ "bo0084": {
   "en": "First metacarpal bone",
   "ja": "第1中手骨",
   "side": "左",
   "system": "骨",
   "raw": "First metacarpal bone.l"
  },
- "p0088": {
+ "bo0085": {
   "en": "First metacarpal bone",
   "ja": "第1中手骨",
   "side": "右",
   "system": "骨",
   "raw": "First metacarpal bone.r"
  },
- "p0089": {
-  "en": "First metatarsal bone",
-  "ja": "第1中足骨",
-  "side": "",
-  "system": "骨",
-  "raw": "First metatarsal bone.i"
- },
- "p0090": {
+ "bo0086": {
   "en": "First metatarsal bone",
   "ja": "第1中足骨",
   "side": "",
   "system": "骨",
   "raw": "First metatarsal bone.j"
  },
- "p0091": {
+ "bo0087": {
   "en": "First metatarsal bone",
   "ja": "第1中足骨",
   "side": "左",
   "system": "骨",
   "raw": "First metatarsal bone.l"
  },
- "p0092": {
+ "bo0088": {
   "en": "First metatarsal bone",
   "ja": "第1中足骨",
   "side": "右",
   "system": "骨",
   "raw": "First metatarsal bone.r"
  },
- "p0093": {
+ "bo0089": {
   "en": "First rib",
   "ja": "第1肋骨",
   "side": "左",
   "system": "骨",
   "raw": "First rib.l"
  },
- "p0094": {
+ "bo0090": {
   "en": "First rib",
   "ja": "第1肋骨",
   "side": "右",
   "system": "骨",
   "raw": "First rib.r"
  },
- "p0095": {
+ "bo0091": {
   "en": "Fourth metacarpal bone",
   "ja": "第4中手骨",
   "side": "左",
   "system": "骨",
   "raw": "Fourth metacarpal bone.l"
  },
- "p0096": {
+ "bo0092": {
   "en": "Fourth metacarpal bone",
   "ja": "第4中手骨",
   "side": "右",
   "system": "骨",
   "raw": "Fourth metacarpal bone.r"
  },
- "p0097": {
+ "bo0093": {
   "en": "Fourth metatarsal bone",
   "ja": "第4中足骨",
   "side": "左",
   "system": "骨",
   "raw": "Fourth metatarsal bone.l"
  },
- "p0098": {
+ "bo0094": {
   "en": "Fourth metatarsal bone",
   "ja": "第4中足骨",
   "side": "右",
   "system": "骨",
   "raw": "Fourth metatarsal bone.r"
  },
- "p0099": {
+ "bo0095": {
   "en": "Fourth rib",
   "ja": "第4肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Fourth rib.l"
  },
- "p0100": {
+ "bo0096": {
   "en": "Fourth rib",
   "ja": "第4肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Fourth rib.r"
  },
- "p0101": {
+ "bo0097": {
   "en": "Frontal bone",
   "ja": "前頭骨",
   "side": "",
   "system": "骨",
   "raw": "Frontal bone"
  },
- "p0102": {
+ "bo0098": {
   "en": "Hamate bone",
   "ja": "有鉤骨",
   "side": "左",
   "system": "骨",
   "raw": "Hamate bone.l"
  },
- "p0103": {
+ "bo0099": {
   "en": "Hamate bone",
   "ja": "有鉤骨",
   "side": "右",
   "system": "骨",
   "raw": "Hamate bone.r"
  },
- "p0104": {
-  "en": "Hip bone",
-  "ja": "寛骨",
-  "side": "",
-  "system": "骨",
-  "raw": "Hip bone.i"
- },
- "p0105": {
+ "bo0100": {
   "en": "Hip bone",
   "ja": "寛骨",
   "side": "",
   "system": "骨",
   "raw": "Hip bone.j"
  },
- "p0106": {
+ "bo0101": {
   "en": "Hip bone",
   "ja": "寛骨",
   "side": "左",
   "system": "骨",
   "raw": "Hip bone.l"
  },
- "p0107": {
+ "bo0102": {
   "en": "Hip bone",
   "ja": "寛骨",
   "side": "右",
   "system": "骨",
   "raw": "Hip bone.r"
  },
- "p0108": {
-  "en": "Humerus",
-  "ja": "上腕骨",
-  "side": "",
-  "system": "骨",
-  "raw": "Humerus.i"
- },
- "p0109": {
+ "bo0103": {
   "en": "Humerus",
   "ja": "上腕骨",
   "side": "",
   "system": "骨",
   "raw": "Humerus.j"
  },
- "p0110": {
+ "bo0104": {
   "en": "Humerus",
   "ja": "上腕骨",
   "side": "左",
   "system": "骨",
   "raw": "Humerus.l"
  },
- "p0111": {
+ "bo0105": {
   "en": "Humerus",
   "ja": "上腕骨",
   "side": "右",
   "system": "骨",
   "raw": "Humerus.r"
  },
- "p0112": {
+ "bo0106": {
   "en": "Hyoid bone",
   "ja": "舌骨",
   "side": "",
   "system": "骨",
   "raw": "Hyoid bone"
  },
- "p0113": {
+ "bo0107": {
   "en": "Inferior nasal concha bone",
   "ja": "下鼻甲介",
   "side": "左",
   "system": "骨",
   "raw": "Inferior nasal concha bone.l"
  },
- "p0114": {
+ "bo0108": {
   "en": "Inferior nasal concha bone",
   "ja": "下鼻甲介",
   "side": "右",
   "system": "骨",
   "raw": "Inferior nasal concha bone.r"
  },
- "p0115": {
+ "bo0109": {
   "en": "Intermediate cuneiform bone",
   "ja": "中間楔状骨",
   "side": "左",
   "system": "骨",
   "raw": "Intermediate cuneiform bone.l"
  },
- "p0116": {
+ "bo0110": {
   "en": "Intermediate cuneiform bone",
   "ja": "中間楔状骨",
   "side": "右",
   "system": "骨",
   "raw": "Intermediate cuneiform bone.r"
  },
- "p0117": {
+ "bo0111": {
   "en": "Lacrimal bone",
   "ja": "涙骨",
   "side": "左",
   "system": "骨",
   "raw": "Lacrimal bone.l"
  },
- "p0118": {
+ "bo0112": {
   "en": "Lacrimal bone",
   "ja": "涙骨",
   "side": "右",
   "system": "骨",
   "raw": "Lacrimal bone.r"
  },
- "p0119": {
+ "bo0113": {
   "en": "Lateral cuneiform bone",
   "ja": "外側楔状骨",
   "side": "左",
   "system": "骨",
   "raw": "Lateral cuneiform bone.l"
  },
- "p0120": {
+ "bo0114": {
   "en": "Lateral cuneiform bone",
   "ja": "外側楔状骨",
   "side": "右",
   "system": "骨",
   "raw": "Lateral cuneiform bone.r"
  },
- "p0121": {
-  "en": "Lateral malleolus",
-  "ja": "外果（腓骨）",
-  "side": "",
-  "system": "骨",
-  "raw": "Lateral malleolus.i"
- },
- "p0122": {
+ "bo0115": {
   "en": "Lateral malleolus",
   "ja": "外果（腓骨）",
   "side": "",
   "system": "骨",
   "raw": "Lateral malleolus.j"
  },
- "p0123": {
+ "bo0116": {
   "en": "Lateral malleolus",
   "ja": "外果（腓骨）",
   "side": "左",
   "system": "骨",
   "raw": "Lateral malleolus.l"
  },
- "p0124": {
+ "bo0117": {
   "en": "Lateral malleolus",
   "ja": "外果（腓骨）",
   "side": "右",
   "system": "骨",
   "raw": "Lateral malleolus.r"
  },
- "p0125": {
+ "bo0118": {
   "en": "Lateral process of nasal septal cartilage",
   "ja": "鼻中隔軟骨 外側突起",
   "side": "左",
   "system": "骨",
   "raw": "Lateral process of nasal septal cartilage.l"
  },
- "p0126": {
+ "bo0119": {
   "en": "Lateral process of nasal septal cartilage",
   "ja": "鼻中隔軟骨 外側突起",
   "side": "右",
   "system": "骨",
   "raw": "Lateral process of nasal septal cartilage.r"
  },
- "p0127": {
+ "bo0120": {
   "en": "Lunate bone",
   "ja": "月状骨",
   "side": "左",
   "system": "骨",
   "raw": "Lunate bone.l"
  },
- "p0128": {
+ "bo0121": {
   "en": "Lunate bone",
   "ja": "月状骨",
   "side": "右",
   "system": "骨",
   "raw": "Lunate bone.r"
  },
- "p0129": {
+ "bo0122": {
   "en": "Major alar cartilage",
   "ja": "大鼻翼軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Major alar cartilage.l"
  },
- "p0130": {
+ "bo0123": {
   "en": "Major alar cartilage",
   "ja": "大鼻翼軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Major alar cartilage.r"
  },
- "p0131": {
+ "bo0124": {
   "en": "Mandible",
   "ja": "下顎骨",
   "side": "",
   "system": "骨",
   "raw": "Mandible"
  },
- "p0132": {
+ "bo0125": {
   "en": "Manubrium of sternum",
   "ja": "胸骨柄",
   "side": "",
   "system": "骨",
   "raw": "Manubrium of sternum"
  },
- "p0133": {
+ "bo0126": {
   "en": "Manubrium of sternum",
   "ja": "胸骨柄",
   "side": "",
   "system": "骨",
   "raw": "Manubrium of sternum.j"
  },
- "p0134": {
+ "bo0127": {
   "en": "Maxilla",
   "ja": "上顎骨",
   "side": "左",
   "system": "骨",
   "raw": "Maxilla.l"
  },
- "p0135": {
+ "bo0128": {
   "en": "Maxilla",
   "ja": "上顎骨",
   "side": "右",
   "system": "骨",
   "raw": "Maxilla.r"
  },
- "p0136": {
+ "bo0129": {
   "en": "Medial cuneiform bone",
   "ja": "内側楔状骨",
   "side": "左",
   "system": "骨",
   "raw": "Medial cuneiform bone.l"
  },
- "p0137": {
+ "bo0130": {
   "en": "Medial cuneiform bone",
   "ja": "内側楔状骨",
   "side": "右",
   "system": "骨",
   "raw": "Medial cuneiform bone.r"
  },
- "p0138": {
-  "en": "Medial malleolus",
-  "ja": "内果（脛骨）",
-  "side": "",
-  "system": "骨",
-  "raw": "Medial malleolus.i"
- },
- "p0139": {
+ "bo0131": {
   "en": "Medial malleolus",
   "ja": "内果（脛骨）",
   "side": "",
   "system": "骨",
   "raw": "Medial malleolus.j"
  },
- "p0140": {
+ "bo0132": {
   "en": "Medial malleolus",
   "ja": "内果（脛骨）",
   "side": "左",
   "system": "骨",
   "raw": "Medial malleolus.l"
  },
- "p0141": {
+ "bo0133": {
   "en": "Medial malleolus",
   "ja": "内果（脛骨）",
   "side": "右",
   "system": "骨",
   "raw": "Medial malleolus.r"
  },
- "p0142": {
+ "bo0134": {
   "en": "Middle cells of ethmoid bone",
   "ja": "篩骨蜂巣 中群",
   "side": "左",
   "system": "骨",
   "raw": "Middle cells of ethmoid bone.l"
  },
- "p0143": {
+ "bo0135": {
   "en": "Middle cells of ethmoid bone",
   "ja": "篩骨蜂巣 中群",
   "side": "右",
   "system": "骨",
   "raw": "Middle cells of ethmoid bone.r"
  },
- "p0144": {
+ "bo0136": {
   "en": "Middle phalanx of fifth finger of foot",
   "ja": "足の第5趾 中節骨",
   "side": "左",
   "system": "骨",
   "raw": "Middle phalanx of fifth finger of foot.l"
  },
- "p0145": {
+ "bo0137": {
   "en": "Middle phalanx of fifth finger of foot",
   "ja": "足の第5趾 中節骨",
   "side": "右",
   "system": "骨",
   "raw": "Middle phalanx of fifth finger of foot.r"
  },
- "p0146": {
+ "bo0138": {
   "en": "Middle phalanx of fifth finger of hand",
   "ja": "手の第5指 中節骨",
   "side": "左",
   "system": "骨",
   "raw": "Middle phalanx of fifth finger of hand.l"
  },
- "p0147": {
+ "bo0139": {
   "en": "Middle phalanx of fifth finger of hand",
   "ja": "手の第5指 中節骨",
   "side": "右",
   "system": "骨",
   "raw": "Middle phalanx of fifth finger of hand.r"
  },
- "p0148": {
+ "bo0140": {
   "en": "Middle phalanx of fourth finger of foot",
   "ja": "足の第4趾 中節骨",
   "side": "左",
   "system": "骨",
   "raw": "Middle phalanx of fourth finger of foot.l"
  },
- "p0149": {
+ "bo0141": {
   "en": "Middle phalanx of fourth finger of foot",
   "ja": "足の第4趾 中節骨",
   "side": "右",
   "system": "骨",
   "raw": "Middle phalanx of fourth finger of foot.r"
  },
- "p0150": {
+ "bo0142": {
   "en": "Middle phalanx of fourth finger of hand",
   "ja": "手の第4指 中節骨",
   "side": "左",
   "system": "骨",
   "raw": "Middle phalanx of fourth finger of hand.l"
  },
- "p0151": {
+ "bo0143": {
   "en": "Middle phalanx of fourth finger of hand",
   "ja": "手の第4指 中節骨",
   "side": "右",
   "system": "骨",
   "raw": "Middle phalanx of fourth finger of hand.r"
  },
- "p0152": {
+ "bo0144": {
   "en": "Middle phalanx of second finger of foot",
   "ja": "足の第2趾 中節骨",
   "side": "左",
   "system": "骨",
   "raw": "Middle phalanx of second finger of foot.l"
  },
- "p0153": {
+ "bo0145": {
   "en": "Middle phalanx of second finger of foot",
   "ja": "足の第2趾 中節骨",
   "side": "右",
   "system": "骨",
   "raw": "Middle phalanx of second finger of foot.r"
  },
- "p0154": {
+ "bo0146": {
   "en": "Middle phalanx of second finger of hand",
   "ja": "手の第2指 中節骨",
   "side": "左",
   "system": "骨",
   "raw": "Middle phalanx of second finger of hand.l"
  },
- "p0155": {
+ "bo0147": {
   "en": "Middle phalanx of second finger of hand",
   "ja": "手の第2指 中節骨",
   "side": "右",
   "system": "骨",
   "raw": "Middle phalanx of second finger of hand.r"
  },
- "p0156": {
+ "bo0148": {
   "en": "Middle phalanx of third finger of foot",
   "ja": "足の第3趾 中節骨",
   "side": "左",
   "system": "骨",
   "raw": "Middle phalanx of third finger of foot.l"
  },
- "p0157": {
+ "bo0149": {
   "en": "Middle phalanx of third finger of foot",
   "ja": "足の第3趾 中節骨",
   "side": "右",
   "system": "骨",
   "raw": "Middle phalanx of third finger of foot.r"
  },
- "p0158": {
+ "bo0150": {
   "en": "Middle phalanx of third finger of hand",
   "ja": "手の第3指 中節骨",
   "side": "左",
   "system": "骨",
   "raw": "Middle phalanx of third finger of hand.l"
  },
- "p0159": {
+ "bo0151": {
   "en": "Middle phalanx of third finger of hand",
   "ja": "手の第3指 中節骨",
   "side": "右",
   "system": "骨",
   "raw": "Middle phalanx of third finger of hand.r"
  },
- "p0160": {
+ "bo0152": {
   "en": "Nasal bone",
   "ja": "鼻骨",
   "side": "左",
   "system": "骨",
   "raw": "Nasal bone.l"
  },
- "p0161": {
+ "bo0153": {
   "en": "Nasal bone",
   "ja": "鼻骨",
   "side": "右",
   "system": "骨",
   "raw": "Nasal bone.r"
  },
- "p0162": {
+ "bo0154": {
   "en": "Nasal septal cartilage",
   "ja": "鼻中隔軟骨",
   "side": "",
   "system": "骨",
   "raw": "Nasal septal cartilage"
  },
- "p0163": {
+ "bo0155": {
   "en": "Navicular bone",
   "ja": "舟状骨（足）",
   "side": "左",
   "system": "骨",
   "raw": "Navicular bone.l"
  },
- "p0164": {
+ "bo0156": {
   "en": "Navicular bone",
   "ja": "舟状骨（足）",
   "side": "右",
   "system": "骨",
   "raw": "Navicular bone.r"
  },
- "p0165": {
+ "bo0157": {
   "en": "Ninth rib",
   "ja": "第9肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Ninth rib.l"
  },
- "p0166": {
+ "bo0158": {
   "en": "Ninth rib",
   "ja": "第9肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Ninth rib.r"
  },
- "p0167": {
+ "bo0159": {
   "en": "Occipital bone",
   "ja": "後頭骨",
   "side": "",
   "system": "骨",
   "raw": "Occipital bone"
  },
- "p0168": {
+ "bo0160": {
   "en": "Palatine bone",
   "ja": "口蓋骨",
   "side": "左",
   "system": "骨",
   "raw": "Palatine bone.l"
  },
- "p0169": {
+ "bo0161": {
   "en": "Palatine bone",
   "ja": "口蓋骨",
   "side": "右",
   "system": "骨",
   "raw": "Palatine bone.r"
  },
- "p0170": {
+ "bo0162": {
   "en": "Parietal bone",
   "ja": "頭頂骨",
   "side": "左",
   "system": "骨",
   "raw": "Parietal bone.l"
  },
- "p0171": {
+ "bo0163": {
   "en": "Parietal bone",
   "ja": "頭頂骨",
   "side": "右",
   "system": "骨",
   "raw": "Parietal bone.r"
  },
- "p0172": {
+ "bo0164": {
   "en": "Patella",
   "ja": "膝蓋骨",
   "side": "左",
   "system": "骨",
   "raw": "Patella.l"
  },
- "p0173": {
+ "bo0165": {
   "en": "Pisiform bone",
   "ja": "豆状骨",
   "side": "左",
   "system": "骨",
   "raw": "Pisiform bone.l"
  },
- "p0174": {
+ "bo0166": {
   "en": "Pisiform bone",
   "ja": "豆状骨",
   "side": "右",
   "system": "骨",
   "raw": "Pisiform bone.r"
  },
- "p0175": {
+ "bo0167": {
   "en": "Posterior cells of ethmoid bone",
   "ja": "篩骨蜂巣 後群",
   "side": "左",
   "system": "骨",
   "raw": "Posterior cells of ethmoid bone.l"
  },
- "p0176": {
+ "bo0168": {
   "en": "Posterior cells of ethmoid bone",
   "ja": "篩骨蜂巣 後群",
   "side": "右",
   "system": "骨",
   "raw": "Posterior cells of ethmoid bone.r"
  },
- "p0177": {
+ "bo0169": {
   "en": "Proximal phalanx of fifth finger of foot",
   "ja": "足の第5趾 基節骨",
   "side": "左",
   "system": "骨",
   "raw": "Proximal phalanx of fifth finger of foot.l"
  },
- "p0178": {
+ "bo0170": {
   "en": "Scaphoid bone",
   "ja": "舟状骨（手）",
   "side": "右",
   "system": "骨",
   "raw": "Scaphoid bone.r"
  },
- "p0179": {
+ "bo0171": {
   "en": "Second metatarsal bone",
   "ja": "第2中足骨",
   "side": "右",
   "system": "骨",
   "raw": "Second metatarsal bone.r"
  },
- "p0180": {
+ "bo0172": {
   "en": "Second rib",
   "ja": "第2肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Second rib.r"
  },
- "p0181": {
+ "bo0173": {
   "en": "Sesamoid bones of foot",
   "ja": "種子骨（足）",
   "side": "右",
   "system": "骨",
   "raw": "Sesamoid bones of foot.r"
  },
- "p0182": {
+ "bo0174": {
   "en": "Sphenoid bone",
   "ja": "蝶形骨",
   "side": "",
   "system": "骨",
   "raw": "Sphenoid bone"
  },
- "p0183": {
+ "bo0175": {
   "en": "Patella",
   "ja": "膝蓋骨",
   "side": "右",
   "system": "骨",
   "raw": "Patella.r"
  },
- "p0184": {
+ "bo0176": {
   "en": "Proximal phalanx of fifth finger of foot",
   "ja": "足の第5趾 基節骨",
   "side": "右",
   "system": "骨",
   "raw": "Proximal phalanx of fifth finger of foot.r"
  },
- "p0185": {
+ "bo0177": {
   "en": "Proximal phalanx of fifth finger of hand",
   "ja": "手の第5指 基節骨",
   "side": "左",
   "system": "骨",
   "raw": "Proximal phalanx of fifth finger of hand.l"
  },
- "p0186": {
+ "bo0178": {
   "en": "Proximal phalanx of fifth finger of hand",
   "ja": "手の第5指 基節骨",
   "side": "右",
   "system": "骨",
   "raw": "Proximal phalanx of fifth finger of hand.r"
  },
- "p0187": {
+ "bo0179": {
   "en": "Proximal phalanx of first finger of foot",
   "ja": "足の第1趾 基節骨",
   "side": "左",
   "system": "骨",
   "raw": "Proximal phalanx of first finger of foot.l"
  },
- "p0188": {
+ "bo0180": {
   "en": "Proximal phalanx of first finger of foot",
   "ja": "足の第1趾 基節骨",
   "side": "右",
   "system": "骨",
   "raw": "Proximal phalanx of first finger of foot.r"
  },
- "p0189": {
+ "bo0181": {
   "en": "Proximal phalanx of first finger of hand",
   "ja": "手の第1指 基節骨",
   "side": "左",
   "system": "骨",
   "raw": "Proximal phalanx of first finger of hand.l"
  },
- "p0190": {
+ "bo0182": {
   "en": "Proximal phalanx of first finger of hand",
   "ja": "手の第1指 基節骨",
   "side": "右",
   "system": "骨",
   "raw": "Proximal phalanx of first finger of hand.r"
  },
- "p0191": {
+ "bo0183": {
   "en": "Proximal phalanx of fourth finger of foot",
   "ja": "足の第4趾 基節骨",
   "side": "左",
   "system": "骨",
   "raw": "Proximal phalanx of fourth finger of foot.l"
  },
- "p0192": {
+ "bo0184": {
   "en": "Proximal phalanx of fourth finger of foot",
   "ja": "足の第4趾 基節骨",
   "side": "右",
   "system": "骨",
   "raw": "Proximal phalanx of fourth finger of foot.r"
  },
- "p0193": {
+ "bo0185": {
   "en": "Proximal phalanx of fourth finger of hand",
   "ja": "手の第4指 基節骨",
   "side": "左",
   "system": "骨",
   "raw": "Proximal phalanx of fourth finger of hand.l"
  },
- "p0194": {
+ "bo0186": {
   "en": "Proximal phalanx of fourth finger of hand",
   "ja": "手の第4指 基節骨",
   "side": "右",
   "system": "骨",
   "raw": "Proximal phalanx of fourth finger of hand.r"
  },
- "p0195": {
+ "bo0187": {
   "en": "Proximal phalanx of second finger of foot",
   "ja": "足の第2趾 基節骨",
   "side": "左",
   "system": "骨",
   "raw": "Proximal phalanx of second finger of foot.l"
  },
- "p0196": {
+ "bo0188": {
   "en": "Proximal phalanx of second finger of foot",
   "ja": "足の第2趾 基節骨",
   "side": "右",
   "system": "骨",
   "raw": "Proximal phalanx of second finger of foot.r"
  },
- "p0197": {
+ "bo0189": {
   "en": "Proximal phalanx of second finger of hand",
   "ja": "手の第2指 基節骨",
   "side": "左",
   "system": "骨",
   "raw": "Proximal phalanx of second finger of hand.l"
  },
- "p0198": {
+ "bo0190": {
   "en": "Proximal phalanx of second finger of hand",
   "ja": "手の第2指 基節骨",
   "side": "右",
   "system": "骨",
   "raw": "Proximal phalanx of second finger of hand.r"
  },
- "p0199": {
+ "bo0191": {
   "en": "Proximal phalanx of third finger of foot",
   "ja": "足の第3趾 基節骨",
   "side": "左",
   "system": "骨",
   "raw": "Proximal phalanx of third finger of foot.l"
  },
- "p0200": {
+ "bo0192": {
   "en": "Proximal phalanx of third finger of foot",
   "ja": "足の第3趾 基節骨",
   "side": "右",
   "system": "骨",
   "raw": "Proximal phalanx of third finger of foot.r"
  },
- "p0201": {
+ "bo0193": {
   "en": "Proximal phalanx of third finger of hand",
   "ja": "手の第3指 基節骨",
   "side": "左",
   "system": "骨",
   "raw": "Proximal phalanx of third finger of hand.l"
  },
- "p0202": {
+ "bo0194": {
   "en": "Proximal phalanx of third finger of hand",
   "ja": "手の第3指 基節骨",
   "side": "右",
   "system": "骨",
   "raw": "Proximal phalanx of third finger of hand.r"
  },
- "p0203": {
-  "en": "Radius",
-  "ja": "橈骨",
-  "side": "",
-  "system": "骨",
-  "raw": "Radius.i"
- },
- "p0204": {
+ "bo0195": {
   "en": "Radius",
   "ja": "橈骨",
   "side": "",
   "system": "骨",
   "raw": "Radius.j"
  },
- "p0205": {
+ "bo0196": {
   "en": "Radius",
   "ja": "橈骨",
   "side": "左",
   "system": "骨",
   "raw": "Radius.l"
  },
- "p0206": {
+ "bo0197": {
   "en": "Radius",
   "ja": "橈骨",
   "side": "右",
   "system": "骨",
   "raw": "Radius.r"
  },
- "p0207": {
+ "bo0198": {
   "en": "Sacrum",
   "ja": "仙骨",
   "side": "",
   "system": "骨",
   "raw": "Sacrum"
  },
- "p0208": {
+ "bo0199": {
   "en": "Sacrum",
   "ja": "仙骨",
   "side": "",
   "system": "骨",
   "raw": "Sacrum.j"
  },
- "p0209": {
+ "bo0200": {
   "en": "Scaphoid bone",
   "ja": "舟状骨（手）",
   "side": "左",
   "system": "骨",
   "raw": "Scaphoid bone.l"
  },
- "p0210": {
-  "en": "Scapula",
-  "ja": "肩甲骨",
-  "side": "",
-  "system": "骨",
-  "raw": "Scapula.i"
- },
- "p0211": {
+ "bo0201": {
   "en": "Scapula",
   "ja": "肩甲骨",
   "side": "",
   "system": "骨",
   "raw": "Scapula.j"
  },
- "p0212": {
+ "bo0202": {
   "en": "Scapula",
   "ja": "肩甲骨",
   "side": "左",
   "system": "骨",
   "raw": "Scapula.l"
  },
- "p0213": {
+ "bo0203": {
   "en": "Scapula",
   "ja": "肩甲骨",
   "side": "右",
   "system": "骨",
   "raw": "Scapula.r"
  },
- "p0214": {
+ "bo0204": {
   "en": "Second metacarpal bone",
   "ja": "第2中手骨",
   "side": "左",
   "system": "骨",
   "raw": "Second metacarpal bone.l"
  },
- "p0215": {
+ "bo0205": {
   "en": "Second metacarpal bone",
   "ja": "第2中手骨",
   "side": "右",
   "system": "骨",
   "raw": "Second metacarpal bone.r"
  },
- "p0216": {
+ "bo0206": {
   "en": "Second metatarsal bone",
   "ja": "第2中足骨",
   "side": "左",
   "system": "骨",
   "raw": "Second metatarsal bone.l"
  },
- "p0217": {
+ "bo0207": {
   "en": "Second rib",
   "ja": "第2肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Second rib.l"
  },
- "p0218": {
+ "bo0208": {
   "en": "Sesamoid bones of foot",
   "ja": "種子骨（足）",
   "side": "左",
   "system": "骨",
   "raw": "Sesamoid bones of foot.l"
  },
- "p0219": {
+ "bo0209": {
   "en": "Seventh rib",
   "ja": "第7肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Seventh rib.l"
  },
- "p0220": {
+ "bo0210": {
   "en": "Seventh rib",
   "ja": "第7肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Seventh rib.r"
  },
- "p0221": {
+ "bo0211": {
   "en": "Sinus of frontal bone",
   "ja": "前頭洞",
   "side": "",
   "system": "骨",
   "raw": "Sinus of frontal bone"
  },
- "p0222": {
+ "bo0212": {
   "en": "Sinus of sphenoid bone",
   "ja": "蝶形骨洞",
   "side": "",
   "system": "骨",
   "raw": "Sinus of sphenoid bone"
  },
- "p0223": {
+ "bo0213": {
   "en": "Sixth rib",
   "ja": "第6肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Sixth rib.l"
  },
- "p0224": {
+ "bo0214": {
   "en": "Sixth rib",
   "ja": "第6肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Sixth rib.r"
  },
- "p0225": {
+ "bo0215": {
   "en": "Subcutaneous bursa of tuberosity of tibia",
   "ja": "",
   "side": "左",
   "system": "骨",
   "raw": "Subcutaneous bursa of tuberosity of tibia.l"
  },
- "p0226": {
+ "bo0216": {
   "en": "Subcutaneous bursa of tuberosity of tibia",
   "ja": "",
   "side": "右",
   "system": "骨",
   "raw": "Subcutaneous bursa of tuberosity of tibia.r"
  },
- "p0227": {
+ "bo0217": {
   "en": "Talus",
   "ja": "距骨",
   "side": "左",
   "system": "骨",
   "raw": "Talus.l"
  },
- "p0228": {
+ "bo0218": {
   "en": "Talus",
   "ja": "距骨",
   "side": "右",
   "system": "骨",
   "raw": "Talus.r"
  },
- "p0229": {
+ "bo0219": {
   "en": "Temporal bone",
   "ja": "側頭骨",
   "side": "左",
   "system": "骨",
   "raw": "Temporal bone.l"
  },
- "p0230": {
+ "bo0220": {
   "en": "Temporal bone",
   "ja": "側頭骨",
   "side": "右",
   "system": "骨",
   "raw": "Temporal bone.r"
  },
- "p0231": {
+ "bo0221": {
   "en": "Tenth rib",
   "ja": "第10肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Tenth rib.l"
  },
- "p0232": {
+ "bo0222": {
   "en": "Tenth rib",
   "ja": "第10肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Tenth rib.r"
  },
- "p0233": {
+ "bo0223": {
   "en": "Third metacarpal bone",
   "ja": "第3中手骨",
   "side": "左",
   "system": "骨",
   "raw": "Third metacarpal bone.l"
  },
- "p0234": {
+ "bo0224": {
   "en": "Third metacarpal bone",
   "ja": "第3中手骨",
   "side": "右",
   "system": "骨",
   "raw": "Third metacarpal bone.r"
  },
- "p0235": {
+ "bo0225": {
   "en": "Third metatarsal bone",
   "ja": "第3中足骨",
   "side": "左",
   "system": "骨",
   "raw": "Third metatarsal bone.l"
  },
- "p0236": {
+ "bo0226": {
   "en": "Third metatarsal bone",
   "ja": "第3中足骨",
   "side": "右",
   "system": "骨",
   "raw": "Third metatarsal bone.r"
  },
- "p0237": {
+ "bo0227": {
   "en": "Third rib",
   "ja": "第3肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Third rib.l"
  },
- "p0238": {
+ "bo0228": {
   "en": "Third rib",
   "ja": "第3肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Third rib.r"
  },
- "p0239": {
+ "bo0229": {
   "en": "Thyroid cartilage",
   "ja": "甲状軟骨",
   "side": "",
   "system": "骨",
   "raw": "Thyroid cartilage"
  },
- "p0240": {
-  "en": "Tibia",
-  "ja": "脛骨",
-  "side": "",
-  "system": "骨",
-  "raw": "Tibia.i"
- },
- "p0241": {
+ "bo0230": {
   "en": "Tibia",
   "ja": "脛骨",
   "side": "",
   "system": "骨",
   "raw": "Tibia.j"
  },
- "p0242": {
+ "bo0231": {
   "en": "Tibia",
   "ja": "脛骨",
   "side": "左",
   "system": "骨",
   "raw": "Tibia.l"
  },
- "p0243": {
+ "bo0232": {
   "en": "Tibia",
   "ja": "脛骨",
   "side": "右",
   "system": "骨",
   "raw": "Tibia.r"
  },
- "p0244": {
+ "bo0233": {
   "en": "Trapezium bone",
   "ja": "大菱形骨",
   "side": "左",
   "system": "骨",
   "raw": "Trapezium bone.l"
  },
- "p0245": {
+ "bo0234": {
   "en": "Trapezium bone",
   "ja": "大菱形骨",
   "side": "右",
   "system": "骨",
   "raw": "Trapezium bone.r"
  },
- "p0246": {
+ "bo0235": {
   "en": "Trapezoid bone",
   "ja": "小菱形骨",
   "side": "左",
   "system": "骨",
   "raw": "Trapezoid bone.l"
  },
- "p0247": {
+ "bo0236": {
   "en": "Trapezoid bone",
   "ja": "小菱形骨",
   "side": "右",
   "system": "骨",
   "raw": "Trapezoid bone.r"
  },
- "p0248": {
+ "bo0237": {
   "en": "Triquetrum bone",
   "ja": "三角骨",
   "side": "左",
   "system": "骨",
   "raw": "Triquetrum bone.l"
  },
- "p0249": {
+ "bo0238": {
   "en": "Triquetrum bone",
   "ja": "三角骨",
   "side": "右",
   "system": "骨",
   "raw": "Triquetrum bone.r"
  },
- "p0250": {
+ "bo0239": {
   "en": "Triradiate cartilage",
   "ja": "寛骨臼Y軟骨",
   "side": "左",
   "system": "骨",
   "raw": "Triradiate cartilage.l"
  },
- "p0251": {
+ "bo0240": {
   "en": "Triradiate cartilage",
   "ja": "寛骨臼Y軟骨",
   "side": "右",
   "system": "骨",
   "raw": "Triradiate cartilage.r"
  },
- "p0252": {
+ "bo0241": {
   "en": "Twelfth rib",
   "ja": "第12肋骨",
   "side": "左",
   "system": "骨",
   "raw": "Twelfth rib.l"
  },
- "p0253": {
+ "bo0242": {
   "en": "Twelfth rib",
   "ja": "第12肋骨",
   "side": "右",
   "system": "骨",
   "raw": "Twelfth rib.r"
  },
- "p0254": {
-  "en": "Ulna",
-  "ja": "尺骨",
-  "side": "",
-  "system": "骨",
-  "raw": "Ulna.i"
- },
- "p0255": {
+ "bo0243": {
   "en": "Ulna",
   "ja": "尺骨",
   "side": "",
   "system": "骨",
   "raw": "Ulna.j"
  },
- "p0256": {
+ "bo0244": {
   "en": "Ulna",
   "ja": "尺骨",
   "side": "左",
   "system": "骨",
   "raw": "Ulna.l"
  },
- "p0257": {
+ "bo0245": {
   "en": "Ulna",
   "ja": "尺骨",
   "side": "右",
   "system": "骨",
   "raw": "Ulna.r"
  },
- "p0258": {
+ "bo0246": {
   "en": "Vertebra C3",
   "ja": "第3頸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra C3"
  },
- "p0259": {
+ "bo0247": {
   "en": "Vertebra C4",
   "ja": "第4頸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra C4"
  },
- "p0260": {
+ "bo0248": {
   "en": "Vertebra C5",
   "ja": "第5頸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra C5"
  },
- "p0261": {
+ "bo0249": {
   "en": "Vertebra C6",
   "ja": "第6頸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra C6"
  },
- "p0262": {
+ "bo0250": {
   "en": "Vertebra C7",
   "ja": "第7頸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra C7"
  },
- "p0263": {
+ "bo0251": {
   "en": "Vertebra L1",
   "ja": "第1腰椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra L1"
  },
- "p0264": {
+ "bo0252": {
   "en": "Vertebra L2",
   "ja": "第2腰椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra L2"
  },
- "p0265": {
+ "bo0253": {
   "en": "Vertebra L3",
   "ja": "第3腰椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra L3"
  },
- "p0266": {
+ "bo0254": {
   "en": "Vertebra L4",
   "ja": "第4腰椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra L4"
  },
- "p0267": {
+ "bo0255": {
   "en": "Vertebra L5",
   "ja": "第5腰椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra L5"
  },
- "p0268": {
+ "bo0256": {
   "en": "Vertebra T1",
   "ja": "第1胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T1"
  },
- "p0269": {
+ "bo0257": {
   "en": "Vertebra T10",
   "ja": "第10胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T10"
  },
- "p0270": {
+ "bo0258": {
   "en": "Vertebra T11",
   "ja": "第11胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T11"
  },
- "p0271": {
+ "bo0259": {
   "en": "Vertebra T12",
   "ja": "第12胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T12"
  },
- "p0272": {
+ "bo0260": {
   "en": "Vertebra T2",
   "ja": "第2胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T2"
  },
- "p0273": {
+ "bo0261": {
   "en": "Vertebra T3",
   "ja": "第3胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T3"
  },
- "p0274": {
+ "bo0262": {
   "en": "Vertebra T4",
   "ja": "第4胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T4"
  },
- "p0275": {
+ "bo0263": {
   "en": "Vertebra T5",
   "ja": "第5胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T5"
  },
- "p0276": {
+ "bo0264": {
   "en": "Vertebra T6",
   "ja": "第6胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T6"
  },
- "p0277": {
+ "bo0265": {
   "en": "Vertebra T7",
   "ja": "第7胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T7"
  },
- "p0278": {
+ "bo0266": {
   "en": "Vertebra T8",
   "ja": "第8胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T8"
  },
- "p0279": {
+ "bo0267": {
   "en": "Vertebra T9",
   "ja": "第9胸椎",
   "side": "",
   "system": "骨",
   "raw": "Vertebra T9"
  },
- "p0280": {
+ "bo0268": {
   "en": "Xiphoid process",
   "ja": "剣状突起",
   "side": "",
   "system": "骨",
   "raw": "Xiphoid process"
  },
- "p0281": {
+ "bo0269": {
   "en": "Xiphoid process",
   "ja": "剣状突起",
   "side": "",
   "system": "骨",
   "raw": "Xiphoid process.j"
  },
- "p0282": {
+ "bo0270": {
   "en": "Zygomatic bone",
   "ja": "頬骨",
   "side": "左",
   "system": "骨",
   "raw": "Zygomatic bone.l"
  },
- "p0283": {
+ "bo0271": {
   "en": "Zygomatic bone",
   "ja": "頬骨",
   "side": "右",

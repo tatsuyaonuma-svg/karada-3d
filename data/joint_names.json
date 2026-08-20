@@ -1,1363 +1,1363 @@
 {
- "p0001": {
+ "jo0001": {
   "en": "Annular ligament of radius",
   "ja": "橈骨輪状靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Annular ligament of radius.l"
  },
- "p0002": {
+ "jo0002": {
   "en": "Annular ligament of radius",
   "ja": "橈骨輪状靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Annular ligament of radius.r"
  },
- "p0003": {
+ "jo0003": {
   "en": "Anterior cruciate ligament",
   "ja": "前十字靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Anterior cruciate ligament.l"
  },
- "p0004": {
+ "jo0004": {
   "en": "Anterior cruciate ligament",
   "ja": "前十字靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Anterior cruciate ligament.r"
  },
- "p0005": {
+ "jo0005": {
   "en": "Anterior longitudinal ligament",
   "ja": "前縦靭帯",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Anterior longitudinal ligament"
  },
- "p0006": {
+ "jo0006": {
   "en": "Anterior meniscotibial ligament (Lateral meniscus)",
   "ja": "半月脛骨靭帯 前（外側半月）",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Anterior meniscotibial ligament (Lateral meniscus).l"
  },
- "p0007": {
+ "jo0007": {
   "en": "Anterior meniscotibial ligament (Lateral meniscus)",
   "ja": "半月脛骨靭帯 前（外側半月）",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Anterior meniscotibial ligament (Lateral meniscus).r"
  },
- "p0008": {
+ "jo0008": {
   "en": "Anterior sacro-iliac ligament",
   "ja": "前仙腸靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Anterior sacro-iliac ligament.l"
  },
- "p0009": {
+ "jo0009": {
   "en": "Anterior sacro-iliac ligament",
   "ja": "前仙腸靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Anterior sacro-iliac ligament.r"
  },
- "p0010": {
+ "jo0010": {
   "en": "Anterior tibiofibular ligament",
   "ja": "前脛腓靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Anterior tibiofibular ligament.l"
  },
- "p0011": {
+ "jo0011": {
   "en": "Anterior tibiofibular ligament",
   "ja": "前脛腓靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Anterior tibiofibular ligament.r"
  },
- "p0012": {
+ "jo0012": {
   "en": "Arcuate popliteal ligament",
   "ja": "弓状膝窩靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Arcuate popliteal ligament.l"
  },
- "p0013": {
+ "jo0013": {
   "en": "Arcuate popliteal ligament",
   "ja": "弓状膝窩靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Arcuate popliteal ligament.r"
  },
- "p0014": {
+ "jo0014": {
   "en": "Articular capsule of acromioclavicular joint",
   "ja": "肩鎖関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsule of acromioclavicular joint.l"
  },
- "p0015": {
+ "jo0015": {
   "en": "Articular capsule of acromioclavicular joint",
   "ja": "肩鎖関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsule of acromioclavicular joint.r"
  },
- "p0016": {
+ "jo0016": {
   "en": "Articular capsule of elbow joint",
   "ja": "肘関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsule of elbow joint.l"
  },
- "p0017": {
+ "jo0017": {
   "en": "Articular capsule of elbow joint",
   "ja": "肘関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsule of elbow joint.r"
  },
- "p0018": {
+ "jo0018": {
   "en": "Articular capsule of glenohumeral joint",
   "ja": "肩関節（肩甲上腕関節）の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsule of glenohumeral joint.l"
  },
- "p0019": {
+ "jo0019": {
   "en": "Articular capsule of glenohumeral joint",
   "ja": "肩関節（肩甲上腕関節）の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsule of glenohumeral joint.r"
  },
- "p0020": {
+ "jo0020": {
   "en": "Articular capsule of hip joint",
   "ja": "股関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsule of hip joint.l"
  },
- "p0021": {
+ "jo0021": {
   "en": "Articular capsule of hip joint",
   "ja": "股関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsule of hip joint.r"
  },
- "p0022": {
+ "jo0022": {
   "en": "Articular capsule of interphalangeal joint of great toe",
   "ja": "指節間関節（母趾）の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsule of interphalangeal joint of great toe.l"
  },
- "p0023": {
+ "jo0023": {
   "en": "Articular capsule of interphalangeal joint of great toe",
   "ja": "指節間関節（母趾）の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsule of interphalangeal joint of great toe.r"
  },
- "p0024": {
+ "jo0024": {
   "en": "Articular capsule of knee joint",
   "ja": "膝関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsule of knee joint.l"
  },
- "p0025": {
+ "jo0025": {
   "en": "Articular capsule of knee joint",
   "ja": "膝関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsule of knee joint.r"
  },
- "p0026": {
+ "jo0026": {
   "en": "Articular capsule of radiocarpal joint",
   "ja": "橈骨手根関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsule of radiocarpal joint.l"
  },
- "p0027": {
+ "jo0027": {
   "en": "Articular capsule of radiocarpal joint",
   "ja": "橈骨手根関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsule of radiocarpal joint.r"
  },
- "p0028": {
+ "jo0028": {
   "en": "Articular capsule of sternoclavicular joint",
   "ja": "胸鎖関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsule of sternoclavicular joint.l"
  },
- "p0029": {
+ "jo0029": {
   "en": "Articular capsule of sternoclavicular joint",
   "ja": "胸鎖関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsule of sternoclavicular joint.r"
  },
- "p0030": {
+ "jo0030": {
   "en": "Articular capsule of superior tibiofibular joint",
   "ja": "上脛腓関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsule of superior tibiofibular joint.l"
  },
- "p0031": {
+ "jo0031": {
   "en": "Articular capsule of superior tibiofibular joint",
   "ja": "上脛腓関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsule of superior tibiofibular joint.r"
  },
- "p0032": {
+ "jo0032": {
   "en": "Articular capsule of temporomandibular joint",
   "ja": "顎関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsule of temporomandibular joint.l"
  },
- "p0033": {
+ "jo0033": {
   "en": "Articular capsule of temporomandibular joint",
   "ja": "顎関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsule of temporomandibular joint.r"
  },
- "p0034": {
+ "jo0034": {
   "en": "Articular capsules of distal interphalangeal joints of foot",
   "ja": "遠位指節間関節（足）の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsules of distal interphalangeal joints of foot.l"
  },
- "p0035": {
+ "jo0035": {
   "en": "Articular capsules of distal interphalangeal joints of foot",
   "ja": "遠位指節間関節（足）の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsules of distal interphalangeal joints of foot.r"
  },
- "p0036": {
+ "jo0036": {
   "en": "Articular capsules of distal interphalangeal joints",
   "ja": "遠位指節間関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsules of distal interphalangeal joints.l"
  },
- "p0037": {
+ "jo0037": {
   "en": "Articular capsules of distal interphalangeal joints",
   "ja": "遠位指節間関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsules of distal interphalangeal joints.r"
  },
- "p0038": {
+ "jo0038": {
   "en": "Articular capsules of metacarpophalangeal joints",
   "ja": "中手指節関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsules of metacarpophalangeal joints.l"
  },
- "p0039": {
+ "jo0039": {
   "en": "Articular capsules of metacarpophalangeal joints",
   "ja": "中手指節関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsules of metacarpophalangeal joints.r"
  },
- "p0040": {
+ "jo0040": {
   "en": "Articular capsules of metatarsophalangeal joints",
   "ja": "中足趾節関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsules of metatarsophalangeal joints.l"
  },
- "p0041": {
+ "jo0041": {
   "en": "Articular capsules of metatarsophalangeal joints",
   "ja": "中足趾節関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsules of metatarsophalangeal joints.r"
  },
- "p0042": {
+ "jo0042": {
   "en": "Articular capsules of proximal interphalangeal joints of foot",
   "ja": "近位指節間関節（足）の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsules of proximal interphalangeal joints of foot.l"
  },
- "p0043": {
+ "jo0043": {
   "en": "Articular capsules of proximal interphalangeal joints of foot",
   "ja": "近位指節間関節（足）の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsules of proximal interphalangeal joints of foot.r"
  },
- "p0044": {
+ "jo0044": {
   "en": "Articular capsules of proximal interphalangeal joints",
   "ja": "近位指節間関節の関節包",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular capsules of proximal interphalangeal joints.l"
  },
- "p0045": {
+ "jo0045": {
   "en": "Articular capsules of proximal interphalangeal joints",
   "ja": "近位指節間関節の関節包",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular capsules of proximal interphalangeal joints.r"
  },
- "p0046": {
+ "jo0046": {
   "en": "Articular disc of temporomandibular joint",
   "ja": "顎関節 関節円板",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articular disc of temporomandibular joint.l"
  },
- "p0047": {
+ "jo0047": {
   "en": "Articular disc of temporomandibular joint",
   "ja": "顎関節 関節円板",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articular disc of temporomandibular joint.r"
  },
- "p0048": {
+ "jo0048": {
   "en": "Articularis genus muscle",
   "ja": "膝関節筋",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Articularis genus muscle.ol"
  },
- "p0049": {
+ "jo0049": {
   "en": "Articularis genus muscle",
   "ja": "膝関節筋",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Articularis genus muscle.or"
  },
- "p0050": {
+ "jo0050": {
   "en": "Collateral interphalangeal ligaments of foot",
   "ja": "指節間関節側副靭帯（足）",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Collateral interphalangeal ligaments of foot.l"
  },
- "p0051": {
+ "jo0051": {
   "en": "Collateral interphalangeal ligaments of foot",
   "ja": "指節間関節側副靭帯（足）",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Collateral interphalangeal ligaments of foot.r"
  },
- "p0052": {
+ "jo0052": {
   "en": "Collateral interphalangeal ligaments of hand",
   "ja": "指節間関節側副靭帯（手）",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Collateral interphalangeal ligaments of hand.l"
  },
- "p0053": {
+ "jo0053": {
   "en": "Collateral interphalangeal ligaments of hand",
   "ja": "指節間関節側副靭帯（手）",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Collateral interphalangeal ligaments of hand.r"
  },
- "p0054": {
+ "jo0054": {
   "en": "Collateral metacarpophalangeal ligaments",
   "ja": "中手指節関節側副靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Collateral metacarpophalangeal ligaments.l"
  },
- "p0055": {
+ "jo0055": {
   "en": "Collateral metacarpophalangeal ligaments",
   "ja": "中手指節関節側副靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Collateral metacarpophalangeal ligaments.r"
  },
- "p0056": {
+ "jo0056": {
   "en": "Collateral metatarsophalangeal ligaments",
   "ja": "中足趾節関節側副靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Collateral metatarsophalangeal ligaments.l"
  },
- "p0057": {
+ "jo0057": {
   "en": "Collateral metatarsophalangeal ligaments",
   "ja": "中足趾節関節側副靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Collateral metatarsophalangeal ligaments.r"
  },
- "p0058": {
+ "jo0058": {
   "en": "Costotransverse ligament",
   "ja": "肋横突靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Costotransverse ligament.l"
  },
- "p0059": {
+ "jo0059": {
   "en": "Costotransverse ligament",
   "ja": "肋横突靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Costotransverse ligament.r"
  },
- "p0060": {
+ "jo0060": {
   "en": "Cricopharyngeal ligament",
   "ja": "輪状咽頭靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Cricopharyngeal ligament.l"
  },
- "p0061": {
+ "jo0061": {
   "en": "Cricopharyngeal ligament",
   "ja": "輪状咽頭靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Cricopharyngeal ligament.r"
  },
- "p0062": {
+ "jo0062": {
   "en": "Cuneocuboid interosseous ligament",
   "ja": "楔立方骨間靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Cuneocuboid interosseous ligament.l"
  },
- "p0063": {
+ "jo0063": {
   "en": "Cuneocuboid interosseous ligament",
   "ja": "楔立方骨間靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Cuneocuboid interosseous ligament.r"
  },
- "p0064": {
+ "jo0064": {
   "en": "Deep part of tibial collateral ligament",
   "ja": "脛側側副靭帯 深部",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Deep part of tibial collateral ligament.l"
  },
- "p0065": {
+ "jo0065": {
   "en": "Deep part of tibial collateral ligament",
   "ja": "脛側側副靭帯 深部",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Deep part of tibial collateral ligament.r"
  },
- "p0066": {
+ "jo0066": {
   "en": "Descending part of iliofemoral ligament",
   "ja": "腸骨大腿靭帯 下行部",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Descending part of iliofemoral ligament.l"
  },
- "p0067": {
+ "jo0067": {
   "en": "Descending part of iliofemoral ligament",
   "ja": "腸骨大腿靭帯 下行部",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Descending part of iliofemoral ligament.r"
  },
- "p0068": {
+ "jo0068": {
   "en": "Dorsal carpometacarpal ligaments",
   "ja": "背側手根中手靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Dorsal carpometacarpal ligaments.l"
  },
- "p0069": {
+ "jo0069": {
   "en": "Dorsal carpometacarpal ligaments",
   "ja": "背側手根中手靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Dorsal carpometacarpal ligaments.r"
  },
- "p0070": {
+ "jo0070": {
   "en": "Dorsal intercarpal ligaments",
   "ja": "背側手根間靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Dorsal intercarpal ligaments.l"
  },
- "p0071": {
+ "jo0071": {
   "en": "Dorsal intercarpal ligaments",
   "ja": "背側手根間靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Dorsal intercarpal ligaments.r"
  },
- "p0072": {
+ "jo0072": {
   "en": "Dorsal radiocarpal ligament",
   "ja": "背側橈骨手根靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Dorsal radiocarpal ligament.l"
  },
- "p0073": {
+ "jo0073": {
   "en": "Dorsal radiocarpal ligament",
   "ja": "背側橈骨手根靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Dorsal radiocarpal ligament.r"
  },
- "p0074": {
+ "jo0074": {
   "en": "Dorsal tarsometatarsal ligaments",
   "ja": "背側足根中足靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Dorsal tarsometatarsal ligaments.l"
  },
- "p0075": {
+ "jo0075": {
   "en": "Dorsal tarsometatarsal ligaments",
   "ja": "背側足根中足靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Dorsal tarsometatarsal ligaments.r"
  },
- "p0076": {
+ "jo0076": {
   "en": "Glenoid labrum",
   "ja": "関節唇（肩）",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Glenoid labrum.l"
  },
- "p0077": {
+ "jo0077": {
   "en": "Glenoid labrum",
   "ja": "関節唇（肩）",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Glenoid labrum.r"
  },
- "p0078": {
+ "jo0078": {
   "en": "Inferior glenohumeral ligament",
   "ja": "下関節上腕靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Inferior glenohumeral ligament.l"
  },
- "p0079": {
+ "jo0079": {
   "en": "Inferior glenohumeral ligament",
   "ja": "下関節上腕靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Inferior glenohumeral ligament.r"
  },
- "p0080": {
+ "jo0080": {
   "en": "Inguinal ligament",
   "ja": "鼠径靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Inguinal ligament.l"
  },
- "p0081": {
+ "jo0081": {
   "en": "Inguinal ligament",
   "ja": "鼠径靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Inguinal ligament.r"
  },
- "p0082": {
+ "jo0082": {
   "en": "Interspinous ligaments",
   "ja": "棘間靭帯",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Interspinous ligaments"
  },
- "p0083": {
+ "jo0083": {
   "en": "Intervertebral disc C2-C3",
   "ja": "椎間板 C2/C3",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc C2-C3"
  },
- "p0084": {
+ "jo0084": {
   "en": "Intervertebral disc C3-C4",
   "ja": "椎間板 C3/C4",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc C3-C4"
  },
- "p0085": {
+ "jo0085": {
   "en": "Intervertebral disc C4-C5",
   "ja": "椎間板 C4/C5",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc C4-C5"
  },
- "p0086": {
+ "jo0086": {
   "en": "Intervertebral disc C5-C6",
   "ja": "椎間板 C5/C6",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc C5-C6"
  },
- "p0087": {
+ "jo0087": {
   "en": "Intervertebral disc C6-C7",
   "ja": "椎間板 C6/C7",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc C6-C7"
  },
- "p0088": {
+ "jo0088": {
   "en": "Intervertebral disc C7-T1",
   "ja": "椎間板 C7/T1",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc C7-T1"
  },
- "p0089": {
+ "jo0089": {
   "en": "Intervertebral disc L1-L2",
   "ja": "椎間板 L1/L2",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc L1-L2"
  },
- "p0090": {
+ "jo0090": {
   "en": "Intervertebral disc L2-L3",
   "ja": "椎間板 L2/L3",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc L2-L3"
  },
- "p0091": {
+ "jo0091": {
   "en": "Intervertebral disc L3-L4",
   "ja": "椎間板 L3/L4",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc L3-L4"
  },
- "p0092": {
+ "jo0092": {
   "en": "Intervertebral disc L4-L5",
   "ja": "椎間板 L4/L5",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc L4-L5"
  },
- "p0093": {
+ "jo0093": {
   "en": "Intervertebral disc L5-S1",
   "ja": "椎間板 L5/S1",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc L5-S1"
  },
- "p0094": {
+ "jo0094": {
   "en": "Intervertebral disc T1-T2",
   "ja": "椎間板 T1/T2",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T1-T2"
  },
- "p0095": {
+ "jo0095": {
   "en": "Intervertebral disc T10-T11",
   "ja": "椎間板 T10/T11",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T10-T11"
  },
- "p0096": {
+ "jo0096": {
   "en": "Intervertebral disc T11-T12",
   "ja": "椎間板 T11/T12",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T11-T12"
  },
- "p0097": {
+ "jo0097": {
   "en": "Intervertebral disc T12-L1",
   "ja": "椎間板 T12/L1",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T12-L1"
  },
- "p0098": {
+ "jo0098": {
   "en": "Intervertebral disc T2-T3",
   "ja": "椎間板 T2/T3",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T2-T3"
  },
- "p0099": {
+ "jo0099": {
   "en": "Intervertebral disc T3-T4",
   "ja": "椎間板 T3/T4",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T3-T4"
  },
- "p0100": {
+ "jo0100": {
   "en": "Intervertebral disc T4-T5",
   "ja": "椎間板 T4/T5",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T4-T5"
  },
- "p0101": {
+ "jo0101": {
   "en": "Intervertebral disc T5-T6",
   "ja": "椎間板 T5/T6",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T5-T6"
  },
- "p0102": {
+ "jo0102": {
   "en": "Intervertebral disc T6-T7",
   "ja": "椎間板 T6/T7",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T6-T7"
  },
- "p0103": {
+ "jo0103": {
   "en": "Intervertebral disc T7-T8",
   "ja": "椎間板 T7/T8",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T7-T8"
  },
- "p0104": {
+ "jo0104": {
   "en": "Intervertebral disc T8-T9",
   "ja": "椎間板 T8/T9",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T8-T9"
  },
- "p0105": {
+ "jo0105": {
   "en": "Intervertebral disc T9-T10",
   "ja": "椎間板 T9/T10",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intervertebral disc T9-T10"
  },
- "p0106": {
+ "jo0106": {
   "en": "Intra-articular ligament of head of rib",
   "ja": "肋骨頭関節内靭帯",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Intra-articular ligament of head of rib"
  },
- "p0107": {
+ "jo0107": {
   "en": "Intra-articular ligament of head of rib",
   "ja": "肋骨頭関節内靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Intra-articular ligament of head of rib.r"
  },
- "p0108": {
+ "jo0108": {
   "en": "Ischiofemoral ligament",
   "ja": "坐骨大腿靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Ischiofemoral ligament.l"
  },
- "p0109": {
+ "jo0109": {
   "en": "Ischiofemoral ligament",
   "ja": "坐骨大腿靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Ischiofemoral ligament.r"
  },
- "p0110": {
+ "jo0110": {
   "en": "Joints.g",
   "ja": "",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Joints.g"
  },
- "p0111": {
+ "jo0111": {
   "en": "Lateral meniscus",
   "ja": "外側半月",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Lateral meniscus.l"
  },
- "p0112": {
+ "jo0112": {
   "en": "Lateral meniscus",
   "ja": "外側半月",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Lateral meniscus.r"
  },
- "p0113": {
+ "jo0113": {
   "en": "Lateral temporomandibular ligament",
   "ja": "外側顎関節靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Lateral temporomandibular ligament.l"
  },
- "p0114": {
+ "jo0114": {
   "en": "Lateral temporomandibular ligament",
   "ja": "外側顎関節靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Lateral temporomandibular ligament.r"
  },
- "p0115": {
+ "jo0115": {
   "en": "Lateral thyrohyoid ligament",
   "ja": "外側甲状舌骨靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Lateral thyrohyoid ligament.l"
  },
- "p0116": {
+ "jo0116": {
   "en": "Lateral thyrohyoid ligament",
   "ja": "外側甲状舌骨靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Lateral thyrohyoid ligament.r"
  },
- "p0117": {
+ "jo0117": {
   "en": "Ligament of head of femur",
   "ja": "大腿骨頭靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Ligament of head of femur.l"
  },
- "p0118": {
+ "jo0118": {
   "en": "Ligament of head of femur",
   "ja": "大腿骨頭靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Ligament of head of femur.r"
  },
- "p0119": {
+ "jo0119": {
   "en": "Ligamenta flava",
   "ja": "黄色靭帯",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Ligamenta flava"
  },
- "p0120": {
+ "jo0120": {
   "en": "Long plantar ligament",
   "ja": "長足底靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Long plantar ligament.l"
  },
- "p0121": {
+ "jo0121": {
   "en": "Long plantar ligament",
   "ja": "長足底靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Long plantar ligament.ol"
  },
- "p0122": {
+ "jo0122": {
   "en": "Long plantar ligament",
   "ja": "長足底靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Long plantar ligament.or"
  },
- "p0123": {
+ "jo0123": {
   "en": "Long plantar ligament",
   "ja": "長足底靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Long plantar ligament.r"
  },
- "p0124": {
+ "jo0124": {
   "en": "Medial meniscus",
   "ja": "内側半月",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Medial meniscus.l"
  },
- "p0125": {
+ "jo0125": {
   "en": "Medial meniscus",
   "ja": "内側半月",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Medial meniscus.r"
  },
- "p0126": {
+ "jo0126": {
   "en": "Median cricothyroid ligament",
   "ja": "正中輪状甲状靭帯",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Median cricothyroid ligament"
  },
- "p0127": {
+ "jo0127": {
   "en": "Median thyrohyoid ligament",
   "ja": "正中甲状舌骨靭帯",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Median thyrohyoid ligament"
  },
- "p0128": {
+ "jo0128": {
   "en": "Middle glenohumeral ligament",
   "ja": "中関節上腕靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Middle glenohumeral ligament.l"
  },
- "p0129": {
+ "jo0129": {
   "en": "Middle glenohumeral ligament",
   "ja": "中関節上腕靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Middle glenohumeral ligament.r"
  },
- "p0130": {
+ "jo0130": {
   "en": "Node of ligamentum arteriosum",
   "ja": "",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Node of ligamentum arteriosum"
  },
- "p0131": {
+ "jo0131": {
   "en": "Nuchal ligament",
   "ja": "項靭帯",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Nuchal ligament"
  },
- "p0132": {
+ "jo0132": {
   "en": "Oblique popliteal ligament",
   "ja": "斜膝窩靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Oblique popliteal ligament.l"
  },
- "p0133": {
+ "jo0133": {
   "en": "Oblique popliteal ligament",
   "ja": "斜膝窩靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Oblique popliteal ligament.r"
  },
- "p0134": {
+ "jo0134": {
   "en": "Palmar carpometacarpal ligaments",
   "ja": "掌側手根中手靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Palmar carpometacarpal ligaments.l"
  },
- "p0135": {
+ "jo0135": {
   "en": "Palmar carpometacarpal ligaments",
   "ja": "掌側手根中手靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Palmar carpometacarpal ligaments.r"
  },
- "p0136": {
+ "jo0136": {
   "en": "Palmar interphalangeal ligaments",
   "ja": "掌側指節間靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Palmar interphalangeal ligaments.l"
  },
- "p0137": {
+ "jo0137": {
   "en": "Palmar interphalangeal ligaments",
   "ja": "掌側指節間靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Palmar interphalangeal ligaments.r"
  },
- "p0138": {
+ "jo0138": {
   "en": "Patellar ligament",
   "ja": "膝蓋靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Patellar ligament.ol"
  },
- "p0139": {
+ "jo0139": {
   "en": "Patellar ligament",
   "ja": "膝蓋靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Patellar ligament.or"
  },
- "p0140": {
+ "jo0140": {
   "en": "Pisotriquetral ligament",
   "ja": "",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Pisotriquetral ligament.l"
  },
- "p0141": {
+ "jo0141": {
   "en": "Pisotriquetral ligament",
   "ja": "",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Pisotriquetral ligament.r"
  },
- "p0142": {
+ "jo0142": {
   "en": "Plantar interphalangeal ligaments",
   "ja": "底側指節間靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Plantar interphalangeal ligaments.l"
  },
- "p0143": {
+ "jo0143": {
   "en": "Plantar interphalangeal ligaments",
   "ja": "底側指節間靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Plantar interphalangeal ligaments.r"
  },
- "p0144": {
+ "jo0144": {
   "en": "Plantar metatarsophalangeal ligaments",
   "ja": "底側中足趾節靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Plantar metatarsophalangeal ligaments.l"
  },
- "p0145": {
+ "jo0145": {
   "en": "Plantar metatarsophalangeal ligaments",
   "ja": "底側中足趾節靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Plantar metatarsophalangeal ligaments.r"
  },
- "p0146": {
+ "jo0146": {
   "en": "Plantar tarsometatarsal ligaments",
   "ja": "底側足根中足靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Plantar tarsometatarsal ligaments.l"
  },
- "p0147": {
+ "jo0147": {
   "en": "Plantar tarsometatarsal ligaments",
   "ja": "底側足根中足靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Plantar tarsometatarsal ligaments.r"
  },
- "p0148": {
+ "jo0148": {
   "en": "Popliteofibular ligament",
   "ja": "膝窩腓骨靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Popliteofibular ligament.l"
  },
- "p0149": {
+ "jo0149": {
   "en": "Popliteofibular ligament",
   "ja": "膝窩腓骨靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Popliteofibular ligament.r"
  },
- "p0150": {
+ "jo0150": {
   "en": "Posterior cruciate ligament",
   "ja": "後十字靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Posterior cruciate ligament.l"
  },
- "p0151": {
+ "jo0151": {
   "en": "Posterior cruciate ligament",
   "ja": "後十字靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Posterior cruciate ligament.r"
  },
- "p0152": {
+ "jo0152": {
   "en": "Posterior longitudinal ligament",
   "ja": "後縦靭帯",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Posterior longitudinal ligament"
  },
- "p0153": {
+ "jo0153": {
   "en": "Posterior sacro-iliac ligament",
   "ja": "後仙腸靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Posterior sacro-iliac ligament.l"
  },
- "p0154": {
+ "jo0154": {
   "en": "Posterior sacro-iliac ligament",
   "ja": "後仙腸靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Posterior sacro-iliac ligament.r"
  },
- "p0155": {
+ "jo0155": {
   "en": "Posterior tibiofibular ligament",
   "ja": "後脛腓靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Posterior tibiofibular ligament.l"
  },
- "p0156": {
+ "jo0156": {
   "en": "Posterior tibiofibular ligament",
   "ja": "後脛腓靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Posterior tibiofibular ligament.r"
  },
- "p0157": {
+ "jo0157": {
   "en": "Pubic symphysis",
   "ja": "恥骨結合",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Pubic symphysis"
  },
- "p0158": {
+ "jo0158": {
   "en": "Pubofemoral ligament",
   "ja": "恥骨大腿靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Pubofemoral ligament.l"
  },
- "p0159": {
+ "jo0159": {
   "en": "Pubofemoral ligament",
   "ja": "恥骨大腿靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Pubofemoral ligament.r"
  },
- "p0160": {
+ "jo0160": {
   "en": "Radiate carpal ligament",
   "ja": "放線手根靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Radiate carpal ligament.l"
  },
- "p0161": {
+ "jo0161": {
   "en": "Radiate carpal ligament",
   "ja": "放線手根靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Radiate carpal ligament.r"
  },
- "p0162": {
+ "jo0162": {
   "en": "Sacrospinous ligament",
   "ja": "仙棘靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Sacrospinous ligament.l"
  },
- "p0163": {
+ "jo0163": {
   "en": "Sacrospinous ligament",
   "ja": "仙棘靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Sacrospinous ligament.r"
  },
- "p0164": {
+ "jo0164": {
   "en": "Sacrotuberous ligament",
   "ja": "仙結節靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Sacrotuberous ligament.l"
  },
- "p0165": {
+ "jo0165": {
   "en": "Sacrotuberous ligament",
   "ja": "仙結節靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Sacrotuberous ligament.r"
  },
- "p0166": {
+ "jo0166": {
   "en": "Sphenomandibular ligament",
   "ja": "蝶下顎靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Sphenomandibular ligament.l"
  },
- "p0167": {
+ "jo0167": {
   "en": "Sphenomandibular ligament",
   "ja": "蝶下顎靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Sphenomandibular ligament.r"
  },
- "p0168": {
+ "jo0168": {
   "en": "Posterior meniscotibial ligament (Lateral meniscus)",
   "ja": "半月脛骨靭帯 後（外側半月）",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Posterior meniscotibial ligament (Lateral meniscus).l"
  },
- "p0169": {
+ "jo0169": {
   "en": "Posterior meniscotibial ligament (Lateral meniscus)",
   "ja": "半月脛骨靭帯 後（外側半月）",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Posterior meniscotibial ligament (Lateral meniscus).r"
  },
- "p0170": {
+ "jo0170": {
   "en": "Posterior meniscotibial ligament (Medial meniscus)",
   "ja": "半月脛骨靭帯 後（内側半月）",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Posterior meniscotibial ligament (Medial meniscus).l"
  },
- "p0171": {
+ "jo0171": {
   "en": "Posterior meniscotibial ligament (Medial meniscus)",
   "ja": "半月脛骨靭帯 後（内側半月）",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Posterior meniscotibial ligament (Medial meniscus).r"
  },
- "p0172": {
+ "jo0172": {
   "en": "Radiate ligament of head of rib",
   "ja": "肋骨頭放線靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Radiate ligament of head of rib.l"
  },
- "p0173": {
+ "jo0173": {
   "en": "Radiate ligament of head of rib",
   "ja": "肋骨頭放線靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Radiate ligament of head of rib.r"
  },
- "p0174": {
+ "jo0174": {
   "en": "Sacrococcygeal symphysis",
   "ja": "仙尾結合",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Sacrococcygeal symphysis"
  },
- "p0175": {
+ "jo0175": {
   "en": "Stylohyoid ligament",
   "ja": "茎突舌骨靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Stylohyoid ligament.l"
  },
- "p0176": {
+ "jo0176": {
   "en": "Stylohyoid ligament",
   "ja": "茎突舌骨靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Stylohyoid ligament.r"
  },
- "p0177": {
+ "jo0177": {
   "en": "Superficial transverse metacarpal ligament",
   "ja": "浅横中手靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Superficial transverse metacarpal ligament.l"
  },
- "p0178": {
+ "jo0178": {
   "en": "Superficial transverse metacarpal ligament",
   "ja": "浅横中手靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Superficial transverse metacarpal ligament.r"
  },
- "p0179": {
+ "jo0179": {
   "en": "Superficial transverse metatarsal ligament",
   "ja": "浅横中足靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Superficial transverse metatarsal ligament.l"
  },
- "p0180": {
+ "jo0180": {
   "en": "Superficial transverse metatarsal ligament",
   "ja": "浅横中足靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Superficial transverse metatarsal ligament.r"
  },
- "p0181": {
+ "jo0181": {
   "en": "Superior glenohumeral ligament",
   "ja": "上関節上腕靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Superior glenohumeral ligament.l"
  },
- "p0182": {
+ "jo0182": {
   "en": "Superior glenohumeral ligament",
   "ja": "上関節上腕靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Superior glenohumeral ligament.r"
  },
- "p0183": {
+ "jo0183": {
   "en": "Supraspinous ligament",
   "ja": "棘上靭帯",
   "side": "",
   "system": "関節・靭帯",
   "raw": "Supraspinous ligament"
  },
- "p0184": {
+ "jo0184": {
   "en": "Suspensory ligament of eyeball",
   "ja": "",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Suspensory ligament of eyeball.l"
  },
- "p0185": {
+ "jo0185": {
   "en": "Suspensory ligament of eyeball",
   "ja": "",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Suspensory ligament of eyeball.r"
  },
- "p0186": {
+ "jo0186": {
   "en": "Talocalcaneal interosseous ligament",
   "ja": "距踵骨間靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Talocalcaneal interosseous ligament.l"
  },
- "p0187": {
+ "jo0187": {
   "en": "Talocalcaneal interosseous ligament",
   "ja": "距踵骨間靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Talocalcaneal interosseous ligament.r"
  },
- "p0188": {
+ "jo0188": {
   "en": "Tibionavicular ligament",
   "ja": "脛舟靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Tibionavicular ligament.l"
  },
- "p0189": {
+ "jo0189": {
   "en": "Tibionavicular ligament",
   "ja": "脛舟靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Tibionavicular ligament.r"
  },
- "p0190": {
+ "jo0190": {
   "en": "Transverse acetabular ligament",
   "ja": "寛骨臼横靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Transverse acetabular ligament.l"
  },
- "p0191": {
+ "jo0191": {
   "en": "Transverse acetabular ligament",
   "ja": "寛骨臼横靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Transverse acetabular ligament.r"
  },
- "p0192": {
+ "jo0192": {
   "en": "Transverse ligament of knee",
   "ja": "膝横靭帯",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Transverse ligament of knee.l"
  },
- "p0193": {
+ "jo0193": {
   "en": "Transverse ligament of knee",
   "ja": "膝横靭帯",
   "side": "右",
   "system": "関節・靭帯",
   "raw": "Transverse ligament of knee.r"
  },
- "p0194": {
+ "jo0194": {
   "en": "Transverse part of iliofemoral ligament",
   "ja": "腸骨大腿靭帯 横部",
   "side": "左",
   "system": "関節・靭帯",
   "raw": "Transverse part of iliofemoral ligament.l"
  },
- "p0195": {
+ "jo0195": {
   "en": "Transverse part of iliofemoral ligament",
   "ja": "腸骨大腿靭帯 横部",
   "side": "右",

@@ -23,15 +23,15 @@ const LOOK = {
   outline:  0x6b5d4f,
   thickness: 0.0016,
   layers: {
-    '骨':        { color: 0xf0e9dd, label: '骨',     file: 'bone' },
-    '筋':        { color: 0xd99a8f, label: '筋',     file: 'muscle' },
-    '関節・靭帯': { color: 0xe2dac6, label: '関節・靭帯', file: 'joint' },
+    '骨':        { color: 0xf0e9dd, label: '骨',        file: 'bone' },
+    '関節・靭帯': { color: 0xe2dac6, label: '関節・靱帯', file: 'joint' },
+    '筋':        { color: 0xd99a8f, label: '筋',        file: 'muscle' },
     '腱・筋膜':   { color: 0xded3bd, label: '腱・筋膜',   file: 'tendon' },
-    '神経':      { color: 0xd9cf9a, label: '神経',   file: 'nerve' },
-    '血管':      { color: 0xc98f8f, label: '血管',   file: 'vessel' },
-    '脳':        { color: 0xdcc4cc, label: '脳',     file: 'brain' },
-    'その他':     { color: 0xd6cfc0, label: 'その他', file: 'other' },
-    '未分類':     { color: 0xcfc8ba, label: '未分類', file: 'misc' },
+    '神経':      { color: 0xd9cf9a, label: '神経',      file: 'nerve' },
+    '血管':      { color: 0xc98f8f, label: '脈管',      file: 'vessel' },
+    '脳':        { color: 0xdcc4cc, label: '脳',        file: 'brain' },
+    'その他':     { color: 0xd6cfc0, label: 'その他',    file: 'other' },
+    '未分類':     { color: 0xcfc8ba, label: '未分類',    file: 'misc' },
   },
 };
 // 最初に読むもの（軽い順に骨だけ）。ほかは押されたときに読む。
@@ -41,15 +41,32 @@ const FIRST = ['骨'];
 // 書き出しのときに en（英名）／ja（和名）／side（左右）／system（系統）を別ファイルに出してある。
 // 和名が無いものは英語のまま出す（作り話をしない）。
 const NAME_MAPS = {};   // 系統ごとの対応表をためる
+let REGIONS = {};       // パーツごとの部位（head / trunk / upper / lower）
 
-function findEntry(obj) {
+// プロメテウスの章立てと同じ順に見る。まず部位を選び、その中で層を積む。
+const REGION_LIST = [
+  { key: 'all',   label: '全身' },
+  { key: 'head',  label: '頭と首' },
+  { key: 'trunk', label: '体幹' },
+  { key: 'upper', label: '腕と手' },
+  { key: 'lower', label: '脚と足' },
+];
+let currentRegion = 'all';
+
+fetch('./data/regions.json').then(r => r.json()).then(j => { REGIONS = j; applyRegion(); });
+
+
+// 【令和8年8月20日の直し】前は系統を見ずに、最初に見つかった表から名前を返していた。
+// 系統ごとに p0001 から番号を振り直していたので、筋をさわると骨の名前が出ていた。
+// 今は鍵に系統の頭文字が入り（bo/mu/jo…）、引くときも読んだ系統の表だけを見る。
+function findEntry(obj, sys) {
+  const table = NAME_MAPS[sys];
+  if (!table) return null;
   let node = obj;
   while (node) {
     const key = String(node.name || '').replace(/_\d+$/, '');
-    for (const sys of Object.keys(NAME_MAPS)) {
-      const m = NAME_MAPS[sys][key];
-      if (m) { m._key = key; return m; }
-    }
+    const m = table[key];
+    if (m) return Object.assign({}, m, { _key: key });
     node = node.parent;
   }
   return null;
@@ -211,7 +228,7 @@ async function loadSystem(sys) {
     gltf.scene.traverse(o => { if (o.isMesh) meshes.push(o); });
 
     for (const mesh of meshes) {
-      const entry = findEntry(mesh);
+      const entry = findEntry(mesh, sys);
       mesh.updateWorldMatrix(true, false);
       const geo = mesh.geometry.clone();
       geo.applyMatrix4(mesh.matrixWorld);
@@ -231,6 +248,7 @@ async function loadSystem(sys) {
       layerGroups[sys].add(line);
     }
     loaded[sys] = true;
+    applyRegion();
     console.log(conf.label, '読み込み完了', meshes.length, '個');
   } catch (e) {
     console.error(sys, e);
@@ -240,8 +258,62 @@ async function loadSystem(sys) {
     return;
   }
   loading[sys] = false;
-  fitToContent();
   setStatus('');
+}
+
+// 選んだ部位のものだけ出す
+function applyRegion() {
+  let shown = 0;
+  for (const sys of Object.keys(layerGroups)) {
+    layerGroups[sys].children.forEach(m => {
+      const key = m.userData.partKey;
+      const rg = key ? REGIONS[key] : null;
+      const on = (currentRegion === 'all') || (rg === currentRegion) || (!rg && currentRegion === 'all');
+      m.visible = on;
+      if (on && !m.userData.isOutline) shown++;
+    });
+  }
+  document.querySelectorAll('[data-region]').forEach(b => {
+    b.classList.toggle('on', b.dataset.region === currentRegion);
+  });
+  fitToVisible();
+  return shown;
+}
+
+// 見えているものだけに合わせて、位置と寄りを決め直す
+function fitToVisible() {
+  // 位置を動かしたあとの座標を使うので、先に反映させる（これが無いと計算がずれて画面から外れる）
+  root.updateMatrixWorld(true);
+  const box = new THREE.Box3();
+  let any = false;
+  for (const sys of Object.keys(layerGroups)) {
+    layerGroups[sys].children.forEach(m => {
+      if (!m.visible || m.userData.isOutline) return;
+      if (!m.geometry.boundingBox) m.geometry.computeBoundingBox();
+      const b = m.geometry.boundingBox.clone();
+      b.applyMatrix4(m.matrixWorld);
+      box.union(b);
+      any = true;
+    });
+  }
+  if (!any) return;
+  // 見た目の中心を原点へ寄せる
+  root.position.sub(box.getCenter(new THREE.Vector3()));
+  root.updateMatrixWorld(true);
+  // 動かしたあとの大きさで寄りを決める
+  const after = new THREE.Box3();
+  for (const sys of Object.keys(layerGroups)) {
+    layerGroups[sys].children.forEach(m => {
+      if (!m.visible || m.userData.isOutline) return;
+      const b = m.geometry.boundingBox.clone();
+      b.applyMatrix4(m.matrixWorld);
+      after.union(b);
+    });
+  }
+  modelSize = after.getSize(new THREE.Vector3());
+  homeTarget = new THREE.Vector3(0, 0, 0);
+  updateFitDistance();
+  applyView(currentView);
 }
 
 // 中身に合わせて位置と距離を決め直す
@@ -306,6 +378,25 @@ function resetView(clearSelection = true) {
 
 // ---------------------------------------------------------------- 操作の並び
 function buildControlsUI() {
+  // 部位（プロメテウスと同じで、まずここを選ぶ）
+  const regionRow = document.getElementById('regions');
+  if (regionRow && !regionRow.children.length) {
+    for (const r of REGION_LIST) {
+      const b = document.createElement('button');
+      b.textContent = r.label;
+      b.dataset.region = r.key;
+      b.classList.toggle('on', r.key === currentRegion);
+      b.addEventListener('click', () => {
+        currentRegion = r.key;
+        closeSheet();
+        clearHighlight();
+        setLabel('', '');
+        applyRegion();
+      });
+      regionRow.appendChild(b);
+    }
+  }
+
   const layersRow = document.getElementById('layers');
   for (const [k, v] of Object.entries(LOOK.layers)) {
     const b = document.createElement('button');
@@ -560,6 +651,26 @@ function saveImage() {
 }
 
 // ---------------------------------------------------------------- 動かす
+// 確認用（中の数値を外から見るため）
+window.__dbg = () => {
+  const vis = {};
+  for (const k of Object.keys(layerGroups)) {
+    vis[k] = layerGroups[k].children.filter(m => m.visible && !m.userData.isOutline).length;
+  }
+  return {
+    見えている数: vis,
+    パーツの鍵の例: (layerGroups['骨'] ? layerGroups['骨'].children.filter(m=>!m.userData.isOutline).slice(0,5).map(m=>m.userData.partKey) : []),
+    REGIONSの件数: Object.keys(REGIONS).length,
+    region: currentRegion,
+    カメラ位置: camera.position.toArray().map(n=>+n.toFixed(3)),
+    見る先: controls.target.toArray().map(n=>+n.toFixed(3)),
+    homeDistance: +homeDistance.toFixed(3),
+    modelSize: modelSize ? modelSize.toArray().map(n=>+n.toFixed(3)) : null,
+    rootPos: root.position.toArray().map(n=>+n.toFixed(3)),
+    aspect: +camera.aspect.toFixed(3),
+  };
+};
+
 function onResize() {
   const w = window.innerWidth;
   const h = window.innerHeight;

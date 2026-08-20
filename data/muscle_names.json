@@ -1,5073 +1,5073 @@
 {
- "p0001": {
+ "mu0001": {
   "en": "(Abdominal part of pectoralis major muscle)",
   "ja": "大胸筋 腹部",
   "side": "左",
   "system": "筋",
   "raw": "(Abdominal part of pectoralis major muscle).l"
  },
- "p0002": {
+ "mu0002": {
   "en": "(Abdominal part of pectoralis major muscle)",
   "ja": "大胸筋 腹部",
   "side": "左",
   "system": "筋",
   "raw": "(Abdominal part of pectoralis major muscle).ol"
  },
- "p0003": {
+ "mu0003": {
   "en": "(Abdominal part of pectoralis major muscle)",
   "ja": "大胸筋 腹部",
   "side": "右",
   "system": "筋",
   "raw": "(Abdominal part of pectoralis major muscle).or"
  },
- "p0004": {
+ "mu0004": {
   "en": "(Abdominal part of pectoralis major muscle)",
   "ja": "大胸筋 腹部",
   "side": "右",
   "system": "筋",
   "raw": "(Abdominal part of pectoralis major muscle).r"
  },
- "p0005": {
+ "mu0005": {
   "en": "(Adductor minimus)",
   "ja": "小内転筋",
   "side": "左",
   "system": "筋",
   "raw": "(Adductor minimus).l"
  },
- "p0006": {
+ "mu0006": {
   "en": "(Adductor minimus)",
   "ja": "小内転筋",
   "side": "右",
   "system": "筋",
   "raw": "(Adductor minimus).r"
  },
- "p0007": {
+ "mu0007": {
   "en": "(Opponens digiti minimi muscle of foot)",
   "ja": "小趾対立筋",
   "side": "左",
   "system": "筋",
   "raw": "(Opponens digiti minimi muscle of foot).l"
  },
- "p0008": {
+ "mu0008": {
   "en": "(Opponens digiti minimi muscle of foot)",
   "ja": "小趾対立筋",
   "side": "左",
   "system": "筋",
   "raw": "(Opponens digiti minimi muscle of foot).ol"
  },
- "p0009": {
+ "mu0009": {
   "en": "(Opponens digiti minimi muscle of foot)",
   "ja": "小趾対立筋",
   "side": "右",
   "system": "筋",
   "raw": "(Opponens digiti minimi muscle of foot).or"
  },
- "p0010": {
+ "mu0010": {
   "en": "(Opponens digiti minimi muscle of foot)",
   "ja": "小趾対立筋",
   "side": "右",
   "system": "筋",
   "raw": "(Opponens digiti minimi muscle of foot).r"
  },
- "p0011": {
+ "mu0011": {
   "en": "Abductor digiti minimi of foot",
   "ja": "小趾外転筋",
   "side": "左",
   "system": "筋",
   "raw": "Abductor digiti minimi of foot.l"
  },
- "p0012": {
+ "mu0012": {
   "en": "Abductor digiti minimi of foot",
   "ja": "小趾外転筋",
   "side": "右",
   "system": "筋",
   "raw": "Abductor digiti minimi of foot.r"
  },
- "p0013": {
+ "mu0013": {
   "en": "Abductor digiti minimi of hand",
   "ja": "小指外転筋",
   "side": "左",
   "system": "筋",
   "raw": "Abductor digiti minimi of hand.l"
  },
- "p0014": {
+ "mu0014": {
   "en": "Abductor digiti minimi of hand",
   "ja": "小指外転筋",
   "side": "左",
   "system": "筋",
   "raw": "Abductor digiti minimi of hand.ol"
  },
- "p0015": {
+ "mu0015": {
   "en": "Abductor digiti minimi of hand",
   "ja": "小指外転筋",
   "side": "右",
   "system": "筋",
   "raw": "Abductor digiti minimi of hand.or"
  },
- "p0016": {
+ "mu0016": {
   "en": "Abductor digiti minimi of hand",
   "ja": "小指外転筋",
   "side": "右",
   "system": "筋",
   "raw": "Abductor digiti minimi of hand.r"
  },
- "p0017": {
+ "mu0017": {
   "en": "Abductor hallucis",
   "ja": "母趾外転筋",
   "side": "左",
   "system": "筋",
   "raw": "Abductor hallucis.l"
  },
- "p0018": {
+ "mu0018": {
   "en": "Abductor hallucis",
   "ja": "母趾外転筋",
   "side": "左",
   "system": "筋",
   "raw": "Abductor hallucis.ol"
  },
- "p0019": {
+ "mu0019": {
   "en": "Abductor hallucis",
   "ja": "母趾外転筋",
   "side": "右",
   "system": "筋",
   "raw": "Abductor hallucis.or"
  },
- "p0020": {
+ "mu0020": {
   "en": "Abductor hallucis",
   "ja": "母趾外転筋",
   "side": "右",
   "system": "筋",
   "raw": "Abductor hallucis.r"
  },
- "p0021": {
+ "mu0021": {
   "en": "Abductor pollicis brevis",
   "ja": "短母指外転筋",
   "side": "左",
   "system": "筋",
   "raw": "Abductor pollicis brevis.l"
  },
- "p0022": {
+ "mu0022": {
   "en": "Abductor pollicis brevis",
   "ja": "短母指外転筋",
   "side": "右",
   "system": "筋",
   "raw": "Abductor pollicis brevis.r"
  },
- "p0023": {
+ "mu0023": {
   "en": "Abductor pollicis longus",
   "ja": "長母指外転筋",
   "side": "左",
   "system": "筋",
   "raw": "Abductor pollicis longus.l"
  },
- "p0024": {
+ "mu0024": {
   "en": "Abductor pollicis longus",
   "ja": "長母指外転筋",
   "side": "左",
   "system": "筋",
   "raw": "Abductor pollicis longus.ol"
  },
- "p0025": {
+ "mu0025": {
   "en": "Abductor pollicis longus",
   "ja": "長母指外転筋",
   "side": "右",
   "system": "筋",
   "raw": "Abductor pollicis longus.or"
  },
- "p0026": {
+ "mu0026": {
   "en": "Abductor pollicis longus",
   "ja": "長母指外転筋",
   "side": "右",
   "system": "筋",
   "raw": "Abductor pollicis longus.r"
  },
- "p0027": {
+ "mu0027": {
   "en": "Acromial part of deltoid muscle",
   "ja": "三角筋 中部（肩峰部）",
   "side": "左",
   "system": "筋",
   "raw": "Acromial part of deltoid muscle.l"
  },
- "p0028": {
+ "mu0028": {
   "en": "Acromial part of deltoid muscle",
   "ja": "三角筋 中部（肩峰部）",
   "side": "左",
   "system": "筋",
   "raw": "Acromial part of deltoid muscle.ol"
  },
- "p0029": {
+ "mu0029": {
   "en": "Acromial part of deltoid muscle",
   "ja": "三角筋 中部（肩峰部）",
   "side": "右",
   "system": "筋",
   "raw": "Acromial part of deltoid muscle.or"
  },
- "p0030": {
+ "mu0030": {
   "en": "Acromial part of deltoid muscle",
   "ja": "三角筋 中部（肩峰部）",
   "side": "右",
   "system": "筋",
   "raw": "Acromial part of deltoid muscle.r"
  },
- "p0031": {
+ "mu0031": {
   "en": "Adductor brevis",
   "ja": "短内転筋",
   "side": "左",
   "system": "筋",
   "raw": "Adductor brevis.l"
  },
- "p0032": {
+ "mu0032": {
   "en": "Adductor brevis",
   "ja": "短内転筋",
   "side": "右",
   "system": "筋",
   "raw": "Adductor brevis.r"
  },
- "p0033": {
+ "mu0033": {
   "en": "Adductor longus",
   "ja": "長内転筋",
   "side": "左",
   "system": "筋",
   "raw": "Adductor longus.l"
  },
- "p0034": {
+ "mu0034": {
   "en": "Adductor longus",
   "ja": "長内転筋",
   "side": "左",
   "system": "筋",
   "raw": "Adductor longus.ol"
  },
- "p0035": {
+ "mu0035": {
   "en": "Adductor longus",
   "ja": "長内転筋",
   "side": "右",
   "system": "筋",
   "raw": "Adductor longus.or"
  },
- "p0036": {
+ "mu0036": {
   "en": "Adductor longus",
   "ja": "長内転筋",
   "side": "右",
   "system": "筋",
   "raw": "Adductor longus.r"
  },
- "p0037": {
+ "mu0037": {
   "en": "Adductor magnus",
   "ja": "大内転筋",
   "side": "左",
   "system": "筋",
   "raw": "Adductor magnus.l"
  },
- "p0038": {
+ "mu0038": {
   "en": "Adductor magnus",
   "ja": "大内転筋",
   "side": "左",
   "system": "筋",
   "raw": "Adductor magnus.ol"
  },
- "p0039": {
+ "mu0039": {
   "en": "Adductor magnus",
   "ja": "大内転筋",
   "side": "右",
   "system": "筋",
   "raw": "Adductor magnus.or"
  },
- "p0040": {
+ "mu0040": {
   "en": "Adductor magnus",
   "ja": "大内転筋",
   "side": "右",
   "system": "筋",
   "raw": "Adductor magnus.r"
  },
- "p0041": {
+ "mu0041": {
   "en": "Anconeus muscle",
   "ja": "肘筋",
   "side": "左",
   "system": "筋",
   "raw": "Anconeus muscle.l"
  },
- "p0042": {
+ "mu0042": {
   "en": "Anconeus muscle",
   "ja": "肘筋",
   "side": "左",
   "system": "筋",
   "raw": "Anconeus muscle.ol"
  },
- "p0043": {
+ "mu0043": {
   "en": "Anconeus muscle",
   "ja": "肘筋",
   "side": "右",
   "system": "筋",
   "raw": "Anconeus muscle.or"
  },
- "p0044": {
+ "mu0044": {
   "en": "Anconeus muscle",
   "ja": "肘筋",
   "side": "右",
   "system": "筋",
   "raw": "Anconeus muscle.r"
  },
- "p0045": {
+ "mu0045": {
   "en": "Anterior belly of digastric muscle",
   "ja": "顎二腹筋 前腹",
   "side": "左",
   "system": "筋",
   "raw": "Anterior belly of digastric muscle.l"
  },
- "p0046": {
+ "mu0046": {
   "en": "Anterior belly of digastric muscle",
   "ja": "顎二腹筋 前腹",
   "side": "右",
   "system": "筋",
   "raw": "Anterior belly of digastric muscle.r"
  },
- "p0047": {
+ "mu0047": {
   "en": "Anterior papillary muscle of right ventricle",
   "ja": "",
   "side": "",
   "system": "筋",
   "raw": "Anterior papillary muscle of right ventricle"
  },
- "p0048": {
+ "mu0048": {
   "en": "Ary-epiglottic part of oblique arytenoid muscle",
   "ja": "斜披裂筋 披裂喉頭蓋部",
   "side": "左",
   "system": "筋",
   "raw": "Ary-epiglottic part of oblique arytenoid muscle.l"
  },
- "p0049": {
+ "mu0049": {
   "en": "Ary-epiglottic part of oblique arytenoid muscle",
   "ja": "斜披裂筋 披裂喉頭蓋部",
   "side": "右",
   "system": "筋",
   "raw": "Ary-epiglottic part of oblique arytenoid muscle.r"
  },
- "p0050": {
+ "mu0050": {
   "en": "Ascending part of trapezius muscle",
   "ja": "僧帽筋 下部",
   "side": "左",
   "system": "筋",
   "raw": "Ascending part of trapezius muscle.l"
  },
- "p0051": {
+ "mu0051": {
   "en": "Ascending part of trapezius muscle",
   "ja": "僧帽筋 下部",
   "side": "左",
   "system": "筋",
   "raw": "Ascending part of trapezius muscle.ol"
  },
- "p0052": {
+ "mu0052": {
   "en": "Ascending part of trapezius muscle",
   "ja": "僧帽筋 下部",
   "side": "右",
   "system": "筋",
   "raw": "Ascending part of trapezius muscle.or"
  },
- "p0053": {
+ "mu0053": {
   "en": "Ascending part of trapezius muscle",
   "ja": "僧帽筋 下部",
   "side": "右",
   "system": "筋",
   "raw": "Ascending part of trapezius muscle.r"
  },
- "p0054": {
+ "mu0054": {
   "en": "Biceps brachii muscle",
   "ja": "上腕二頭筋",
   "side": "",
   "system": "筋",
   "raw": "Biceps brachii muscle.j"
  },
- "p0055": {
+ "mu0055": {
   "en": "Brachialis muscle",
   "ja": "上腕筋",
   "side": "左",
   "system": "筋",
   "raw": "Brachialis muscle.l"
  },
- "p0056": {
+ "mu0056": {
   "en": "Brachialis muscle",
   "ja": "上腕筋",
   "side": "左",
   "system": "筋",
   "raw": "Brachialis muscle.ol"
  },
- "p0057": {
+ "mu0057": {
   "en": "Brachialis muscle",
   "ja": "上腕筋",
   "side": "右",
   "system": "筋",
   "raw": "Brachialis muscle.or"
  },
- "p0058": {
+ "mu0058": {
   "en": "Brachialis muscle",
   "ja": "上腕筋",
   "side": "右",
   "system": "筋",
   "raw": "Brachialis muscle.r"
  },
- "p0059": {
+ "mu0059": {
   "en": "Brachioradialis muscle",
   "ja": "腕橈骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Brachioradialis muscle.l"
  },
- "p0060": {
+ "mu0060": {
   "en": "Brachioradialis muscle",
   "ja": "腕橈骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Brachioradialis muscle.ol"
  },
- "p0061": {
+ "mu0061": {
   "en": "Brachioradialis muscle",
   "ja": "腕橈骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Brachioradialis muscle.or"
  },
- "p0062": {
+ "mu0062": {
   "en": "Brachioradialis muscle",
   "ja": "腕橈骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Brachioradialis muscle.r"
  },
- "p0063": {
+ "mu0063": {
   "en": "Bucinator",
   "ja": "頬筋",
   "side": "左",
   "system": "筋",
   "raw": "Bucinator.l"
  },
- "p0064": {
+ "mu0064": {
   "en": "Bucinator",
   "ja": "頬筋",
   "side": "左",
   "system": "筋",
   "raw": "Bucinator.ol"
  },
- "p0065": {
+ "mu0065": {
   "en": "Bucinator",
   "ja": "頬筋",
   "side": "右",
   "system": "筋",
   "raw": "Bucinator.or"
  },
- "p0066": {
+ "mu0066": {
   "en": "Bucinator",
   "ja": "頬筋",
   "side": "右",
   "system": "筋",
   "raw": "Bucinator.r"
  },
- "p0067": {
+ "mu0067": {
   "en": "Bursa of piriformis muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Bursa of piriformis muscle.l"
  },
- "p0068": {
+ "mu0068": {
   "en": "Bursa of piriformis muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Bursa of piriformis muscle.r"
  },
- "p0069": {
+ "mu0069": {
   "en": "Clavicular head of pectoralis major muscle",
   "ja": "大胸筋 鎖骨部",
   "side": "左",
   "system": "筋",
   "raw": "Clavicular head of pectoralis major muscle.l"
  },
- "p0070": {
+ "mu0070": {
   "en": "Clavicular head of pectoralis major muscle",
   "ja": "大胸筋 鎖骨部",
   "side": "右",
   "system": "筋",
   "raw": "Clavicular head of pectoralis major muscle.r"
  },
- "p0071": {
+ "mu0071": {
   "en": "Clavicular part of deltoid muscle",
   "ja": "三角筋 前部（鎖骨部）",
   "side": "左",
   "system": "筋",
   "raw": "Clavicular part of deltoid muscle.l"
  },
- "p0072": {
+ "mu0072": {
   "en": "Clavicular part of deltoid muscle",
   "ja": "三角筋 前部（鎖骨部）",
   "side": "左",
   "system": "筋",
   "raw": "Clavicular part of deltoid muscle.ol"
  },
- "p0073": {
+ "mu0073": {
   "en": "Clavicular part of deltoid muscle",
   "ja": "三角筋 前部（鎖骨部）",
   "side": "右",
   "system": "筋",
   "raw": "Clavicular part of deltoid muscle.or"
  },
- "p0074": {
+ "mu0074": {
   "en": "Clavicular part of deltoid muscle",
   "ja": "三角筋 前部（鎖骨部）",
   "side": "右",
   "system": "筋",
   "raw": "Clavicular part of deltoid muscle.r"
  },
- "p0075": {
+ "mu0075": {
   "en": "Coccygeus muscle",
   "ja": "尾骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Coccygeus muscle.l"
  },
- "p0076": {
+ "mu0076": {
   "en": "Coccygeus muscle",
   "ja": "尾骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Coccygeus muscle.r"
  },
- "p0077": {
+ "mu0077": {
   "en": "Common tendon sheath of fibularis muscles",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Common tendon sheath of fibularis muscles.l"
  },
- "p0078": {
+ "mu0078": {
   "en": "Common tendon sheath of fibularis muscles",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Common tendon sheath of fibularis muscles.r"
  },
- "p0079": {
+ "mu0079": {
   "en": "Coracobrachialis muscle",
   "ja": "烏口腕筋",
   "side": "左",
   "system": "筋",
   "raw": "Coracobrachialis muscle.l"
  },
- "p0080": {
+ "mu0080": {
   "en": "Coracobrachialis muscle",
   "ja": "烏口腕筋",
   "side": "左",
   "system": "筋",
   "raw": "Coracobrachialis muscle.ol"
  },
- "p0081": {
+ "mu0081": {
   "en": "Coracobrachialis muscle",
   "ja": "烏口腕筋",
   "side": "右",
   "system": "筋",
   "raw": "Coracobrachialis muscle.or"
  },
- "p0082": {
+ "mu0082": {
   "en": "Coracobrachialis muscle",
   "ja": "烏口腕筋",
   "side": "右",
   "system": "筋",
   "raw": "Coracobrachialis muscle.r"
  },
- "p0083": {
+ "mu0083": {
   "en": "Corrugator supercilii",
   "ja": "皺眉筋",
   "side": "左",
   "system": "筋",
   "raw": "Corrugator supercilii.l"
  },
- "p0084": {
+ "mu0084": {
   "en": "Corrugator supercilii",
   "ja": "皺眉筋",
   "side": "右",
   "system": "筋",
   "raw": "Corrugator supercilii.r"
  },
- "p0085": {
+ "mu0085": {
   "en": "Deep head of flexor pollicis brevis",
   "ja": "短母指屈筋 深頭",
   "side": "左",
   "system": "筋",
   "raw": "Deep head of flexor pollicis brevis.l"
  },
- "p0086": {
+ "mu0086": {
   "en": "Deep head of flexor pollicis brevis",
   "ja": "短母指屈筋 深頭",
   "side": "左",
   "system": "筋",
   "raw": "Deep head of flexor pollicis brevis.ol"
  },
- "p0087": {
+ "mu0087": {
   "en": "Deep head of flexor pollicis brevis",
   "ja": "短母指屈筋 深頭",
   "side": "右",
   "system": "筋",
   "raw": "Deep head of flexor pollicis brevis.or"
  },
- "p0088": {
+ "mu0088": {
   "en": "Deep head of flexor pollicis brevis",
   "ja": "短母指屈筋 深頭",
   "side": "右",
   "system": "筋",
   "raw": "Deep head of flexor pollicis brevis.r"
  },
- "p0089": {
+ "mu0089": {
   "en": "Deep head of pronator teres",
   "ja": "円回内筋 深頭（尺骨頭）",
   "side": "左",
   "system": "筋",
   "raw": "Deep head of pronator teres.l"
  },
- "p0090": {
+ "mu0090": {
   "en": "Deep head of pronator teres",
   "ja": "円回内筋 深頭（尺骨頭）",
   "side": "右",
   "system": "筋",
   "raw": "Deep head of pronator teres.r"
  },
- "p0091": {
+ "mu0091": {
   "en": "Deep part of masseter",
   "ja": "咬筋 深部",
   "side": "左",
   "system": "筋",
   "raw": "Deep part of masseter.l"
  },
- "p0092": {
+ "mu0092": {
   "en": "Deep part of masseter",
   "ja": "咬筋 深部",
   "side": "右",
   "system": "筋",
   "raw": "Deep part of masseter.r"
  },
- "p0093": {
+ "mu0093": {
   "en": "Deltoid muscle",
   "ja": "三角筋",
   "side": "",
   "system": "筋",
   "raw": "Deltoid muscle.j"
  },
- "p0094": {
+ "mu0094": {
   "en": "Depressor anguli oris",
   "ja": "口角下制筋",
   "side": "左",
   "system": "筋",
   "raw": "Depressor anguli oris.l"
  },
- "p0095": {
+ "mu0095": {
   "en": "Depressor anguli oris",
   "ja": "口角下制筋",
   "side": "左",
   "system": "筋",
   "raw": "Depressor anguli oris.ol"
  },
- "p0096": {
+ "mu0096": {
   "en": "Depressor anguli oris",
   "ja": "口角下制筋",
   "side": "右",
   "system": "筋",
   "raw": "Depressor anguli oris.or"
  },
- "p0097": {
+ "mu0097": {
   "en": "Depressor anguli oris",
   "ja": "口角下制筋",
   "side": "右",
   "system": "筋",
   "raw": "Depressor anguli oris.r"
  },
- "p0098": {
+ "mu0098": {
   "en": "Depressor labii inferioris",
   "ja": "下唇下制筋",
   "side": "左",
   "system": "筋",
   "raw": "Depressor labii inferioris.l"
  },
- "p0099": {
+ "mu0099": {
   "en": "Depressor labii inferioris",
   "ja": "下唇下制筋",
   "side": "左",
   "system": "筋",
   "raw": "Depressor labii inferioris.ol"
  },
- "p0100": {
+ "mu0100": {
   "en": "Depressor labii inferioris",
   "ja": "下唇下制筋",
   "side": "右",
   "system": "筋",
   "raw": "Depressor labii inferioris.or"
  },
- "p0101": {
+ "mu0101": {
   "en": "Depressor labii inferioris",
   "ja": "下唇下制筋",
   "side": "右",
   "system": "筋",
   "raw": "Depressor labii inferioris.r"
  },
- "p0102": {
+ "mu0102": {
   "en": "Depressor septi nasi",
   "ja": "鼻中隔下制筋",
   "side": "左",
   "system": "筋",
   "raw": "Depressor septi nasi.l"
  },
- "p0103": {
+ "mu0103": {
   "en": "Depressor septi nasi",
   "ja": "鼻中隔下制筋",
   "side": "左",
   "system": "筋",
   "raw": "Depressor septi nasi.ol"
  },
- "p0104": {
+ "mu0104": {
   "en": "Depressor septi nasi",
   "ja": "鼻中隔下制筋",
   "side": "右",
   "system": "筋",
   "raw": "Depressor septi nasi.or"
  },
- "p0105": {
+ "mu0105": {
   "en": "Depressor septi nasi",
   "ja": "鼻中隔下制筋",
   "side": "右",
   "system": "筋",
   "raw": "Depressor septi nasi.r"
  },
- "p0106": {
+ "mu0106": {
   "en": "Descending part of trapezius muscle",
   "ja": "僧帽筋 上部",
   "side": "左",
   "system": "筋",
   "raw": "Descending part of trapezius muscle.l"
  },
- "p0107": {
+ "mu0107": {
   "en": "Descending part of trapezius muscle",
   "ja": "僧帽筋 上部",
   "side": "左",
   "system": "筋",
   "raw": "Descending part of trapezius muscle.ol"
  },
- "p0108": {
+ "mu0108": {
   "en": "Descending part of trapezius muscle",
   "ja": "僧帽筋 上部",
   "side": "右",
   "system": "筋",
   "raw": "Descending part of trapezius muscle.or"
  },
- "p0109": {
+ "mu0109": {
   "en": "Descending part of trapezius muscle",
   "ja": "僧帽筋 上部",
   "side": "右",
   "system": "筋",
   "raw": "Descending part of trapezius muscle.r"
  },
- "p0110": {
+ "mu0110": {
   "en": "Dorsal interossei muscles of foot",
   "ja": "背側骨間筋（足）",
   "side": "左",
   "system": "筋",
   "raw": "Dorsal interossei muscles of foot.l"
  },
- "p0111": {
+ "mu0111": {
   "en": "Dorsal interossei muscles of foot",
   "ja": "背側骨間筋（足）",
   "side": "右",
   "system": "筋",
   "raw": "Dorsal interossei muscles of foot.r"
  },
- "p0112": {
+ "mu0112": {
   "en": "Dorsal interossei muscles of hand",
   "ja": "背側骨間筋（手）",
   "side": "左",
   "system": "筋",
   "raw": "Dorsal interossei muscles of hand.l"
  },
- "p0113": {
+ "mu0113": {
   "en": "Dorsal interossei muscles of hand",
   "ja": "背側骨間筋（手）",
   "side": "左",
   "system": "筋",
   "raw": "Dorsal interossei muscles of hand.ol"
  },
- "p0114": {
+ "mu0114": {
   "en": "Dorsal interossei muscles of hand",
   "ja": "背側骨間筋（手）",
   "side": "右",
   "system": "筋",
   "raw": "Dorsal interossei muscles of hand.or"
  },
- "p0115": {
+ "mu0115": {
   "en": "Dorsal interossei muscles of hand",
   "ja": "背側骨間筋（手）",
   "side": "右",
   "system": "筋",
   "raw": "Dorsal interossei muscles of hand.r"
  },
- "p0116": {
+ "mu0116": {
   "en": "Dorsal parts of lateral intertransversarii lumborum muscles",
   "ja": "腰外側横突間筋 背側部",
   "side": "左",
   "system": "筋",
   "raw": "Dorsal parts of lateral intertransversarii lumborum muscles.l"
  },
- "p0117": {
+ "mu0117": {
   "en": "Dorsal parts of lateral intertransversarii lumborum muscles",
   "ja": "腰外側横突間筋 背側部",
   "side": "右",
   "system": "筋",
   "raw": "Dorsal parts of lateral intertransversarii lumborum muscles.r"
  },
- "p0118": {
+ "mu0118": {
   "en": "Extensor carpi radialis brevis",
   "ja": "短橈側手根伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor carpi radialis brevis.l"
  },
- "p0119": {
+ "mu0119": {
   "en": "Extensor carpi radialis brevis",
   "ja": "短橈側手根伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor carpi radialis brevis.r"
  },
- "p0120": {
+ "mu0120": {
   "en": "Extensor carpi radialis longus",
   "ja": "長橈側手根伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor carpi radialis longus.l"
  },
- "p0121": {
+ "mu0121": {
   "en": "Extensor carpi radialis longus",
   "ja": "長橈側手根伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor carpi radialis longus.ol"
  },
- "p0122": {
+ "mu0122": {
   "en": "Extensor carpi radialis longus",
   "ja": "長橈側手根伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor carpi radialis longus.or"
  },
- "p0123": {
+ "mu0123": {
   "en": "Extensor carpi radialis longus",
   "ja": "長橈側手根伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor carpi radialis longus.r"
  },
- "p0124": {
+ "mu0124": {
   "en": "Extensor carpi ulnaris",
   "ja": "尺側手根伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor carpi ulnaris.ol"
  },
- "p0125": {
+ "mu0125": {
   "en": "Extensor carpi ulnaris",
   "ja": "尺側手根伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor carpi ulnaris.or"
  },
- "p0126": {
+ "mu0126": {
   "en": "Extensor digiti minimi",
   "ja": "小指伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor digiti minimi.l"
  },
- "p0127": {
+ "mu0127": {
   "en": "Extensor digiti minimi",
   "ja": "小指伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor digiti minimi.r"
  },
- "p0128": {
+ "mu0128": {
   "en": "Extensor digitorum brevis",
   "ja": "短趾伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor digitorum brevis.l"
  },
- "p0129": {
+ "mu0129": {
   "en": "Extensor digitorum brevis",
   "ja": "短趾伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor digitorum brevis.r"
  },
- "p0130": {
+ "mu0130": {
   "en": "Extensor digitorum longus",
   "ja": "長趾伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor digitorum longus.l"
  },
- "p0131": {
+ "mu0131": {
   "en": "Extensor digitorum longus",
   "ja": "長趾伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor digitorum longus.ol"
  },
- "p0132": {
+ "mu0132": {
   "en": "Extensor digitorum longus",
   "ja": "長趾伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor digitorum longus.or"
  },
- "p0133": {
+ "mu0133": {
   "en": "Extensor digitorum longus",
   "ja": "長趾伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor digitorum longus.r"
  },
- "p0134": {
+ "mu0134": {
   "en": "Extensor hallucis brevis",
   "ja": "短母趾伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor hallucis brevis.l"
  },
- "p0135": {
+ "mu0135": {
   "en": "Extensor hallucis brevis",
   "ja": "短母趾伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor hallucis brevis.ol"
  },
- "p0136": {
+ "mu0136": {
   "en": "Extensor hallucis brevis",
   "ja": "短母趾伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor hallucis brevis.or"
  },
- "p0137": {
+ "mu0137": {
   "en": "Extensor hallucis brevis",
   "ja": "短母趾伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor hallucis brevis.r"
  },
- "p0138": {
+ "mu0138": {
   "en": "Extensor hallucis longus",
   "ja": "長母趾伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor hallucis longus.l"
  },
- "p0139": {
+ "mu0139": {
   "en": "Extensor hallucis longus",
   "ja": "長母趾伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor hallucis longus.ol"
  },
- "p0140": {
+ "mu0140": {
   "en": "Extensor hallucis longus",
   "ja": "長母趾伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor hallucis longus.or"
  },
- "p0141": {
+ "mu0141": {
   "en": "Extensor hallucis longus",
   "ja": "長母趾伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor hallucis longus.r"
  },
- "p0142": {
+ "mu0142": {
   "en": "Extensor indicis",
   "ja": "示指伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor indicis.l"
  },
- "p0143": {
+ "mu0143": {
   "en": "Extensor indicis",
   "ja": "示指伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor indicis.ol"
  },
- "p0144": {
+ "mu0144": {
   "en": "Extensor indicis",
   "ja": "示指伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor indicis.or"
  },
- "p0145": {
+ "mu0145": {
   "en": "Extensor indicis",
   "ja": "示指伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor indicis.r"
  },
- "p0146": {
+ "mu0146": {
   "en": "Extensor pollicis brevis",
   "ja": "短母指伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor pollicis brevis.l"
  },
- "p0147": {
+ "mu0147": {
   "en": "Extensor pollicis brevis",
   "ja": "短母指伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor pollicis brevis.ol"
  },
- "p0148": {
+ "mu0148": {
   "en": "Extensor pollicis brevis",
   "ja": "短母指伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor pollicis brevis.or"
  },
- "p0149": {
+ "mu0149": {
   "en": "Extensor pollicis brevis",
   "ja": "短母指伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor pollicis brevis.r"
  },
- "p0150": {
+ "mu0150": {
   "en": "Extensor pollicis longus",
   "ja": "長母指伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor pollicis longus.l"
  },
- "p0151": {
+ "mu0151": {
   "en": "Extensor pollicis longus",
   "ja": "長母指伸筋",
   "side": "左",
   "system": "筋",
   "raw": "Extensor pollicis longus.ol"
  },
- "p0152": {
+ "mu0152": {
   "en": "Extensor pollicis longus",
   "ja": "長母指伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor pollicis longus.or"
  },
- "p0153": {
+ "mu0153": {
   "en": "Extensor pollicis longus",
   "ja": "長母指伸筋",
   "side": "右",
   "system": "筋",
   "raw": "Extensor pollicis longus.r"
  },
- "p0154": {
+ "mu0154": {
   "en": "External abdominal oblique muscle",
   "ja": "外腹斜筋",
   "side": "左",
   "system": "筋",
   "raw": "External abdominal oblique muscle.l"
  },
- "p0155": {
+ "mu0155": {
   "en": "External abdominal oblique muscle",
   "ja": "外腹斜筋",
   "side": "左",
   "system": "筋",
   "raw": "External abdominal oblique muscle.ol"
  },
- "p0156": {
+ "mu0156": {
   "en": "External abdominal oblique muscle",
   "ja": "外腹斜筋",
   "side": "右",
   "system": "筋",
   "raw": "External abdominal oblique muscle.or"
  },
- "p0157": {
+ "mu0157": {
   "en": "External abdominal oblique muscle",
   "ja": "外腹斜筋",
   "side": "右",
   "system": "筋",
   "raw": "External abdominal oblique muscle.r"
  },
- "p0158": {
+ "mu0158": {
   "en": "External anal sphincter",
   "ja": "外肛門括約筋",
   "side": "左",
   "system": "筋",
   "raw": "External anal sphincter.l"
  },
- "p0159": {
+ "mu0159": {
   "en": "External anal sphincter",
   "ja": "外肛門括約筋",
   "side": "右",
   "system": "筋",
   "raw": "External anal sphincter.r"
  },
- "p0160": {
+ "mu0160": {
   "en": "External intercostal muscles",
   "ja": "外肋間筋",
   "side": "左",
   "system": "筋",
   "raw": "External intercostal muscles.l"
  },
- "p0161": {
+ "mu0161": {
   "en": "External intercostal muscles",
   "ja": "外肋間筋",
   "side": "右",
   "system": "筋",
   "raw": "External intercostal muscles.r"
  },
- "p0162": {
+ "mu0162": {
   "en": "Fibularis brevis muscle",
   "ja": "短腓骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Fibularis brevis muscle.l"
  },
- "p0163": {
+ "mu0163": {
   "en": "Fibularis brevis muscle",
   "ja": "短腓骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Fibularis brevis muscle.ol"
  },
- "p0164": {
+ "mu0164": {
   "en": "Fibularis brevis muscle",
   "ja": "短腓骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Fibularis brevis muscle.or"
  },
- "p0165": {
+ "mu0165": {
   "en": "Fibularis brevis muscle",
   "ja": "短腓骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Fibularis brevis muscle.r"
  },
- "p0166": {
+ "mu0166": {
   "en": "Fibularis longus muscle",
   "ja": "長腓骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Fibularis longus muscle.l"
  },
- "p0167": {
+ "mu0167": {
   "en": "Fibularis longus muscle",
   "ja": "長腓骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Fibularis longus muscle.ol"
  },
- "p0168": {
+ "mu0168": {
   "en": "Fibularis longus muscle",
   "ja": "長腓骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Fibularis longus muscle.or"
  },
- "p0169": {
+ "mu0169": {
   "en": "Fibularis longus muscle",
   "ja": "長腓骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Fibularis longus muscle.r"
  },
- "p0170": {
+ "mu0170": {
   "en": "Fibularis tertius muscle",
   "ja": "第三腓骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Fibularis tertius muscle.l"
  },
- "p0171": {
+ "mu0171": {
   "en": "Fibularis tertius muscle",
   "ja": "第三腓骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Fibularis tertius muscle.ol"
  },
- "p0172": {
+ "mu0172": {
   "en": "Fibularis tertius muscle",
   "ja": "第三腓骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Fibularis tertius muscle.or"
  },
- "p0173": {
+ "mu0173": {
   "en": "Fibularis tertius muscle",
   "ja": "第三腓骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Fibularis tertius muscle.r"
  },
- "p0174": {
+ "mu0174": {
   "en": "Flexor carpi radialis",
   "ja": "橈側手根屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor carpi radialis.l"
  },
- "p0175": {
+ "mu0175": {
   "en": "Flexor carpi radialis",
   "ja": "橈側手根屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor carpi radialis.r"
  },
- "p0176": {
+ "mu0176": {
   "en": "Flexor digiti minimi of foot",
   "ja": "短小趾屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor digiti minimi of foot.l"
  },
- "p0177": {
+ "mu0177": {
   "en": "Flexor digiti minimi of foot",
   "ja": "短小趾屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor digiti minimi of foot.r"
  },
- "p0178": {
+ "mu0178": {
   "en": "Flexor digiti minimi of hand",
   "ja": "短小指屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor digiti minimi of hand.l"
  },
- "p0179": {
+ "mu0179": {
   "en": "Flexor digiti minimi of hand",
   "ja": "短小指屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor digiti minimi of hand.ol"
  },
- "p0180": {
+ "mu0180": {
   "en": "Flexor digiti minimi of hand",
   "ja": "短小指屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor digiti minimi of hand.or"
  },
- "p0181": {
+ "mu0181": {
   "en": "Flexor digiti minimi of hand",
   "ja": "短小指屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor digiti minimi of hand.r"
  },
- "p0182": {
+ "mu0182": {
   "en": "Flexor digitorum brevis",
   "ja": "短趾屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor digitorum brevis.l"
  },
- "p0183": {
+ "mu0183": {
   "en": "Flexor digitorum brevis",
   "ja": "短趾屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor digitorum brevis.ol"
  },
- "p0184": {
+ "mu0184": {
   "en": "Flexor digitorum brevis",
   "ja": "短趾屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor digitorum brevis.or"
  },
- "p0185": {
+ "mu0185": {
   "en": "Flexor digitorum brevis",
   "ja": "短趾屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor digitorum brevis.r"
  },
- "p0186": {
+ "mu0186": {
   "en": "Flexor digitorum longus",
   "ja": "長趾屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor digitorum longus.l"
  },
- "p0187": {
+ "mu0187": {
   "en": "Flexor digitorum longus",
   "ja": "長趾屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor digitorum longus.ol"
  },
- "p0188": {
+ "mu0188": {
   "en": "Flexor digitorum longus",
   "ja": "長趾屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor digitorum longus.or"
  },
- "p0189": {
+ "mu0189": {
   "en": "Flexor digitorum longus",
   "ja": "長趾屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor digitorum longus.r"
  },
- "p0190": {
+ "mu0190": {
   "en": "Flexor digitorum profundus",
   "ja": "深指屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor digitorum profundus.l"
  },
- "p0191": {
+ "mu0191": {
   "en": "Flexor digitorum profundus",
   "ja": "深指屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor digitorum profundus.r"
  },
- "p0192": {
+ "mu0192": {
   "en": "Flexor digitorum superficialis",
   "ja": "浅指屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor digitorum superficialis.ol"
  },
- "p0193": {
+ "mu0193": {
   "en": "Flexor digitorum superficialis",
   "ja": "浅指屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor digitorum superficialis.or"
  },
- "p0194": {
+ "mu0194": {
   "en": "Flexor hallucis longus",
   "ja": "長母趾屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor hallucis longus.l"
  },
- "p0195": {
+ "mu0195": {
   "en": "Flexor hallucis longus",
   "ja": "長母趾屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor hallucis longus.ol"
  },
- "p0196": {
+ "mu0196": {
   "en": "Flexor hallucis longus",
   "ja": "長母趾屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor hallucis longus.or"
  },
- "p0197": {
+ "mu0197": {
   "en": "Flexor hallucis longus",
   "ja": "長母趾屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor hallucis longus.r"
  },
- "p0198": {
+ "mu0198": {
   "en": "Flexor pollicis longus",
   "ja": "長母指屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor pollicis longus.l"
  },
- "p0199": {
+ "mu0199": {
   "en": "Flexor pollicis longus",
   "ja": "長母指屈筋",
   "side": "左",
   "system": "筋",
   "raw": "Flexor pollicis longus.ol"
  },
- "p0200": {
+ "mu0200": {
   "en": "Flexor pollicis longus",
   "ja": "長母指屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor pollicis longus.or"
  },
- "p0201": {
+ "mu0201": {
   "en": "Flexor pollicis longus",
   "ja": "長母指屈筋",
   "side": "右",
   "system": "筋",
   "raw": "Flexor pollicis longus.r"
  },
- "p0202": {
+ "mu0202": {
   "en": "Frontalis muscle",
   "ja": "前頭筋",
   "side": "左",
   "system": "筋",
   "raw": "Frontalis muscle.l"
  },
- "p0203": {
+ "mu0203": {
   "en": "Frontalis muscle",
   "ja": "前頭筋",
   "side": "右",
   "system": "筋",
   "raw": "Frontalis muscle.or"
  },
- "p0204": {
+ "mu0204": {
   "en": "Frontalis muscle",
   "ja": "前頭筋",
   "side": "左",
   "system": "筋",
   "raw": "Frontalis muscle.ol"
  },
- "p0205": {
+ "mu0205": {
   "en": "Frontalis muscle",
   "ja": "前頭筋",
   "side": "右",
   "system": "筋",
   "raw": "Frontalis muscle.r"
  },
- "p0206": {
+ "mu0206": {
   "en": "Genioglossus muscle",
   "ja": "オトガイ舌筋",
   "side": "左",
   "system": "筋",
   "raw": "Genioglossus muscle.l"
  },
- "p0207": {
+ "mu0207": {
   "en": "Genioglossus muscle",
   "ja": "オトガイ舌筋",
   "side": "右",
   "system": "筋",
   "raw": "Genioglossus muscle.r"
  },
- "p0208": {
+ "mu0208": {
   "en": "Geniohyoid muscle",
   "ja": "オトガイ舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Geniohyoid muscle.l"
  },
- "p0209": {
+ "mu0209": {
   "en": "Geniohyoid muscle",
   "ja": "オトガイ舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Geniohyoid muscle.or"
  },
- "p0210": {
+ "mu0210": {
   "en": "Geniohyoid muscle",
   "ja": "オトガイ舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Geniohyoid muscle.ol"
  },
- "p0211": {
+ "mu0211": {
   "en": "Geniohyoid muscle",
   "ja": "オトガイ舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Geniohyoid muscle.r"
  },
- "p0212": {
+ "mu0212": {
   "en": "Gluteus maximus muscle",
   "ja": "大殿筋",
   "side": "左",
   "system": "筋",
   "raw": "Gluteus maximus muscle.l"
  },
- "p0213": {
+ "mu0213": {
   "en": "Gluteus maximus muscle",
   "ja": "大殿筋",
   "side": "左",
   "system": "筋",
   "raw": "Gluteus maximus muscle.ol"
  },
- "p0214": {
+ "mu0214": {
   "en": "Gluteus maximus muscle",
   "ja": "大殿筋",
   "side": "右",
   "system": "筋",
   "raw": "Gluteus maximus muscle.or"
  },
- "p0215": {
+ "mu0215": {
   "en": "Gluteus maximus muscle",
   "ja": "大殿筋",
   "side": "右",
   "system": "筋",
   "raw": "Gluteus maximus muscle.r"
  },
- "p0216": {
+ "mu0216": {
   "en": "Gluteus medius muscle",
   "ja": "中殿筋",
   "side": "左",
   "system": "筋",
   "raw": "Gluteus medius muscle.l"
  },
- "p0217": {
+ "mu0217": {
   "en": "Gluteus medius muscle",
   "ja": "中殿筋",
   "side": "左",
   "system": "筋",
   "raw": "Gluteus medius muscle.ol"
  },
- "p0218": {
+ "mu0218": {
   "en": "Gluteus medius muscle",
   "ja": "中殿筋",
   "side": "右",
   "system": "筋",
   "raw": "Gluteus medius muscle.or"
  },
- "p0219": {
+ "mu0219": {
   "en": "Gluteus medius muscle",
   "ja": "中殿筋",
   "side": "右",
   "system": "筋",
   "raw": "Gluteus medius muscle.r"
  },
- "p0220": {
+ "mu0220": {
   "en": "Gluteus minimus muscle",
   "ja": "小殿筋",
   "side": "左",
   "system": "筋",
   "raw": "Gluteus minimus muscle.l"
  },
- "p0221": {
+ "mu0221": {
   "en": "Gluteus minimus muscle",
   "ja": "小殿筋",
   "side": "左",
   "system": "筋",
   "raw": "Gluteus minimus muscle.ol"
  },
- "p0222": {
+ "mu0222": {
   "en": "Gluteus minimus muscle",
   "ja": "小殿筋",
   "side": "右",
   "system": "筋",
   "raw": "Gluteus minimus muscle.or"
  },
- "p0223": {
+ "mu0223": {
   "en": "Gluteus minimus muscle",
   "ja": "小殿筋",
   "side": "右",
   "system": "筋",
   "raw": "Gluteus minimus muscle.r"
  },
- "p0224": {
+ "mu0224": {
   "en": "Gracilis muscle",
   "ja": "薄筋",
   "side": "左",
   "system": "筋",
   "raw": "Gracilis muscle.l"
  },
- "p0225": {
+ "mu0225": {
   "en": "Gracilis muscle",
   "ja": "薄筋",
   "side": "左",
   "system": "筋",
   "raw": "Gracilis muscle.ol"
  },
- "p0226": {
+ "mu0226": {
   "en": "Gracilis muscle",
   "ja": "薄筋",
   "side": "右",
   "system": "筋",
   "raw": "Gracilis muscle.or"
  },
- "p0227": {
+ "mu0227": {
   "en": "Gracilis muscle",
   "ja": "薄筋",
   "side": "右",
   "system": "筋",
   "raw": "Gracilis muscle.r"
  },
- "p0228": {
+ "mu0228": {
   "en": "Humeral head of extensor carpi ulnaris",
   "ja": "尺側手根伸筋 上腕頭",
   "side": "左",
   "system": "筋",
   "raw": "Humeral head of extensor carpi ulnaris.l"
  },
- "p0229": {
+ "mu0229": {
   "en": "Humeral head of extensor carpi ulnaris",
   "ja": "尺側手根伸筋 上腕頭",
   "side": "右",
   "system": "筋",
   "raw": "Humeral head of extensor carpi ulnaris.r"
  },
- "p0230": {
+ "mu0230": {
   "en": "Humeral head of flexor carpi ulnaris",
   "ja": "尺側手根屈筋 上腕頭",
   "side": "左",
   "system": "筋",
   "raw": "Humeral head of flexor carpi ulnaris.l"
  },
- "p0231": {
+ "mu0231": {
   "en": "Humeral head of flexor carpi ulnaris",
   "ja": "尺側手根屈筋 上腕頭",
   "side": "右",
   "system": "筋",
   "raw": "Humeral head of flexor carpi ulnaris.r"
  },
- "p0232": {
+ "mu0232": {
   "en": "Humero-ulnar head of flexor digitorum superficialis",
   "ja": "浅指屈筋 上腕尺骨頭",
   "side": "左",
   "system": "筋",
   "raw": "Humero-ulnar head of flexor digitorum superficialis.l"
  },
- "p0233": {
+ "mu0233": {
   "en": "Humero-ulnar head of flexor digitorum superficialis",
   "ja": "浅指屈筋 上腕尺骨頭",
   "side": "右",
   "system": "筋",
   "raw": "Humero-ulnar head of flexor digitorum superficialis.r"
  },
- "p0234": {
+ "mu0234": {
   "en": "Hyoglossus muscle",
   "ja": "舌骨舌筋",
   "side": "左",
   "system": "筋",
   "raw": "Hyoglossus muscle.l"
  },
- "p0235": {
+ "mu0235": {
   "en": "Hyoglossus muscle",
   "ja": "舌骨舌筋",
   "side": "右",
   "system": "筋",
   "raw": "Hyoglossus muscle.r"
  },
- "p0236": {
+ "mu0236": {
   "en": "Iliacus muscle",
   "ja": "腸骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Iliacus muscle.l"
  },
- "p0237": {
+ "mu0237": {
   "en": "Iliacus muscle",
   "ja": "腸骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Iliacus muscle.ol"
  },
- "p0238": {
+ "mu0238": {
   "en": "Iliacus muscle",
   "ja": "腸骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Iliacus muscle.or"
  },
- "p0239": {
+ "mu0239": {
   "en": "Iliacus muscle",
   "ja": "腸骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Iliacus muscle.r"
  },
- "p0240": {
+ "mu0240": {
   "en": "Iliococcygeus muscle",
   "ja": "腸骨尾骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Iliococcygeus muscle.l"
  },
- "p0241": {
+ "mu0241": {
   "en": "Iliococcygeus muscle",
   "ja": "腸骨尾骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Iliococcygeus muscle.r"
  },
- "p0242": {
+ "mu0242": {
   "en": "Iliocostalis colli muscle",
   "ja": "頸腸肋筋",
   "side": "",
   "system": "筋",
   "raw": "Iliocostalis colli muscle"
  },
- "p0243": {
+ "mu0243": {
   "en": "Iliocostalis colli muscle",
   "ja": "頸腸肋筋",
   "side": "右",
   "system": "筋",
   "raw": "Iliocostalis colli muscle.r"
  },
- "p0244": {
+ "mu0244": {
   "en": "Iliocostalis lumborum muscle",
   "ja": "腰腸肋筋",
   "side": "左",
   "system": "筋",
   "raw": "Iliocostalis lumborum muscle.l"
  },
- "p0245": {
+ "mu0245": {
   "en": "Iliocostalis lumborum muscle",
   "ja": "腰腸肋筋",
   "side": "右",
   "system": "筋",
   "raw": "Iliocostalis lumborum muscle.r"
  },
- "p0246": {
+ "mu0246": {
   "en": "Iliocostalis thoracis muscle",
   "ja": "胸腸肋筋",
   "side": "左",
   "system": "筋",
   "raw": "Iliocostalis thoracis muscle.l"
  },
- "p0247": {
+ "mu0247": {
   "en": "Iliocostalis thoracis muscle",
   "ja": "胸腸肋筋",
   "side": "右",
   "system": "筋",
   "raw": "Iliocostalis thoracis muscle.r"
  },
- "p0248": {
+ "mu0248": {
   "en": "Iliopsoas muscle",
   "ja": "腸腰筋",
   "side": "",
   "system": "筋",
   "raw": "Iliopsoas muscle.j"
  },
- "p0249": {
+ "mu0249": {
   "en": "Inferior gemellus muscle",
   "ja": "下双子筋",
   "side": "左",
   "system": "筋",
   "raw": "Inferior gemellus muscle.l"
  },
- "p0250": {
+ "mu0250": {
   "en": "Inferior gemellus muscle",
   "ja": "下双子筋",
   "side": "左",
   "system": "筋",
   "raw": "Inferior gemellus muscle.ol"
  },
- "p0251": {
+ "mu0251": {
   "en": "Inferior gemellus muscle",
   "ja": "下双子筋",
   "side": "右",
   "system": "筋",
   "raw": "Inferior gemellus muscle.or"
  },
- "p0252": {
+ "mu0252": {
   "en": "Inferior gemellus muscle",
   "ja": "下双子筋",
   "side": "右",
   "system": "筋",
   "raw": "Inferior gemellus muscle.r"
  },
- "p0253": {
+ "mu0253": {
   "en": "Inferior head of lateral pterygoid muscle",
   "ja": "外側翼突筋 下頭",
   "side": "左",
   "system": "筋",
   "raw": "Inferior head of lateral pterygoid muscle.l"
  },
- "p0254": {
+ "mu0254": {
   "en": "Inferior head of lateral pterygoid muscle",
   "ja": "外側翼突筋 下頭",
   "side": "右",
   "system": "筋",
   "raw": "Inferior head of lateral pterygoid muscle.r"
  },
- "p0255": {
+ "mu0255": {
   "en": "Inferior oblique muscle",
   "ja": "下斜筋（眼）",
   "side": "左",
   "system": "筋",
   "raw": "Inferior oblique muscle.l"
  },
- "p0256": {
+ "mu0256": {
   "en": "Inferior oblique muscle",
   "ja": "下斜筋（眼）",
   "side": "右",
   "system": "筋",
   "raw": "Inferior oblique muscle.r"
  },
- "p0257": {
+ "mu0257": {
   "en": "Inferior papillary muscle of left ventricle",
   "ja": "",
   "side": "",
   "system": "筋",
   "raw": "Inferior papillary muscle of left ventricle"
  },
- "p0258": {
+ "mu0258": {
   "en": "Inferior papillary muscle of right ventricle",
   "ja": "",
   "side": "",
   "system": "筋",
   "raw": "Inferior papillary muscle of right ventricle"
  },
- "p0259": {
+ "mu0259": {
   "en": "Inferior pharyngeal constrictor",
   "ja": "下咽頭収縮筋",
   "side": "左",
   "system": "筋",
   "raw": "Inferior pharyngeal constrictor.l"
  },
- "p0260": {
+ "mu0260": {
   "en": "Inferior pharyngeal constrictor",
   "ja": "下咽頭収縮筋",
   "side": "右",
   "system": "筋",
   "raw": "Inferior pharyngeal constrictor.r"
  },
- "p0261": {
+ "mu0261": {
   "en": "Inferior rectus muscle",
   "ja": "下直筋（眼）",
   "side": "左",
   "system": "筋",
   "raw": "Inferior rectus muscle.l"
  },
- "p0262": {
+ "mu0262": {
   "en": "Inferior rectus muscle",
   "ja": "下直筋（眼）",
   "side": "右",
   "system": "筋",
   "raw": "Inferior rectus muscle.r"
  },
- "p0263": {
+ "mu0263": {
   "en": "Inferior subtendinous bursa of biceps femoris muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Inferior subtendinous bursa of biceps femoris muscle.l"
  },
- "p0264": {
+ "mu0264": {
   "en": "Inferior subtendinous bursa of biceps femoris muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Inferior subtendinous bursa of biceps femoris muscle.r"
  },
- "p0265": {
+ "mu0265": {
   "en": "Infraspinatus muscle",
   "ja": "棘下筋",
   "side": "左",
   "system": "筋",
   "raw": "Infraspinatus muscle.l"
  },
- "p0266": {
+ "mu0266": {
   "en": "Infraspinatus muscle",
   "ja": "棘下筋",
   "side": "左",
   "system": "筋",
   "raw": "Infraspinatus muscle.ol"
  },
- "p0267": {
+ "mu0267": {
   "en": "Infraspinatus muscle",
   "ja": "棘下筋",
   "side": "右",
   "system": "筋",
   "raw": "Infraspinatus muscle.or"
  },
- "p0268": {
+ "mu0268": {
   "en": "Infraspinatus muscle",
   "ja": "棘下筋",
   "side": "右",
   "system": "筋",
   "raw": "Infraspinatus muscle.r"
  },
- "p0269": {
+ "mu0269": {
   "en": "Innermost intercostal muscles",
   "ja": "最内肋間筋",
   "side": "左",
   "system": "筋",
   "raw": "Innermost intercostal muscles.l"
  },
- "p0270": {
+ "mu0270": {
   "en": "Innermost intercostal muscles",
   "ja": "最内肋間筋",
   "side": "右",
   "system": "筋",
   "raw": "Innermost intercostal muscles.r"
  },
- "p0271": {
+ "mu0271": {
   "en": "Internal abdominal oblique muscle",
   "ja": "内腹斜筋",
   "side": "左",
   "system": "筋",
   "raw": "Internal abdominal oblique muscle.l"
  },
- "p0272": {
+ "mu0272": {
   "en": "Internal abdominal oblique muscle",
   "ja": "内腹斜筋",
   "side": "左",
   "system": "筋",
   "raw": "Internal abdominal oblique muscle.ol"
  },
- "p0273": {
+ "mu0273": {
   "en": "Internal abdominal oblique muscle",
   "ja": "内腹斜筋",
   "side": "右",
   "system": "筋",
   "raw": "Internal abdominal oblique muscle.or"
  },
- "p0274": {
+ "mu0274": {
   "en": "Internal abdominal oblique muscle",
   "ja": "内腹斜筋",
   "side": "右",
   "system": "筋",
   "raw": "Internal abdominal oblique muscle.r"
  },
- "p0275": {
+ "mu0275": {
   "en": "Internal intercostal muscles",
   "ja": "内肋間筋",
   "side": "左",
   "system": "筋",
   "raw": "Internal intercostal muscles.l"
  },
- "p0276": {
+ "mu0276": {
   "en": "Internal intercostal muscles",
   "ja": "内肋間筋",
   "side": "右",
   "system": "筋",
   "raw": "Internal intercostal muscles.r"
  },
- "p0277": {
+ "mu0277": {
   "en": "Interspinales colli muscles",
   "ja": "頸棘間筋",
   "side": "左",
   "system": "筋",
   "raw": "Interspinales colli muscles.l"
  },
- "p0278": {
+ "mu0278": {
   "en": "Interspinales colli muscles",
   "ja": "頸棘間筋",
   "side": "右",
   "system": "筋",
   "raw": "Interspinales colli muscles.r"
  },
- "p0279": {
+ "mu0279": {
   "en": "Interspinales lumborum muscles",
   "ja": "腰棘間筋",
   "side": "左",
   "system": "筋",
   "raw": "Interspinales lumborum muscles.l"
  },
- "p0280": {
+ "mu0280": {
   "en": "Interspinales lumborum muscles",
   "ja": "腰棘間筋",
   "side": "右",
   "system": "筋",
   "raw": "Interspinales lumborum muscles.r"
  },
- "p0281": {
+ "mu0281": {
   "en": "Interspinales thoracis muscles",
   "ja": "胸棘間筋",
   "side": "左",
   "system": "筋",
   "raw": "Interspinales thoracis muscles.l"
  },
- "p0282": {
+ "mu0282": {
   "en": "Interspinales thoracis muscles",
   "ja": "胸棘間筋",
   "side": "右",
   "system": "筋",
   "raw": "Interspinales thoracis muscles.r"
  },
- "p0283": {
+ "mu0283": {
   "en": "Lateral crico-arytenoid muscle",
   "ja": "外側輪状披裂筋",
   "side": "左",
   "system": "筋",
   "raw": "Lateral crico-arytenoid muscle.l"
  },
- "p0284": {
+ "mu0284": {
   "en": "Lateral crico-arytenoid muscle",
   "ja": "外側輪状披裂筋",
   "side": "右",
   "system": "筋",
   "raw": "Lateral crico-arytenoid muscle.r"
  },
- "p0285": {
+ "mu0285": {
   "en": "Lateral head of flexor hallucis brevis",
   "ja": "短母趾屈筋 外側頭",
   "side": "左",
   "system": "筋",
   "raw": "Lateral head of flexor hallucis brevis.l"
  },
- "p0286": {
+ "mu0286": {
   "en": "Lateral head of flexor hallucis brevis",
   "ja": "短母趾屈筋 外側頭",
   "side": "左",
   "system": "筋",
   "raw": "Lateral head of flexor hallucis brevis.ol"
  },
- "p0287": {
+ "mu0287": {
   "en": "Lateral head of flexor hallucis brevis",
   "ja": "短母趾屈筋 外側頭",
   "side": "右",
   "system": "筋",
   "raw": "Lateral head of flexor hallucis brevis.or"
  },
- "p0288": {
+ "mu0288": {
   "en": "Lateral head of flexor hallucis brevis",
   "ja": "短母趾屈筋 外側頭",
   "side": "右",
   "system": "筋",
   "raw": "Lateral head of flexor hallucis brevis.r"
  },
- "p0289": {
+ "mu0289": {
   "en": "Lateral head of gastrocnemius",
   "ja": "腓腹筋 外側頭",
   "side": "左",
   "system": "筋",
   "raw": "Lateral head of gastrocnemius.l"
  },
- "p0290": {
+ "mu0290": {
   "en": "Lateral head of gastrocnemius",
   "ja": "腓腹筋 外側頭",
   "side": "左",
   "system": "筋",
   "raw": "Lateral head of gastrocnemius.ol"
  },
- "p0291": {
+ "mu0291": {
   "en": "Lateral head of gastrocnemius",
   "ja": "腓腹筋 外側頭",
   "side": "右",
   "system": "筋",
   "raw": "Lateral head of gastrocnemius.or"
  },
- "p0292": {
+ "mu0292": {
   "en": "Lateral head of gastrocnemius",
   "ja": "腓腹筋 外側頭",
   "side": "右",
   "system": "筋",
   "raw": "Lateral head of gastrocnemius.r"
  },
- "p0293": {
+ "mu0293": {
   "en": "Lateral pterygoid muscle",
   "ja": "外側翼突筋",
   "side": "左",
   "system": "筋",
   "raw": "Lateral pterygoid muscle.ol"
  },
- "p0294": {
+ "mu0294": {
   "en": "Lateral pterygoid muscle",
   "ja": "外側翼突筋",
   "side": "右",
   "system": "筋",
   "raw": "Lateral pterygoid muscle.or"
  },
- "p0295": {
+ "mu0295": {
   "en": "Lateral rectus muscle",
   "ja": "外側直筋（眼）",
   "side": "左",
   "system": "筋",
   "raw": "Lateral rectus muscle.l"
  },
- "p0296": {
+ "mu0296": {
   "en": "Lateral rectus muscle",
   "ja": "外側直筋（眼）",
   "side": "右",
   "system": "筋",
   "raw": "Lateral rectus muscle.r"
  },
- "p0297": {
+ "mu0297": {
   "en": "Lateral subtendinous bursa of gastrocnemius muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Lateral subtendinous bursa of gastrocnemius muscle.l"
  },
- "p0298": {
+ "mu0298": {
   "en": "Lateral subtendinous bursa of gastrocnemius muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Lateral subtendinous bursa of gastrocnemius muscle.r"
  },
- "p0299": {
+ "mu0299": {
   "en": "Latissimus dorsi muscle",
   "ja": "広背筋",
   "side": "左",
   "system": "筋",
   "raw": "Latissimus dorsi muscle.l"
  },
- "p0300": {
+ "mu0300": {
   "en": "Latissimus dorsi muscle",
   "ja": "広背筋",
   "side": "左",
   "system": "筋",
   "raw": "Latissimus dorsi muscle.ol"
  },
- "p0301": {
+ "mu0301": {
   "en": "Latissimus dorsi muscle",
   "ja": "広背筋",
   "side": "右",
   "system": "筋",
   "raw": "Latissimus dorsi muscle.or"
  },
- "p0302": {
+ "mu0302": {
   "en": "Latissimus dorsi muscle",
   "ja": "広背筋",
   "side": "右",
   "system": "筋",
   "raw": "Latissimus dorsi muscle.r"
  },
- "p0303": {
+ "mu0303": {
   "en": "Levator anguli oris",
   "ja": "口角挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levator anguli oris.l"
  },
- "p0304": {
+ "mu0304": {
   "en": "Levator anguli oris",
   "ja": "口角挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levator anguli oris.ol"
  },
- "p0305": {
+ "mu0305": {
   "en": "Levator anguli oris",
   "ja": "口角挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levator anguli oris.or"
  },
- "p0306": {
+ "mu0306": {
   "en": "Levator anguli oris",
   "ja": "口角挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levator anguli oris.r"
  },
- "p0307": {
+ "mu0307": {
   "en": "Levator ani",
   "ja": "肛門挙筋",
   "side": "",
   "system": "筋",
   "raw": "Levator ani.j"
  },
- "p0308": {
+ "mu0308": {
   "en": "Levator ani",
   "ja": "肛門挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levator ani.ol"
  },
- "p0309": {
+ "mu0309": {
   "en": "Levator ani",
   "ja": "肛門挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levator ani.or"
  },
- "p0310": {
+ "mu0310": {
   "en": "Levator labii superioris",
   "ja": "上唇挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levator labii superioris.l"
  },
- "p0311": {
+ "mu0311": {
   "en": "Levator labii superioris",
   "ja": "上唇挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levator labii superioris.ol"
  },
- "p0312": {
+ "mu0312": {
   "en": "Levator labii superioris",
   "ja": "上唇挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levator labii superioris.or"
  },
- "p0313": {
+ "mu0313": {
   "en": "Levator labii superioris",
   "ja": "上唇挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levator labii superioris.r"
  },
- "p0314": {
+ "mu0314": {
   "en": "Levator nasolabialis",
   "ja": "上唇鼻翼挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levator nasolabialis.l"
  },
- "p0315": {
+ "mu0315": {
   "en": "Levator nasolabialis",
   "ja": "上唇鼻翼挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levator nasolabialis.ol"
  },
- "p0316": {
+ "mu0316": {
   "en": "Levator nasolabialis",
   "ja": "上唇鼻翼挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levator nasolabialis.or"
  },
- "p0317": {
+ "mu0317": {
   "en": "Levator nasolabialis",
   "ja": "上唇鼻翼挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levator nasolabialis.r"
  },
- "p0318": {
+ "mu0318": {
   "en": "Levator palpebrae superioris",
   "ja": "上眼瞼挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levator palpebrae superioris.l"
  },
- "p0319": {
+ "mu0319": {
   "en": "Levator palpebrae superioris",
   "ja": "上眼瞼挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levator palpebrae superioris.r"
  },
- "p0320": {
+ "mu0320": {
   "en": "Levator scapulae",
   "ja": "肩甲挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levator scapulae.l"
  },
- "p0321": {
+ "mu0321": {
   "en": "Levator scapulae",
   "ja": "肩甲挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levator scapulae.ol"
  },
- "p0322": {
+ "mu0322": {
   "en": "Levator scapulae",
   "ja": "肩甲挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levator scapulae.or"
  },
- "p0323": {
+ "mu0323": {
   "en": "Levator scapulae",
   "ja": "肩甲挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levator scapulae.r"
  },
- "p0324": {
+ "mu0324": {
   "en": "Levatores breves costarum",
   "ja": "短肋骨挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levatores breves costarum.l"
  },
- "p0325": {
+ "mu0325": {
   "en": "Levatores breves costarum",
   "ja": "短肋骨挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levatores breves costarum.r"
  },
- "p0326": {
+ "mu0326": {
   "en": "Levatores longi costarum",
   "ja": "長肋骨挙筋",
   "side": "左",
   "system": "筋",
   "raw": "Levatores longi costarum.l"
  },
- "p0327": {
+ "mu0327": {
   "en": "Levatores longi costarum",
   "ja": "長肋骨挙筋",
   "side": "右",
   "system": "筋",
   "raw": "Levatores longi costarum.r"
  },
- "p0328": {
+ "mu0328": {
   "en": "Longissimus capitis muscle",
   "ja": "頭最長筋",
   "side": "左",
   "system": "筋",
   "raw": "Longissimus capitis muscle.l"
  },
- "p0329": {
+ "mu0329": {
   "en": "Longissimus capitis muscle",
   "ja": "頭最長筋",
   "side": "右",
   "system": "筋",
   "raw": "Longissimus capitis muscle.r"
  },
- "p0330": {
+ "mu0330": {
   "en": "Longissimus colli muscle",
   "ja": "頸最長筋",
   "side": "左",
   "system": "筋",
   "raw": "Longissimus colli muscle.l"
  },
- "p0331": {
+ "mu0331": {
   "en": "Longissimus colli muscle",
   "ja": "頸最長筋",
   "side": "右",
   "system": "筋",
   "raw": "Longissimus colli muscle.r"
  },
- "p0332": {
+ "mu0332": {
   "en": "Longissimus thoracis muscle",
   "ja": "胸最長筋",
   "side": "左",
   "system": "筋",
   "raw": "Longissimus thoracis muscle.l"
  },
- "p0333": {
+ "mu0333": {
   "en": "Longissimus thoracis muscle",
   "ja": "胸最長筋",
   "side": "右",
   "system": "筋",
   "raw": "Longissimus thoracis muscle.r"
  },
- "p0334": {
+ "mu0334": {
   "en": "Longus capitis muscle",
   "ja": "頭長筋",
   "side": "左",
   "system": "筋",
   "raw": "Longus capitis muscle.l"
  },
- "p0335": {
+ "mu0335": {
   "en": "Longus capitis muscle",
   "ja": "頭長筋",
   "side": "右",
   "system": "筋",
   "raw": "Longus capitis muscle.or"
  },
- "p0336": {
+ "mu0336": {
   "en": "Longus capitis muscle",
   "ja": "頭長筋",
   "side": "左",
   "system": "筋",
   "raw": "Longus capitis muscle.ol"
  },
- "p0337": {
+ "mu0337": {
   "en": "Longus capitis muscle",
   "ja": "頭長筋",
   "side": "右",
   "system": "筋",
   "raw": "Longus capitis muscle.r"
  },
- "p0338": {
+ "mu0338": {
   "en": "Longus colli muscle",
   "ja": "頸長筋",
   "side": "左",
   "system": "筋",
   "raw": "Longus colli muscle.l"
  },
- "p0339": {
+ "mu0339": {
   "en": "Longus colli muscle",
   "ja": "頸長筋",
   "side": "右",
   "system": "筋",
   "raw": "Longus colli muscle.r"
  },
- "p0340": {
+ "mu0340": {
   "en": "Lumbrical muscles of foot",
   "ja": "虫様筋（足）",
   "side": "左",
   "system": "筋",
   "raw": "Lumbrical muscles of foot.l"
  },
- "p0341": {
+ "mu0341": {
   "en": "Lumbrical muscles of foot",
   "ja": "虫様筋（足）",
   "side": "右",
   "system": "筋",
   "raw": "Lumbrical muscles of foot.r"
  },
- "p0342": {
+ "mu0342": {
   "en": "Lumbrical muscles of hand",
   "ja": "虫様筋（手）",
   "side": "左",
   "system": "筋",
   "raw": "Lumbrical muscles of hand.l"
  },
- "p0343": {
+ "mu0343": {
   "en": "Lumbrical muscles of hand",
   "ja": "虫様筋（手）",
   "side": "右",
   "system": "筋",
   "raw": "Lumbrical muscles of hand.r"
  },
- "p0344": {
+ "mu0344": {
   "en": "Masseter",
   "ja": "咬筋",
   "side": "左",
   "system": "筋",
   "raw": "Masseter.ol"
  },
- "p0345": {
+ "mu0345": {
   "en": "Masseter",
   "ja": "咬筋",
   "side": "右",
   "system": "筋",
   "raw": "Masseter.or"
  },
- "p0346": {
+ "mu0346": {
   "en": "Medial head of flexor hallucis brevis",
   "ja": "短母趾屈筋 内側頭",
   "side": "左",
   "system": "筋",
   "raw": "Medial head of flexor hallucis brevis.l"
  },
- "p0347": {
+ "mu0347": {
   "en": "Medial head of flexor hallucis brevis",
   "ja": "短母趾屈筋 内側頭",
   "side": "右",
   "system": "筋",
   "raw": "Medial head of flexor hallucis brevis.r"
  },
- "p0348": {
+ "mu0348": {
   "en": "Medial head of gastrocnemius",
   "ja": "腓腹筋 内側頭",
   "side": "左",
   "system": "筋",
   "raw": "Medial head of gastrocnemius.l"
  },
- "p0349": {
+ "mu0349": {
   "en": "Medial head of gastrocnemius",
   "ja": "腓腹筋 内側頭",
   "side": "左",
   "system": "筋",
   "raw": "Medial head of gastrocnemius.ol"
  },
- "p0350": {
+ "mu0350": {
   "en": "Medial head of gastrocnemius",
   "ja": "腓腹筋 内側頭",
   "side": "右",
   "system": "筋",
   "raw": "Medial head of gastrocnemius.or"
  },
- "p0351": {
+ "mu0351": {
   "en": "Medial head of gastrocnemius",
   "ja": "腓腹筋 内側頭",
   "side": "右",
   "system": "筋",
   "raw": "Medial head of gastrocnemius.r"
  },
- "p0352": {
+ "mu0352": {
   "en": "Medial pterygoid muscle",
   "ja": "内側翼突筋",
   "side": "左",
   "system": "筋",
   "raw": "Medial pterygoid muscle.l"
  },
- "p0353": {
+ "mu0353": {
   "en": "Medial pterygoid muscle",
   "ja": "内側翼突筋",
   "side": "左",
   "system": "筋",
   "raw": "Medial pterygoid muscle.ol"
  },
- "p0354": {
+ "mu0354": {
   "en": "Medial pterygoid muscle",
   "ja": "内側翼突筋",
   "side": "右",
   "system": "筋",
   "raw": "Medial pterygoid muscle.or"
  },
- "p0355": {
+ "mu0355": {
   "en": "Medial pterygoid muscle",
   "ja": "内側翼突筋",
   "side": "右",
   "system": "筋",
   "raw": "Medial pterygoid muscle.r"
  },
- "p0356": {
+ "mu0356": {
   "en": "Medial rectus muscle",
   "ja": "内側直筋（眼）",
   "side": "左",
   "system": "筋",
   "raw": "Medial rectus muscle.l"
  },
- "p0357": {
+ "mu0357": {
   "en": "Medial rectus muscle",
   "ja": "内側直筋（眼）",
   "side": "右",
   "system": "筋",
   "raw": "Medial rectus muscle.r"
  },
- "p0358": {
+ "mu0358": {
   "en": "Medial subtendinous bursa of gastrocnemius muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Medial subtendinous bursa of gastrocnemius muscle.l"
  },
- "p0359": {
+ "mu0359": {
   "en": "Medial subtendinous bursa of gastrocnemius muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Medial subtendinous bursa of gastrocnemius muscle.r"
  },
- "p0360": {
+ "mu0360": {
   "en": "Mentalis muscle",
   "ja": "オトガイ筋",
   "side": "左",
   "system": "筋",
   "raw": "Mentalis muscle.l"
  },
- "p0361": {
+ "mu0361": {
   "en": "Mentalis muscle",
   "ja": "オトガイ筋",
   "side": "左",
   "system": "筋",
   "raw": "Mentalis muscle.ol"
  },
- "p0362": {
+ "mu0362": {
   "en": "Mentalis muscle",
   "ja": "オトガイ筋",
   "side": "右",
   "system": "筋",
   "raw": "Mentalis muscle.or"
  },
- "p0363": {
+ "mu0363": {
   "en": "Mentalis muscle",
   "ja": "オトガイ筋",
   "side": "右",
   "system": "筋",
   "raw": "Mentalis muscle.r"
  },
- "p0364": {
+ "mu0364": {
   "en": "Middle pharyngeal constrictor",
   "ja": "中咽頭収縮筋",
   "side": "左",
   "system": "筋",
   "raw": "Middle pharyngeal constrictor.l"
  },
- "p0365": {
+ "mu0365": {
   "en": "Middle pharyngeal constrictor",
   "ja": "中咽頭収縮筋",
   "side": "右",
   "system": "筋",
   "raw": "Middle pharyngeal constrictor.r"
  },
- "p0366": {
+ "mu0366": {
   "en": "Multifidus colli muscle",
   "ja": "頸多裂筋",
   "side": "左",
   "system": "筋",
   "raw": "Multifidus colli muscle.l"
  },
- "p0367": {
+ "mu0367": {
   "en": "Multifidus colli muscle",
   "ja": "頸多裂筋",
   "side": "右",
   "system": "筋",
   "raw": "Multifidus colli muscle.r"
  },
- "p0368": {
+ "mu0368": {
   "en": "Multifidus lumborum muscle",
   "ja": "腰多裂筋",
   "side": "左",
   "system": "筋",
   "raw": "Multifidus lumborum muscle.l"
  },
- "p0369": {
+ "mu0369": {
   "en": "Multifidus lumborum muscle",
   "ja": "腰多裂筋",
   "side": "右",
   "system": "筋",
   "raw": "Multifidus lumborum muscle.r"
  },
- "p0370": {
+ "mu0370": {
   "en": "Multifidus thoracis muscle",
   "ja": "胸多裂筋",
   "side": "左",
   "system": "筋",
   "raw": "Multifidus thoracis muscle.l"
  },
- "p0371": {
+ "mu0371": {
   "en": "Multifidus thoracis muscle",
   "ja": "胸多裂筋",
   "side": "右",
   "system": "筋",
   "raw": "Multifidus thoracis muscle.r"
  },
- "p0372": {
+ "mu0372": {
   "en": "Mylohyoid muscle",
   "ja": "顎舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Mylohyoid muscle.l"
  },
- "p0373": {
+ "mu0373": {
   "en": "Mylohyoid muscle",
   "ja": "顎舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Mylohyoid muscle.or"
  },
- "p0374": {
+ "mu0374": {
   "en": "Mylohyoid muscle",
   "ja": "顎舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Mylohyoid muscle.ol"
  },
- "p0375": {
+ "mu0375": {
   "en": "Mylohyoid muscle",
   "ja": "顎舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Mylohyoid muscle.r"
  },
- "p0376": {
+ "mu0376": {
   "en": "Nasalis muscle",
   "ja": "鼻筋",
   "side": "左",
   "system": "筋",
   "raw": "Nasalis muscle.l"
  },
- "p0377": {
+ "mu0377": {
   "en": "Nasalis muscle",
   "ja": "鼻筋",
   "side": "左",
   "system": "筋",
   "raw": "Nasalis muscle.ol"
  },
- "p0378": {
+ "mu0378": {
   "en": "Nasalis muscle",
   "ja": "鼻筋",
   "side": "右",
   "system": "筋",
   "raw": "Nasalis muscle.or"
  },
- "p0379": {
+ "mu0379": {
   "en": "Nasalis muscle",
   "ja": "鼻筋",
   "side": "右",
   "system": "筋",
   "raw": "Nasalis muscle.r"
  },
- "p0380": {
+ "mu0380": {
   "en": "Oblique head of adductor hallucis",
   "ja": "母趾内転筋 斜頭",
   "side": "左",
   "system": "筋",
   "raw": "Oblique head of adductor hallucis.l"
  },
- "p0381": {
+ "mu0381": {
   "en": "Oblique head of adductor hallucis",
   "ja": "母趾内転筋 斜頭",
   "side": "左",
   "system": "筋",
   "raw": "Oblique head of adductor hallucis.ol"
  },
- "p0382": {
+ "mu0382": {
   "en": "Oblique head of adductor hallucis",
   "ja": "母趾内転筋 斜頭",
   "side": "右",
   "system": "筋",
   "raw": "Oblique head of adductor hallucis.or"
  },
- "p0383": {
+ "mu0383": {
   "en": "Oblique head of adductor hallucis",
   "ja": "母趾内転筋 斜頭",
   "side": "右",
   "system": "筋",
   "raw": "Oblique head of adductor hallucis.r"
  },
- "p0384": {
+ "mu0384": {
   "en": "Oblique head of adductor pollicis",
   "ja": "母指内転筋 斜頭",
   "side": "左",
   "system": "筋",
   "raw": "Oblique head of adductor pollicis.l"
  },
- "p0385": {
+ "mu0385": {
   "en": "Oblique head of adductor pollicis",
   "ja": "母指内転筋 斜頭",
   "side": "右",
   "system": "筋",
   "raw": "Oblique head of adductor pollicis.r"
  },
- "p0386": {
+ "mu0386": {
   "en": "Obliquus inferior capitis muscle",
   "ja": "下頭斜筋",
   "side": "左",
   "system": "筋",
   "raw": "Obliquus inferior capitis muscle.l"
  },
- "p0387": {
+ "mu0387": {
   "en": "Obliquus inferior capitis muscle",
   "ja": "下頭斜筋",
   "side": "左",
   "system": "筋",
   "raw": "Obliquus inferior capitis muscle.ol"
  },
- "p0388": {
+ "mu0388": {
   "en": "Obliquus inferior capitis muscle",
   "ja": "下頭斜筋",
   "side": "右",
   "system": "筋",
   "raw": "Obliquus inferior capitis muscle.or"
  },
- "p0389": {
+ "mu0389": {
   "en": "Obliquus inferior capitis muscle",
   "ja": "下頭斜筋",
   "side": "右",
   "system": "筋",
   "raw": "Obliquus inferior capitis muscle.r"
  },
- "p0390": {
+ "mu0390": {
   "en": "Obliquus superior capitis muscle",
   "ja": "上頭斜筋",
   "side": "左",
   "system": "筋",
   "raw": "Obliquus superior capitis muscle.l"
  },
- "p0391": {
+ "mu0391": {
   "en": "Obliquus superior capitis muscle",
   "ja": "上頭斜筋",
   "side": "左",
   "system": "筋",
   "raw": "Obliquus superior capitis muscle.ol"
  },
- "p0392": {
+ "mu0392": {
   "en": "Obliquus superior capitis muscle",
   "ja": "上頭斜筋",
   "side": "右",
   "system": "筋",
   "raw": "Obliquus superior capitis muscle.or"
  },
- "p0393": {
+ "mu0393": {
   "en": "Obliquus superior capitis muscle",
   "ja": "上頭斜筋",
   "side": "右",
   "system": "筋",
   "raw": "Obliquus superior capitis muscle.r"
  },
- "p0394": {
+ "mu0394": {
   "en": "Occipitalis muscle",
   "ja": "後頭筋",
   "side": "左",
   "system": "筋",
   "raw": "Occipitalis muscle.l"
  },
- "p0395": {
+ "mu0395": {
   "en": "Occipitalis muscle",
   "ja": "後頭筋",
   "side": "左",
   "system": "筋",
   "raw": "Occipitalis muscle.ol"
  },
- "p0396": {
+ "mu0396": {
   "en": "Occipitalis muscle",
   "ja": "後頭筋",
   "side": "右",
   "system": "筋",
   "raw": "Occipitalis muscle.or"
  },
- "p0397": {
+ "mu0397": {
   "en": "Occipitalis muscle",
   "ja": "後頭筋",
   "side": "右",
   "system": "筋",
   "raw": "Occipitalis muscle.r"
  },
- "p0398": {
+ "mu0398": {
   "en": "Omohyoid muscle",
   "ja": "肩甲舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Omohyoid muscle.l"
  },
- "p0399": {
+ "mu0399": {
   "en": "Omohyoid muscle",
   "ja": "肩甲舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Omohyoid muscle.ol"
  },
- "p0400": {
+ "mu0400": {
   "en": "Omohyoid muscle",
   "ja": "肩甲舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Omohyoid muscle.or"
  },
- "p0401": {
+ "mu0401": {
   "en": "Omohyoid muscle",
   "ja": "肩甲舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Omohyoid muscle.r"
  },
- "p0402": {
+ "mu0402": {
   "en": "Opponens digiti minimi muscle of hand",
   "ja": "小指対立筋",
   "side": "左",
   "system": "筋",
   "raw": "Opponens digiti minimi muscle of hand.l"
  },
- "p0403": {
+ "mu0403": {
   "en": "Opponens digiti minimi muscle of hand",
   "ja": "小指対立筋",
   "side": "左",
   "system": "筋",
   "raw": "Opponens digiti minimi muscle of hand.ol"
  },
- "p0404": {
+ "mu0404": {
   "en": "Opponens digiti minimi muscle of hand",
   "ja": "小指対立筋",
   "side": "右",
   "system": "筋",
   "raw": "Opponens digiti minimi muscle of hand.or"
  },
- "p0405": {
+ "mu0405": {
   "en": "Opponens digiti minimi muscle of hand",
   "ja": "小指対立筋",
   "side": "右",
   "system": "筋",
   "raw": "Opponens digiti minimi muscle of hand.r"
  },
- "p0406": {
+ "mu0406": {
   "en": "Opponens pollicis muscle",
   "ja": "母指対立筋",
   "side": "左",
   "system": "筋",
   "raw": "Opponens pollicis muscle.l"
  },
- "p0407": {
+ "mu0407": {
   "en": "Opponens pollicis muscle",
   "ja": "母指対立筋",
   "side": "右",
   "system": "筋",
   "raw": "Opponens pollicis muscle.r"
  },
- "p0408": {
+ "mu0408": {
   "en": "Orbicularis oris muscle",
   "ja": "口輪筋",
   "side": "左",
   "system": "筋",
   "raw": "Orbicularis oris muscle.l"
  },
- "p0409": {
+ "mu0409": {
   "en": "Orbicularis oris muscle",
   "ja": "口輪筋",
   "side": "左",
   "system": "筋",
   "raw": "Orbicularis oris muscle.ol"
  },
- "p0410": {
+ "mu0410": {
   "en": "Orbicularis oris muscle",
   "ja": "口輪筋",
   "side": "右",
   "system": "筋",
   "raw": "Orbicularis oris muscle.or"
  },
- "p0411": {
+ "mu0411": {
   "en": "Orbicularis oris muscle",
   "ja": "口輪筋",
   "side": "右",
   "system": "筋",
   "raw": "Orbicularis oris muscle.r"
  },
- "p0412": {
+ "mu0412": {
   "en": "Orbital part of orbicularis oculi",
   "ja": "眼輪筋 眼窩部",
   "side": "左",
   "system": "筋",
   "raw": "Orbital part of orbicularis oculi.ol"
  },
- "p0413": {
+ "mu0413": {
   "en": "Orbital part of orbicularis oculi",
   "ja": "眼輪筋 眼窩部",
   "side": "右",
   "system": "筋",
   "raw": "Orbital part of orbicularis oculi.or"
  },
- "p0414": {
+ "mu0414": {
   "en": "Palatopharyngeus muscle",
   "ja": "口蓋咽頭筋",
   "side": "左",
   "system": "筋",
   "raw": "Palatopharyngeus muscle.l"
  },
- "p0415": {
+ "mu0415": {
   "en": "Palatopharyngeus muscle",
   "ja": "口蓋咽頭筋",
   "side": "右",
   "system": "筋",
   "raw": "Palatopharyngeus muscle.r"
  },
- "p0416": {
+ "mu0416": {
   "en": "Palmar interossei muscles",
   "ja": "掌側骨間筋",
   "side": "左",
   "system": "筋",
   "raw": "Palmar interossei muscles.l"
  },
- "p0417": {
+ "mu0417": {
   "en": "Palmar interossei muscles",
   "ja": "掌側骨間筋",
   "side": "右",
   "system": "筋",
   "raw": "Palmar interossei muscles.r"
  },
- "p0418": {
+ "mu0418": {
   "en": "Palmaris longus muscle",
   "ja": "長掌筋",
   "side": "左",
   "system": "筋",
   "raw": "Palmaris longus muscle.l"
  },
- "p0419": {
+ "mu0419": {
   "en": "Palmaris longus muscle",
   "ja": "長掌筋",
   "side": "右",
   "system": "筋",
   "raw": "Palmaris longus muscle.r"
  },
- "p0420": {
+ "mu0420": {
   "en": "Pectineus muscle",
   "ja": "恥骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Pectineus muscle.l"
  },
- "p0421": {
+ "mu0421": {
   "en": "Pectineus muscle",
   "ja": "恥骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Pectineus muscle.ol"
  },
- "p0422": {
+ "mu0422": {
   "en": "Pectineus muscle",
   "ja": "恥骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Pectineus muscle.or"
  },
- "p0423": {
+ "mu0423": {
   "en": "Pectineus muscle",
   "ja": "恥骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Pectineus muscle.r"
  },
- "p0424": {
+ "mu0424": {
   "en": "Pectoralis major muscle",
   "ja": "大胸筋",
   "side": "",
   "system": "筋",
   "raw": "Pectoralis major muscle.j"
  },
- "p0425": {
+ "mu0425": {
   "en": "Pectoralis major muscle",
   "ja": "大胸筋",
   "side": "左",
   "system": "筋",
   "raw": "Pectoralis major muscle.ol"
  },
- "p0426": {
+ "mu0426": {
   "en": "Pectoralis major muscle",
   "ja": "大胸筋",
   "side": "右",
   "system": "筋",
   "raw": "Pectoralis major muscle.or"
  },
- "p0427": {
+ "mu0427": {
   "en": "Pectoralis minor muscle",
   "ja": "小胸筋",
   "side": "左",
   "system": "筋",
   "raw": "Pectoralis minor muscle.l"
  },
- "p0428": {
+ "mu0428": {
   "en": "Pectoralis minor muscle",
   "ja": "小胸筋",
   "side": "左",
   "system": "筋",
   "raw": "Pectoralis minor muscle.ol"
  },
- "p0429": {
+ "mu0429": {
   "en": "Pectoralis minor muscle",
   "ja": "小胸筋",
   "side": "右",
   "system": "筋",
   "raw": "Pectoralis minor muscle.or"
  },
- "p0430": {
+ "mu0430": {
   "en": "Pectoralis minor muscle",
   "ja": "小胸筋",
   "side": "右",
   "system": "筋",
   "raw": "Pectoralis minor muscle.r"
  },
- "p0431": {
+ "mu0431": {
   "en": "Piriformis muscle",
   "ja": "梨状筋",
   "side": "左",
   "system": "筋",
   "raw": "Piriformis muscle.l"
  },
- "p0432": {
+ "mu0432": {
   "en": "Piriformis muscle",
   "ja": "梨状筋",
   "side": "右",
   "system": "筋",
   "raw": "Piriformis muscle.r"
  },
- "p0433": {
+ "mu0433": {
   "en": "Plantar interossei muscles",
   "ja": "底側骨間筋",
   "side": "左",
   "system": "筋",
   "raw": "Plantar interossei muscles.l"
  },
- "p0434": {
+ "mu0434": {
   "en": "Plantar interossei muscles",
   "ja": "底側骨間筋",
   "side": "右",
   "system": "筋",
   "raw": "Plantar interossei muscles.r"
  },
- "p0435": {
+ "mu0435": {
   "en": "Plantar tendon sheath of fibularis longus muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Plantar tendon sheath of fibularis longus muscle.l"
  },
- "p0436": {
+ "mu0436": {
   "en": "Plantar tendon sheath of fibularis longus muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Plantar tendon sheath of fibularis longus muscle.r"
  },
- "p0437": {
+ "mu0437": {
   "en": "Plantaris muscle",
   "ja": "足底筋",
   "side": "左",
   "system": "筋",
   "raw": "Plantaris muscle.l"
  },
- "p0438": {
+ "mu0438": {
   "en": "Plantaris muscle",
   "ja": "足底筋",
   "side": "左",
   "system": "筋",
   "raw": "Plantaris muscle.ol"
  },
- "p0439": {
+ "mu0439": {
   "en": "Plantaris muscle",
   "ja": "足底筋",
   "side": "右",
   "system": "筋",
   "raw": "Plantaris muscle.or"
  },
- "p0440": {
+ "mu0440": {
   "en": "Plantaris muscle",
   "ja": "足底筋",
   "side": "右",
   "system": "筋",
   "raw": "Plantaris muscle.r"
  },
- "p0441": {
+ "mu0441": {
   "en": "Popliteus muscle",
   "ja": "膝窩筋",
   "side": "左",
   "system": "筋",
   "raw": "Popliteus muscle.l"
  },
- "p0442": {
+ "mu0442": {
   "en": "Popliteus muscle",
   "ja": "膝窩筋",
   "side": "左",
   "system": "筋",
   "raw": "Popliteus muscle.ol"
  },
- "p0443": {
+ "mu0443": {
   "en": "Popliteus muscle",
   "ja": "膝窩筋",
   "side": "右",
   "system": "筋",
   "raw": "Popliteus muscle.or"
  },
- "p0444": {
+ "mu0444": {
   "en": "Popliteus muscle",
   "ja": "膝窩筋",
   "side": "右",
   "system": "筋",
   "raw": "Popliteus muscle.r"
  },
- "p0445": {
+ "mu0445": {
   "en": "Posterior crico-arytenoid muscle",
   "ja": "後輪状披裂筋",
   "side": "左",
   "system": "筋",
   "raw": "Posterior crico-arytenoid muscle.l"
  },
- "p0446": {
+ "mu0446": {
   "en": "Posterior crico-arytenoid muscle",
   "ja": "後輪状披裂筋",
   "side": "右",
   "system": "筋",
   "raw": "Posterior crico-arytenoid muscle.r"
  },
- "p0447": {
+ "mu0447": {
   "en": "Procerus muscle",
   "ja": "鼻根筋",
   "side": "左",
   "system": "筋",
   "raw": "Procerus muscle.l"
  },
- "p0448": {
+ "mu0448": {
   "en": "Procerus muscle",
   "ja": "鼻根筋",
   "side": "右",
   "system": "筋",
   "raw": "Procerus muscle.r"
  },
- "p0449": {
+ "mu0449": {
   "en": "Pronator quadratus",
   "ja": "方形回内筋",
   "side": "左",
   "system": "筋",
   "raw": "Pronator quadratus.l"
  },
- "p0450": {
+ "mu0450": {
   "en": "Pronator quadratus",
   "ja": "方形回内筋",
   "side": "右",
   "system": "筋",
   "raw": "Pronator quadratus.r"
  },
- "p0451": {
+ "mu0451": {
   "en": "Pronator teres",
   "ja": "円回内筋",
   "side": "左",
   "system": "筋",
   "raw": "Pronator teres.ol"
  },
- "p0452": {
+ "mu0452": {
   "en": "Pubo-analis muscle",
   "ja": "恥骨肛門筋",
   "side": "左",
   "system": "筋",
   "raw": "Pubo-analis muscle.l"
  },
- "p0453": {
+ "mu0453": {
   "en": "Pubo-analis muscle",
   "ja": "恥骨肛門筋",
   "side": "右",
   "system": "筋",
   "raw": "Pubo-analis muscle.r"
  },
- "p0454": {
+ "mu0454": {
   "en": "Pubococcygeus muscle",
   "ja": "恥骨尾骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Pubococcygeus muscle.l"
  },
- "p0455": {
+ "mu0455": {
   "en": "Pubococcygeus muscle",
   "ja": "恥骨尾骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Pubococcygeus muscle.r"
  },
- "p0456": {
+ "mu0456": {
   "en": "Pyramidalis muscle",
   "ja": "錐体筋",
   "side": "左",
   "system": "筋",
   "raw": "Pyramidalis muscle.l"
  },
- "p0457": {
+ "mu0457": {
   "en": "Pyramidalis muscle",
   "ja": "錐体筋",
   "side": "右",
   "system": "筋",
   "raw": "Pyramidalis muscle.r"
  },
- "p0458": {
+ "mu0458": {
   "en": "Quadratus femoris muscle",
   "ja": "大腿方形筋",
   "side": "左",
   "system": "筋",
   "raw": "Quadratus femoris muscle.l"
  },
- "p0459": {
+ "mu0459": {
   "en": "Quadratus femoris muscle",
   "ja": "大腿方形筋",
   "side": "右",
   "system": "筋",
   "raw": "Quadratus femoris muscle.r"
  },
- "p0460": {
+ "mu0460": {
   "en": "Quadratus lumborum muscle",
   "ja": "腰方形筋",
   "side": "左",
   "system": "筋",
   "raw": "Quadratus lumborum muscle.l"
  },
- "p0461": {
+ "mu0461": {
   "en": "Quadratus lumborum muscle",
   "ja": "腰方形筋",
   "side": "右",
   "system": "筋",
   "raw": "Quadratus lumborum muscle.r"
  },
- "p0462": {
+ "mu0462": {
   "en": "Quadratus plantae muscle",
   "ja": "足底方形筋",
   "side": "左",
   "system": "筋",
   "raw": "Quadratus plantae muscle.l"
  },
- "p0463": {
+ "mu0463": {
   "en": "Quadratus plantae muscle",
   "ja": "足底方形筋",
   "side": "右",
   "system": "筋",
   "raw": "Quadratus plantae muscle.r"
  },
- "p0464": {
+ "mu0464": {
   "en": "Radial head of flexor digitorum superficialis",
   "ja": "浅指屈筋 橈骨頭",
   "side": "左",
   "system": "筋",
   "raw": "Radial head of flexor digitorum superficialis.l"
  },
- "p0465": {
+ "mu0465": {
   "en": "Radial head of flexor digitorum superficialis",
   "ja": "浅指屈筋 橈骨頭",
   "side": "右",
   "system": "筋",
   "raw": "Radial head of flexor digitorum superficialis.r"
  },
- "p0466": {
+ "mu0466": {
   "en": "Rectus abdominis muscle",
   "ja": "腹直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus abdominis muscle.l"
  },
- "p0467": {
+ "mu0467": {
   "en": "Rectus abdominis muscle",
   "ja": "腹直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus abdominis muscle.r"
  },
- "p0468": {
+ "mu0468": {
   "en": "Rectus femoris muscle",
   "ja": "大腿直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus femoris muscle.l"
  },
- "p0469": {
+ "mu0469": {
   "en": "Rectus femoris muscle",
   "ja": "大腿直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus femoris muscle.r"
  },
- "p0470": {
+ "mu0470": {
   "en": "Rectus posterior major capitis muscle",
   "ja": "大後頭直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus posterior major capitis muscle.l"
  },
- "p0471": {
+ "mu0471": {
   "en": "Rectus posterior major capitis muscle",
   "ja": "大後頭直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus posterior major capitis muscle.r"
  },
- "p0472": {
+ "mu0472": {
   "en": "Rectus posterior minor capitis muscle",
   "ja": "小後頭直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus posterior minor capitis muscle.l"
  },
- "p0473": {
+ "mu0473": {
   "en": "Rectus posterior minor capitis muscle",
   "ja": "小後頭直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus posterior minor capitis muscle.r"
  },
- "p0474": {
+ "mu0474": {
   "en": "Rhomboid major muscle",
   "ja": "大菱形筋",
   "side": "左",
   "system": "筋",
   "raw": "Rhomboid major muscle.l"
  },
- "p0475": {
+ "mu0475": {
   "en": "Rhomboid major muscle",
   "ja": "大菱形筋",
   "side": "右",
   "system": "筋",
   "raw": "Rhomboid major muscle.r"
  },
- "p0476": {
+ "mu0476": {
   "en": "Rhomboid minor muscle",
   "ja": "小菱形筋",
   "side": "左",
   "system": "筋",
   "raw": "Rhomboid minor muscle.l"
  },
- "p0477": {
+ "mu0477": {
   "en": "Rhomboid minor muscle",
   "ja": "小菱形筋",
   "side": "右",
   "system": "筋",
   "raw": "Rhomboid minor muscle.r"
  },
- "p0478": {
+ "mu0478": {
   "en": "Risorius muscle",
   "ja": "笑筋",
   "side": "左",
   "system": "筋",
   "raw": "Risorius muscle.l"
  },
- "p0479": {
+ "mu0479": {
   "en": "Risorius muscle",
   "ja": "笑筋",
   "side": "右",
   "system": "筋",
   "raw": "Risorius muscle.r"
  },
- "p0480": {
+ "mu0480": {
   "en": "Sartorius muscle",
   "ja": "縫工筋",
   "side": "左",
   "system": "筋",
   "raw": "Sartorius muscle.l"
  },
- "p0481": {
+ "mu0481": {
   "en": "Sartorius muscle",
   "ja": "縫工筋",
   "side": "右",
   "system": "筋",
   "raw": "Sartorius muscle.r"
  },
- "p0482": {
+ "mu0482": {
   "en": "Scalenus anterior muscle",
   "ja": "前斜角筋",
   "side": "左",
   "system": "筋",
   "raw": "Scalenus anterior muscle.l"
  },
- "p0483": {
+ "mu0483": {
   "en": "Scalenus anterior muscle",
   "ja": "前斜角筋",
   "side": "右",
   "system": "筋",
   "raw": "Scalenus anterior muscle.r"
  },
- "p0484": {
+ "mu0484": {
   "en": "Scalenus medius muscle",
   "ja": "中斜角筋",
   "side": "左",
   "system": "筋",
   "raw": "Scalenus medius muscle.l"
  },
- "p0485": {
+ "mu0485": {
   "en": "Scalenus medius muscle",
   "ja": "中斜角筋",
   "side": "右",
   "system": "筋",
   "raw": "Scalenus medius muscle.r"
  },
- "p0486": {
+ "mu0486": {
   "en": "Scalenus posterior muscle",
   "ja": "後斜角筋",
   "side": "左",
   "system": "筋",
   "raw": "Scalenus posterior muscle.l"
  },
- "p0487": {
+ "mu0487": {
   "en": "Scalenus posterior muscle",
   "ja": "後斜角筋",
   "side": "右",
   "system": "筋",
   "raw": "Scalenus posterior muscle.r"
  },
- "p0488": {
+ "mu0488": {
   "en": "Semimembranosus muscle",
   "ja": "半膜様筋",
   "side": "左",
   "system": "筋",
   "raw": "Semimembranosus muscle.l"
  },
- "p0489": {
+ "mu0489": {
   "en": "Semimembranosus muscle",
   "ja": "半膜様筋",
   "side": "右",
   "system": "筋",
   "raw": "Semimembranosus muscle.r"
  },
- "p0490": {
+ "mu0490": {
   "en": "Semispinalis colli muscle",
   "ja": "頸半棘筋",
   "side": "左",
   "system": "筋",
   "raw": "Semispinalis colli muscle.l"
  },
- "p0491": {
+ "mu0491": {
   "en": "Semispinalis colli muscle",
   "ja": "頸半棘筋",
   "side": "右",
   "system": "筋",
   "raw": "Semispinalis colli muscle.r"
  },
- "p0492": {
+ "mu0492": {
   "en": "Semispinalis thoracis muscle",
   "ja": "胸半棘筋",
   "side": "右",
   "system": "筋",
   "raw": "Semispinalis thoracis muscle.r"
  },
- "p0493": {
+ "mu0493": {
   "en": "Semitendinosus muscle",
   "ja": "半腱様筋",
   "side": "左",
   "system": "筋",
   "raw": "Semitendinosus muscle.l"
  },
- "p0494": {
+ "mu0494": {
   "en": "Semitendinosus muscle",
   "ja": "半腱様筋",
   "side": "右",
   "system": "筋",
   "raw": "Semitendinosus muscle.r"
  },
- "p0495": {
+ "mu0495": {
   "en": "Septal papillary muscle of right ventricle",
   "ja": "",
   "side": "",
   "system": "筋",
   "raw": "Septal papillary muscle of right ventricle"
  },
- "p0496": {
+ "mu0496": {
   "en": "Serratus anterior muscle",
   "ja": "前鋸筋",
   "side": "左",
   "system": "筋",
   "raw": "Serratus anterior muscle.l"
  },
- "p0497": {
+ "mu0497": {
   "en": "Serratus anterior muscle",
   "ja": "前鋸筋",
   "side": "右",
   "system": "筋",
   "raw": "Serratus anterior muscle.r"
  },
- "p0498": {
+ "mu0498": {
   "en": "Serratus posterior inferior muscle",
   "ja": "下後鋸筋",
   "side": "左",
   "system": "筋",
   "raw": "Serratus posterior inferior muscle.l"
  },
- "p0499": {
+ "mu0499": {
   "en": "Serratus posterior inferior muscle",
   "ja": "下後鋸筋",
   "side": "右",
   "system": "筋",
   "raw": "Serratus posterior inferior muscle.r"
  },
- "p0500": {
+ "mu0500": {
   "en": "Serratus posterior superior muscle",
   "ja": "上後鋸筋",
   "side": "左",
   "system": "筋",
   "raw": "Serratus posterior superior muscle.l"
  },
- "p0501": {
+ "mu0501": {
   "en": "Serratus posterior superior muscle",
   "ja": "上後鋸筋",
   "side": "右",
   "system": "筋",
   "raw": "Serratus posterior superior muscle.r"
  },
- "p0502": {
+ "mu0502": {
   "en": "Soleus muscle",
   "ja": "ヒラメ筋",
   "side": "左",
   "system": "筋",
   "raw": "Soleus muscle.l"
  },
- "p0503": {
+ "mu0503": {
   "en": "Soleus muscle",
   "ja": "ヒラメ筋",
   "side": "右",
   "system": "筋",
   "raw": "Soleus muscle.r"
  },
- "p0504": {
+ "mu0504": {
   "en": "External part of thyro-arytenoid muscle",
   "ja": "甲状披裂筋 外側部",
   "side": "左",
   "system": "筋",
   "raw": "External part of thyro-arytenoid muscle.l"
  },
- "p0505": {
+ "mu0505": {
   "en": "External part of thyro-arytenoid muscle",
   "ja": "甲状披裂筋 外側部",
   "side": "右",
   "system": "筋",
   "raw": "External part of thyro-arytenoid muscle.r"
  },
- "p0506": {
+ "mu0506": {
   "en": "Oblique part of cricothyroid muscle",
   "ja": "輪状甲状筋 斜部",
   "side": "左",
   "system": "筋",
   "raw": "Oblique part of cricothyroid muscle.l"
  },
- "p0507": {
+ "mu0507": {
   "en": "Oblique part of cricothyroid muscle",
   "ja": "輪状甲状筋 斜部",
   "side": "右",
   "system": "筋",
   "raw": "Oblique part of cricothyroid muscle.r"
  },
- "p0508": {
+ "mu0508": {
   "en": "Orbital part of orbicularis oculi",
   "ja": "眼輪筋 眼窩部",
   "side": "左",
   "system": "筋",
   "raw": "Orbital part of orbicularis oculi.l"
  },
- "p0509": {
+ "mu0509": {
   "en": "Orbital part of orbicularis oculi",
   "ja": "眼輪筋 眼窩部",
   "side": "右",
   "system": "筋",
   "raw": "Orbital part of orbicularis oculi.r"
  },
- "p0510": {
+ "mu0510": {
   "en": "Palpebral part of orbicularis oculi",
   "ja": "眼輪筋 眼瞼部",
   "side": "左",
   "system": "筋",
   "raw": "Palpebral part of orbicularis oculi.l"
  },
- "p0511": {
+ "mu0511": {
   "en": "Palpebral part of orbicularis oculi",
   "ja": "眼輪筋 眼瞼部",
   "side": "右",
   "system": "筋",
   "raw": "Palpebral part of orbicularis oculi.r"
  },
- "p0512": {
+ "mu0512": {
   "en": "Piriformis muscle",
   "ja": "梨状筋",
   "side": "左",
   "system": "筋",
   "raw": "Piriformis muscle.ol"
  },
- "p0513": {
+ "mu0513": {
   "en": "Piriformis muscle",
   "ja": "梨状筋",
   "side": "右",
   "system": "筋",
   "raw": "Piriformis muscle.or"
  },
- "p0514": {
+ "mu0514": {
   "en": "Plantar interossei muscles",
   "ja": "底側骨間筋",
   "side": "左",
   "system": "筋",
   "raw": "Plantar interossei muscles.ol"
  },
- "p0515": {
+ "mu0515": {
   "en": "Platysma",
   "ja": "広頸筋",
   "side": "左",
   "system": "筋",
   "raw": "Platysma.l"
  },
- "p0516": {
+ "mu0516": {
   "en": "Platysma",
   "ja": "広頸筋",
   "side": "右",
   "system": "筋",
   "raw": "Platysma.r"
  },
- "p0517": {
+ "mu0517": {
   "en": "Posterior belly of digastric muscle",
   "ja": "顎二腹筋 後腹",
   "side": "左",
   "system": "筋",
   "raw": "Posterior belly of digastric muscle.l"
  },
- "p0518": {
+ "mu0518": {
   "en": "Posterior belly of digastric muscle",
   "ja": "顎二腹筋 後腹",
   "side": "右",
   "system": "筋",
   "raw": "Posterior belly of digastric muscle.r"
  },
- "p0519": {
+ "mu0519": {
   "en": "Procerus muscle",
   "ja": "鼻根筋",
   "side": "左",
   "system": "筋",
   "raw": "Procerus muscle.ol"
  },
- "p0520": {
+ "mu0520": {
   "en": "Procerus muscle",
   "ja": "鼻根筋",
   "side": "右",
   "system": "筋",
   "raw": "Procerus muscle.or"
  },
- "p0521": {
+ "mu0521": {
   "en": "Pronator quadratus",
   "ja": "方形回内筋",
   "side": "左",
   "system": "筋",
   "raw": "Pronator quadratus.ol"
  },
- "p0522": {
+ "mu0522": {
   "en": "Pronator teres",
   "ja": "円回内筋",
   "side": "右",
   "system": "筋",
   "raw": "Pronator teres.or"
  },
- "p0523": {
+ "mu0523": {
   "en": "Quadratus femoris muscle",
   "ja": "大腿方形筋",
   "side": "左",
   "system": "筋",
   "raw": "Quadratus femoris muscle.ol"
  },
- "p0524": {
+ "mu0524": {
   "en": "Quadratus femoris muscle",
   "ja": "大腿方形筋",
   "side": "右",
   "system": "筋",
   "raw": "Quadratus femoris muscle.or"
  },
- "p0525": {
+ "mu0525": {
   "en": "Rectus abdominis muscle",
   "ja": "腹直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus abdominis muscle.ol"
  },
- "p0526": {
+ "mu0526": {
   "en": "Rectus abdominis muscle",
   "ja": "腹直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus abdominis muscle.or"
  },
- "p0527": {
+ "mu0527": {
   "en": "Rectus anterior capitis muscle",
   "ja": "前頭直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus anterior capitis muscle.l"
  },
- "p0528": {
+ "mu0528": {
   "en": "Rectus anterior capitis muscle",
   "ja": "前頭直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus anterior capitis muscle.ol"
  },
- "p0529": {
+ "mu0529": {
   "en": "Rectus anterior capitis muscle",
   "ja": "前頭直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus anterior capitis muscle.or"
  },
- "p0530": {
+ "mu0530": {
   "en": "Rectus anterior capitis muscle",
   "ja": "前頭直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus anterior capitis muscle.r"
  },
- "p0531": {
+ "mu0531": {
   "en": "Rectus femoris muscle",
   "ja": "大腿直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus femoris muscle.ol"
  },
- "p0532": {
+ "mu0532": {
   "en": "Rectus femoris muscle",
   "ja": "大腿直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus femoris muscle.or"
  },
- "p0533": {
+ "mu0533": {
   "en": "Rectus lateralis capitis muscle",
   "ja": "外側頭直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus lateralis capitis muscle.l"
  },
- "p0534": {
+ "mu0534": {
   "en": "Rectus lateralis capitis muscle",
   "ja": "外側頭直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus lateralis capitis muscle.ol"
  },
- "p0535": {
+ "mu0535": {
   "en": "Rectus lateralis capitis muscle",
   "ja": "外側頭直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus lateralis capitis muscle.or"
  },
- "p0536": {
+ "mu0536": {
   "en": "Rectus lateralis capitis muscle",
   "ja": "外側頭直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus lateralis capitis muscle.r"
  },
- "p0537": {
+ "mu0537": {
   "en": "Rectus posterior major capitis muscle",
   "ja": "大後頭直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus posterior major capitis muscle.ol"
  },
- "p0538": {
+ "mu0538": {
   "en": "Rectus posterior major capitis muscle",
   "ja": "大後頭直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus posterior major capitis muscle.or"
  },
- "p0539": {
+ "mu0539": {
   "en": "Rectus posterior minor capitis muscle",
   "ja": "小後頭直筋",
   "side": "左",
   "system": "筋",
   "raw": "Rectus posterior minor capitis muscle.ol"
  },
- "p0540": {
+ "mu0540": {
   "en": "Rectus posterior minor capitis muscle",
   "ja": "小後頭直筋",
   "side": "右",
   "system": "筋",
   "raw": "Rectus posterior minor capitis muscle.or"
  },
- "p0541": {
+ "mu0541": {
   "en": "Sartorius muscle",
   "ja": "縫工筋",
   "side": "左",
   "system": "筋",
   "raw": "Sartorius muscle.ol"
  },
- "p0542": {
+ "mu0542": {
   "en": "Sartorius muscle",
   "ja": "縫工筋",
   "side": "右",
   "system": "筋",
   "raw": "Sartorius muscle.or"
  },
- "p0543": {
+ "mu0543": {
   "en": "Scalenus anterior muscle",
   "ja": "前斜角筋",
   "side": "左",
   "system": "筋",
   "raw": "Scalenus anterior muscle.ol"
  },
- "p0544": {
+ "mu0544": {
   "en": "Scalenus anterior muscle",
   "ja": "前斜角筋",
   "side": "右",
   "system": "筋",
   "raw": "Scalenus anterior muscle.or"
  },
- "p0545": {
+ "mu0545": {
   "en": "Scalenus medius muscle",
   "ja": "中斜角筋",
   "side": "左",
   "system": "筋",
   "raw": "Scalenus medius muscle.ol"
  },
- "p0546": {
+ "mu0546": {
   "en": "Scalenus medius muscle",
   "ja": "中斜角筋",
   "side": "右",
   "system": "筋",
   "raw": "Scalenus medius muscle.or"
  },
- "p0547": {
+ "mu0547": {
   "en": "Scapular spinal part of deltoid muscle",
   "ja": "三角筋 後部（肩甲棘部）",
   "side": "左",
   "system": "筋",
   "raw": "Scapular spinal part of deltoid muscle.l"
  },
- "p0548": {
+ "mu0548": {
   "en": "Scapular spinal part of deltoid muscle",
   "ja": "三角筋 後部（肩甲棘部）",
   "side": "左",
   "system": "筋",
   "raw": "Scapular spinal part of deltoid muscle.ol"
  },
- "p0549": {
+ "mu0549": {
   "en": "Scapular spinal part of deltoid muscle",
   "ja": "三角筋 後部（肩甲棘部）",
   "side": "右",
   "system": "筋",
   "raw": "Scapular spinal part of deltoid muscle.or"
  },
- "p0550": {
+ "mu0550": {
   "en": "Scapular spinal part of deltoid muscle",
   "ja": "三角筋 後部（肩甲棘部）",
   "side": "右",
   "system": "筋",
   "raw": "Scapular spinal part of deltoid muscle.r"
  },
- "p0551": {
+ "mu0551": {
   "en": "Sciatic bursa of gluteus maximus muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Sciatic bursa of gluteus maximus muscle.l"
  },
- "p0552": {
+ "mu0552": {
   "en": "Sciatic bursa of gluteus maximus muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Sciatic bursa of gluteus maximus muscle.r"
  },
- "p0553": {
+ "mu0553": {
   "en": "Semimembranosus muscle",
   "ja": "半膜様筋",
   "side": "左",
   "system": "筋",
   "raw": "Semimembranosus muscle.ol"
  },
- "p0554": {
+ "mu0554": {
   "en": "Semimembranosus muscle",
   "ja": "半膜様筋",
   "side": "右",
   "system": "筋",
   "raw": "Semimembranosus muscle.or"
  },
- "p0555": {
+ "mu0555": {
   "en": "Semispinalis thoracis muscle",
   "ja": "胸半棘筋",
   "side": "左",
   "system": "筋",
   "raw": "Semispinalis thoracis muscle.l"
  },
- "p0556": {
+ "mu0556": {
   "en": "Semitendinosus muscle",
   "ja": "半腱様筋",
   "side": "左",
   "system": "筋",
   "raw": "Semitendinosus muscle.ol"
  },
- "p0557": {
+ "mu0557": {
   "en": "Semitendinosus muscle",
   "ja": "半腱様筋",
   "side": "右",
   "system": "筋",
   "raw": "Semitendinosus muscle.or"
  },
- "p0558": {
+ "mu0558": {
   "en": "Serratus anterior muscle",
   "ja": "前鋸筋",
   "side": "左",
   "system": "筋",
   "raw": "Serratus anterior muscle.ol"
  },
- "p0559": {
+ "mu0559": {
   "en": "Serratus anterior muscle",
   "ja": "前鋸筋",
   "side": "右",
   "system": "筋",
   "raw": "Serratus anterior muscle.or"
  },
- "p0560": {
+ "mu0560": {
   "en": "Soleus muscle",
   "ja": "ヒラメ筋",
   "side": "左",
   "system": "筋",
   "raw": "Soleus muscle.ol"
  },
- "p0561": {
+ "mu0561": {
   "en": "Soleus muscle",
   "ja": "ヒラメ筋",
   "side": "右",
   "system": "筋",
   "raw": "Soleus muscle.or"
  },
- "p0562": {
+ "mu0562": {
   "en": "Spinalis capitis muscle",
   "ja": "頭棘筋",
   "side": "左",
   "system": "筋",
   "raw": "Spinalis capitis muscle.l"
  },
- "p0563": {
+ "mu0563": {
   "en": "Spinalis capitis muscle",
   "ja": "頭棘筋",
   "side": "右",
   "system": "筋",
   "raw": "Spinalis capitis muscle.r"
  },
- "p0564": {
+ "mu0564": {
   "en": "Spinalis colli muscle",
   "ja": "頸棘筋",
   "side": "左",
   "system": "筋",
   "raw": "Spinalis colli muscle.l"
  },
- "p0565": {
+ "mu0565": {
   "en": "Spinalis colli muscle",
   "ja": "頸棘筋",
   "side": "右",
   "system": "筋",
   "raw": "Spinalis colli muscle.r"
  },
- "p0566": {
+ "mu0566": {
   "en": "Spinalis thoracis muscle",
   "ja": "胸棘筋",
   "side": "左",
   "system": "筋",
   "raw": "Spinalis thoracis muscle.l"
  },
- "p0567": {
+ "mu0567": {
   "en": "Spinalis thoracis muscle",
   "ja": "胸棘筋",
   "side": "右",
   "system": "筋",
   "raw": "Spinalis thoracis muscle.r"
  },
- "p0568": {
+ "mu0568": {
   "en": "Splenius capitis muscle",
   "ja": "頭板状筋",
   "side": "左",
   "system": "筋",
   "raw": "Splenius capitis muscle.l"
  },
- "p0569": {
+ "mu0569": {
   "en": "Splenius capitis muscle",
   "ja": "頭板状筋",
   "side": "右",
   "system": "筋",
   "raw": "Splenius capitis muscle.r"
  },
- "p0570": {
+ "mu0570": {
   "en": "Splenius colli muscle",
   "ja": "頸板状筋",
   "side": "左",
   "system": "筋",
   "raw": "Splenius colli muscle.l"
  },
- "p0571": {
+ "mu0571": {
   "en": "Splenius colli muscle",
   "ja": "頸板状筋",
   "side": "右",
   "system": "筋",
   "raw": "Splenius colli muscle.r"
  },
- "p0572": {
+ "mu0572": {
   "en": "Sternocleidomastoid muscle",
   "ja": "胸鎖乳突筋",
   "side": "左",
   "system": "筋",
   "raw": "Sternocleidomastoid muscle.l"
  },
- "p0573": {
+ "mu0573": {
   "en": "Sternocleidomastoid muscle",
   "ja": "胸鎖乳突筋",
   "side": "右",
   "system": "筋",
   "raw": "Sternocleidomastoid muscle.or"
  },
- "p0574": {
+ "mu0574": {
   "en": "Sternocleidomastoid muscle",
   "ja": "胸鎖乳突筋",
   "side": "左",
   "system": "筋",
   "raw": "Sternocleidomastoid muscle.ol"
  },
- "p0575": {
+ "mu0575": {
   "en": "Sternocleidomastoid muscle",
   "ja": "胸鎖乳突筋",
   "side": "右",
   "system": "筋",
   "raw": "Sternocleidomastoid muscle.r"
  },
- "p0576": {
+ "mu0576": {
   "en": "Sternocostal head of pectoralis major muscle",
   "ja": "大胸筋 胸肋部",
   "side": "左",
   "system": "筋",
   "raw": "Sternocostal head of pectoralis major muscle.l"
  },
- "p0577": {
+ "mu0577": {
   "en": "Sternocostal head of pectoralis major muscle",
   "ja": "大胸筋 胸肋部",
   "side": "右",
   "system": "筋",
   "raw": "Sternocostal head of pectoralis major muscle.r"
  },
- "p0578": {
+ "mu0578": {
   "en": "Sternohyoid muscle",
   "ja": "胸骨舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Sternohyoid muscle.l"
  },
- "p0579": {
+ "mu0579": {
   "en": "Sternohyoid muscle",
   "ja": "胸骨舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Sternohyoid muscle.or"
  },
- "p0580": {
+ "mu0580": {
   "en": "Sternohyoid muscle",
   "ja": "胸骨舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Sternohyoid muscle.ol"
  },
- "p0581": {
+ "mu0581": {
   "en": "Sternohyoid muscle",
   "ja": "胸骨舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Sternohyoid muscle.r"
  },
- "p0582": {
+ "mu0582": {
   "en": "Sternothyroid muscle",
   "ja": "胸骨甲状筋",
   "side": "左",
   "system": "筋",
   "raw": "Sternothyroid muscle.l"
  },
- "p0583": {
+ "mu0583": {
   "en": "Sternothyroid muscle",
   "ja": "胸骨甲状筋",
   "side": "右",
   "system": "筋",
   "raw": "Sternothyroid muscle.r"
  },
- "p0584": {
+ "mu0584": {
   "en": "Straight part of cricothyroid muscle",
   "ja": "輪状甲状筋 直部",
   "side": "左",
   "system": "筋",
   "raw": "Straight part of cricothyroid muscle.l"
  },
- "p0585": {
+ "mu0585": {
   "en": "Straight part of cricothyroid muscle",
   "ja": "輪状甲状筋 直部",
   "side": "右",
   "system": "筋",
   "raw": "Straight part of cricothyroid muscle.r"
  },
- "p0586": {
+ "mu0586": {
   "en": "Stylohyoid muscle",
   "ja": "茎突舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Stylohyoid muscle.l"
  },
- "p0587": {
+ "mu0587": {
   "en": "Stylohyoid muscle",
   "ja": "茎突舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Stylohyoid muscle.r"
  },
- "p0588": {
+ "mu0588": {
   "en": "Stylopharyngeus muscle",
   "ja": "茎突咽頭筋",
   "side": "左",
   "system": "筋",
   "raw": "Stylopharyngeus muscle.l"
  },
- "p0589": {
+ "mu0589": {
   "en": "Stylopharyngeus muscle",
   "ja": "茎突咽頭筋",
   "side": "右",
   "system": "筋",
   "raw": "Stylopharyngeus muscle.r"
  },
- "p0590": {
+ "mu0590": {
   "en": "Subclavius muscle",
   "ja": "鎖骨下筋",
   "side": "左",
   "system": "筋",
   "raw": "Subclavius muscle.l"
  },
- "p0591": {
+ "mu0591": {
   "en": "Subclavius muscle",
   "ja": "鎖骨下筋",
   "side": "左",
   "system": "筋",
   "raw": "Subclavius muscle.ol"
  },
- "p0592": {
+ "mu0592": {
   "en": "Subclavius muscle",
   "ja": "鎖骨下筋",
   "side": "右",
   "system": "筋",
   "raw": "Subclavius muscle.or"
  },
- "p0593": {
+ "mu0593": {
   "en": "Subclavius muscle",
   "ja": "鎖骨下筋",
   "side": "右",
   "system": "筋",
   "raw": "Subclavius muscle.r"
  },
- "p0594": {
+ "mu0594": {
   "en": "Subscapularis muscle",
   "ja": "肩甲下筋",
   "side": "左",
   "system": "筋",
   "raw": "Subscapularis muscle.l"
  },
- "p0595": {
+ "mu0595": {
   "en": "Subscapularis muscle",
   "ja": "肩甲下筋",
   "side": "左",
   "system": "筋",
   "raw": "Subscapularis muscle.ol"
  },
- "p0596": {
+ "mu0596": {
   "en": "Subscapularis muscle",
   "ja": "肩甲下筋",
   "side": "右",
   "system": "筋",
   "raw": "Subscapularis muscle.or"
  },
- "p0597": {
+ "mu0597": {
   "en": "Subscapularis muscle",
   "ja": "肩甲下筋",
   "side": "右",
   "system": "筋",
   "raw": "Subscapularis muscle.r"
  },
- "p0598": {
+ "mu0598": {
   "en": "Subtendinous bursa of iliacus muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Subtendinous bursa of iliacus muscle.l"
  },
- "p0599": {
+ "mu0599": {
   "en": "Subtendinous bursa of iliacus muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Subtendinous bursa of iliacus muscle.r"
  },
- "p0600": {
+ "mu0600": {
   "en": "Subtendinous bursa of infraspinatus muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Subtendinous bursa of infraspinatus muscle.l"
  },
- "p0601": {
+ "mu0601": {
   "en": "Subtendinous bursa of infraspinatus muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Subtendinous bursa of infraspinatus muscle.r"
  },
- "p0602": {
+ "mu0602": {
   "en": "Subtendinous bursa of sartorius muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Subtendinous bursa of sartorius muscle.l"
  },
- "p0603": {
+ "mu0603": {
   "en": "Subtendinous bursa of sartorius muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Subtendinous bursa of sartorius muscle.r"
  },
- "p0604": {
+ "mu0604": {
   "en": "Subtendinous bursa of teres major muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Subtendinous bursa of teres major muscle.l"
  },
- "p0605": {
+ "mu0605": {
   "en": "Subtendinous bursa of teres major muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Subtendinous bursa of teres major muscle.r"
  },
- "p0606": {
+ "mu0606": {
   "en": "Subtendinous bursa of trapezius muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Subtendinous bursa of trapezius muscle.l"
  },
- "p0607": {
+ "mu0607": {
   "en": "Subtendinous bursa of trapezius muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Subtendinous bursa of trapezius muscle.r"
  },
- "p0608": {
+ "mu0608": {
   "en": "Subtendinous bursa of triceps brachii muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Subtendinous bursa of triceps brachii muscle.l"
  },
- "p0609": {
+ "mu0609": {
   "en": "Subtendinous bursa of triceps brachii muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Subtendinous bursa of triceps brachii muscle.r"
  },
- "p0610": {
+ "mu0610": {
   "en": "Superficial head of flexor pollicis brevis",
   "ja": "短母指屈筋 浅頭",
   "side": "左",
   "system": "筋",
   "raw": "Superficial head of flexor pollicis brevis.l"
  },
- "p0611": {
+ "mu0611": {
   "en": "Superficial head of flexor pollicis brevis",
   "ja": "短母指屈筋 浅頭",
   "side": "右",
   "system": "筋",
   "raw": "Superficial head of flexor pollicis brevis.r"
  },
- "p0612": {
+ "mu0612": {
   "en": "Superficial head of pronator teres",
   "ja": "円回内筋 浅頭（上腕頭）",
   "side": "左",
   "system": "筋",
   "raw": "Superficial head of pronator teres.l"
  },
- "p0613": {
+ "mu0613": {
   "en": "Superficial head of pronator teres",
   "ja": "円回内筋 浅頭（上腕頭）",
   "side": "右",
   "system": "筋",
   "raw": "Superficial head of pronator teres.r"
  },
- "p0614": {
+ "mu0614": {
   "en": "Superficial part of masseter",
   "ja": "咬筋 浅部",
   "side": "左",
   "system": "筋",
   "raw": "Superficial part of masseter.l"
  },
- "p0615": {
+ "mu0615": {
   "en": "Superficial part of masseter",
   "ja": "咬筋 浅部",
   "side": "右",
   "system": "筋",
   "raw": "Superficial part of masseter.r"
  },
- "p0616": {
+ "mu0616": {
   "en": "Superior bursa of biceps femoris muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Superior bursa of biceps femoris muscle.l"
  },
- "p0617": {
+ "mu0617": {
   "en": "Superior bursa of biceps femoris muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Superior bursa of biceps femoris muscle.r"
  },
- "p0618": {
+ "mu0618": {
   "en": "Superior gemellus muscle",
   "ja": "上双子筋",
   "side": "左",
   "system": "筋",
   "raw": "Superior gemellus muscle.l"
  },
- "p0619": {
+ "mu0619": {
   "en": "Superior gemellus muscle",
   "ja": "上双子筋",
   "side": "左",
   "system": "筋",
   "raw": "Superior gemellus muscle.ol"
  },
- "p0620": {
+ "mu0620": {
   "en": "Superior gemellus muscle",
   "ja": "上双子筋",
   "side": "右",
   "system": "筋",
   "raw": "Superior gemellus muscle.or"
  },
- "p0621": {
+ "mu0621": {
   "en": "Superior gemellus muscle",
   "ja": "上双子筋",
   "side": "右",
   "system": "筋",
   "raw": "Superior gemellus muscle.r"
  },
- "p0622": {
+ "mu0622": {
   "en": "Superior head of lateral pterygoid muscle",
   "ja": "外側翼突筋 上頭",
   "side": "左",
   "system": "筋",
   "raw": "Superior head of lateral pterygoid muscle.l"
  },
- "p0623": {
+ "mu0623": {
   "en": "Superior head of lateral pterygoid muscle",
   "ja": "外側翼突筋 上頭",
   "side": "右",
   "system": "筋",
   "raw": "Superior head of lateral pterygoid muscle.r"
  },
- "p0624": {
+ "mu0624": {
   "en": "Superior oblique muscle",
   "ja": "上斜筋（眼）",
   "side": "左",
   "system": "筋",
   "raw": "Superior oblique muscle.l"
  },
- "p0625": {
+ "mu0625": {
   "en": "Superior oblique muscle",
   "ja": "上斜筋（眼）",
   "side": "右",
   "system": "筋",
   "raw": "Superior oblique muscle.r"
  },
- "p0626": {
+ "mu0626": {
   "en": "Superior pharyngeal constrictor",
   "ja": "上咽頭収縮筋",
   "side": "左",
   "system": "筋",
   "raw": "Superior pharyngeal constrictor.l"
  },
- "p0627": {
+ "mu0627": {
   "en": "Superior pharyngeal constrictor",
   "ja": "上咽頭収縮筋",
   "side": "右",
   "system": "筋",
   "raw": "Superior pharyngeal constrictor.r"
  },
- "p0628": {
+ "mu0628": {
   "en": "Superior rectus muscle",
   "ja": "上直筋（眼）",
   "side": "左",
   "system": "筋",
   "raw": "Superior rectus muscle.l"
  },
- "p0629": {
+ "mu0629": {
   "en": "Superior rectus muscle",
   "ja": "上直筋（眼）",
   "side": "右",
   "system": "筋",
   "raw": "Superior rectus muscle.r"
  },
- "p0630": {
+ "mu0630": {
   "en": "Supinator",
   "ja": "回外筋",
   "side": "左",
   "system": "筋",
   "raw": "Supinator.l"
  },
- "p0631": {
+ "mu0631": {
   "en": "Supinator",
   "ja": "回外筋",
   "side": "左",
   "system": "筋",
   "raw": "Supinator.ol"
  },
- "p0632": {
+ "mu0632": {
   "en": "Supinator",
   "ja": "回外筋",
   "side": "右",
   "system": "筋",
   "raw": "Supinator.or"
  },
- "p0633": {
+ "mu0633": {
   "en": "Supinator",
   "ja": "回外筋",
   "side": "右",
   "system": "筋",
   "raw": "Supinator.r"
  },
- "p0634": {
+ "mu0634": {
   "en": "Supraspinatus muscle",
   "ja": "棘上筋",
   "side": "左",
   "system": "筋",
   "raw": "Supraspinatus muscle.l"
  },
- "p0635": {
+ "mu0635": {
   "en": "Supraspinatus muscle",
   "ja": "棘上筋",
   "side": "左",
   "system": "筋",
   "raw": "Supraspinatus muscle.ol"
  },
- "p0636": {
+ "mu0636": {
   "en": "Supraspinatus muscle",
   "ja": "棘上筋",
   "side": "右",
   "system": "筋",
   "raw": "Supraspinatus muscle.or"
  },
- "p0637": {
+ "mu0637": {
   "en": "Supraspinatus muscle",
   "ja": "棘上筋",
   "side": "右",
   "system": "筋",
   "raw": "Supraspinatus muscle.r"
  },
- "p0638": {
+ "mu0638": {
   "en": "Temporalis muscle",
   "ja": "側頭筋",
   "side": "左",
   "system": "筋",
   "raw": "Temporalis muscle.l"
  },
- "p0639": {
+ "mu0639": {
   "en": "Temporalis muscle",
   "ja": "側頭筋",
   "side": "右",
   "system": "筋",
   "raw": "Temporalis muscle.r"
  },
- "p0640": {
+ "mu0640": {
   "en": "Temporoparietalis muscle",
   "ja": "側頭頭頂筋",
   "side": "左",
   "system": "筋",
   "raw": "Temporoparietalis muscle.l"
  },
- "p0641": {
+ "mu0641": {
   "en": "Temporoparietalis muscle",
   "ja": "側頭頭頂筋",
   "side": "右",
   "system": "筋",
   "raw": "Temporoparietalis muscle.r"
  },
- "p0642": {
+ "mu0642": {
   "en": "Tendon sheath of tibialis posterior muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Tendon sheath of tibialis posterior muscle.l"
  },
- "p0643": {
+ "mu0643": {
   "en": "Tendon sheath of tibialis posterior muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Tendon sheath of tibialis posterior muscle.r"
  },
- "p0644": {
+ "mu0644": {
   "en": "Tensor fasciae latae",
   "ja": "大腿筋膜張筋",
   "side": "左",
   "system": "筋",
   "raw": "Tensor fasciae latae.l"
  },
- "p0645": {
+ "mu0645": {
   "en": "Tensor fasciae latae",
   "ja": "大腿筋膜張筋",
   "side": "左",
   "system": "筋",
   "raw": "Tensor fasciae latae.ol"
  },
- "p0646": {
+ "mu0646": {
   "en": "Tensor fasciae latae",
   "ja": "大腿筋膜張筋",
   "side": "右",
   "system": "筋",
   "raw": "Tensor fasciae latae.or"
  },
- "p0647": {
+ "mu0647": {
   "en": "Tensor fasciae latae",
   "ja": "大腿筋膜張筋",
   "side": "右",
   "system": "筋",
   "raw": "Tensor fasciae latae.r"
  },
- "p0648": {
+ "mu0648": {
   "en": "Teres major muscle",
   "ja": "大円筋",
   "side": "左",
   "system": "筋",
   "raw": "Teres major muscle.l"
  },
- "p0649": {
+ "mu0649": {
   "en": "Teres major muscle",
   "ja": "大円筋",
   "side": "左",
   "system": "筋",
   "raw": "Teres major muscle.ol"
  },
- "p0650": {
+ "mu0650": {
   "en": "Teres major muscle",
   "ja": "大円筋",
   "side": "右",
   "system": "筋",
   "raw": "Teres major muscle.or"
  },
- "p0651": {
+ "mu0651": {
   "en": "Teres major muscle",
   "ja": "大円筋",
   "side": "右",
   "system": "筋",
   "raw": "Teres major muscle.r"
  },
- "p0652": {
+ "mu0652": {
   "en": "Teres minor muscle",
   "ja": "小円筋",
   "side": "左",
   "system": "筋",
   "raw": "Teres minor muscle.l"
  },
- "p0653": {
+ "mu0653": {
   "en": "Teres minor muscle",
   "ja": "小円筋",
   "side": "左",
   "system": "筋",
   "raw": "Teres minor muscle.ol"
  },
- "p0654": {
+ "mu0654": {
   "en": "Teres minor muscle",
   "ja": "小円筋",
   "side": "右",
   "system": "筋",
   "raw": "Teres minor muscle.or"
  },
- "p0655": {
+ "mu0655": {
   "en": "Teres minor muscle",
   "ja": "小円筋",
   "side": "右",
   "system": "筋",
   "raw": "Teres minor muscle.r"
  },
- "p0656": {
+ "mu0656": {
   "en": "Thyro-epiglottic part of thyro-arytenoid muscle",
   "ja": "甲状披裂筋 甲状喉頭蓋部",
   "side": "左",
   "system": "筋",
   "raw": "Thyro-epiglottic part of thyro-arytenoid muscle.l"
  },
- "p0657": {
+ "mu0657": {
   "en": "Thyro-epiglottic part of thyro-arytenoid muscle",
   "ja": "甲状披裂筋 甲状喉頭蓋部",
   "side": "右",
   "system": "筋",
   "raw": "Thyro-epiglottic part of thyro-arytenoid muscle.r"
  },
- "p0658": {
+ "mu0658": {
   "en": "Thyrohyoid muscle",
   "ja": "甲状舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Thyrohyoid muscle.l"
  },
- "p0659": {
+ "mu0659": {
   "en": "Thyrohyoid muscle",
   "ja": "甲状舌骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Thyrohyoid muscle.ol"
  },
- "p0660": {
+ "mu0660": {
   "en": "Thyrohyoid muscle",
   "ja": "甲状舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Thyrohyoid muscle.or"
  },
- "p0661": {
+ "mu0661": {
   "en": "Thyrohyoid muscle",
   "ja": "甲状舌骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Thyrohyoid muscle.r"
  },
- "p0662": {
+ "mu0662": {
   "en": "Tibialis anterior muscle",
   "ja": "前脛骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Tibialis anterior muscle.l"
  },
- "p0663": {
+ "mu0663": {
   "en": "Tibialis anterior muscle",
   "ja": "前脛骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Tibialis anterior muscle.ol"
  },
- "p0664": {
+ "mu0664": {
   "en": "Tibialis anterior muscle",
   "ja": "前脛骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Tibialis anterior muscle.or"
  },
- "p0665": {
+ "mu0665": {
   "en": "Tibialis anterior muscle",
   "ja": "前脛骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Tibialis anterior muscle.r"
  },
- "p0666": {
+ "mu0666": {
   "en": "Tibialis posterior muscle",
   "ja": "後脛骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Tibialis posterior muscle.l"
  },
- "p0667": {
+ "mu0667": {
   "en": "Tibialis posterior muscle",
   "ja": "後脛骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Tibialis posterior muscle.ol"
  },
- "p0668": {
+ "mu0668": {
   "en": "Tibialis posterior muscle",
   "ja": "後脛骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Tibialis posterior muscle.or"
  },
- "p0669": {
+ "mu0669": {
   "en": "Tibialis posterior muscle",
   "ja": "後脛骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Tibialis posterior muscle.r"
  },
- "p0670": {
+ "mu0670": {
   "en": "Transverse arytenoid muscle",
   "ja": "横披裂筋",
   "side": "",
   "system": "筋",
   "raw": "Transverse arytenoid muscle"
  },
- "p0671": {
+ "mu0671": {
   "en": "Transverse head of adductor hallucis",
   "ja": "母趾内転筋 横頭",
   "side": "左",
   "system": "筋",
   "raw": "Transverse head of adductor hallucis.l"
  },
- "p0672": {
+ "mu0672": {
   "en": "Transverse head of adductor hallucis",
   "ja": "母趾内転筋 横頭",
   "side": "左",
   "system": "筋",
   "raw": "Transverse head of adductor hallucis.ol"
  },
- "p0673": {
+ "mu0673": {
   "en": "Transverse head of adductor hallucis",
   "ja": "母趾内転筋 横頭",
   "side": "右",
   "system": "筋",
   "raw": "Transverse head of adductor hallucis.or"
  },
- "p0674": {
+ "mu0674": {
   "en": "Transverse head of adductor hallucis",
   "ja": "母趾内転筋 横頭",
   "side": "右",
   "system": "筋",
   "raw": "Transverse head of adductor hallucis.r"
  },
- "p0675": {
+ "mu0675": {
   "en": "Transverse head of adductor pollicis",
   "ja": "母指内転筋 横頭",
   "side": "左",
   "system": "筋",
   "raw": "Transverse head of adductor pollicis.l"
  },
- "p0676": {
+ "mu0676": {
   "en": "Transverse head of adductor pollicis",
   "ja": "母指内転筋 横頭",
   "side": "右",
   "system": "筋",
   "raw": "Transverse head of adductor pollicis.r"
  },
- "p0677": {
+ "mu0677": {
   "en": "Transverse part of trapezius muscle",
   "ja": "僧帽筋 中部",
   "side": "左",
   "system": "筋",
   "raw": "Transverse part of trapezius muscle.l"
  },
- "p0678": {
+ "mu0678": {
   "en": "Transverse part of trapezius muscle",
   "ja": "僧帽筋 中部",
   "side": "左",
   "system": "筋",
   "raw": "Transverse part of trapezius muscle.ol"
  },
- "p0679": {
+ "mu0679": {
   "en": "Transverse part of trapezius muscle",
   "ja": "僧帽筋 中部",
   "side": "右",
   "system": "筋",
   "raw": "Transverse part of trapezius muscle.or"
  },
- "p0680": {
+ "mu0680": {
   "en": "Transverse part of trapezius muscle",
   "ja": "僧帽筋 中部",
   "side": "右",
   "system": "筋",
   "raw": "Transverse part of trapezius muscle.r"
  },
- "p0681": {
+ "mu0681": {
   "en": "Transversus abdominis muscle",
   "ja": "腹横筋",
   "side": "左",
   "system": "筋",
   "raw": "Transversus abdominis muscle.l"
  },
- "p0682": {
+ "mu0682": {
   "en": "Transversus abdominis muscle",
   "ja": "腹横筋",
   "side": "左",
   "system": "筋",
   "raw": "Transversus abdominis muscle.ol"
  },
- "p0683": {
+ "mu0683": {
   "en": "Transversus abdominis muscle",
   "ja": "腹横筋",
   "side": "右",
   "system": "筋",
   "raw": "Transversus abdominis muscle.or"
  },
- "p0684": {
+ "mu0684": {
   "en": "Transversus abdominis muscle",
   "ja": "腹横筋",
   "side": "右",
   "system": "筋",
   "raw": "Transversus abdominis muscle.r"
  },
- "p0685": {
+ "mu0685": {
   "en": "Transversus thoracis muscle",
   "ja": "胸横筋",
   "side": "左",
   "system": "筋",
   "raw": "Transversus thoracis muscle.l"
  },
- "p0686": {
+ "mu0686": {
   "en": "Transversus thoracis muscle",
   "ja": "胸横筋",
   "side": "右",
   "system": "筋",
   "raw": "Transversus thoracis muscle.r"
  },
- "p0687": {
+ "mu0687": {
   "en": "Transversus thoracis muscle",
   "ja": "胸横筋",
   "side": "右",
   "system": "筋",
   "raw": "Transversus thoracis muscle.or"
  },
- "p0688": {
+ "mu0688": {
   "en": "Transversus thoracis muscle",
   "ja": "胸横筋",
   "side": "左",
   "system": "筋",
   "raw": "Transversus thoracis muscle.ol"
  },
- "p0689": {
+ "mu0689": {
   "en": "Triceps brachii muscle",
   "ja": "上腕三頭筋",
   "side": "",
   "system": "筋",
   "raw": "Triceps brachii muscle.j"
  },
- "p0690": {
+ "mu0690": {
   "en": "Trochanteric bursa of gluteus maximus muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Trochanteric bursa of gluteus maximus muscle.l"
  },
- "p0691": {
+ "mu0691": {
   "en": "Trochanteric bursa of gluteus maximus muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Trochanteric bursa of gluteus maximus muscle.r"
  },
- "p0692": {
+ "mu0692": {
   "en": "Trochanteric bursa of gluteus medius muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Trochanteric bursa of gluteus medius muscle.l"
  },
- "p0693": {
+ "mu0693": {
   "en": "Trochanteric bursa of gluteus medius muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Trochanteric bursa of gluteus medius muscle.r"
  },
- "p0694": {
+ "mu0694": {
   "en": "Trochanteric bursa of gluteus minimus muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Trochanteric bursa of gluteus minimus muscle.l"
  },
- "p0695": {
+ "mu0695": {
   "en": "Trochanteric bursa of gluteus minimus muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Trochanteric bursa of gluteus minimus muscle.r"
  },
- "p0696": {
+ "mu0696": {
   "en": "Trochlea of superior oblique muscle",
   "ja": "",
   "side": "左",
   "system": "筋",
   "raw": "Trochlea of superior oblique muscle.l"
  },
- "p0697": {
+ "mu0697": {
   "en": "Trochlea of superior oblique muscle",
   "ja": "",
   "side": "右",
   "system": "筋",
   "raw": "Trochlea of superior oblique muscle.r"
  },
- "p0698": {
+ "mu0698": {
   "en": "Ulnar head of extensor carpi ulnaris",
   "ja": "尺側手根伸筋 尺骨頭",
   "side": "左",
   "system": "筋",
   "raw": "Ulnar head of extensor carpi ulnaris.l"
  },
- "p0699": {
+ "mu0699": {
   "en": "Ulnar head of extensor carpi ulnaris",
   "ja": "尺側手根伸筋 尺骨頭",
   "side": "右",
   "system": "筋",
   "raw": "Ulnar head of extensor carpi ulnaris.r"
  },
- "p0700": {
+ "mu0700": {
   "en": "Ulnar head of flexor carpi ulnaris",
   "ja": "尺側手根屈筋 尺骨頭",
   "side": "左",
   "system": "筋",
   "raw": "Ulnar head of flexor carpi ulnaris.l"
  },
- "p0701": {
+ "mu0701": {
   "en": "Ulnar head of flexor carpi ulnaris",
   "ja": "尺側手根屈筋 尺骨頭",
   "side": "左",
   "system": "筋",
   "raw": "Ulnar head of flexor carpi ulnaris.ol"
  },
- "p0702": {
+ "mu0702": {
   "en": "Ulnar head of flexor carpi ulnaris",
   "ja": "尺側手根屈筋 尺骨頭",
   "side": "右",
   "system": "筋",
   "raw": "Ulnar head of flexor carpi ulnaris.or"
  },
- "p0703": {
+ "mu0703": {
   "en": "Ulnar head of flexor carpi ulnaris",
   "ja": "尺側手根屈筋 尺骨頭",
   "side": "右",
   "system": "筋",
   "raw": "Ulnar head of flexor carpi ulnaris.r"
  },
- "p0704": {
+ "mu0704": {
   "en": "Vastus intermedius muscle",
   "ja": "中間広筋",
   "side": "左",
   "system": "筋",
   "raw": "Vastus intermedius muscle.l"
  },
- "p0705": {
+ "mu0705": {
   "en": "Vastus intermedius muscle",
   "ja": "中間広筋",
   "side": "左",
   "system": "筋",
   "raw": "Vastus intermedius muscle.ol"
  },
- "p0706": {
+ "mu0706": {
   "en": "Vastus intermedius muscle",
   "ja": "中間広筋",
   "side": "右",
   "system": "筋",
   "raw": "Vastus intermedius muscle.or"
  },
- "p0707": {
+ "mu0707": {
   "en": "Vastus intermedius muscle",
   "ja": "中間広筋",
   "side": "右",
   "system": "筋",
   "raw": "Vastus intermedius muscle.r"
  },
- "p0708": {
+ "mu0708": {
   "en": "Vastus lateralis muscle",
   "ja": "外側広筋",
   "side": "左",
   "system": "筋",
   "raw": "Vastus lateralis muscle.l"
  },
- "p0709": {
+ "mu0709": {
   "en": "Vastus lateralis muscle",
   "ja": "外側広筋",
   "side": "左",
   "system": "筋",
   "raw": "Vastus lateralis muscle.ol"
  },
- "p0710": {
+ "mu0710": {
   "en": "Vastus lateralis muscle",
   "ja": "外側広筋",
   "side": "右",
   "system": "筋",
   "raw": "Vastus lateralis muscle.or"
  },
- "p0711": {
+ "mu0711": {
   "en": "Vastus lateralis muscle",
   "ja": "外側広筋",
   "side": "右",
   "system": "筋",
   "raw": "Vastus lateralis muscle.r"
  },
- "p0712": {
+ "mu0712": {
   "en": "Vastus medialis muscle",
   "ja": "内側広筋",
   "side": "左",
   "system": "筋",
   "raw": "Vastus medialis muscle.l"
  },
- "p0713": {
+ "mu0713": {
   "en": "Vastus medialis muscle",
   "ja": "内側広筋",
   "side": "左",
   "system": "筋",
   "raw": "Vastus medialis muscle.ol"
  },
- "p0714": {
+ "mu0714": {
   "en": "Vastus medialis muscle",
   "ja": "内側広筋",
   "side": "右",
   "system": "筋",
   "raw": "Vastus medialis muscle.or"
  },
- "p0715": {
+ "mu0715": {
   "en": "Vastus medialis muscle",
   "ja": "内側広筋",
   "side": "右",
   "system": "筋",
   "raw": "Vastus medialis muscle.r"
  },
- "p0716": {
+ "mu0716": {
   "en": "Ventral parts of lateral intertransversarii lumborum muscles",
   "ja": "腰外側横突間筋 腹側部",
   "side": "左",
   "system": "筋",
   "raw": "Ventral parts of lateral intertransversarii lumborum muscles.l"
  },
- "p0717": {
+ "mu0717": {
   "en": "Ventral parts of lateral intertransversarii lumborum muscles",
   "ja": "腰外側横突間筋 腹側部",
   "side": "右",
   "system": "筋",
   "raw": "Ventral parts of lateral intertransversarii lumborum muscles.r"
  },
- "p0718": {
+ "mu0718": {
   "en": "Zygomaticus major muscle",
   "ja": "大頬骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Zygomaticus major muscle.l"
  },
- "p0719": {
+ "mu0719": {
   "en": "Zygomaticus major muscle",
   "ja": "大頬骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Zygomaticus major muscle.ol"
  },
- "p0720": {
+ "mu0720": {
   "en": "Zygomaticus major muscle",
   "ja": "大頬骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Zygomaticus major muscle.or"
  },
- "p0721": {
+ "mu0721": {
   "en": "Zygomaticus major muscle",
   "ja": "大頬骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Zygomaticus major muscle.r"
  },
- "p0722": {
+ "mu0722": {
   "en": "Zygomaticus minor muscle",
   "ja": "小頬骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Zygomaticus minor muscle.l"
  },
- "p0723": {
+ "mu0723": {
   "en": "Zygomaticus minor muscle",
   "ja": "小頬骨筋",
   "side": "左",
   "system": "筋",
   "raw": "Zygomaticus minor muscle.ol"
  },
- "p0724": {
+ "mu0724": {
   "en": "Zygomaticus minor muscle",
   "ja": "小頬骨筋",
   "side": "右",
   "system": "筋",
   "raw": "Zygomaticus minor muscle.or"
  },
- "p0725": {
+ "mu0725": {
   "en": "Zygomaticus minor muscle",
   "ja": "小頬骨筋",
   "side": "右",
