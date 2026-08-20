@@ -67,8 +67,10 @@
   .row::-webkit-scrollbar{display:none}
   .row > *{flex:0 0 auto;scroll-snap-align:start}
   @media (min-width:700px){ .row{justify-content:center} }
+  /* 広い画面では列を広げて、横に流さず全部見せる */
+  @media (min-width:1000px){ .row{max-width:960px} }
   button{
-    font:inherit;font-size:.9375rem;line-height:1;
+    font:inherit;font-size:.9375rem;line-height:1;white-space:nowrap;
     min-height:44px;padding:0 15px;border-radius:999px;
     border:1px solid var(--hair);background:rgba(255,255,255,.7);color:var(--ink2);
     cursor:pointer;
@@ -84,6 +86,48 @@
   #dock.down{transform:translate3d(0,100%,0);opacity:0;pointer-events:none}
   #credit{font-size:.6875rem;color:var(--ink3);text-align:center;line-height:1.4;letter-spacing:.01em}
   #credit a{color:var(--ink3)}
+  #subregions button{font-size:.875rem;min-height:38px}
+  #strata button.on{background:var(--ink);border-color:var(--ink);color:#fff}
+  .divider{width:1px;align-self:stretch;background:var(--hair);margin:4px 3px}
+
+  /* ── なまえで引く ── */
+  #searchrow{align-items:center}
+  #search{
+    flex:1 1 auto;min-width:0;
+    font:inherit;font-size:16px;   /* 16px未満だとiPhoneが勝手に拡大する */
+    min-height:44px;padding:0 16px;border-radius:999px;
+    border:1px solid var(--hair);background:rgba(255,255,255,.7);color:var(--ink);
+    outline:none;
+  }
+  #search:focus{border-color:var(--accent)}
+  #search::placeholder{color:var(--ink3)}
+  #search-results{
+    position:absolute;left:10px;right:10px;bottom:calc(100% + 8px);z-index:7;
+    max-width:680px;margin:0 auto;
+    max-height:46vh;overflow-y:auto;
+    background:var(--glass-strong);
+    backdrop-filter:blur(30px) saturate(180%);
+    -webkit-backdrop-filter:blur(30px) saturate(180%);
+    border:1px solid rgba(255,255,255,.6);
+    border-radius:16px;box-shadow:var(--shadow);
+    padding:6px;
+  }
+  #search-results .result{
+    display:flex;flex-direction:column;align-items:flex-start;gap:2px;
+    width:100%;min-height:48px;padding:8px 14px;border:none;border-radius:10px;
+    background:transparent;text-align:left;
+  }
+  #search-results .result:active{background:rgba(38,34,28,.06);transform:none}
+  #search-results .result .tag{font-size:.75rem;color:var(--ink3)}
+
+  /* 2回目以降の読み込み表示は、画面を隠さない小さな札にする */
+  #loading.pill{
+    inset:auto;left:50%;top:calc(10px + env(safe-area-inset-top));
+    transform:translateX(-50%);
+    background:var(--glass-strong);border:1px solid var(--hair);
+    border-radius:999px;padding:8px 16px;font-size:.8125rem;
+    box-shadow:var(--shadow);place-items:unset;display:block;
+  }
 
   /* ── 下から出るシート。掴んで下げられる ── */
   #sheet{
@@ -148,12 +192,22 @@
   <div id="label">
     <div class="ja" id="ja"></div>
     <div class="en" id="en"></div>
-    <div id="hint">まわす・つまんで拡大・さわると名前が出ます</div>
+    <div id="hint">まわす・つまんで拡大・さわると名前が出ます。下の欄で、なまえでも引けます</div>
   </div>
 
   <div id="dock">
+    <div id="search-results" hidden></div>
+    <div class="row" id="searchrow">
+      <input id="search" type="search" autocomplete="off" placeholder="なまえで引く（例：僧帽筋）">
+      <button id="search-clear" class="plain" hidden>もどす</button>
+    </div>
     <div class="row" id="regions"></div>
-    <div class="row" id="layers"></div>
+    <div class="row" id="subregions" style="display:none"></div>
+    <div class="row">
+      <span id="strata" style="display:contents"></span>
+      <span class="divider" aria-hidden="true"></span>
+      <span id="layers" style="display:contents"></span>
+    </div>
     <div class="row" id="views"></div>
     <div id="credit">
       3Dデータ：Z-Anatomy / BodyParts3D（CC BY-SA 4.0）
@@ -170,6 +224,6 @@
 
   <div id="loading">読み込んでいます…</div>
 
-  <script type="module" src="./app.js"></script>
+  <script type="module" src="./app.js?v=2"></script>
 </body>
 </html>

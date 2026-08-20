@@ -34,16 +34,25 @@ const LOOK = {
     '未分類':     { color: 0xcfc8ba, label: '未分類',    file: 'misc' },
   },
 };
-// 最初に読むもの（軽い順に骨だけ）。ほかは押されたときに読む。
+// 最初に読むもの（骨をまず出す）。続きは boot() が順に読み、着た姿（浅層まで）にする。
 const FIRST = ['骨'];
+// 骨のあとに自動で読む順（見た目に効く順）。「その他」は浅層の筋膜34個のために読む。
+const DRESS_ORDER = ['筋', '関節・靭帯', '腱・筋膜', 'その他'];
 
 // ---------------------------------------------------------------- 名前
 // 書き出しのときに en（英名）／ja（和名）／side（左右）／system（系統）を別ファイルに出してある。
 // 和名が無いものは英語のまま出す（作り話をしない）。
 const NAME_MAPS = {};   // 系統ごとの対応表をためる
-let REGIONS = {};       // パーツごとの部位（head / trunk / upper / lower）
 
-// プロメテウスの章立てと同じ順に見る。まず部位を選び、その中で層を積む。
+// ---------------------------------------------------------------- 分類（もとデータに忠実）
+// data/regions.json＝Z-Anatomy自身の分類から取り出したもの（build_viewer_classify.py）。
+//   r: 部位11区分（もとデータの Main divisions）
+//   s: 1なら浅層（もとデータの Superficial muscles 由来。筋膜・腱・靱帯も含む）
+//   g: 筋の区画（回旋筋腱板・前腕の前面 など34種）の番号
+let CLASSIFY = {};
+let GROUPS = [];
+
+// 部位は2段。1段目はもとデータの階層と同じ束ね方（体幹の下に背中・胸・腹・骨盤）。
 const REGION_LIST = [
   { key: 'all',   label: '全身' },
   { key: 'head',  label: '頭と首' },
@@ -51,10 +60,69 @@ const REGION_LIST = [
   { key: 'upper', label: '腕と手' },
   { key: 'lower', label: '脚と足' },
 ];
+const SUB_LIST = {
+  head:  [['head', '頭'], ['neck', '首']],
+  trunk: [['back', '背中'], ['thorax', '胸'], ['abdomen', '腹'], ['pelvis', '骨盤']],
+  upper: [['arm', '腕'], ['hand', '手']],
+  lower: [['leg', '脚'], ['foot', '足']],
+};
+const TOP_OF = {
+  head: 'head', neck: 'head',
+  trunk: 'trunk', back: 'trunk', thorax: 'trunk', abdomen: 'trunk', pelvis: 'trunk',
+  arm: 'upper', hand: 'upper', leg: 'lower', foot: 'lower',
+};
+const REGION_JA = {
+  head: '頭', neck: '首', trunk: '体幹', back: '背中', thorax: '胸',
+  abdomen: '腹', pelvis: '骨盤', arm: '腕', hand: '手', leg: '脚', foot: '足',
+};
 let currentRegion = 'all';
+let currentSub = null;      // 2段目（back/thorax…）。null なら1段目の全体
 
-fetch('./data/regions.json').then(r => r.json()).then(j => { REGIONS = j; applyRegion(); });
+// 層は4段。もとデータが持っている分け方だけを使う（浅層の印＋系統）。
+// 「〜まで剥いだ状態」を番号で持つ。3=浅層まで（着た姿）…0=骨だけ。
+const STRATA = [
+  { rank: 3, label: '浅層まで' },
+  { rank: 2, label: '深層の筋まで' },
+  { rank: 1, label: '関節・靱帯まで' },
+  { rank: 0, label: '骨だけ' },
+];
+let currentStratum = 3;
 
+// 層の外にある系統（神経・血管・脳など）は、従来どおりボタンで足す。
+const EXTRA_SYSTEMS = ['神経', '血管', '脳', 'その他', '未分類'];
+const extraOn = {};
+for (const s of EXTRA_SYSTEMS) extraOn[s] = false;
+
+// メッシュ1個の層の深さ。浅層の印がいちばん強い（「その他」の筋膜もここで拾う）。
+function meshRank(m) {
+  const c = CLASSIFY[m.userData.partKey];
+  if (c && c.s) return 3;
+  const sys = m.userData.layer;
+  if (sys === '筋' || sys === '腱・筋膜') return 2;
+  if (sys === '関節・靭帯') return 1;
+  if (sys === '骨') return 0;
+  return null;   // 層の外（神経・血管・脳・その他・未分類）
+}
+
+// 名前で引いたとき、その名前のものだけを出す
+let searchTarget = null;    // { en, sys }
+
+fetch('./data/regions.json?v=2').then(r => r.json()).then(j => {
+  GROUPS = j._groups || [];
+  delete j._groups;
+  CLASSIFY = j;
+  applyVisibility();
+});
+
+
+// Z-Anatomyの目次用の文字物体（「Joints.g」「Skeletal system.g」など、体の左に浮かぶ
+// 立体の文字。全11個＋説明文2個）。身体の部位ではないので、表示にも検索にも出さない。
+// 末尾 .i（矢印344個）を書き出しから外したのと同じ扱い。
+function isLabelObject(entry) {
+  if (!entry) return false;
+  const r = entry.raw || entry.en || '';
+  return /\.g$/.test(r) || r === 'HOW TO ...' || r === 'Muscles.j';
+}
 
 // 【令和8年8月20日の直し】前は系統を見ずに、最初に見つかった表から名前を返していた。
 // 系統ごとに p0001 から番号を振り直していたので、筋をさわると骨の名前が出ていた。
@@ -190,6 +258,7 @@ let modelSize = null;
 // 縦と横それぞれの実際の長さで合わせて、大きいほうを採る。
 function updateFitDistance() {
   if (!modelSize) return;
+  if (!isFinite(camera.aspect) || camera.aspect <= 0) return;
   const half = (camera.fov * Math.PI) / 360;
   const fitVertical = (modelSize.y * 0.5) / Math.tan(half);
   const fitHorizontal = (modelSize.x * 0.5) / (Math.tan(half) * camera.aspect);
@@ -205,13 +274,16 @@ for (const k of Object.keys(LOOK.layers)) {
   layerGroups[k] = g;
 }
 
-const DATA_VERSION = '1';
+const DATA_VERSION = '2';
 const loaded = {};       // 読み終わった系統
 const loading = {};      // 読み込み中の系統
 
+// 最初の1回（骨）だけ全画面。以後は画面を隠さない小さな表示で知らせる。
+let statusIsPill = false;
 function setStatus(text) {
   const el = document.getElementById('loading');
   if (!el) return;
+  if (statusIsPill) el.classList.add('pill');
   if (text) { el.textContent = text; el.classList.remove('hidden'); }
   else { el.classList.add('hidden'); }
 }
@@ -229,6 +301,7 @@ async function loadSystem(sys) {
 
     for (const mesh of meshes) {
       const entry = findEntry(mesh, sys);
+      if (isLabelObject(entry)) continue;   // 目次用の文字物体は入れない
       mesh.updateWorldMatrix(true, false);
       const geo = mesh.geometry.clone();
       geo.applyMatrix4(mesh.matrixWorld);
@@ -248,7 +321,7 @@ async function loadSystem(sys) {
       layerGroups[sys].add(line);
     }
     loaded[sys] = true;
-    applyRegion();
+    applyVisibility();
     console.log(conf.label, '読み込み完了', meshes.length, '個');
   } catch (e) {
     console.error(sys, e);
@@ -261,23 +334,93 @@ async function loadSystem(sys) {
   setStatus('');
 }
 
-// 選んだ部位のものだけ出す
-function applyRegion() {
+// 見える・見えないは、この1つの関数で決める（部位 × 層 × 検索）。
+// 判定をボタンごとに分けると食い違うので、必ずここを通す。
+function meshVisible(m) {
+  const key = m.userData.partKey;
+  const c = key ? CLASSIFY[key] : null;
+
+  // 名前で引いているときは、その名前のものだけ
+  if (searchTarget) {
+    const e = m.userData.entry;
+    return !!(e && e.en === searchTarget.en && m.userData.layer === searchTarget.sys);
+  }
+
+  // 部位の絞り
+  const rg = c ? c.r : null;
+  let regionOK;
+  if (currentRegion === 'all') regionOK = true;
+  else if (currentSub) regionOK = rg === currentSub;
+  else regionOK = rg ? TOP_OF[rg] === currentRegion : false;
+  if (!regionOK) return false;
+
+  // 層の絞り
+  const rank = meshRank(m);
+  if (rank !== null) return rank <= currentStratum;
+  // 層の外の系統は、ボタンで足したときだけ
+  return !!extraOn[m.userData.layer];
+}
+
+function applyVisibility() {
   let shown = 0;
   for (const sys of Object.keys(layerGroups)) {
-    layerGroups[sys].children.forEach(m => {
-      const key = m.userData.partKey;
-      const rg = key ? REGIONS[key] : null;
-      const on = (currentRegion === 'all') || (rg === currentRegion) || (!rg && currentRegion === 'all');
-      m.visible = on;
-      if (on && !m.userData.isOutline) shown++;
-    });
+    const g = layerGroups[sys];
+    for (let i = 0; i < g.children.length; i += 2) {
+      const fill = g.children[i];
+      const line = g.children[i + 1];
+      const on = meshVisible(fill);
+      fill.visible = on;
+      if (line) line.visible = on;
+      if (on) shown++;
+    }
   }
   document.querySelectorAll('[data-region]').forEach(b => {
     b.classList.toggle('on', b.dataset.region === currentRegion);
   });
+  document.querySelectorAll('[data-sub]').forEach(b => {
+    b.classList.toggle('on', (b.dataset.sub || null) === (currentSub || null));
+  });
+  document.querySelectorAll('[data-stratum]').forEach(b => {
+    b.classList.toggle('on', Number(b.dataset.stratum) === currentStratum);
+  });
+  rebuildSubRow();
   fitToVisible();
   return shown;
+}
+
+// 2段目の部位ボタン（1段目を選んだときだけ出す）
+function rebuildSubRow() {
+  const row = document.getElementById('subregions');
+  if (!row) return;
+  const subs = SUB_LIST[currentRegion];
+  if (!subs) { row.replaceChildren(); row.style.display = 'none'; row.dataset.built = ''; return; }
+  row.style.display = '';
+  const want = 'w:' + currentRegion;
+  if (row.dataset.built === want) return;   // 同じ1段目なら作り直さない
+  row.dataset.built = want;
+  row.replaceChildren();
+  const all = document.createElement('button');
+  all.textContent = '全体';
+  all.dataset.sub = '';
+  all.classList.toggle('on', !currentSub);
+  all.addEventListener('click', () => { currentSub = null; afterFilterChange(); });
+  row.appendChild(all);
+  for (const [key, label] of subs) {
+    const b = document.createElement('button');
+    b.textContent = label;
+    b.dataset.sub = key;
+    b.classList.toggle('on', currentSub === key);
+    b.addEventListener('click', () => { currentSub = key; afterFilterChange(); });
+    row.appendChild(b);
+  }
+}
+
+function afterFilterChange() {
+  if (searchTarget) clearSearch(false);   // 部位や層を触ったら、名前の絞りは外す
+  closeSheet();
+  clearHighlight();
+  setLabel('', '');
+  applyVisibility();
 }
 
 // 見えているものだけに合わせて、位置と寄りを決め直す
@@ -331,9 +474,17 @@ function fitToContent() {
 
 async function boot() {
   for (const k of FIRST) await loadSystem(k);
+  statusIsPill = true;              // 以後の読み込み表示は画面を隠さない
   resetView(false);
   buildControlsUI();
   onResize();
+  // 骨を出したあと、着た姿（浅層まで）に向けて順に読む。終わるたびに着ていく。
+  (async () => {
+    for (const k of DRESS_ORDER) {
+      if (!loaded[k]) await loadSystem(k);
+    }
+  })();
+  buildSearchIndex();               // 名前で引くための索引（別ファイルの名前表を全部読む）
 }
 
 boot().catch(err => {
@@ -366,19 +517,20 @@ function applyView(name) {
 function resetView(clearSelection = true) {
   applyView('前');
   if (clearSelection) {
-    for (const k of Object.keys(layerGroups)) {
-      const on = !!loaded[k];
-      layerGroups[k].visible = on;
-      const btn = document.querySelector(`[data-layer="${k}"]`);
-      if (btn) btn.classList.toggle('on', on);
-    }
+    clearSearch(false);
+    currentRegion = 'all';
+    currentSub = null;
+    currentStratum = 3;
+    for (const s of EXTRA_SYSTEMS) extraOn[s] = false;
+    document.querySelectorAll('[data-layer]').forEach(b => b.classList.remove('on'));
     setLabel('', '');
+    applyVisibility();
   }
 }
 
 // ---------------------------------------------------------------- 操作の並び
 function buildControlsUI() {
-  // 部位（プロメテウスと同じで、まずここを選ぶ）
+  // 部位（プロメテウスと同じで、まずここを選ぶ。2段目は rebuildSubRow が作る）
   const regionRow = document.getElementById('regions');
   if (regionRow && !regionRow.children.length) {
     for (const r of REGION_LIST) {
@@ -388,33 +540,53 @@ function buildControlsUI() {
       b.classList.toggle('on', r.key === currentRegion);
       b.addEventListener('click', () => {
         currentRegion = r.key;
-        closeSheet();
-        clearHighlight();
-        setLabel('', '');
-        applyRegion();
+        currentSub = null;
+        afterFilterChange();
       });
       regionRow.appendChild(b);
     }
   }
 
+  // 層（浅層まで→骨だけ。押した層まで剥いだ状態にする）
+  const strataRow = document.getElementById('strata');
+  if (strataRow && !strataRow.children.length) {
+    for (const s of STRATA) {
+      const b = document.createElement('button');
+      b.textContent = s.label;
+      b.dataset.stratum = String(s.rank);
+      b.classList.toggle('on', s.rank === currentStratum);
+      b.addEventListener('click', async () => {
+        currentStratum = s.rank;
+        // その層に要る系統がまだなら読む（骨は最初に読み済み）
+        if (s.rank >= 1 && !loaded['関節・靭帯']) await loadSystem('関節・靭帯');
+        if (s.rank >= 2) {
+          if (!loaded['筋']) await loadSystem('筋');
+          if (!loaded['腱・筋膜']) await loadSystem('腱・筋膜');
+        }
+        if (s.rank >= 3 && !loaded['その他']) loadSystem('その他');  // 筋膜。待たずに後から出す
+        afterFilterChange();
+      });
+      strataRow.appendChild(b);
+    }
+  }
+
+  // 層の外の系統（神経・血管・脳・その他・未分類）は、押したときだけ足す
   const layersRow = document.getElementById('layers');
-  for (const [k, v] of Object.entries(LOOK.layers)) {
+  for (const k of EXTRA_SYSTEMS) {
+    const v = LOOK.layers[k];
     const b = document.createElement('button');
     b.textContent = v.label;
     b.dataset.layer = k;
-    b.classList.add('on');
-    b.classList.toggle('on', FIRST.includes(k));
     b.addEventListener('click', async () => {
-      if (!loaded[k]) {
+      if (!extraOn[k] && !loaded[k]) {
+        b.classList.add('busy');
         await loadSystem(k);
+        b.classList.remove('busy');
         if (!loaded[k]) return;
-        layerGroups[k].visible = true;
-        b.classList.add('on');
-        return;
       }
-      const g = layerGroups[k];
-      g.visible = !g.visible;
-      b.classList.toggle('on', g.visible);
+      extraOn[k] = !extraOn[k];
+      b.classList.toggle('on', extraOn[k]);
+      applyVisibility();
     });
     layersRow.appendChild(b);
   }
@@ -465,7 +637,7 @@ const highlightMaterial = new THREE.MeshToonMaterial({
   color: 0xd8a7a0, gradientMap: GRADIENT, side: THREE.DoubleSide,
 });
 
-fetch('./data/part_lessons.json').then(r => r.json()).then(j => { PART_LESSONS = j; });
+fetch('./data/part_lessons.json?v=2').then(r => r.json()).then(j => { PART_LESSONS = j; });
 
 function setLabel(ja, en) {
   document.getElementById('ja').textContent = ja;
@@ -484,7 +656,7 @@ function pickAt(clientX, clientY) {
   pointer.x = ((clientX - rect.left) / rect.width) * 2 - 1;
   pointer.y = -((clientY - rect.top) / rect.height) * 2 + 1;
   raycaster.setFromCamera(pointer, camera);
-  const visible = pickable.filter(m => layerGroups[m.userData.layer].visible);
+  const visible = pickable.filter(m => m.visible);
   const hits = raycaster.intersectObjects(visible, false);
   return hits.length ? hits[0].object : null;
 }
@@ -588,8 +760,18 @@ function openSheetFor(mesh) {
   const lab = labelOf(e);
   document.getElementById('s-name').textContent = lab.ja || '（名前が入っていません）';
   document.getElementById('s-sub').textContent = e ? e.en : '';
+  // 系統・左右に加えて、もとデータの部位・層・筋の区画（あるものだけ）を出す
+  const c = mesh.userData.partKey ? CLASSIFY[mesh.userData.partKey] : null;
+  const grp = c && c.g !== undefined && GROUPS[c.g]
+    ? (GROUPS[c.g].ja || GROUPS[c.g].en) : '';
   document.getElementById('s-meta').textContent =
-    e ? [e.system || '未分類', e.side ? e.side + 'がわ' : ''].filter(Boolean).join('　・　') : '';
+    e ? [
+      e.system || '未分類',
+      e.side ? e.side + 'がわ' : '',
+      c && c.r ? REGION_JA[c.r] : '',
+      c && c.s ? '浅層' : '',
+      grp,
+    ].filter(Boolean).join('　・　') : '';
 
   const box = document.getElementById('s-link');
   const key = mesh.userData.partKey;
@@ -640,6 +822,125 @@ function openSheetFor(mesh) {
   });
 }
 
+// ---------------------------------------------------------------- なまえで引く
+// この道具は「からだの辞書」。部位名からすぐ引けるように、全系統の名前表を
+// 先に読んで索引にしておく（3Dの実体は選ばれたときに読む）。
+let SEARCH_INDEX = null;
+
+async function buildSearchIndex() {
+  if (SEARCH_INDEX) return;
+  const idx = [];
+  for (const [sys, conf] of Object.entries(LOOK.layers)) {
+    try {
+      const table = NAME_MAPS[sys]
+        || await fetch(`./data/${conf.file}_names.json?v=${DATA_VERSION}`).then(r => r.json());
+      if (!NAME_MAPS[sys]) NAME_MAPS[sys] = table;
+      const seen = new Set();
+      for (const v of Object.values(table)) {
+        const en = (v.en || '').trim();
+        if (!en) continue;
+        if (isLabelObject(v)) continue;    // 目次用の文字物体は索引にも入れない
+        const uniq = sys + '|' + en;          // 左右・複製は1行にまとめる
+        if (seen.has(uniq)) continue;
+        seen.add(uniq);
+        idx.push({ sys, en, ja: (v.ja || '').trim(), enLower: en.toLowerCase() });
+      }
+    } catch (e) { console.error('検索の索引', sys, e); }
+  }
+  SEARCH_INDEX = idx;
+}
+
+function searchMatches(q) {
+  if (!SEARCH_INDEX) return [];
+  const qLower = q.toLowerCase();
+  const hits = [];
+  for (const item of SEARCH_INDEX) {
+    let score = -1;
+    if (item.ja) {
+      if (item.ja.startsWith(q)) score = 0;
+      else if (item.ja.includes(q)) score = 1;
+    }
+    if (score < 0) {
+      if (item.enLower.startsWith(qLower)) score = 2;
+      else if (item.enLower.includes(qLower)) score = 3;
+    }
+    if (score >= 0) hits.push([score, item]);
+  }
+  hits.sort((a, b) => a[0] - b[0] || (a[1].ja || a[1].en).length - (b[1].ja || b[1].en).length);
+  return hits.slice(0, 20).map(h => h[1]);
+}
+
+const searchInput = document.getElementById('search');
+const searchResults = document.getElementById('search-results');
+const searchClearBtn = document.getElementById('search-clear');
+
+function renderSearchResults(items) {
+  searchResults.replaceChildren();
+  if (!items.length) { searchResults.hidden = true; return; }
+  for (const item of items) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'result';
+    const name = document.createElement('span');
+    name.textContent = item.ja || item.en;
+    const tag = document.createElement('span');
+    tag.className = 'tag';
+    tag.textContent = LOOK.layers[item.sys].label + (item.ja ? '　' + item.en : '');
+    b.append(name, tag);
+    // blur より先に動くように pointerdown で受ける
+    b.addEventListener('pointerdown', (e) => { e.preventDefault(); chooseSearchResult(item); });
+    searchResults.appendChild(b);
+  }
+  searchResults.hidden = false;
+}
+
+async function chooseSearchResult(item) {
+  searchResults.hidden = true;
+  searchInput.value = item.ja || item.en;
+  searchInput.blur();
+  if (!loaded[item.sys]) await loadSystem(item.sys);
+  if (!loaded[item.sys]) return;
+  searchTarget = { en: item.en, sys: item.sys };
+  searchClearBtn.hidden = false;
+  clearHighlight();
+  applyVisibility();   // その名前のものだけが残り、そこへ寄る
+  const g = layerGroups[item.sys];
+  const first = g.children.find(m => !m.userData.isOutline && m.visible);
+  if (first) {
+    const lab = labelOf(first.userData.entry);
+    setLabel(lab.ja, lab.en);
+    openSheetFor(first);
+  }
+}
+
+function clearSearch(refresh = true) {
+  searchTarget = null;
+  if (searchInput) searchInput.value = '';
+  if (searchResults) searchResults.hidden = true;
+  if (searchClearBtn) searchClearBtn.hidden = true;
+  if (refresh) { closeSheet(); applyVisibility(); }
+}
+
+if (searchInput) {
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.trim();
+    if (!q) { searchResults.hidden = true; return; }
+    renderSearchResults(searchMatches(q));
+  });
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const q = searchInput.value.trim();
+      const items = q ? searchMatches(q) : [];
+      if (items.length) chooseSearchResult(items[0]);
+    }
+    if (e.key === 'Escape') clearSearch();
+  });
+  searchInput.addEventListener('blur', () => {
+    setTimeout(() => { searchResults.hidden = true; }, 150);
+  });
+  searchClearBtn.addEventListener('click', () => clearSearch());
+}
+
 // ---------------------------------------------------------------- 画像に保存
 function saveImage() {
   renderer.render(scene, camera);
@@ -660,8 +961,12 @@ window.__dbg = () => {
   return {
     見えている数: vis,
     パーツの鍵の例: (layerGroups['骨'] ? layerGroups['骨'].children.filter(m=>!m.userData.isOutline).slice(0,5).map(m=>m.userData.partKey) : []),
-    REGIONSの件数: Object.keys(REGIONS).length,
+    分類の件数: Object.keys(CLASSIFY).length,
     region: currentRegion,
+    sub: currentSub,
+    stratum: currentStratum,
+    検索: searchTarget,
+    足している系統: Object.keys(extraOn).filter(k => extraOn[k]),
     カメラ位置: camera.position.toArray().map(n=>+n.toFixed(3)),
     見る先: controls.target.toArray().map(n=>+n.toFixed(3)),
     homeDistance: +homeDistance.toFixed(3),
@@ -674,6 +979,9 @@ window.__dbg = () => {
 function onResize() {
   const w = window.innerWidth;
   const h = window.innerHeight;
+  // 裏側のタブや、まだ大きさの決まっていないiframeでは 0×0 になる。
+  // 0で割るとカメラの位置が数字でなくなり、以後ずっと直らないので、ここで止める。
+  if (!w || !h) return;
   camera.aspect = w / h;
   camera.updateProjectionMatrix();
   renderer.setSize(w, h);
