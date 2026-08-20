@@ -1,0 +1,184 @@
+{
+ "p0001": {
+  "en": "Accessory nucleus of oculomotor nerve",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Accessory nucleus of oculomotor nerve.l"
+ },
+ "p0002": {
+  "en": "Accessory nucleus of oculomotor nerve",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Accessory nucleus of oculomotor nerve.r"
+ },
+ "p0003": {
+  "en": "Basilar venous plexus",
+  "ja": "",
+  "side": "",
+  "system": "神経",
+  "raw": "Basilar venous plexus"
+ },
+ "p0004": {
+  "en": "Choroid plexus",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Choroid plexus.l"
+ },
+ "p0005": {
+  "en": "Choroid plexus",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Choroid plexus.r"
+ },
+ "p0006": {
+  "en": "Cochlear nerve",
+  "ja": "",
+  "side": "",
+  "system": "神経",
+  "raw": "Cochlear nerve"
+ },
+ "p0007": {
+  "en": "Motor nucleus of facial nerve",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Motor nucleus of facial nerve.l"
+ },
+ "p0008": {
+  "en": "Motor nucleus of facial nerve",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Motor nucleus of facial nerve.r"
+ },
+ "p0009": {
+  "en": "Motor root of trigeminal nerve",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Motor root of trigeminal nerve.l"
+ },
+ "p0010": {
+  "en": "Motor root of trigeminal nerve",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Motor root of trigeminal nerve.r"
+ },
+ "p0011": {
+  "en": "Nucleus of abducens nerve",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Nucleus of abducens nerve.l"
+ },
+ "p0012": {
+  "en": "Nucleus of abducens nerve",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Nucleus of abducens nerve.r"
+ },
+ "p0013": {
+  "en": "Nucleus of accessory nerve",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Nucleus of accessory nerve.l"
+ },
+ "p0014": {
+  "en": "Nucleus of accessory nerve",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Nucleus of accessory nerve.r"
+ },
+ "p0015": {
+  "en": "Nucleus of hypoglossal nerve",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Nucleus of hypoglossal nerve.l"
+ },
+ "p0016": {
+  "en": "Nucleus of hypoglossal nerve",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Nucleus of hypoglossal nerve.r"
+ },
+ "p0017": {
+  "en": "Nucleus of oculomotor nerve",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Nucleus of oculomotor nerve.l"
+ },
+ "p0018": {
+  "en": "Nucleus of oculomotor nerve",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Nucleus of oculomotor nerve.r"
+ },
+ "p0019": {
+  "en": "Nucleus of trochlear nerve",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Nucleus of trochlear nerve.l"
+ },
+ "p0020": {
+  "en": "Nucleus of trochlear nerve",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Nucleus of trochlear nerve.r"
+ },
+ "p0021": {
+  "en": "Posterior nucleus of vagus nerve",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Posterior nucleus of vagus nerve.l"
+ },
+ "p0022": {
+  "en": "Posterior nucleus of vagus nerve",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Posterior nucleus of vagus nerve.r"
+ },
+ "p0023": {
+  "en": "Sensory root of trigeminal nerve",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Sensory root of trigeminal nerve.l"
+ },
+ "p0024": {
+  "en": "Sensory root of trigeminal nerve",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Sensory root of trigeminal nerve.r"
+ },
+ "p0025": {
+  "en": "Spinal ganglion",
+  "ja": "",
+  "side": "左",
+  "system": "神経",
+  "raw": "Spinal ganglion.l"
+ },
+ "p0026": {
+  "en": "Spinal ganglion",
+  "ja": "",
+  "side": "右",
+  "system": "神経",
+  "raw": "Spinal ganglion.r"
+ }
+}

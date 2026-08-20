@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<title>からだの立体図鑑｜感じて覚える運動解剖学</title>
+<style>
+  :root{
+    --bg:#f4f1ec;
+    --ink:#26221c;
+    --ink2:#5a5347;
+    --ink3:#8a8175;
+    --hair:rgba(38,34,28,.14);
+    --glass:rgba(252,250,247,.72);
+    --glass-strong:rgba(252,250,247,.9);
+    --accent:#9c635a;
+    --shadow:0 1px 2px rgba(40,34,26,.06), 0 12px 32px rgba(40,34,26,.10);
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{
+    margin:0;height:100%;background:var(--bg);color:var(--ink);
+    font:100%/1.5 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+    overscroll-behavior:none;
+  }
+  #stage{position:fixed;inset:0}
+  canvas{display:block;touch-action:none}
+
+  /* ── 上：いま触っているものの名前。3Dの上に浮かせる ── */
+  #label{
+    position:fixed;top:0;left:0;right:0;z-index:3;
+    padding:calc(14px + env(safe-area-inset-top)) 20px 0;
+    pointer-events:none;text-align:center;
+  }
+  #label .ja{
+    font-size:1.35rem;font-weight:600;line-height:1.3;
+    letter-spacing:-.01em;              /* 大きい字は詰める */
+    min-height:1.3em;
+  }
+  #label .en{
+    font-size:.8125rem;color:var(--ink2);margin-top:.15em;
+    letter-spacing:.01em;min-height:1.2em;
+  }
+  #hint{
+    font-size:.8125rem;color:var(--ink3);margin-top:.6em;
+    transition:opacity .4s ease;letter-spacing:.01em;
+  }
+
+  /* ── 下：半透明のガラスの操作板 ── */
+  #dock{
+    position:fixed;left:0;right:0;bottom:0;z-index:4;
+    padding:8px 10px calc(8px + env(safe-area-inset-bottom));
+    display:flex;flex-direction:column;gap:6px;align-items:center;
+    transition:transform .32s cubic-bezier(.2,0,0,1), opacity .24s ease;
+    background:var(--glass);
+    backdrop-filter:blur(24px) saturate(180%);
+    -webkit-backdrop-filter:blur(24px) saturate(180%);
+    border-top:1px solid rgba(255,255,255,.55);
+    box-shadow:0 -1px 0 var(--hair);
+  }
+  /* 高さを取らないよう、はみ出す分は横に流す（折り返して2段3段にしない） */
+  .row{
+    display:flex;gap:6px;flex-wrap:nowrap;justify-content:flex-start;
+    width:100%;max-width:680px;overflow-x:auto;overflow-y:hidden;
+    scrollbar-width:none;-ms-overflow-style:none;
+    padding:1px 2px;scroll-snap-type:x proximity;
+  }
+  .row::-webkit-scrollbar{display:none}
+  .row > *{flex:0 0 auto;scroll-snap-align:start}
+  @media (min-width:700px){ .row{justify-content:center} }
+  button{
+    font:inherit;font-size:.9375rem;line-height:1;
+    min-height:44px;padding:0 15px;border-radius:999px;
+    border:1px solid var(--hair);background:rgba(255,255,255,.7);color:var(--ink2);
+    cursor:pointer;
+    /* 押した瞬間に応える。離してからではない */
+    transition:transform .1s cubic-bezier(.2,0,0,1), background .16s ease, color .16s ease, border-color .16s ease;
+  }
+  button:active{transform:scale(.94)}
+  button.on{background:var(--ink);border-color:var(--ink);color:#fff}
+  button.busy{opacity:.5}
+  button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  #dock.down{transform:translate3d(0,100%,0);opacity:0;pointer-events:none}
+  #credit{font-size:.6875rem;color:var(--ink3);text-align:center;line-height:1.4;letter-spacing:.01em}
+  #credit a{color:var(--ink3)}
+
+  /* ── 下から出るシート。掴んで下げられる ── */
+  #sheet{
+    position:fixed;left:0;right:0;bottom:0;z-index:6;
+    transform:translate3d(0,100%,0);
+    will-change:transform;
+    background:var(--glass-strong);
+    backdrop-filter:blur(30px) saturate(180%);
+    -webkit-backdrop-filter:blur(30px) saturate(180%);
+    border-radius:20px 20px 0 0;
+    border-top:1px solid rgba(255,255,255,.6);
+    box-shadow:var(--shadow);
+    padding:8px 20px calc(22px + env(safe-area-inset-bottom));
+    touch-action:none;
+  }
+  #grip{
+    width:38px;height:5px;border-radius:99px;background:rgba(38,34,28,.2);
+    margin:0 auto 14px;
+  }
+  #sheet .name{font-size:1.5rem;font-weight:600;line-height:1.25;letter-spacing:-.015em}
+  #sheet .sub{font-size:.875rem;color:var(--ink2);margin-top:.35em;letter-spacing:.01em}
+  #sheet .meta{font-size:.8125rem;color:var(--ink3);margin-top:.9em}
+  #sheet a.go{
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+    margin-top:16px;padding:15px 18px;border-radius:14px;
+    background:var(--ink);color:#fff;text-decoration:none;
+    font-size:.9375rem;font-weight:600;letter-spacing:.005em;
+    transition:transform .1s cubic-bezier(.2,0,0,1), opacity .16s ease;
+  }
+  a.go:active{transform:scale(.985);opacity:.9}
+  a.go .arrow{opacity:.65;font-weight:400}
+  #sheet .none{
+    margin-top:16px;padding:14px 16px;border-radius:14px;
+    background:rgba(38,34,28,.05);color:var(--ink2);font-size:.875rem;line-height:1.6;
+  }
+
+  #loading{
+    position:fixed;inset:0;z-index:8;display:grid;place-items:center;
+    background:var(--bg);font-size:.9375rem;color:var(--ink2);
+  }
+  #loading.hidden{display:none}
+
+  @media (max-width:420px){
+    #label .ja{font-size:1.2rem}
+    button{font-size:.875rem;padding:0 13px}
+    #sheet .name{font-size:1.3rem}
+  }
+  /* 動きを減らす設定のときは、跳ねさせない */
+  @media (prefers-reduced-motion: reduce){
+    button, a.go{transition:opacity .16s ease}
+    button:active, a.go:active{transform:none}
+  }
+  /* 透過を減らす設定のときは、すりガラスをやめて塗る */
+  @media (prefers-reduced-transparency: reduce){
+    #dock,#sheet{background:#fbf9f6;backdrop-filter:none;-webkit-backdrop-filter:none}
+  }
+</style>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <div id="label">
+    <div class="ja" id="ja"></div>
+    <div class="en" id="en"></div>
+    <div id="hint">まわす・つまんで拡大・さわると名前が出ます</div>
+  </div>
+
+  <div id="dock">
+    <div class="row" id="layers"></div>
+    <div class="row" id="views"></div>
+    <div id="credit">
+      3Dデータ：Z-Anatomy / BodyParts3D（CC BY-SA 4.0）
+    </div>
+  </div>
+
+  <div id="sheet" aria-hidden="true">
+    <div id="grip"></div>
+    <div class="name" id="s-name"></div>
+    <div class="sub" id="s-sub"></div>
+    <div class="meta" id="s-meta"></div>
+    <div id="s-link"></div>
+  </div>
+
+  <div id="loading">読み込んでいます…</div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

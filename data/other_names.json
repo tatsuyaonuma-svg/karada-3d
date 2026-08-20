@@ -1,0 +1,6701 @@
+{
+ "p0001": {
+  "en": "(Anterior tibial node)",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "(Anterior tibial node).l"
+ },
+ "p0002": {
+  "en": "(Anterior tibial node)",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "(Anterior tibial node).r"
+ },
+ "p0003": {
+  "en": "(Fibular node)",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "(Fibular node).l"
+ },
+ "p0004": {
+  "en": "(Fibular node)",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "(Fibular node).r"
+ },
+ "p0005": {
+  "en": "(Iliopectineal bursa)",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "(Iliopectineal bursa).l"
+ },
+ "p0006": {
+  "en": "(Iliopectineal bursa)",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "(Iliopectineal bursa).r"
+ },
+ "p0007": {
+  "en": "(Intermediate deep inguinal node)",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "(Intermediate deep inguinal node).l"
+ },
+ "p0008": {
+  "en": "(Intermediate deep inguinal node)",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "(Intermediate deep inguinal node).r"
+ },
+ "p0009": {
+  "en": "(Lateral lacunar node)",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "(Lateral lacunar node).l"
+ },
+ "p0010": {
+  "en": "(Lateral lacunar node)",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "(Lateral lacunar node).r"
+ },
+ "p0011": {
+  "en": "(Posterior tibial node)",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "(Posterior tibial node).l"
+ },
+ "p0012": {
+  "en": "(Posterior tibial node)",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "(Posterior tibial node).r"
+ },
+ "p0013": {
+  "en": "(Proximal deep inguinal node)",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "(Proximal deep inguinal node).l"
+ },
+ "p0014": {
+  "en": "(Proximal deep inguinal node)",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "(Proximal deep inguinal node).r"
+ },
+ "p0015": {
+  "en": "(Retropyloric nodes)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "(Retropyloric nodes)"
+ },
+ "p0016": {
+  "en": "(Subpyloric nodes)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "(Subpyloric nodes)"
+ },
+ "p0017": {
+  "en": "(Suprapyloric node)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "(Suprapyloric node)"
+ },
+ "p0018": {
+  "en": "Acetabular labrum",
+  "ja": "寛骨臼唇",
+  "side": "左",
+  "system": "その他",
+  "raw": "Acetabular labrum.l"
+ },
+ "p0019": {
+  "en": "Acetabular labrum",
+  "ja": "寛骨臼唇",
+  "side": "右",
+  "system": "その他",
+  "raw": "Acetabular labrum.r"
+ },
+ "p0020": {
+  "en": "Adenohypophysis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Adenohypophysis"
+ },
+ "p0021": {
+  "en": "Ampulla of lacrimal canaliculus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Ampulla of lacrimal canaliculus.l"
+ },
+ "p0022": {
+  "en": "Ampulla of lacrimal canaliculus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Ampulla of lacrimal canaliculus.r"
+ },
+ "p0023": {
+  "en": "Amygdaloid body",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Amygdaloid body.l"
+ },
+ "p0024": {
+  "en": "Amygdaloid body",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Amygdaloid body.r"
+ },
+ "p0025": {
+  "en": "Angle of mouth",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Angle of mouth.l"
+ },
+ "p0026": {
+  "en": "Angle of mouth",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Angle of mouth.r"
+ },
+ "p0027": {
+  "en": "Anserine bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anserine bursa.l"
+ },
+ "p0028": {
+  "en": "Anserine bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anserine bursa.r"
+ },
+ "p0029": {
+  "en": "Antebrachial fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Antebrachial fascia.l"
+ },
+ "p0030": {
+  "en": "Antebrachial fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Antebrachial fascia.r"
+ },
+ "p0031": {
+  "en": "Anterior axillary nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior axillary nodes.l"
+ },
+ "p0032": {
+  "en": "Anterior axillary nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior axillary nodes.r"
+ },
+ "p0033": {
+  "en": "Anterior chamber of eyeball",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior chamber of eyeball.l"
+ },
+ "p0034": {
+  "en": "Anterior chamber of eyeball",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior chamber of eyeball.r"
+ },
+ "p0035": {
+  "en": "Anterior cochlear nucleus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior cochlear nucleus.l"
+ },
+ "p0036": {
+  "en": "Anterior cochlear nucleus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior cochlear nucleus.r"
+ },
+ "p0037": {
+  "en": "Anterior commissure",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior commissure"
+ },
+ "p0038": {
+  "en": "Anterior corticospinal tract",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior corticospinal tract"
+ },
+ "p0039": {
+  "en": "Anterior fasciculus proprius",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior fasciculus proprius"
+ },
+ "p0040": {
+  "en": "Anterior horn of spinal cord",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior horn of spinal cord"
+ },
+ "p0041": {
+  "en": "Anterior horn of spinal cord",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior horn of spinal cord.j"
+ },
+ "p0042": {
+  "en": "Anterior inferior jugular nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior inferior jugular nodes.l"
+ },
+ "p0043": {
+  "en": "Anterior inferior jugular nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior inferior jugular nodes.r"
+ },
+ "p0044": {
+  "en": "Anterior intermuscular septum of leg",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior intermuscular septum of leg.l"
+ },
+ "p0045": {
+  "en": "Anterior intermuscular septum of leg",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior intermuscular septum of leg.r"
+ },
+ "p0046": {
+  "en": "Anterior lateral segment of liver (VI)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior lateral segment of liver (VI)"
+ },
+ "p0047": {
+  "en": "Anterior lateral segment of liver (VI)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior lateral segment of liver (VI).j"
+ },
+ "p0048": {
+  "en": "Anterior layer of thoracolumbar fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior layer of thoracolumbar fascia.l"
+ },
+ "p0049": {
+  "en": "Anterior layer of thoracolumbar fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior layer of thoracolumbar fascia.r"
+ },
+ "p0050": {
+  "en": "Anterior medial segment of liver (V)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior medial segment of liver (V)"
+ },
+ "p0051": {
+  "en": "Anterior medial segment of liver (V)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior medial segment of liver (V).j"
+ },
+ "p0052": {
+  "en": "Anterior median line",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior median line"
+ },
+ "p0053": {
+  "en": "Anterior notch of auricle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior notch of auricle.l"
+ },
+ "p0054": {
+  "en": "Anterior notch of auricle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior notch of auricle.r"
+ },
+ "p0055": {
+  "en": "Anterior quadrangular lobule",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior quadrangular lobule.l"
+ },
+ "p0056": {
+  "en": "Anterior quadrangular lobule",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior quadrangular lobule.r"
+ },
+ "p0057": {
+  "en": "Anterior region of ankle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior region of ankle.l"
+ },
+ "p0058": {
+  "en": "Anterior region of ankle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior region of ankle.r"
+ },
+ "p0059": {
+  "en": "Anterior region of arm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior region of arm.l"
+ },
+ "p0060": {
+  "en": "Anterior region of arm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior region of arm.r"
+ },
+ "p0061": {
+  "en": "Anterior region of elbow",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior region of elbow.l"
+ },
+ "p0062": {
+  "en": "Anterior region of elbow",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior region of elbow.r"
+ },
+ "p0063": {
+  "en": "Anterior region of forearm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior region of forearm.l"
+ },
+ "p0064": {
+  "en": "Anterior region of forearm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior region of forearm.r"
+ },
+ "p0065": {
+  "en": "Anterior region of knee",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior region of knee.l"
+ },
+ "p0066": {
+  "en": "Anterior region of knee",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior region of knee.r"
+ },
+ "p0067": {
+  "en": "Anterior region of leg",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior region of leg.l"
+ },
+ "p0068": {
+  "en": "Anterior region of leg",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior region of leg.r"
+ },
+ "p0069": {
+  "en": "Anterior region of thigh",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior region of thigh.j"
+ },
+ "p0070": {
+  "en": "Anterior region of thigh",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior region of thigh.l"
+ },
+ "p0071": {
+  "en": "Anterior region of thigh",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior region of thigh.r"
+ },
+ "p0072": {
+  "en": "Anterior region of wrist",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior region of wrist.l"
+ },
+ "p0073": {
+  "en": "Anterior region of wrist",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior region of wrist.r"
+ },
+ "p0074": {
+  "en": "Anterior segment of eyeball",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Anterior segment of eyeball.l"
+ },
+ "p0075": {
+  "en": "Anterior segment of eyeball",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Anterior segment of eyeball.r"
+ },
+ "p0076": {
+  "en": "Anterior semilunar leaflet of pulmonary valve",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior semilunar leaflet of pulmonary valve"
+ },
+ "p0077": {
+  "en": "Anterior spinothalamic tract",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Anterior spinothalamic tract"
+ },
+ "p0078": {
+  "en": "Antihelix",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Antihelix.l"
+ },
+ "p0079": {
+  "en": "Antihelix",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Antihelix.r"
+ },
+ "p0080": {
+  "en": "Antitragus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Antitragus.l"
+ },
+ "p0081": {
+  "en": "Antitragus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Antitragus.r"
+ },
+ "p0082": {
+  "en": "Apex of auricle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Apex of auricle.l"
+ },
+ "p0083": {
+  "en": "Apex of auricle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Apex of auricle.r"
+ },
+ "p0084": {
+  "en": "Apical axillary nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Apical axillary nodes.l"
+ },
+ "p0085": {
+  "en": "Apical axillary nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Apical axillary nodes.r"
+ },
+ "p0086": {
+  "en": "Appendicular nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Appendicular nodes"
+ },
+ "p0087": {
+  "en": "Aqueduct of midbrain",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Aqueduct of midbrain"
+ },
+ "p0088": {
+  "en": "Ascending colon",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Ascending colon"
+ },
+ "p0089": {
+  "en": "Auditory tube",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Auditory tube.l"
+ },
+ "p0090": {
+  "en": "Auditory tube",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Auditory tube.r"
+ },
+ "p0091": {
+  "en": "Auricular region",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Auricular region.j"
+ },
+ "p0092": {
+  "en": "Auricular region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Auricular region.l"
+ },
+ "p0093": {
+  "en": "Auricular region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Auricular region.r"
+ },
+ "p0094": {
+  "en": "Auricular tubercle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Auricular tubercle.l"
+ },
+ "p0095": {
+  "en": "Auricular tubercle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Auricular tubercle.r"
+ },
+ "p0096": {
+  "en": "Bicipitoradial bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Bicipitoradial bursa.l"
+ },
+ "p0097": {
+  "en": "Bicipitoradial bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Bicipitoradial bursa.r"
+ },
+ "p0098": {
+  "en": "Biventral lobule",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Biventral lobule.l"
+ },
+ "p0099": {
+  "en": "Biventral lobule",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Biventral lobule.r"
+ },
+ "p0100": {
+  "en": "Brachial fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Brachial fascia.l"
+ },
+ "p0101": {
+  "en": "Brachial fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Brachial fascia.r"
+ },
+ "p0102": {
+  "en": "Brachial nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Brachial nodes.l"
+ },
+ "p0103": {
+  "en": "Brachial nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Brachial nodes.r"
+ },
+ "p0104": {
+  "en": "Brachiocephalic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Brachiocephalic nodes"
+ },
+ "p0105": {
+  "en": "Buccal region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Buccal region.l"
+ },
+ "p0106": {
+  "en": "Buccal region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Buccal region.r"
+ },
+ "p0107": {
+  "en": "Bucinator node",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Bucinator node.l"
+ },
+ "p0108": {
+  "en": "Bucinator node",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Bucinator node.r"
+ },
+ "p0109": {
+  "en": "Carotid triangle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Carotid triangle.l"
+ },
+ "p0110": {
+  "en": "Carotid triangle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Carotid triangle.r"
+ },
+ "p0111": {
+  "en": "Caudate nucleus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Caudate nucleus.l"
+ },
+ "p0112": {
+  "en": "Caudate nucleus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Caudate nucleus.r"
+ },
+ "p0113": {
+  "en": "Cavernous sinus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Cavernous sinus.l"
+ },
+ "p0114": {
+  "en": "Cavernous sinus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Cavernous sinus.r"
+ },
+ "p0115": {
+  "en": "Central axillary nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Central axillary nodes.l"
+ },
+ "p0116": {
+  "en": "Central axillary nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Central axillary nodes.r"
+ },
+ "p0117": {
+  "en": "Central lobule",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Central lobule"
+ },
+ "p0118": {
+  "en": "Central superior mesenteric nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Central superior mesenteric nodes"
+ },
+ "p0119": {
+  "en": "Clavipectoral fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Clavipectoral fascia.l"
+ },
+ "p0120": {
+  "en": "Clavipectoral fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Clavipectoral fascia.r"
+ },
+ "p0121": {
+  "en": "Cochlea",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Cochlea.l"
+ },
+ "p0122": {
+  "en": "Cochlea",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Cochlea.r"
+ },
+ "p0123": {
+  "en": "Coeliac nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Coeliac nodes"
+ },
+ "p0124": {
+  "en": "Common flexor tendon sheath",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Common flexor tendon sheath.l"
+ },
+ "p0125": {
+  "en": "Common flexor tendon sheath",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Common flexor tendon sheath.r"
+ },
+ "p0126": {
+  "en": "Common tendinous ring",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Common tendinous ring.l"
+ },
+ "p0127": {
+  "en": "Common tendinous ring",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Common tendinous ring.r"
+ },
+ "p0128": {
+  "en": "Coracobrachial bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Coracobrachial bursa.l"
+ },
+ "p0129": {
+  "en": "Coracobrachial bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Coracobrachial bursa.r"
+ },
+ "p0130": {
+  "en": "Cornea",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Cornea.l"
+ },
+ "p0131": {
+  "en": "Cornea",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Cornea.r"
+ },
+ "p0132": {
+  "en": "Corpus callosum",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Corpus callosum"
+ },
+ "p0133": {
+  "en": "Corpus cavernosum of penis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Corpus cavernosum of penis"
+ },
+ "p0134": {
+  "en": "Corpus spongiosum of penis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Corpus spongiosum of penis"
+ },
+ "p0135": {
+  "en": "Cruciform part of fibrous sheath of digit of hand",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Cruciform part of fibrous sheath of digit of hand.l"
+ },
+ "p0136": {
+  "en": "Cruciform part of fibrous sheath of digit of hand",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Cruciform part of fibrous sheath of digit of hand.r"
+ },
+ "p0137": {
+  "en": "Crura of antihelix",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Crura of antihelix.l"
+ },
+ "p0138": {
+  "en": "Crura of antihelix",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Crura of antihelix.r"
+ },
+ "p0139": {
+  "en": "Crural fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Crural fascia.l"
+ },
+ "p0140": {
+  "en": "Crural fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Crural fascia.r"
+ },
+ "p0141": {
+  "en": "Cubital fossa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Cubital fossa.l"
+ },
+ "p0142": {
+  "en": "Cubital fossa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Cubital fossa.r"
+ },
+ "p0143": {
+  "en": "Cubital nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Cubital nodes.l"
+ },
+ "p0144": {
+  "en": "Cubital nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Cubital nodes.r"
+ },
+ "p0145": {
+  "en": "Culmen",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Culmen"
+ },
+ "p0146": {
+  "en": "Cuneate fasciculus",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Cuneate fasciculus"
+ },
+ "p0147": {
+  "en": "Cuneus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Cuneus.l"
+ },
+ "p0148": {
+  "en": "Cuneus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Cuneus.r"
+ },
+ "p0149": {
+  "en": "Cymba conchae",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Cymba conchae.l"
+ },
+ "p0150": {
+  "en": "Cymba conchae",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Cymba conchae.r"
+ },
+ "p0151": {
+  "en": "Cystic node",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Cystic node"
+ },
+ "p0152": {
+  "en": "Declive",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Declive"
+ },
+ "p0153": {
+  "en": "Deep infrapatellar bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Deep infrapatellar bursa.l"
+ },
+ "p0154": {
+  "en": "Deep infrapatellar bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Deep infrapatellar bursa.r"
+ },
+ "p0155": {
+  "en": "Deep popliteal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Deep popliteal nodes.l"
+ },
+ "p0156": {
+  "en": "Deep popliteal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Deep popliteal nodes.r"
+ },
+ "p0157": {
+  "en": "Deltoid fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Deltoid fascia.l"
+ },
+ "p0158": {
+  "en": "Deltoid fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Deltoid fascia.r"
+ },
+ "p0159": {
+  "en": "Deltoid region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Deltoid region.l"
+ },
+ "p0160": {
+  "en": "Deltoid region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Deltoid region.r"
+ },
+ "p0161": {
+  "en": "Deltopectoral triangle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Deltopectoral triangle.l"
+ },
+ "p0162": {
+  "en": "Deltopectoral triangle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Deltopectoral triangle.r"
+ },
+ "p0163": {
+  "en": "Descending colon",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Descending colon"
+ },
+ "p0164": {
+  "en": "Diaphragm",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Diaphragm"
+ },
+ "p0165": {
+  "en": "Diaphragm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Diaphragm.ol"
+ },
+ "p0166": {
+  "en": "Diaphragm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Diaphragm.or"
+ },
+ "p0167": {
+  "en": "Diaphragmatic fascia",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Diaphragmatic fascia"
+ },
+ "p0168": {
+  "en": "Distal transverse arch of foot",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Distal transverse arch of foot.l"
+ },
+ "p0169": {
+  "en": "Distal transverse arch of foot",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Distal transverse arch of foot.r"
+ },
+ "p0170": {
+  "en": "Dorsal fascia of hand",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Dorsal fascia of hand.l"
+ },
+ "p0171": {
+  "en": "Dorsal fascia of hand",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Dorsal fascia of hand.r"
+ },
+ "p0172": {
+  "en": "Dorsal surfaces of digits of foot",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Dorsal surfaces of digits of foot.l"
+ },
+ "p0173": {
+  "en": "Dorsal surfaces of digits of foot",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Dorsal surfaces of digits of foot.r"
+ },
+ "p0174": {
+  "en": "Dorsal surfaces of digits of hand",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Dorsal surfaces of digits of hand.l"
+ },
+ "p0175": {
+  "en": "Dorsal surfaces of digits of hand",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Dorsal surfaces of digits of hand.r"
+ },
+ "p0176": {
+  "en": "Dorsum of foot",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Dorsum of foot.l"
+ },
+ "p0177": {
+  "en": "Dorsum of foot",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Dorsum of foot.r"
+ },
+ "p0178": {
+  "en": "Dorsum of hand",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Dorsum of hand.l"
+ },
+ "p0179": {
+  "en": "Dorsum of hand",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Dorsum of hand.r"
+ },
+ "p0180": {
+  "en": "Duodenum",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Duodenum"
+ },
+ "p0181": {
+  "en": "Eminentia conchae",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Eminentia conchae.l"
+ },
+ "p0182": {
+  "en": "Eminentia conchae",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Eminentia conchae.r"
+ },
+ "p0183": {
+  "en": "Eminentia fossae triangularis",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Eminentia fossae triangularis.l"
+ },
+ "p0184": {
+  "en": "Eminentia fossae triangularis",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Eminentia fossae triangularis.r"
+ },
+ "p0185": {
+  "en": "Eminentia scaphae",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Eminentia scaphae.l"
+ },
+ "p0186": {
+  "en": "Eminentia scaphae",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Eminentia scaphae.r"
+ },
+ "p0187": {
+  "en": "Epididymis",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Epididymis.l"
+ },
+ "p0188": {
+  "en": "Epididymis",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Epididymis.r"
+ },
+ "p0189": {
+  "en": "Epigastric region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Epigastric region.l"
+ },
+ "p0190": {
+  "en": "Epigastric region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Epigastric region.r"
+ },
+ "p0191": {
+  "en": "Epiglottis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Epiglottis"
+ },
+ "p0192": {
+  "en": "Erector spinae",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Erector spinae.j"
+ },
+ "p0193": {
+  "en": "Erector spinae",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Erector spinae.ol"
+ },
+ "p0194": {
+  "en": "Erector spinae",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Erector spinae.or"
+ },
+ "p0195": {
+  "en": "Extensor digitorum",
+  "ja": "指伸筋（総指伸筋）",
+  "side": "左",
+  "system": "その他",
+  "raw": "Extensor digitorum.l"
+ },
+ "p0196": {
+  "en": "Extensor digitorum",
+  "ja": "指伸筋（総指伸筋）",
+  "side": "右",
+  "system": "その他",
+  "raw": "Extensor digitorum.r"
+ },
+ "p0197": {
+  "en": "External intercostal membrane",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "External intercostal membrane.l"
+ },
+ "p0198": {
+  "en": "External intercostal membrane",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "External intercostal membrane.r"
+ },
+ "p0199": {
+  "en": "Eyelashes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Eyelashes.l"
+ },
+ "p0200": {
+  "en": "Eyelashes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Eyelashes.r"
+ },
+ "p0201": {
+  "en": "Falx cerebri",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Falx cerebri"
+ },
+ "p0202": {
+  "en": "Femoral triangle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Femoral triangle.l"
+ },
+ "p0203": {
+  "en": "Femoral triangle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Femoral triangle.r"
+ },
+ "p0204": {
+  "en": "Fibular",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Fibular"
+ },
+ "p0205": {
+  "en": "Flocculus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Flocculus.l"
+ },
+ "p0206": {
+  "en": "Flocculus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Flocculus.r"
+ },
+ "p0207": {
+  "en": "Folium of vermis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Folium of vermis"
+ },
+ "p0208": {
+  "en": "Fornix",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Fornix.l"
+ },
+ "p0209": {
+  "en": "Fornix",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Fornix.r"
+ },
+ "p0210": {
+  "en": "Fossa antihelica",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Fossa antihelica.l"
+ },
+ "p0211": {
+  "en": "Fossa antihelica",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Fossa antihelica.r"
+ },
+ "p0212": {
+  "en": "Fourth ventricle",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Fourth ventricle"
+ },
+ "p0213": {
+  "en": "Free taenia",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Free taenia"
+ },
+ "p0214": {
+  "en": "Frenula capsulae",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Frenula capsulae.l"
+ },
+ "p0215": {
+  "en": "Frenula capsulae",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Frenula capsulae.r"
+ },
+ "p0216": {
+  "en": "Frontal",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Frontal"
+ },
+ "p0217": {
+  "en": "Frontal region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Frontal region.l"
+ },
+ "p0218": {
+  "en": "Frontal region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Frontal region.r"
+ },
+ "p0219": {
+  "en": "Gallbladder",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Gallbladder"
+ },
+ "p0220": {
+  "en": "Ganglia of sympathetic trunk",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Ganglia of sympathetic trunk.l"
+ },
+ "p0221": {
+  "en": "Ganglia of sympathetic trunk",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Ganglia of sympathetic trunk.r"
+ },
+ "p0222": {
+  "en": "General terms.g",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "General terms.g"
+ },
+ "p0223": {
+  "en": "Gingiva",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Gingiva"
+ },
+ "p0224": {
+  "en": "Glans penis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Glans penis"
+ },
+ "p0225": {
+  "en": "Globus pallidus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Globus pallidus.l"
+ },
+ "p0226": {
+  "en": "Globus pallidus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Globus pallidus.r"
+ },
+ "p0227": {
+  "en": "Gluteal region",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Gluteal region.j"
+ },
+ "p0228": {
+  "en": "Gluteal region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Gluteal region.l"
+ },
+ "p0229": {
+  "en": "Gluteal region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Gluteal region.r"
+ },
+ "p0230": {
+  "en": "Gracile fasciculus",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Gracile fasciculus"
+ },
+ "p0231": {
+  "en": "Gracile lobule",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Gracile lobule.l"
+ },
+ "p0232": {
+  "en": "Gracile lobule",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Gracile lobule.r"
+ },
+ "p0233": {
+  "en": "Greater omentum",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Greater omentum"
+ },
+ "p0234": {
+  "en": "Greater supraclavicular fossa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Greater supraclavicular fossa.l"
+ },
+ "p0235": {
+  "en": "Greater supraclavicular fossa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Greater supraclavicular fossa.r"
+ },
+ "p0236": {
+  "en": "Habenula",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Habenula"
+ },
+ "p0237": {
+  "en": "Hairs of eyebrow",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Hairs of eyebrow.l"
+ },
+ "p0238": {
+  "en": "Hairs of eyebrow",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Hairs of eyebrow.r"
+ },
+ "p0239": {
+  "en": "Hairs of head",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Hairs of head"
+ },
+ "p0240": {
+  "en": "Hallucial eminence",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Hallucial eminence.l"
+ },
+ "p0241": {
+  "en": "Hallucial eminence",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Hallucial eminence.r"
+ },
+ "p0242": {
+  "en": "Heel region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Heel region.l"
+ },
+ "p0243": {
+  "en": "Heel region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Heel region.r"
+ },
+ "p0244": {
+  "en": "Helix",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Helix.l"
+ },
+ "p0245": {
+  "en": "Helix",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Helix.r"
+ },
+ "p0246": {
+  "en": "Hippocampal commissure",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Hippocampal commissure"
+ },
+ "p0247": {
+  "en": "Hippocampus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Hippocampus.l"
+ },
+ "p0248": {
+  "en": "Hippocampus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Hippocampus.r"
+ },
+ "p0249": {
+  "en": "HOW TO ...",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "HOW TO ..."
+ },
+ "p0250": {
+  "en": "Hypochondriac region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Hypochondriac region.l"
+ },
+ "p0251": {
+  "en": "Hypochondriac region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Hypochondriac region.r"
+ },
+ "p0252": {
+  "en": "Hypogastric region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Hypogastric region.l"
+ },
+ "p0253": {
+  "en": "Hypogastric region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Hypogastric region.r"
+ },
+ "p0254": {
+  "en": "Ileocolic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Ileocolic nodes"
+ },
+ "p0255": {
+  "en": "Iliopectineal arch",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Iliopectineal arch.l"
+ },
+ "p0256": {
+  "en": "Iliopectineal arch",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Iliopectineal arch.r"
+ },
+ "p0257": {
+  "en": "Iliopsoas fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Iliopsoas fascia.l"
+ },
+ "p0258": {
+  "en": "Iliopsoas fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Iliopsoas fascia.r"
+ },
+ "p0259": {
+  "en": "Iliotibial tract",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Iliotibial tract.l"
+ },
+ "p0260": {
+  "en": "Iliotibial tract",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Iliotibial tract.r"
+ },
+ "p0261": {
+  "en": "Incus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Incus.l"
+ },
+ "p0262": {
+  "en": "Incus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Incus.r"
+ },
+ "p0263": {
+  "en": "Inferior colliculus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Inferior colliculus.l"
+ },
+ "p0264": {
+  "en": "Inferior colliculus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Inferior colliculus.r"
+ },
+ "p0265": {
+  "en": "Inferior deep lateral cervical nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Inferior deep lateral cervical nodes.j"
+ },
+ "p0266": {
+  "en": "Inferior deep lateral cervical nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Inferior deep lateral cervical nodes.l"
+ },
+ "p0267": {
+  "en": "Inferior deep lateral cervical nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Inferior deep lateral cervical nodes.r"
+ },
+ "p0268": {
+  "en": "Inferior diaphragmatic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Inferior diaphragmatic nodes"
+ },
+ "p0269": {
+  "en": "Inferior epigastric nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Inferior epigastric nodes.l"
+ },
+ "p0270": {
+  "en": "Inferior epigastric nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Inferior epigastric nodes.r"
+ },
+ "p0271": {
+  "en": "Inferior gluteal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Inferior gluteal nodes.l"
+ },
+ "p0272": {
+  "en": "Inferior gluteal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Inferior gluteal nodes.r"
+ },
+ "p0273": {
+  "en": "Inferior leaflet of right atrioventricular valve",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Inferior leaflet of right atrioventricular valve"
+ },
+ "p0274": {
+  "en": "Inferior pancreatic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Inferior pancreatic nodes"
+ },
+ "p0275": {
+  "en": "Inferior salivatory nucleus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Inferior salivatory nucleus.l"
+ },
+ "p0276": {
+  "en": "Inferior salivatory nucleus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Inferior salivatory nucleus.r"
+ },
+ "p0277": {
+  "en": "Inferior semilunar lobule",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Inferior semilunar lobule.l"
+ },
+ "p0278": {
+  "en": "Inferior semilunar lobule",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Inferior semilunar lobule.r"
+ },
+ "p0279": {
+  "en": "Inferior superficial inguinal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Inferior superficial inguinal nodes.l"
+ },
+ "p0280": {
+  "en": "Inferior superficial inguinal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Inferior superficial inguinal nodes.r"
+ },
+ "p0281": {
+  "en": "Inferior tarsus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Inferior tarsus.l"
+ },
+ "p0282": {
+  "en": "Inferior tarsus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Inferior tarsus.r"
+ },
+ "p0283": {
+  "en": "Inferior tracheobronchial nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Inferior tracheobronchial nodes"
+ },
+ "p0284": {
+  "en": "Infra-auricular nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Infra-auricular nodes.l"
+ },
+ "p0285": {
+  "en": "Infra-auricular nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Infra-auricular nodes.r"
+ },
+ "p0286": {
+  "en": "Infra-orbital region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Infra-orbital region.l"
+ },
+ "p0287": {
+  "en": "Infra-orbital region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Infra-orbital region.r"
+ },
+ "p0288": {
+  "en": "Infraclavicular fossa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Infraclavicular fossa.l"
+ },
+ "p0289": {
+  "en": "Infraclavicular fossa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Infraclavicular fossa.r"
+ },
+ "p0290": {
+  "en": "Infraclavicular nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Infraclavicular nodes.l"
+ },
+ "p0291": {
+  "en": "Infraclavicular nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Infraclavicular nodes.r"
+ },
+ "p0292": {
+  "en": "Inframammary region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Inframammary region.l"
+ },
+ "p0293": {
+  "en": "Inframammary region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Inframammary region.r"
+ },
+ "p0294": {
+  "en": "Infrapatellar fat pad",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Infrapatellar fat pad.l"
+ },
+ "p0295": {
+  "en": "Infrapatellar fat pad",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Infrapatellar fat pad.r"
+ },
+ "p0296": {
+  "en": "Infrascapular region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Infrascapular region.l"
+ },
+ "p0297": {
+  "en": "Infrascapular region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Infrascapular region.r"
+ },
+ "p0298": {
+  "en": "Inguinal region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Inguinal region.l"
+ },
+ "p0299": {
+  "en": "Inguinal region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Inguinal region.r"
+ },
+ "p0300": {
+  "en": "Intercostal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Intercostal nodes.l"
+ },
+ "p0301": {
+  "en": "Intercostal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Intercostal nodes.r"
+ },
+ "p0302": {
+  "en": "Intermediate common iliac nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Intermediate common iliac nodes"
+ },
+ "p0303": {
+  "en": "Intermediate external iliac nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Intermediate external iliac nodes.l"
+ },
+ "p0304": {
+  "en": "Intermediate external iliac nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Intermediate external iliac nodes.r"
+ },
+ "p0305": {
+  "en": "Intermediate lumbar nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Intermediate lumbar nodes"
+ },
+ "p0306": {
+  "en": "Intermediolateral nucleus",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Intermediolateral nucleus"
+ },
+ "p0307": {
+  "en": "Intermediomedial nucleus",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Intermediomedial nucleus"
+ },
+ "p0308": {
+  "en": "Intermuscular gluteal bursae",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Intermuscular gluteal bursae.l"
+ },
+ "p0309": {
+  "en": "Intermuscular gluteal bursae",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Intermuscular gluteal bursae.r"
+ },
+ "p0310": {
+  "en": "Internal intercostal membrane",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Internal intercostal membrane.l"
+ },
+ "p0311": {
+  "en": "Internal intercostal membrane",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Internal intercostal membrane.r"
+ },
+ "p0312": {
+  "en": "Interosseous membrane of leg",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Interosseous membrane of leg.l"
+ },
+ "p0313": {
+  "en": "Interosseous membrane of leg",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Interosseous membrane of leg.r"
+ },
+ "p0314": {
+  "en": "Interosseous membrane of forearm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Interosseous membrane of forearm.l"
+ },
+ "p0315": {
+  "en": "Interosseous membrane of forearm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Interosseous membrane of forearm.r"
+ },
+ "p0316": {
+  "en": "Interpectoral nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Interpectoral nodes.l"
+ },
+ "p0317": {
+  "en": "Interpectoral nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Interpectoral nodes.r"
+ },
+ "p0318": {
+  "en": "Interpeduncular fossa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Interpeduncular fossa.l"
+ },
+ "p0319": {
+  "en": "Interpeduncular fossa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Interpeduncular fossa.r"
+ },
+ "p0320": {
+  "en": "Interpubic disc",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Interpubic disc"
+ },
+ "p0321": {
+  "en": "Interscapular region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Interscapular region.l"
+ },
+ "p0322": {
+  "en": "Interscapular region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Interscapular region.r"
+ },
+ "p0323": {
+  "en": "Intertragic incisure",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Intertragic incisure.l"
+ },
+ "p0324": {
+  "en": "Intertragic incisure",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Intertragic incisure.r"
+ },
+ "p0325": {
+  "en": "Intraglandular parotid nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Intraglandular parotid nodes.l"
+ },
+ "p0326": {
+  "en": "Intraglandular parotid nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Intraglandular parotid nodes.r"
+ },
+ "p0327": {
+  "en": "Intrapulmonary nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Intrapulmonary nodes"
+ },
+ "p0328": {
+  "en": "Investing abdominal fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Investing abdominal fascia.l"
+ },
+ "p0329": {
+  "en": "Investing abdominal fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Investing abdominal fascia.r"
+ },
+ "p0330": {
+  "en": "Iris",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Iris.l"
+ },
+ "p0331": {
+  "en": "Iris",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Iris.r"
+ },
+ "p0332": {
+  "en": "Jugulodigastric node",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Jugulodigastric node.l"
+ },
+ "p0333": {
+  "en": "Jugulodigastric node",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Jugulodigastric node.r"
+ },
+ "p0334": {
+  "en": "Juxta-intestinal mesenteric nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Juxta-intestinal mesenteric nodes"
+ },
+ "p0335": {
+  "en": "Juxta-oesophageal nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Juxta-oesophageal nodes"
+ },
+ "p0336": {
+  "en": "Kidney",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Kidney.l"
+ },
+ "p0337": {
+  "en": "Kidney",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Kidney.r"
+ },
+ "p0338": {
+  "en": "Labial commissure",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Labial commissure.l"
+ },
+ "p0339": {
+  "en": "Labial commissure",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Labial commissure.r"
+ },
+ "p0340": {
+  "en": "Lacrimal canaliculus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lacrimal canaliculus.l"
+ },
+ "p0341": {
+  "en": "Lacrimal canaliculus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lacrimal canaliculus.r"
+ },
+ "p0342": {
+  "en": "Lacrimal gland",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lacrimal gland.l"
+ },
+ "p0343": {
+  "en": "Lacrimal gland",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lacrimal gland.r"
+ },
+ "p0344": {
+  "en": "Lacrimal sac",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lacrimal sac.l"
+ },
+ "p0345": {
+  "en": "Lacrimal sac",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lacrimal sac.r"
+ },
+ "p0346": {
+  "en": "Laryngopharynx",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Laryngopharynx"
+ },
+ "p0347": {
+  "en": "Lat_Fis-ant-Horizont",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lat_Fis-ant-Horizont.l"
+ },
+ "p0348": {
+  "en": "Lat_Fis-ant-Horizont",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lat_Fis-ant-Horizont.r"
+ },
+ "p0349": {
+  "en": "Lat_Fis-ant-Vertical",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lat_Fis-ant-Vertical.l"
+ },
+ "p0350": {
+  "en": "Lat_Fis-ant-Vertical",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lat_Fis-ant-Vertical.r"
+ },
+ "p0351": {
+  "en": "Lat_Fis-post",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lat_Fis-post.l"
+ },
+ "p0352": {
+  "en": "Lat_Fis-post",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lat_Fis-post.r"
+ },
+ "p0353": {
+  "en": "Lateral aortic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral aortic nodes"
+ },
+ "p0354": {
+  "en": "Lateral axillary nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral axillary nodes.l"
+ },
+ "p0355": {
+  "en": "Lateral axillary nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral axillary nodes.r"
+ },
+ "p0356": {
+  "en": "Lateral bicipital groove",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral bicipital groove.l"
+ },
+ "p0357": {
+  "en": "Lateral bicipital groove",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral bicipital groove.r"
+ },
+ "p0358": {
+  "en": "Lateral border of foot",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral border of foot.l"
+ },
+ "p0359": {
+  "en": "Lateral border of foot",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral border of foot.r"
+ },
+ "p0360": {
+  "en": "Lateral border of forearm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral border of forearm.l"
+ },
+ "p0361": {
+  "en": "Lateral border of forearm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral border of forearm.r"
+ },
+ "p0362": {
+  "en": "Lateral caval nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral caval nodes"
+ },
+ "p0363": {
+  "en": "Lateral common iliac nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral common iliac nodes"
+ },
+ "p0364": {
+  "en": "Lateral corticospinal tract",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral corticospinal tract"
+ },
+ "p0365": {
+  "en": "Lateral fasciculus proprius",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral fasciculus proprius"
+ },
+ "p0366": {
+  "en": "Lateral femoral intermuscular septum",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral femoral intermuscular septum.l"
+ },
+ "p0367": {
+  "en": "Lateral femoral intermuscular septum",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral femoral intermuscular septum.r"
+ },
+ "p0368": {
+  "en": "Lateral geniculate body",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral geniculate body.l"
+ },
+ "p0369": {
+  "en": "Lateral geniculate body",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral geniculate body.r"
+ },
+ "p0370": {
+  "en": "Lateral head of triceps brachii",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral head of triceps brachii.l"
+ },
+ "p0371": {
+  "en": "Lateral head of triceps brachii",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral head of triceps brachii.ol"
+ },
+ "p0372": {
+  "en": "Lateral head of triceps brachii",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral head of triceps brachii.or"
+ },
+ "p0373": {
+  "en": "Lateral head of triceps brachii",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral head of triceps brachii.r"
+ },
+ "p0374": {
+  "en": "Lateral intermediate substance",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral intermediate substance"
+ },
+ "p0375": {
+  "en": "Lateral intermuscular septum of arm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral intermuscular septum of arm.l"
+ },
+ "p0376": {
+  "en": "Lateral intermuscular septum of arm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral intermuscular septum of arm.r"
+ },
+ "p0377": {
+  "en": "Lateral pericardial nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral pericardial nodes"
+ },
+ "p0378": {
+  "en": "Lateral region of abdomen",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral region of abdomen.l"
+ },
+ "p0379": {
+  "en": "Lateral region of abdomen",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral region of abdomen.r"
+ },
+ "p0380": {
+  "en": "Lateral region of neck",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral region of neck.j"
+ },
+ "p0381": {
+  "en": "Lateral region of neck",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral region of neck.l"
+ },
+ "p0382": {
+  "en": "Lateral region of neck",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral region of neck.r"
+ },
+ "p0383": {
+  "en": "Lateral region of thorax",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral region of thorax.l"
+ },
+ "p0384": {
+  "en": "Lateral region of thorax",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral region of thorax.r"
+ },
+ "p0385": {
+  "en": "Lateral retromalleolar region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral retromalleolar region.l"
+ },
+ "p0386": {
+  "en": "Lateral retromalleolar region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral retromalleolar region.r"
+ },
+ "p0387": {
+  "en": "Lateral rotation",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral rotation"
+ },
+ "p0388": {
+  "en": "Lateral sacral nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral sacral nodes.l"
+ },
+ "p0389": {
+  "en": "Lateral sacral nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral sacral nodes.r"
+ },
+ "p0390": {
+  "en": "Lateral spinothalamic tract",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral spinothalamic tract"
+ },
+ "p0391": {
+  "en": "Lateral superior jugular node",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral superior jugular node.l"
+ },
+ "p0392": {
+  "en": "Lateral superior jugular node",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral superior jugular node.r"
+ },
+ "p0393": {
+  "en": "Lateral ventricle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral ventricle.l"
+ },
+ "p0394": {
+  "en": "Lateral ventricle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral ventricle.r"
+ },
+ "p0395": {
+  "en": "Lateral vesical nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral vesical nodes.l"
+ },
+ "p0396": {
+  "en": "Lateral vesical nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral vesical nodes.r"
+ },
+ "p0397": {
+  "en": "Lateral vestibulospinal tract",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lateral vestibulospinal tract"
+ },
+ "p0398": {
+  "en": "Left anterior lateral segment of liver (III)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left anterior lateral segment of liver (III)"
+ },
+ "p0399": {
+  "en": "Left anterior lateral segment of liver (III)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left anterior lateral segment of liver (III).j"
+ },
+ "p0400": {
+  "en": "Left atrium",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left atrium"
+ },
+ "p0401": {
+  "en": "Left colic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left colic nodes"
+ },
+ "p0402": {
+  "en": "Left coronary leaflet",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left coronary leaflet"
+ },
+ "p0403": {
+  "en": "Left medial segment of liver (IV)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left medial segment of liver (IV)"
+ },
+ "p0404": {
+  "en": "Left medial segment of liver (IV)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left medial segment of liver (IV).j"
+ },
+ "p0405": {
+  "en": "Left posterior lateral segment of liver (II)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left posterior lateral segment of liver (II)"
+ },
+ "p0406": {
+  "en": "Left posterior lateral segment of liver (II)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left posterior lateral segment of liver (II).j"
+ },
+ "p0407": {
+  "en": "Left semilunar leaflet of pulmonary valve",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left semilunar leaflet of pulmonary valve"
+ },
+ "p0408": {
+  "en": "Left ventricle",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Left ventricle"
+ },
+ "p0409": {
+  "en": "Lens",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lens.l"
+ },
+ "p0410": {
+  "en": "Lens",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lens.r"
+ },
+ "p0411": {
+  "en": "Lentiform nucleus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lentiform nucleus.l"
+ },
+ "p0412": {
+  "en": "Lentiform nucleus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lentiform nucleus.r"
+ },
+ "p0413": {
+  "en": "Lesser omentum",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lesser omentum"
+ },
+ "p0414": {
+  "en": "Linea alba",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Linea alba"
+ },
+ "p0415": {
+  "en": "Liver",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Liver"
+ },
+ "p0416": {
+  "en": "Lobule of auricle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lobule of auricle.l"
+ },
+ "p0417": {
+  "en": "Lobule of auricle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lobule of auricle.r"
+ },
+ "p0418": {
+  "en": "Long head of biceps brachii",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Long head of biceps brachii.l"
+ },
+ "p0419": {
+  "en": "Long head of biceps brachii",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Long head of biceps brachii.ol"
+ },
+ "p0420": {
+  "en": "Long head of biceps brachii",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Long head of biceps brachii.or"
+ },
+ "p0421": {
+  "en": "Long head of biceps brachii",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Long head of biceps brachii.r"
+ },
+ "p0422": {
+  "en": "Long head of biceps femoris",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Long head of biceps femoris.l"
+ },
+ "p0423": {
+  "en": "Long head of biceps femoris",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Long head of biceps femoris.ol"
+ },
+ "p0424": {
+  "en": "Long head of biceps femoris",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Long head of biceps femoris.or"
+ },
+ "p0425": {
+  "en": "Long head of biceps femoris",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Long head of biceps femoris.r"
+ },
+ "p0426": {
+  "en": "Long head of triceps brachii",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Long head of triceps brachii.l"
+ },
+ "p0427": {
+  "en": "Long head of triceps brachii",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Long head of triceps brachii.ol"
+ },
+ "p0428": {
+  "en": "Long head of triceps brachii",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Long head of triceps brachii.or"
+ },
+ "p0429": {
+  "en": "Long head of triceps brachii",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Long head of triceps brachii.r"
+ },
+ "p0430": {
+  "en": "Lower canine",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lower canine.l"
+ },
+ "p0431": {
+  "en": "Lower canine",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lower canine.r"
+ },
+ "p0432": {
+  "en": "Lower first molar tooth",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lower first molar tooth.l"
+ },
+ "p0433": {
+  "en": "Lower first molar tooth",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lower first molar tooth.r"
+ },
+ "p0434": {
+  "en": "Lower first premolar",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lower first premolar.l"
+ },
+ "p0435": {
+  "en": "Lower first premolar",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lower first premolar.r"
+ },
+ "p0436": {
+  "en": "Lower lateral incisor",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lower lateral incisor.l"
+ },
+ "p0437": {
+  "en": "Lower lateral incisor",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lower lateral incisor.r"
+ },
+ "p0438": {
+  "en": "Lower medial incisor",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lower medial incisor.r"
+ },
+ "p0439": {
+  "en": "Lower medial incisor",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lower medial incisor.l"
+ },
+ "p0440": {
+  "en": "Lower second molar tooth",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lower second molar tooth.l"
+ },
+ "p0441": {
+  "en": "Lower second molar tooth",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lower second molar tooth.r"
+ },
+ "p0442": {
+  "en": "Lower second premolar",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lower second premolar.l"
+ },
+ "p0443": {
+  "en": "Lower second premolar",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lower second premolar.r"
+ },
+ "p0444": {
+  "en": "Lumbar region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lumbar region.l"
+ },
+ "p0445": {
+  "en": "Lumbar region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lumbar region.r"
+ },
+ "p0446": {
+  "en": "Lymph node",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lymph node"
+ },
+ "p0447": {
+  "en": "Lymphoid organs.g",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Lymphoid organs.g"
+ },
+ "p0448": {
+  "en": "Malleus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Malleus.l"
+ },
+ "p0449": {
+  "en": "Malleus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Malleus.r"
+ },
+ "p0450": {
+  "en": "Mamillary body",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Mamillary body.l"
+ },
+ "p0451": {
+  "en": "Mamillary body",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Mamillary body.r"
+ },
+ "p0452": {
+  "en": "Mamillary line",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Mamillary line.l"
+ },
+ "p0453": {
+  "en": "Mamillary line",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Mamillary line.r"
+ },
+ "p0454": {
+  "en": "Mammary region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Mammary region.l"
+ },
+ "p0455": {
+  "en": "Mammary region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Mammary region.r"
+ },
+ "p0456": {
+  "en": "Mandibular node",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Mandibular node.l"
+ },
+ "p0457": {
+  "en": "Mandibular node",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Mandibular node.r"
+ },
+ "p0458": {
+  "en": "Masseteric fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Masseteric fascia.l"
+ },
+ "p0459": {
+  "en": "Masseteric fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Masseteric fascia.r"
+ },
+ "p0460": {
+  "en": "Mastoid nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Mastoid nodes.l"
+ },
+ "p0461": {
+  "en": "Mastoid nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Mastoid nodes.r"
+ },
+ "p0462": {
+  "en": "Mastoid region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Mastoid region.l"
+ },
+ "p0463": {
+  "en": "Mastoid region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Mastoid region.r"
+ },
+ "p0464": {
+  "en": "Medial bicipital groove",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial bicipital groove.l"
+ },
+ "p0465": {
+  "en": "Medial bicipital groove",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial bicipital groove.r"
+ },
+ "p0466": {
+  "en": "Medial border of foot",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial border of foot.l"
+ },
+ "p0467": {
+  "en": "Medial border of foot",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial border of foot.r"
+ },
+ "p0468": {
+  "en": "Medial common iliac nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Medial common iliac nodes"
+ },
+ "p0469": {
+  "en": "Medial external iliac nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial external iliac nodes.l"
+ },
+ "p0470": {
+  "en": "Medial external iliac nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial external iliac nodes.r"
+ },
+ "p0471": {
+  "en": "Medial femoral intermuscular septum",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial femoral intermuscular septum.l"
+ },
+ "p0472": {
+  "en": "Medial femoral intermuscular septum",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial femoral intermuscular septum.r"
+ },
+ "p0473": {
+  "en": "Medial geniculate body",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial geniculate body.l"
+ },
+ "p0474": {
+  "en": "Medial geniculate body",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial geniculate body.r"
+ },
+ "p0475": {
+  "en": "Medial head of triceps brachii",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial head of triceps brachii.l"
+ },
+ "p0476": {
+  "en": "Medial head of triceps brachii",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial head of triceps brachii.ol"
+ },
+ "p0477": {
+  "en": "Medial head of triceps brachii",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial head of triceps brachii.or"
+ },
+ "p0478": {
+  "en": "Medial head of triceps brachii",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial head of triceps brachii.r"
+ },
+ "p0479": {
+  "en": "Medial intermuscular septum of arm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial intermuscular septum of arm.l"
+ },
+ "p0480": {
+  "en": "Medial intermuscular septum of arm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial intermuscular septum of arm.r"
+ },
+ "p0481": {
+  "en": "Medial part of longitudinal arch of foot",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial part of longitudinal arch of foot.l"
+ },
+ "p0482": {
+  "en": "Medial part of longitudinal arch of foot",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial part of longitudinal arch of foot.r"
+ },
+ "p0483": {
+  "en": "Medial reticulospinal tract",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Medial reticulospinal tract"
+ },
+ "p0484": {
+  "en": "Medial retromalleolar region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial retromalleolar region.l"
+ },
+ "p0485": {
+  "en": "Medial retromalleolar region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial retromalleolar region.r"
+ },
+ "p0486": {
+  "en": "Medial rotation",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Medial rotation"
+ },
+ "p0487": {
+  "en": "Medulla oblongata",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medulla oblongata.l"
+ },
+ "p0488": {
+  "en": "Medulla oblongata",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medulla oblongata.r"
+ },
+ "p0489": {
+  "en": "Mental region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Mental region.l"
+ },
+ "p0490": {
+  "en": "Mental region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Mental region.r"
+ },
+ "p0491": {
+  "en": "Meso-appendix",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Meso-appendix"
+ },
+ "p0492": {
+  "en": "Mesocolic taenia",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Mesocolic taenia"
+ },
+ "p0493": {
+  "en": "Mesocolon",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Mesocolon"
+ },
+ "p0494": {
+  "en": "Metatarsal region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Metatarsal region.l"
+ },
+ "p0495": {
+  "en": "Metatarsal region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Metatarsal region.r"
+ },
+ "p0496": {
+  "en": "Midbrain",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Midbrain.j"
+ },
+ "p0497": {
+  "en": "Midbrain",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Midbrain.l"
+ },
+ "p0498": {
+  "en": "Midbrain",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Midbrain.r"
+ },
+ "p0499": {
+  "en": "Midclavicular line",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Midclavicular line.l"
+ },
+ "p0500": {
+  "en": "Midclavicular line",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Midclavicular line.r"
+ },
+ "p0501": {
+  "en": "Middle colic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Middle colic nodes"
+ },
+ "p0502": {
+  "en": "Middle layer of thoracolumbar fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Middle layer of thoracolumbar fascia.l"
+ },
+ "p0503": {
+  "en": "Middle layer of thoracolumbar fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Middle layer of thoracolumbar fascia.r"
+ },
+ "p0504": {
+  "en": "Movements.g",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Movements.g"
+ },
+ "p0505": {
+  "en": "Mucosa of nasal cavity",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Mucosa of nasal cavity"
+ },
+ "p0506": {
+  "en": "Muscular system.g",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Muscular system.g"
+ },
+ "p0507": {
+  "en": "Muscular triangle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Muscular triangle.l"
+ },
+ "p0508": {
+  "en": "Muscular triangle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Muscular triangle.r"
+ },
+ "p0509": {
+  "en": "Nail plate (foot)",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Nail plate (foot).l"
+ },
+ "p0510": {
+  "en": "Nail plate (foot)",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Nail plate (foot).r"
+ },
+ "p0511": {
+  "en": "Nail plate",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Nail plate.l"
+ },
+ "p0512": {
+  "en": "Nail plate",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Nail plate.r"
+ },
+ "p0513": {
+  "en": "Nasal region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Nasal region.l"
+ },
+ "p0514": {
+  "en": "Nasal region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Nasal region.r"
+ },
+ "p0515": {
+  "en": "Nasolabial node",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Nasolabial node.l"
+ },
+ "p0516": {
+  "en": "Nasolabial node",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Nasolabial node.r"
+ },
+ "p0517": {
+  "en": "Nasolacrimal duct",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Nasolacrimal duct.l"
+ },
+ "p0518": {
+  "en": "Nasolacrimal duct",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Nasolacrimal duct.r"
+ },
+ "p0519": {
+  "en": "Nasopharynx",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nasopharynx"
+ },
+ "p0520": {
+  "en": "Nervous system & Sense organs.g",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nervous system & Sense organs.g"
+ },
+ "p0521": {
+  "en": "Neurohypophysis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Neurohypophysis"
+ },
+ "p0522": {
+  "en": "Nodule of vermis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nodule of vermis"
+ },
+ "p0523": {
+  "en": "Non-coronary leaflet",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Non-coronary leaflet"
+ },
+ "p0524": {
+  "en": "Nucleus ambiguus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Nucleus ambiguus.l"
+ },
+ "p0525": {
+  "en": "Nucleus ambiguus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Nucleus ambiguus.r"
+ },
+ "p0526": {
+  "en": "Nucleus pulposus C2-C3",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus C2-C3"
+ },
+ "p0527": {
+  "en": "Nucleus pulposus C3-C4",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus C3-C4"
+ },
+ "p0528": {
+  "en": "Nucleus pulposus C4-C5",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus C4-C5"
+ },
+ "p0529": {
+  "en": "Nucleus pulposus C5-C6",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus C5-C6"
+ },
+ "p0530": {
+  "en": "Nucleus pulposus C6-C7",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus C6-C7"
+ },
+ "p0531": {
+  "en": "Nucleus pulposus C7-T1",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus C7-T1"
+ },
+ "p0532": {
+  "en": "Nucleus pulposus L1-L2",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus L1-L2"
+ },
+ "p0533": {
+  "en": "Nucleus pulposus L2-L3",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus L2-L3"
+ },
+ "p0534": {
+  "en": "Nucleus pulposus L3-L4",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus L3-L4"
+ },
+ "p0535": {
+  "en": "Nucleus pulposus L4-L5",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus L4-L5"
+ },
+ "p0536": {
+  "en": "Nucleus pulposus L5-S1",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus L5-S1"
+ },
+ "p0537": {
+  "en": "Nucleus pulposus T1-T2",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T1-T2"
+ },
+ "p0538": {
+  "en": "Nucleus pulposus T10-T11",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T10-T11"
+ },
+ "p0539": {
+  "en": "Nucleus pulposus T11-T12",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T11-T12"
+ },
+ "p0540": {
+  "en": "Nucleus pulposus T12-L1",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T12-L1"
+ },
+ "p0541": {
+  "en": "Nucleus pulposus T2-T3",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T2-T3"
+ },
+ "p0542": {
+  "en": "Nucleus pulposus T3-T4",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T3-T4"
+ },
+ "p0543": {
+  "en": "Nucleus pulposus T4-T5",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T4-T5"
+ },
+ "p0544": {
+  "en": "Nucleus pulposus T5-T6",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T5-T6"
+ },
+ "p0545": {
+  "en": "Nucleus pulposus T6-T7",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T6-T7"
+ },
+ "p0546": {
+  "en": "Nucleus pulposus T7-T8",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T7-T8"
+ },
+ "p0547": {
+  "en": "Nucleus pulposus T8-T9",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T8-T9"
+ },
+ "p0548": {
+  "en": "Nucleus pulposus T9-T10",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Nucleus pulposus T9-T10"
+ },
+ "p0549": {
+  "en": "Obturator externus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Obturator externus.l"
+ },
+ "p0550": {
+  "en": "Obturator externus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Obturator externus.ol"
+ },
+ "p0551": {
+  "en": "Obturator externus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Obturator externus.or"
+ },
+ "p0552": {
+  "en": "Obturator externus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Obturator externus.r"
+ },
+ "p0553": {
+  "en": "Obturator internus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Obturator internus.l"
+ },
+ "p0554": {
+  "en": "Obturator internus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Obturator internus.ol"
+ },
+ "p0555": {
+  "en": "Obturator internus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Obturator internus.or"
+ },
+ "p0556": {
+  "en": "Obturator internus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Obturator internus.r"
+ },
+ "p0557": {
+  "en": "Obturator membrane",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Obturator membrane.l"
+ },
+ "p0558": {
+  "en": "Obturator membrane",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Obturator membrane.r"
+ },
+ "p0559": {
+  "en": "Obturator nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Obturator nodes.l"
+ },
+ "p0560": {
+  "en": "Obturator nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Obturator nodes.r"
+ },
+ "p0561": {
+  "en": "Occipital",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Occipital"
+ },
+ "p0562": {
+  "en": "Occipital nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Occipital nodes.l"
+ },
+ "p0563": {
+  "en": "Occipital nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Occipital nodes.r"
+ },
+ "p0564": {
+  "en": "Occipital pole",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Occipital pole.l"
+ },
+ "p0565": {
+  "en": "Occipital pole",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Occipital pole.r"
+ },
+ "p0566": {
+  "en": "Occipital region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Occipital region.l"
+ },
+ "p0567": {
+  "en": "Occipital region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Occipital region.r"
+ },
+ "p0568": {
+  "en": "Olive",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Olive.j"
+ },
+ "p0569": {
+  "en": "Olive",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Olive.l"
+ },
+ "p0570": {
+  "en": "Olive",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Olive.r"
+ },
+ "p0571": {
+  "en": "Optic chiasm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Optic chiasm.l"
+ },
+ "p0572": {
+  "en": "Optic chiasm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Optic chiasm.r"
+ },
+ "p0573": {
+  "en": "Optic tract",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Optic tract.l"
+ },
+ "p0574": {
+  "en": "Optic tract",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Optic tract.r"
+ },
+ "p0575": {
+  "en": "Oral region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Oral region.l"
+ },
+ "p0576": {
+  "en": "Oral region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Oral region.r"
+ },
+ "p0577": {
+  "en": "Orbital gyri",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Orbital gyri.l"
+ },
+ "p0578": {
+  "en": "Orbital gyri",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Orbital gyri.r"
+ },
+ "p0579": {
+  "en": "Orbital region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Orbital region.l"
+ },
+ "p0580": {
+  "en": "Orbital region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Orbital region.r"
+ },
+ "p0581": {
+  "en": "Orbital sulci (H-shaped orbital sulci*)",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Orbital sulci (H-shaped orbital sulci*).l"
+ },
+ "p0582": {
+  "en": "Orbital sulci (H-shaped orbital sulci*)",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Orbital sulci (H-shaped orbital sulci*).r"
+ },
+ "p0583": {
+  "en": "Oropharynx",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Oropharynx"
+ },
+ "p0584": {
+  "en": "Palatine tonsil",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Palatine tonsil.l"
+ },
+ "p0585": {
+  "en": "Palatine tonsil",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Palatine tonsil.r"
+ },
+ "p0586": {
+  "en": "Palmar",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Palmar"
+ },
+ "p0587": {
+  "en": "Palmar surfaces of digits of hand",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Palmar surfaces of digits of hand.l"
+ },
+ "p0588": {
+  "en": "Palmar surfaces of digits of hand",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Palmar surfaces of digits of hand.r"
+ },
+ "p0589": {
+  "en": "Pancreas",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Pancreas.j"
+ },
+ "p0590": {
+  "en": "Paracolic superior mesenteric nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Paracolic superior mesenteric nodes"
+ },
+ "p0591": {
+  "en": "Pararectal nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Pararectal nodes"
+ },
+ "p0592": {
+  "en": "Parasternal line",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Parasternal line.l"
+ },
+ "p0593": {
+  "en": "Parasternal line",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Parasternal line.r"
+ },
+ "p0594": {
+  "en": "Parasternal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Parasternal nodes.l"
+ },
+ "p0595": {
+  "en": "Parasternal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Parasternal nodes.r"
+ },
+ "p0596": {
+  "en": "Paratracheal cervical nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Paratracheal cervical nodes"
+ },
+ "p0597": {
+  "en": "Paratracheal thoracic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Paratracheal thoracic nodes"
+ },
+ "p0598": {
+  "en": "Paravertebral line",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Paravertebral line.l"
+ },
+ "p0599": {
+  "en": "Paravertebral line",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Paravertebral line.r"
+ },
+ "p0600": {
+  "en": "Parietal region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Parietal region.l"
+ },
+ "p0601": {
+  "en": "Parietal region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Parietal region.r"
+ },
+ "p0602": {
+  "en": "Parotideomasseteric region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Parotideomasseteric region.l"
+ },
+ "p0603": {
+  "en": "Parotideomasseteric region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Parotideomasseteric region.r"
+ },
+ "p0604": {
+  "en": "Pectoral fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Pectoral fascia.l"
+ },
+ "p0605": {
+  "en": "Pectoral fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Pectoral fascia.r"
+ },
+ "p0606": {
+  "en": "Pectoral region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Pectoral region.l"
+ },
+ "p0607": {
+  "en": "Pectoral region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Pectoral region.r"
+ },
+ "p0608": {
+  "en": "Peduncle of flocculus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Peduncle of flocculus.l"
+ },
+ "p0609": {
+  "en": "Peduncle of flocculus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Peduncle of flocculus.r"
+ },
+ "p0610": {
+  "en": "Perionyx (foot)",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Perionyx (foot).l"
+ },
+ "p0611": {
+  "en": "Perionyx (foot)",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Perionyx (foot).r"
+ },
+ "p0612": {
+  "en": "Perionyx",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Perionyx.l"
+ },
+ "p0613": {
+  "en": "Perionyx",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Perionyx.r"
+ },
+ "p0614": {
+  "en": "Piriformis fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Piriformis fascia.l"
+ },
+ "p0615": {
+  "en": "Piriformis fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Piriformis fascia.r"
+ },
+ "p0616": {
+  "en": "Plantar flexion",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Plantar flexion"
+ },
+ "p0617": {
+  "en": "Plantar surfaces of digits of foot",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Plantar surfaces of digits of foot.l"
+ },
+ "p0618": {
+  "en": "Plantar surfaces of digits of foot",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Plantar surfaces of digits of foot.r"
+ },
+ "p0619": {
+  "en": "Pleura",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Pleura"
+ },
+ "p0620": {
+  "en": "Popliteal fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Popliteal fascia.l"
+ },
+ "p0621": {
+  "en": "Popliteal fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Popliteal fascia.r"
+ },
+ "p0622": {
+  "en": "Popliteal fossa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Popliteal fossa.l"
+ },
+ "p0623": {
+  "en": "Popliteal fossa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Popliteal fossa.r"
+ },
+ "p0624": {
+  "en": "Posterior axillary nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior axillary nodes.l"
+ },
+ "p0625": {
+  "en": "Posterior axillary nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior axillary nodes.r"
+ },
+ "p0626": {
+  "en": "Posterior commissure",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior commissure"
+ },
+ "p0627": {
+  "en": "Posterior fasciculus proprius",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior fasciculus proprius"
+ },
+ "p0628": {
+  "en": "Posterior horn of spinal cord",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior horn of spinal cord"
+ },
+ "p0629": {
+  "en": "Posterior horn of spinal cord",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior horn of spinal cord.j"
+ },
+ "p0630": {
+  "en": "Posterior intermuscular septum of leg",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior intermuscular septum of leg.l"
+ },
+ "p0631": {
+  "en": "Posterior intermuscular septum of leg",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior intermuscular septum of leg.r"
+ },
+ "p0632": {
+  "en": "Posterior layer of thoracolumbar fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior layer of thoracolumbar fascia.l"
+ },
+ "p0633": {
+  "en": "Posterior layer of thoracolumbar fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior layer of thoracolumbar fascia.r"
+ },
+ "p0634": {
+  "en": "Posterior leaflet of left atrioventricular valve",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior leaflet of left atrioventricular valve"
+ },
+ "p0635": {
+  "en": "Posterior medial segment of liver (VIII)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior medial segment of liver (VIII).j"
+ },
+ "p0636": {
+  "en": "Posterior median line",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior median line"
+ },
+ "p0637": {
+  "en": "Posterior region of arm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior region of arm.l"
+ },
+ "p0638": {
+  "en": "Posterior region of arm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior region of arm.r"
+ },
+ "p0639": {
+  "en": "Posterior region of elbow",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior region of elbow.l"
+ },
+ "p0640": {
+  "en": "Posterior region of elbow",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior region of elbow.r"
+ },
+ "p0641": {
+  "en": "Posterior region of forearm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior region of forearm.l"
+ },
+ "p0642": {
+  "en": "Posterior region of forearm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior region of forearm.r"
+ },
+ "p0643": {
+  "en": "Posterior region of knee",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior region of knee.j"
+ },
+ "p0644": {
+  "en": "Posterior region of knee",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior region of knee.l"
+ },
+ "p0645": {
+  "en": "Posterior region of knee",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior region of knee.r"
+ },
+ "p0646": {
+  "en": "Posterior region of leg",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior region of leg.l"
+ },
+ "p0647": {
+  "en": "Posterior region of leg",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior region of leg.r"
+ },
+ "p0648": {
+  "en": "Posterior region of neck",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior region of neck.l"
+ },
+ "p0649": {
+  "en": "Posterior region of neck",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior region of neck.r"
+ },
+ "p0650": {
+  "en": "Posterior region of thigh",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior region of thigh.l"
+ },
+ "p0651": {
+  "en": "Posterior region of thigh",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior region of thigh.r"
+ },
+ "p0652": {
+  "en": "Posterior region of wrist",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior region of wrist.l"
+ },
+ "p0653": {
+  "en": "Posterior region of wrist",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior region of wrist.r"
+ },
+ "p0654": {
+  "en": "Posterolateral tract",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterolateral tract"
+ },
+ "p0655": {
+  "en": "Precuneus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Precuneus.l"
+ },
+ "p0656": {
+  "en": "Precuneus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Precuneus.r"
+ },
+ "p0657": {
+  "en": "Presternal region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Presternal region.l"
+ },
+ "p0658": {
+  "en": "Presternal region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Presternal region.r"
+ },
+ "p0659": {
+  "en": "Proximal transverse arch of foot",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Proximal transverse arch of foot.l"
+ },
+ "p0660": {
+  "en": "Proximal transverse arch of foot",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Proximal transverse arch of foot.r"
+ },
+ "p0661": {
+  "en": "Psoas major",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Psoas major.l"
+ },
+ "p0662": {
+  "en": "Psoas major",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Psoas major.r"
+ },
+ "p0663": {
+  "en": "Pulmonary trunk",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Pulmonary trunk"
+ },
+ "p0664": {
+  "en": "Quadrangular membrane",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Quadrangular membrane.l"
+ },
+ "p0665": {
+  "en": "Quadrangular membrane",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Quadrangular membrane.r"
+ },
+ "p0666": {
+  "en": "Hip region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Hip region.l"
+ },
+ "p0667": {
+  "en": "Hip region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Hip region.r"
+ },
+ "p0668": {
+  "en": "Red nucleus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Red nucleus.l"
+ },
+ "p0669": {
+  "en": "Red nucleus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Red nucleus.r"
+ },
+ "p0670": {
+  "en": "Reference lines.g",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Reference lines.g"
+ },
+ "p0671": {
+  "en": "Rotatores",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Rotatores.j"
+ },
+ "p0672": {
+  "en": "Rotatores",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Rotatores.l"
+ },
+ "p0673": {
+  "en": "Rotatores",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Rotatores.r"
+ },
+ "p0674": {
+  "en": "Scapular line",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Scapular line.l"
+ },
+ "p0675": {
+  "en": "Scapular line",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Scapular line.r"
+ },
+ "p0676": {
+  "en": "Septal nuclei",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Septal nuclei"
+ },
+ "p0677": {
+  "en": "Short head of biceps brachii",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Short head of biceps brachii.l"
+ },
+ "p0678": {
+  "en": "Short head of biceps brachii",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Short head of biceps brachii.r"
+ },
+ "p0679": {
+  "en": "Short head of biceps femoris",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Short head of biceps femoris.l"
+ },
+ "p0680": {
+  "en": "Short head of biceps femoris",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Short head of biceps femoris.r"
+ },
+ "p0681": {
+  "en": "Lateral part of longitudinal arch of foot",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Lateral part of longitudinal arch of foot.l"
+ },
+ "p0682": {
+  "en": "Lateral part of longitudinal arch of foot",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Lateral part of longitudinal arch of foot.r"
+ },
+ "p0683": {
+  "en": "Medial border of forearm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Medial border of forearm.l"
+ },
+ "p0684": {
+  "en": "Medial border of forearm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Medial border of forearm.r"
+ },
+ "p0685": {
+  "en": "Omental taenia",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Omental taenia"
+ },
+ "p0686": {
+  "en": "Palm",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Palm.l"
+ },
+ "p0687": {
+  "en": "Palm",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Palm.r"
+ },
+ "p0688": {
+  "en": "Pancreas",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Pancreas"
+ },
+ "p0689": {
+  "en": "Parotid gland",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Parotid gland.l"
+ },
+ "p0690": {
+  "en": "Parotid gland",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Parotid gland.r"
+ },
+ "p0691": {
+  "en": "Pineal gland",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Pineal gland"
+ },
+ "p0692": {
+  "en": "Plantar",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Plantar"
+ },
+ "p0693": {
+  "en": "Pons",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Pons.l"
+ },
+ "p0694": {
+  "en": "Pons",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Pons.r"
+ },
+ "p0695": {
+  "en": "Posterior auricular groove",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior auricular groove.l"
+ },
+ "p0696": {
+  "en": "Posterior auricular groove",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior auricular groove.r"
+ },
+ "p0697": {
+  "en": "Posterior cochlear nucleus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior cochlear nucleus.l"
+ },
+ "p0698": {
+  "en": "Posterior cochlear nucleus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior cochlear nucleus.r"
+ },
+ "p0699": {
+  "en": "Posterior lateral segment of liver (VII)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior lateral segment of liver (VII)"
+ },
+ "p0700": {
+  "en": "Posterior medial segment of liver (VIII)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior medial segment of liver (VIII)"
+ },
+ "p0701": {
+  "en": "Posterior quadrangular lobule",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior quadrangular lobule.l"
+ },
+ "p0702": {
+  "en": "Posterior quadrangular lobule",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior quadrangular lobule.r"
+ },
+ "p0703": {
+  "en": "Posterior segment of eyeball",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Posterior segment of eyeball.l"
+ },
+ "p0704": {
+  "en": "Posterior segment of eyeball",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Posterior segment of eyeball.r"
+ },
+ "p0705": {
+  "en": "Posterior segment of liver (I)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior segment of liver (I)"
+ },
+ "p0706": {
+  "en": "Posterior segment of liver (I)",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Posterior segment of liver (I).j"
+ },
+ "p0707": {
+  "en": "Postvesical nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Postvesical nodes"
+ },
+ "p0708": {
+  "en": "Pre-aortic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Pre-aortic nodes"
+ },
+ "p0709": {
+  "en": "Pre-auricular nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Pre-auricular nodes.l"
+ },
+ "p0710": {
+  "en": "Pre-auricular nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Pre-auricular nodes.r"
+ },
+ "p0711": {
+  "en": "Precaecal nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Precaecal nodes"
+ },
+ "p0712": {
+  "en": "Precaval nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Precaval nodes"
+ },
+ "p0713": {
+  "en": "Prepericardial nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Prepericardial nodes"
+ },
+ "p0714": {
+  "en": "Pretracheal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Pretracheal nodes.l"
+ },
+ "p0715": {
+  "en": "Pretracheal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Pretracheal nodes.r"
+ },
+ "p0716": {
+  "en": "Prevertebral nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Prevertebral nodes"
+ },
+ "p0717": {
+  "en": "Prevesical nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Prevesical nodes"
+ },
+ "p0718": {
+  "en": "Prostate",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Prostate"
+ },
+ "p0719": {
+  "en": "Pubic hairs",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Pubic hairs"
+ },
+ "p0720": {
+  "en": "Putamen",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Putamen.l"
+ },
+ "p0721": {
+  "en": "Putamen",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Putamen.r"
+ },
+ "p0722": {
+  "en": "Pyramid of medulla oblongata",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Pyramid of medulla oblongata.j"
+ },
+ "p0723": {
+  "en": "Pyramid of medulla oblongata",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Pyramid of medulla oblongata.l"
+ },
+ "p0724": {
+  "en": "Pyramid of medulla oblongata",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Pyramid of medulla oblongata.r"
+ },
+ "p0725": {
+  "en": "Pyramis of vermis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Pyramis of vermis"
+ },
+ "p0726": {
+  "en": "Radial",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Radial"
+ },
+ "p0727": {
+  "en": "Reference planes.g",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Reference planes.g"
+ },
+ "p0728": {
+  "en": "Regions of human body.g",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Regions of human body.g"
+ },
+ "p0729": {
+  "en": "Renal pelvis",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Renal pelvis.l"
+ },
+ "p0730": {
+  "en": "Renal pelvis",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Renal pelvis.r"
+ },
+ "p0731": {
+  "en": "Retina",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Retina.l"
+ },
+ "p0732": {
+  "en": "Retina",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Retina.r"
+ },
+ "p0733": {
+  "en": "Retro-aortic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Retro-aortic nodes"
+ },
+ "p0734": {
+  "en": "Retrocaecal nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Retrocaecal nodes"
+ },
+ "p0735": {
+  "en": "Retrocaval nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Retrocaval nodes"
+ },
+ "p0736": {
+  "en": "Retropharyngeal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Retropharyngeal nodes.l"
+ },
+ "p0737": {
+  "en": "Retropharyngeal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Retropharyngeal nodes.r"
+ },
+ "p0738": {
+  "en": "Right atrium",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Right atrium"
+ },
+ "p0739": {
+  "en": "Right colic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Right colic nodes"
+ },
+ "p0740": {
+  "en": "Right coronary leaflet",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Right coronary leaflet"
+ },
+ "p0741": {
+  "en": "Right gastric nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Right gastric nodes"
+ },
+ "p0742": {
+  "en": "Right gastro-omental nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Right gastro-omental nodes"
+ },
+ "p0743": {
+  "en": "Right semilunar leaflet of pulmonary valve",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Right semilunar leaflet of pulmonary valve"
+ },
+ "p0744": {
+  "en": "Right ventricle",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Right ventricle"
+ },
+ "p0745": {
+  "en": "Rubrospinal tract",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Rubrospinal tract"
+ },
+ "p0746": {
+  "en": "Sacral region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Sacral region.l"
+ },
+ "p0747": {
+  "en": "Sacral region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Sacral region.r"
+ },
+ "p0748": {
+  "en": "Scapha",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Scapha.l"
+ },
+ "p0749": {
+  "en": "Scapha",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Scapha.r"
+ },
+ "p0750": {
+  "en": "Scapular region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Scapular region.l"
+ },
+ "p0751": {
+  "en": "Scapular region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Scapular region.r"
+ },
+ "p0752": {
+  "en": "Sciatic bursa of obturator internus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Sciatic bursa of obturator internus.l"
+ },
+ "p0753": {
+  "en": "Sciatic bursa of obturator internus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Sciatic bursa of obturator internus.r"
+ },
+ "p0754": {
+  "en": "Sclera",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Sclera.l"
+ },
+ "p0755": {
+  "en": "Sclera",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Sclera.r"
+ },
+ "p0756": {
+  "en": "Semimembranosus bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Semimembranosus bursa.l"
+ },
+ "p0757": {
+  "en": "Semimembranosus bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Semimembranosus bursa.r"
+ },
+ "p0758": {
+  "en": "Seminal gland",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Seminal gland.l"
+ },
+ "p0759": {
+  "en": "Seminal gland",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Seminal gland.r"
+ },
+ "p0760": {
+  "en": "Septal leaflet of right atrioventricular valve",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Septal leaflet of right atrioventricular valve"
+ },
+ "p0761": {
+  "en": "Septum pellucidum",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Septum pellucidum"
+ },
+ "p0762": {
+  "en": "Short head of biceps brachii",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Short head of biceps brachii.ol"
+ },
+ "p0763": {
+  "en": "Sigmoid colon",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Sigmoid colon"
+ },
+ "p0764": {
+  "en": "Sigmoid nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Sigmoid nodes"
+ },
+ "p0765": {
+  "en": "Skeletal system.g",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Skeletal system.g"
+ },
+ "p0766": {
+  "en": "Soft palate",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Soft palate"
+ },
+ "p0767": {
+  "en": "Sole",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Sole.l"
+ },
+ "p0768": {
+  "en": "Sole",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Sole.r"
+ },
+ "p0769": {
+  "en": "Spinal dura",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Spinal dura"
+ },
+ "p0770": {
+  "en": "Spinal reticular process",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Spinal reticular process"
+ },
+ "p0771": {
+  "en": "Spleen",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Spleen"
+ },
+ "p0772": {
+  "en": "Splenic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Splenic nodes"
+ },
+ "p0773": {
+  "en": "Stapes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Stapes.i"
+ },
+ "p0774": {
+  "en": "Stapes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Stapes.j"
+ },
+ "p0775": {
+  "en": "Stapes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Stapes.l"
+ },
+ "p0776": {
+  "en": "Stapes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Stapes.r"
+ },
+ "p0777": {
+  "en": "Sternal line",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Sternal line.l"
+ },
+ "p0778": {
+  "en": "Sternal line",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Sternal line.r"
+ },
+ "p0779": {
+  "en": "Sternocleidomastoid region",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Sternocleidomastoid region.j"
+ },
+ "p0780": {
+  "en": "Sternocleidomastoid region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Sternocleidomastoid region.l"
+ },
+ "p0781": {
+  "en": "Sternocleidomastoid region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Sternocleidomastoid region.r"
+ },
+ "p0782": {
+  "en": "Stomach",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Stomach"
+ },
+ "p0783": {
+  "en": "Stria medullaris thalami",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Stria medullaris thalami.l"
+ },
+ "p0784": {
+  "en": "Stria medullaris thalami",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Stria medullaris thalami.r"
+ },
+ "p0785": {
+  "en": "Stria terminalis",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Stria terminalis.l"
+ },
+ "p0786": {
+  "en": "Stria terminalis",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Stria terminalis.r"
+ },
+ "p0787": {
+  "en": "Subacromial bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subacromial bursa.l"
+ },
+ "p0788": {
+  "en": "Subacromial bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subacromial bursa.r"
+ },
+ "p0789": {
+  "en": "Subaortic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Subaortic nodes"
+ },
+ "p0790": {
+  "en": "Subcutaneous acromial bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subcutaneous acromial bursa.l"
+ },
+ "p0791": {
+  "en": "Subcutaneous acromial bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subcutaneous acromial bursa.r"
+ },
+ "p0792": {
+  "en": "Subcutaneous bursa of lateral malleolus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subcutaneous bursa of lateral malleolus.l"
+ },
+ "p0793": {
+  "en": "Subcutaneous bursa of lateral malleolus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subcutaneous bursa of lateral malleolus.r"
+ },
+ "p0794": {
+  "en": "Subcutaneous bursa of medial malleolus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subcutaneous bursa of medial malleolus.l"
+ },
+ "p0795": {
+  "en": "Subcutaneous bursa of medial malleolus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subcutaneous bursa of medial malleolus.r"
+ },
+ "p0796": {
+  "en": "Subcutaneous calcaneal bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subcutaneous calcaneal bursa.l"
+ },
+ "p0797": {
+  "en": "Subcutaneous calcaneal bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subcutaneous calcaneal bursa.r"
+ },
+ "p0798": {
+  "en": "Subcutaneous infrapatellar bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subcutaneous infrapatellar bursa.l"
+ },
+ "p0799": {
+  "en": "Subcutaneous infrapatellar bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subcutaneous infrapatellar bursa.r"
+ },
+ "p0800": {
+  "en": "Subcutaneous prepatellar bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subcutaneous prepatellar bursa.l"
+ },
+ "p0801": {
+  "en": "Subcutaneous prepatellar bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subcutaneous prepatellar bursa.r"
+ },
+ "p0802": {
+  "en": "Subcutaneous trochanteric bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subcutaneous trochanteric bursa.l"
+ },
+ "p0803": {
+  "en": "Subcutaneous trochanteric bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subcutaneous trochanteric bursa.r"
+ },
+ "p0804": {
+  "en": "Subdeltoid bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subdeltoid bursa.l"
+ },
+ "p0805": {
+  "en": "Subdeltoid bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subdeltoid bursa.r"
+ },
+ "p0806": {
+  "en": "Subfacial prepatellar bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subfacial prepatellar bursa.l"
+ },
+ "p0807": {
+  "en": "Subfacial prepatellar bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subfacial prepatellar bursa.r"
+ },
+ "p0808": {
+  "en": "Sublingual gland",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Sublingual gland.l"
+ },
+ "p0809": {
+  "en": "Sublingual gland",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Sublingual gland.r"
+ },
+ "p0810": {
+  "en": "Submandibular gland",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Submandibular gland.l"
+ },
+ "p0811": {
+  "en": "Submandibular gland",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Submandibular gland.r"
+ },
+ "p0812": {
+  "en": "Submandibular nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Submandibular nodes.l"
+ },
+ "p0813": {
+  "en": "Submandibular nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Submandibular nodes.r"
+ },
+ "p0814": {
+  "en": "Submandibular triangle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Submandibular triangle.l"
+ },
+ "p0815": {
+  "en": "Submandibular triangle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Submandibular triangle.r"
+ },
+ "p0816": {
+  "en": "Submental nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Submental nodes.l"
+ },
+ "p0817": {
+  "en": "Submental nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Submental nodes.r"
+ },
+ "p0818": {
+  "en": "Submental triangle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Submental triangle.l"
+ },
+ "p0819": {
+  "en": "Submental triangle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Submental triangle.r"
+ },
+ "p0820": {
+  "en": "Subtendinous bursa of obturator internus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subtendinous bursa of obturator internus.l"
+ },
+ "p0821": {
+  "en": "Subtendinous bursa of obturator internus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subtendinous bursa of obturator internus.r"
+ },
+ "p0822": {
+  "en": "Subtendinous bursa of tibialis anterior",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subtendinous bursa of tibialis anterior.l"
+ },
+ "p0823": {
+  "en": "Subtendinous bursa of tibialis anterior",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subtendinous bursa of tibialis anterior.r"
+ },
+ "p0824": {
+  "en": "Subtendinous calcaneal bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subtendinous calcaneal bursa.l"
+ },
+ "p0825": {
+  "en": "Subtendinous calcaneal bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subtendinous calcaneal bursa.r"
+ },
+ "p0826": {
+  "en": "Subtendinous prepatellar bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Subtendinous prepatellar bursa.l"
+ },
+ "p0827": {
+  "en": "Subtendinous prepatellar bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Subtendinous prepatellar bursa.r"
+ },
+ "p0828": {
+  "en": "Superficial anterior cervical nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Superficial anterior cervical nodes"
+ },
+ "p0829": {
+  "en": "Superficial investing cervical fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superficial investing cervical fascia.l"
+ },
+ "p0830": {
+  "en": "Superficial investing cervical fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superficial investing cervical fascia.r"
+ },
+ "p0831": {
+  "en": "Superficial lateral cervical nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superficial lateral cervical nodes.l"
+ },
+ "p0832": {
+  "en": "Superficial lateral cervical nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superficial lateral cervical nodes.r"
+ },
+ "p0833": {
+  "en": "Superficial layer of temporal fascia",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superficial layer of temporal fascia.l"
+ },
+ "p0834": {
+  "en": "Superficial layer of temporal fascia",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superficial layer of temporal fascia.r"
+ },
+ "p0835": {
+  "en": "Superficial parotid nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superficial parotid nodes.l"
+ },
+ "p0836": {
+  "en": "Superficial parotid nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superficial parotid nodes.r"
+ },
+ "p0837": {
+  "en": "Superficial popliteal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superficial popliteal nodes.l"
+ },
+ "p0838": {
+  "en": "Superficial popliteal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superficial popliteal nodes.r"
+ },
+ "p0839": {
+  "en": "Base of peduncle",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Base of peduncle.l"
+ },
+ "p0840": {
+  "en": "Base of peduncle",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Base of peduncle.r"
+ },
+ "p0841": {
+  "en": "Superior colliculus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superior colliculus.l"
+ },
+ "p0842": {
+  "en": "Superior colliculus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superior colliculus.r"
+ },
+ "p0843": {
+  "en": "Superior diaphragmatic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Superior diaphragmatic nodes"
+ },
+ "p0844": {
+  "en": "Superior gluteal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superior gluteal nodes.l"
+ },
+ "p0845": {
+  "en": "Superior gluteal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superior gluteal nodes.r"
+ },
+ "p0846": {
+  "en": "Superior occipital gyri",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superior occipital gyri.l"
+ },
+ "p0847": {
+  "en": "Superior occipital gyri",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superior occipital gyri.r"
+ },
+ "p0848": {
+  "en": "Superior pancreatic nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Superior pancreatic nodes"
+ },
+ "p0849": {
+  "en": "Superior pancreaticoduodenal nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Superior pancreaticoduodenal nodes"
+ },
+ "p0850": {
+  "en": "Superior parietal lobule",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superior parietal lobule.l"
+ },
+ "p0851": {
+  "en": "Superior parietal lobule",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superior parietal lobule.r"
+ },
+ "p0852": {
+  "en": "Superior salivatory nucleus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superior salivatory nucleus.l"
+ },
+ "p0853": {
+  "en": "Superior salivatory nucleus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superior salivatory nucleus.r"
+ },
+ "p0854": {
+  "en": "Superior semilunar lobule",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superior semilunar lobule.l"
+ },
+ "p0855": {
+  "en": "Superior semilunar lobule",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superior semilunar lobule.r"
+ },
+ "p0856": {
+  "en": "Superior tarsus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superior tarsus.l"
+ },
+ "p0857": {
+  "en": "Superior tarsus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superior tarsus.r"
+ },
+ "p0858": {
+  "en": "Superior tracheobronchial nodes",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Superior tracheobronchial nodes"
+ },
+ "p0859": {
+  "en": "Superolateral superficial inguinal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superolateral superficial inguinal nodes.l"
+ },
+ "p0860": {
+  "en": "Superolateral superficial inguinal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superolateral superficial inguinal nodes.r"
+ },
+ "p0861": {
+  "en": "Superomedial superficial inguinal nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Superomedial superficial inguinal nodes.l"
+ },
+ "p0862": {
+  "en": "Superomedial superficial inguinal nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Superomedial superficial inguinal nodes.r"
+ },
+ "p0863": {
+  "en": "Supraclavicular nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Supraclavicular nodes.l"
+ },
+ "p0864": {
+  "en": "Supraclavicular nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Supraclavicular nodes.r"
+ },
+ "p0865": {
+  "en": "Suprapatellar bursa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Suprapatellar bursa.l"
+ },
+ "p0866": {
+  "en": "Suprapatellar bursa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Suprapatellar bursa.r"
+ },
+ "p0867": {
+  "en": "Suprarenal gland",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Suprarenal gland.l"
+ },
+ "p0868": {
+  "en": "Suprarenal gland",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Suprarenal gland.r"
+ },
+ "p0869": {
+  "en": "Supratrochlear nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Supratrochlear nodes.l"
+ },
+ "p0870": {
+  "en": "Supratrochlear nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Supratrochlear nodes.r"
+ },
+ "p0871": {
+  "en": "Synovial sheaths of digits of hand",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Synovial sheaths of digits of hand.l"
+ },
+ "p0872": {
+  "en": "Synovial sheaths of digits of hand",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Synovial sheaths of digits of hand.r"
+ },
+ "p0873": {
+  "en": "Temporal plane",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Temporal plane.l"
+ },
+ "p0874": {
+  "en": "Temporal plane",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Temporal plane.r"
+ },
+ "p0875": {
+  "en": "Temporal pole",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Temporal pole.l"
+ },
+ "p0876": {
+  "en": "Temporal pole",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Temporal pole.r"
+ },
+ "p0877": {
+  "en": "Temporal region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Temporal region.l"
+ },
+ "p0878": {
+  "en": "Temporal region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Temporal region.r"
+ },
+ "p0879": {
+  "en": "Tendinous arch of levator ani",
+  "ja": "肛門挙筋腱弓",
+  "side": "左",
+  "system": "その他",
+  "raw": "Tendinous arch of levator ani.l"
+ },
+ "p0880": {
+  "en": "Tendinous arch of levator ani",
+  "ja": "肛門挙筋腱弓",
+  "side": "右",
+  "system": "その他",
+  "raw": "Tendinous arch of levator ani.r"
+ },
+ "p0881": {
+  "en": "Tendon sheath - abd. pollicis longus - ext. pollicis brevis",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Tendon sheath - abd. pollicis longus - ext. pollicis brevis.l"
+ },
+ "p0882": {
+  "en": "Tendon sheath - abd. pollicis longus - ext. pollicis brevis",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Tendon sheath - abd. pollicis longus - ext. pollicis brevis.r"
+ },
+ "p0883": {
+  "en": "Tendon sheath of extensor digitorum and extensor indicis",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Tendon sheath of extensor digitorum and extensor indicis.l"
+ },
+ "p0884": {
+  "en": "Tendon sheath of extensor digitorum and extensor indicis",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Tendon sheath of extensor digitorum and extensor indicis.r"
+ },
+ "p0885": {
+  "en": "Tendon sheath of extensor digitorum longus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Tendon sheath of extensor digitorum longus.l"
+ },
+ "p0886": {
+  "en": "Tendon sheath of extensor digitorum longus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Tendon sheath of extensor digitorum longus.r"
+ },
+ "p0887": {
+  "en": "Tendon sheath of extensors carpi radialis",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Tendon sheath of extensors carpi radialis.l"
+ },
+ "p0888": {
+  "en": "Tendon sheath of extensors carpi radialis",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Tendon sheath of extensors carpi radialis.r"
+ },
+ "p0889": {
+  "en": "Tendon sheath of flexor digitorum longus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Tendon sheath of flexor digitorum longus.l"
+ },
+ "p0890": {
+  "en": "Tendon sheath of flexor digitorum longus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Tendon sheath of flexor digitorum longus.r"
+ },
+ "p0891": {
+  "en": "Tendon sheath of flexor hallucis longus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Tendon sheath of flexor hallucis longus.l"
+ },
+ "p0892": {
+  "en": "Tendon sheath of flexor hallucis longus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Tendon sheath of flexor hallucis longus.r"
+ },
+ "p0893": {
+  "en": "Tendon sheath of tibialis anterior",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Tendon sheath of tibialis anterior.l"
+ },
+ "p0894": {
+  "en": "Tendon sheath of tibialis anterior",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Tendon sheath of tibialis anterior.r"
+ },
+ "p0895": {
+  "en": "Testis",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Testis.l"
+ },
+ "p0896": {
+  "en": "Testis",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Testis.r"
+ },
+ "p0897": {
+  "en": "Third ventricle",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Third ventricle"
+ },
+ "p0898": {
+  "en": "Thyroid gland",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Thyroid gland"
+ },
+ "p0899": {
+  "en": "Thyroid nodes",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Thyroid nodes.l"
+ },
+ "p0900": {
+  "en": "Thyroid nodes",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Thyroid nodes.r"
+ },
+ "p0901": {
+  "en": "Tibial",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Tibial"
+ },
+ "p0902": {
+  "en": "Tongue",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Tongue"
+ },
+ "p0903": {
+  "en": "Trachea",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Trachea"
+ },
+ "p0904": {
+  "en": "Tragus",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Tragus.l"
+ },
+ "p0905": {
+  "en": "Tragus",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Tragus.r"
+ },
+ "p0906": {
+  "en": "Transversalis fascia",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Transversalis fascia"
+ },
+ "p0907": {
+  "en": "Transverse colon",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Transverse colon"
+ },
+ "p0908": {
+  "en": "Transverse intermuscular septum of leg",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Transverse intermuscular septum of leg.l"
+ },
+ "p0909": {
+  "en": "Transverse intermuscular septum of leg",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Transverse intermuscular septum of leg.r"
+ },
+ "p0910": {
+  "en": "Transverse temporal gyri",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Transverse temporal gyri.l"
+ },
+ "p0911": {
+  "en": "Transverse temporal gyri",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Transverse temporal gyri.r"
+ },
+ "p0912": {
+  "en": "Triangular fossa",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Triangular fossa.l"
+ },
+ "p0913": {
+  "en": "Triangular fossa",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Triangular fossa.r"
+ },
+ "p0914": {
+  "en": "Tuber of vermis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Tuber of vermis"
+ },
+ "p0915": {
+  "en": "Tympanic membrane",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Tympanic membrane.l"
+ },
+ "p0916": {
+  "en": "Tympanic membrane",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Tympanic membrane.r"
+ },
+ "p0917": {
+  "en": "Ulnar",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Ulnar"
+ },
+ "p0918": {
+  "en": "Umbilical region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Umbilical region.l"
+ },
+ "p0919": {
+  "en": "Umbilical region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Umbilical region.r"
+ },
+ "p0920": {
+  "en": "Upper canine",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Upper canine.l"
+ },
+ "p0921": {
+  "en": "Upper canine",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Upper canine.r"
+ },
+ "p0922": {
+  "en": "Upper first molar tooth",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Upper first molar tooth.l"
+ },
+ "p0923": {
+  "en": "Upper first molar tooth",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Upper first molar tooth.r"
+ },
+ "p0924": {
+  "en": "Upper first premolar",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Upper first premolar.l"
+ },
+ "p0925": {
+  "en": "Upper first premolar",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Upper first premolar.r"
+ },
+ "p0926": {
+  "en": "Upper lateral incisor",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Upper lateral incisor.l"
+ },
+ "p0927": {
+  "en": "Upper lateral incisor",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Upper lateral incisor.r"
+ },
+ "p0928": {
+  "en": "Upper medial incisor",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Upper medial incisor.l"
+ },
+ "p0929": {
+  "en": "Upper medial incisor",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Upper medial incisor.r"
+ },
+ "p0930": {
+  "en": "Upper second molar tooth",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Upper second molar tooth.l"
+ },
+ "p0931": {
+  "en": "Upper second molar tooth",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Upper second molar tooth.r"
+ },
+ "p0932": {
+  "en": "Upper second premolar",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Upper second premolar.l"
+ },
+ "p0933": {
+  "en": "Upper second premolar",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Upper second premolar.r"
+ },
+ "p0934": {
+  "en": "Urinary bladder",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Urinary bladder"
+ },
+ "p0935": {
+  "en": "Urogenital region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Urogenital region.l"
+ },
+ "p0936": {
+  "en": "Urogenital region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Urogenital region.r"
+ },
+ "p0937": {
+  "en": "Uvula of palate",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Uvula of palate"
+ },
+ "p0938": {
+  "en": "Uvula of vermis",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Uvula of vermis"
+ },
+ "p0939": {
+  "en": "Vermiform appendix",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Vermiform appendix"
+ },
+ "p0940": {
+  "en": "Vertebral region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Vertebral region.l"
+ },
+ "p0941": {
+  "en": "Vertebral region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Vertebral region.r"
+ },
+ "p0942": {
+  "en": "Vestibular nuclei",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Vestibular nuclei.l"
+ },
+ "p0943": {
+  "en": "Vestibular nuclei",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Vestibular nuclei.r"
+ },
+ "p0944": {
+  "en": "Vestibule",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Vestibule.l"
+ },
+ "p0945": {
+  "en": "Vestibule",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Vestibule.r"
+ },
+ "p0946": {
+  "en": "Visceral systems.g",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Visceral systems.g"
+ },
+ "p0947": {
+  "en": "Vitreous body",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Vitreous body.l"
+ },
+ "p0948": {
+  "en": "Vitreous body",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Vitreous body.r"
+ },
+ "p0949": {
+  "en": "Vomer",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "Vomer"
+ },
+ "p0950": {
+  "en": "White matter of spinal cord",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "White matter of spinal cord"
+ },
+ "p0951": {
+  "en": "White matter of spinal cord",
+  "ja": "",
+  "side": "",
+  "system": "その他",
+  "raw": "White matter of spinal cord.j"
+ },
+ "p0952": {
+  "en": "White matter of telencephalon",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "White matter of telencephalon.l"
+ },
+ "p0953": {
+  "en": "White matter of telencephalon",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "White matter of telencephalon.r"
+ },
+ "p0954": {
+  "en": "Wing of central lobule",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Wing of central lobule.l"
+ },
+ "p0955": {
+  "en": "Wing of central lobule",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Wing of central lobule.r"
+ },
+ "p0956": {
+  "en": "Zygomatic region",
+  "ja": "",
+  "side": "左",
+  "system": "その他",
+  "raw": "Zygomatic region.l"
+ },
+ "p0957": {
+  "en": "Zygomatic region",
+  "ja": "",
+  "side": "右",
+  "system": "その他",
+  "raw": "Zygomatic region.r"
+ }
+}
