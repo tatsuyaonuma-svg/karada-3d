@@ -178,6 +178,9 @@ controls.enableDamping = true;
 controls.dampingFactor = 0.08;
 controls.rotateSpeed = 0.9;
 controls.zoomSpeed = 0.9;
+// 【令和8年8月22日・操作の直し①】拡大は、画面の真ん中ではなく
+// カーソル・つまんだ指の位置に向かって寄る（地図アプリと同じ寄り方）
+controls.zoomToCursor = true;
 
 // 光：上からの柔らかい光＋正面からの主光＋うしろからの弱い返し（前の見た目のまま）。
 // 色は材質が持っているので、光は白のまま強さだけで整える。
@@ -685,6 +688,7 @@ function opFadeOthers(mesh) {
   const keep = new Set(sameNameMeshes(mesh));
   for (const m of pickable) { if (m.visible && !keep.has(m)) m.userData.faded = true; }
   applyFades(); updateRestoreChip();
+  glideTo(centerOfSameName(mesh));   // 残した部位が回転の軸になる
 }
 function opIsolate(mesh) {
   const e = mesh.userData.entry;
@@ -709,14 +713,56 @@ function clearHighlight() {
   }
 }
 
-function pickAt(clientX, clientY) {
+function pickHit(clientX, clientY) {
   const rect = renderer.domElement.getBoundingClientRect();
   pointer.x = ((clientX - rect.left) / rect.width) * 2 - 1;
   pointer.y = -((clientY - rect.top) / rect.height) * 2 + 1;
   raycaster.setFromCamera(pointer, camera);
   const visible = pickable.filter(m => m.visible);
   const hits = raycaster.intersectObjects(visible, false);
-  return hits.length ? hits[0].object : null;
+  return hits.length ? hits[0] : null;   // .object と 当たった点 .point
+}
+function pickAt(clientX, clientY) {
+  const hit = pickHit(clientX, clientY);
+  return hit ? hit.object : null;
+}
+
+// 【令和8年8月22日・操作の直し②】見る先とカメラを、すっと滑らせて動かす。
+// 動かしたあとは、その点が回転の軸になる（見ているものを軸に回れる）。
+let glideRaf = null;
+function glideTo(targetPos, dist) {
+  if (glideRaf) { cancelAnimationFrame(glideRaf); glideRaf = null; }
+  const startT = controls.target.clone();
+  const startP = camera.position.clone();
+  const dir = startP.clone().sub(startT).normalize();
+  const endT = targetPos.clone();
+  const endDist = (dist !== undefined) ? dist : startP.distanceTo(startT);
+  const endP = endT.clone().add(dir.multiplyScalar(endDist));
+  if (reduceMotion) {
+    controls.target.copy(endT); camera.position.copy(endP); controls.update(); return;
+  }
+  const t0 = performance.now(), dur = 450;
+  function frame(now) {
+    const u = Math.min((now - t0) / dur, 1);
+    const e = 1 - Math.pow(1 - u, 3);   // はじめ速く、終わりゆっくり
+    controls.target.lerpVectors(startT, endT, e);
+    camera.position.lerpVectors(startP, endP, e);
+    controls.update();
+    glideRaf = (u < 1) ? requestAnimationFrame(frame) : null;
+  }
+  glideRaf = requestAnimationFrame(frame);
+}
+
+// 同じ名前のまとまり（左右・複製）の、いまの位置での中心
+function centerOfSameName(mesh) {
+  const box = new THREE.Box3();
+  for (const m of sameNameMeshes(mesh)) {
+    if (!m.geometry.boundingBox) m.geometry.computeBoundingBox();
+    const b = m.geometry.boundingBox.clone();
+    b.applyMatrix4(m.matrixWorld);
+    box.union(b);
+  }
+  return box.getCenter(new THREE.Vector3());
 }
 
 // 押した瞬間に色を変える（応答は待たせない）
@@ -741,11 +787,29 @@ renderer.domElement.addEventListener('pointermove', (e) => {
   }
 });
 
+// 【令和8年8月22日・操作の直し③】2回たたくと、そこへ寄る。
+// 寄ったあとは、たたいた点が回転の軸になる。何もない所を2回たたくと全身に戻る。
+let lastTap = null;
 renderer.domElement.addEventListener('pointerup', (e) => {
   if (!downAt) return;
   const moved = Math.hypot(e.clientX - downAt.x, e.clientY - downAt.y);
   downAt = null;
   if (moved > 6) { clearHighlight(); return; }   // 回しただけ
+  const now = performance.now();
+  if (lastTap && now - lastTap.t < 320
+      && Math.hypot(e.clientX - lastTap.x, e.clientY - lastTap.y) < 30) {
+    lastTap = null;
+    const hit = pickHit(e.clientX, e.clientY);
+    if (hit) {
+      const cur = camera.position.distanceTo(controls.target);
+      const dist = Math.max(cur * 0.45, controls.minDistance * 1.05);
+      glideTo(hit.point.clone(), dist);
+    } else {
+      glideTo(new THREE.Vector3(0, 0, 0), homeDistance);   // 全身に戻る
+    }
+    return;
+  }
+  lastTap = { t: now, x: e.clientX, y: e.clientY };
   if (!highlighted) { closeSheet(); setLabel('', ''); return; }
   openSheetFor(highlighted);
   const hint = document.getElementById('hint');
