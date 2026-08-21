@@ -43,8 +43,9 @@ const LOOK = {
 };
 // 最初に読むもの（骨をまず出す）。続きは boot() が順に読み、着た姿（浅層まで）にする。
 const FIRST = ['骨'];
-// 骨のあとに自動で読む順（見た目に効く順）。「その他」は浅層の筋膜34個のために読む。
-const DRESS_ORDER = ['筋', '関節・靭帯', '腱・筋膜', 'その他'];
+// 骨のあとに自動で読む順（見た目に効く順）。「その他」は浅層の筋膜と大腰筋・横隔膜、
+// 「未分類」は外眼筋・会陰筋・耳小骨筋のために読む（出すのは印の付いたものだけ）。
+const DRESS_ORDER = ['筋', '関節・靭帯', '腱・筋膜', 'その他', '未分類'];
 
 // ---------------------------------------------------------------- 名前
 // 書き出しのときに en（英名）／ja（和名）／side（左右）／system（系統）を別ファイルに出してある。
@@ -104,6 +105,9 @@ for (const s of EXTRA_SYSTEMS) extraOn[s] = false;
 function meshRank(m) {
   const c = CLASSIFY[m.userData.partKey];
   if (c && c.s) return 3;
+  // 筋の実体が別の系統に入っているもの（大腰筋・横隔膜・膝関節筋・外眼筋・会陰筋・耳小骨筋）は
+  // 筋として扱う（令和8年8月22日・大沼指摘「大腰筋がなかったりしたよ」）
+  if (c && c.m) return 2;
   const sys = m.userData.layer;
   if (sys === '筋' || sys === '腱・筋膜') return 2;
   if (sys === '関節・靭帯') return 1;
@@ -114,7 +118,7 @@ function meshRank(m) {
 // 名前で引いたとき、その名前のものだけを出す
 let searchTarget = null;    // { en, sys }
 
-const classifyReady = fetch('./data/regions.json?v=2').then(r => r.json()).then(j => {
+const classifyReady = fetch('./data/regions.json?v=4').then(r => r.json()).then(j => {
   GROUPS = j._groups || [];
   delete j._groups;
   CLASSIFY = j;
@@ -277,7 +281,7 @@ for (const k of Object.keys(LOOK.layers)) {
   layerGroups[k] = g;
 }
 
-const DATA_VERSION = '3';   // 3=元データの材質つきglb（令和8年8月21日）
+const DATA_VERSION = '4';   // 4=大腰筋など6種の筋の印と和名（令和8年8月22日）
 const loaded = {};       // 読み終わった系統
 const loading = {};      // 読み込み中の系統
 
@@ -364,7 +368,7 @@ function meshVisible(m) {
   return !!extraOn[m.userData.layer];
 }
 
-function applyVisibility() {
+function applyVisibility(refit = true) {
   let shown = 0;
   for (const sys of Object.keys(layerGroups)) {
     for (const m of layerGroups[sys].children) {
@@ -383,7 +387,7 @@ function applyVisibility() {
     b.classList.toggle('on', Number(b.dataset.stratum) === currentStratum);
   });
   rebuildSubRow();
-  fitToVisible();
+  if (refit) fitToVisible();   // はがす・戻すのときは寄り直さない
   return shown;
 }
 
@@ -574,6 +578,29 @@ function buildControlsUI() {
     }
   }
 
+  // はがすモード（さわった部位を1枚ずつはがす）と「一枚戻す」
+  const peelRow = document.getElementById('peel');
+  if (peelRow && !peelRow.children.length) {
+    const b = document.createElement('button');
+    b.textContent = 'はがす';
+    b.addEventListener('click', () => {
+      peelMode = !peelMode;
+      b.classList.toggle('on', peelMode);
+      if (peelMode) {
+        closeSheet();
+        clearHighlight();
+        setLabel('', 'さわった部位を1枚ずつはがします');
+      } else {
+        setLabel('', '');
+      }
+    });
+    peelRow.appendChild(b);
+    const u = document.createElement('button');
+    u.textContent = '一枚戻す';
+    u.addEventListener('click', unpeel);
+    peelRow.appendChild(u);
+  }
+
   // 層の外の系統（神経・血管・脳・その他・未分類）は、押したときだけ足す
   const layersRow = document.getElementById('layers');
   for (const k of EXTRA_SYSTEMS) {
@@ -635,7 +662,7 @@ function markActiveView() {
 const raycaster = new THREE.Raycaster();
 const pointer = new THREE.Vector2();
 let downAt = null;
-let highlighted = null;
+let peelMode = false;   // オンのとき、さわった部位を1枚ずつはがす
 let PART_LESSONS = {};
 // 選んだものは青くする（前の見た目のまま。元データの色と混ざらない色）
 const highlightMaterial = new THREE.MeshStandardMaterial({
@@ -657,6 +684,13 @@ function fadedOf(base) {
   return fadedCache.get(base.uuid);
 }
 
+// 選択の光り（令和8年8月22日・大沼指示2件）
+// ・どちらか一方を選んだら左右の両方が光る（同名のまとまりで光らせる）
+// ・視点を変えても光ったまま（選択は、別の部位を選ぶ・空を触る・選び直すまで残る）
+let selectedGroup = [];   // 確定した選択
+let pressedGroup = [];    // 押している間だけの光り
+let pressedMesh = null;   // 実際に指が触れた側（左右の表示に使う）
+
 function sameNameMeshes(mesh) {
   const e = mesh.userData.entry;
   if (!e) return [mesh];
@@ -672,8 +706,9 @@ function anyOps() {
 }
 
 function applyFades() {
+  const lit = new Set([...selectedGroup, ...pressedGroup]);
   for (const m of pickable) {
-    if (m === highlighted) continue;
+    if (lit.has(m)) { m.material = highlightMaterial; continue; }
     const base = m.userData.baseMaterial;
     m.material = m.userData.faded ? fadedOf(base) : base;
   }
@@ -686,11 +721,33 @@ function updateRestoreChip() {
 
 function restoreOps(refresh = true) {
   for (const m of pickable) { m.userData.hidden = false; m.userData.faded = false; }
+  hideStack.length = 0;
   if (refresh) { applyFades(); applyVisibility(); }
   updateRestoreChip();
 }
 
-function opHide(mesh)  { sameNameMeshes(mesh).forEach(m => { m.userData.hidden = true; }); closeSheet(); clearHighlight(); setLabel('', ''); applyVisibility(); updateRestoreChip(); }
+// はがす（隠す）は一枚ずつ積む。「一枚戻す」で逆順に戻せる（令和8年8月22日・大沼指示）
+const hideStack = [];
+function peelGroup(mesh) {
+  const g = sameNameMeshes(mesh).filter(m => !m.userData.hidden);
+  if (!g.length) return;
+  g.forEach(m => { m.userData.hidden = true; });
+  hideStack.push(g);
+  applyVisibility(false);   // はがすたびに寄り直さない
+  updateRestoreChip();
+}
+function unpeel() {
+  const g = hideStack.pop();
+  if (!g) return;
+  g.forEach(m => { m.userData.hidden = false; });
+  applyVisibility(false);
+  updateRestoreChip();
+  const e = g[0].userData.entry;
+  const lab = labelOf(e);
+  setLabel(lab.ja, '一枚戻した');
+}
+
+function opHide(mesh)  { peelGroup(mesh); closeSheet(); clearHighlight(); setLabel('', ''); }
 function opFade(mesh)  { sameNameMeshes(mesh).forEach(m => { m.userData.faded = true; }); clearHighlight(); applyFades(); updateRestoreChip(); }
 function opFadeOthers(mesh) {
   const keep = new Set(sameNameMeshes(mesh));
@@ -710,16 +767,39 @@ function opIsolate(mesh) {
 
 fetch('./data/part_lessons.json?v=2').then(r => r.json()).then(j => { PART_LESSONS = j; });
 
+// 筋の起始・停止・支配神経（出典：プロメテウス。原本の頁を目視で確かめて転記したものだけ載せる）
+let MUSCLE_FACTS = null;
+fetch('./data/muscle_facts.json?v=1')
+  .then(r => (r.ok ? r.json() : null))
+  .then(j => { MUSCLE_FACTS = j; })
+  .catch(() => {});
+
+function factsFor(entry, mesh) {
+  if (!MUSCLE_FACTS || !entry) return null;
+  const c = CLASSIFY[mesh.userData.partKey];
+  const isMuscle = mesh.userData.layer === '筋' || (c && c.m);
+  if (!isMuscle) return null;
+  const en = entry.en.toLowerCase().replace(/^\(/, '').replace(/\)$/, '');
+  let bestKey = null;
+  for (const k of Object.keys(MUSCLE_FACTS)) {
+    if (k.startsWith('_')) continue;
+    const kl = k.toLowerCase();
+    if (en === kl || en.endsWith(' of ' + kl) || en.includes(kl)) {
+      if (!bestKey || kl.length > bestKey.length) bestKey = k;
+    }
+  }
+  return bestKey ? MUSCLE_FACTS[bestKey] : null;
+}
+
 function setLabel(ja, en) {
   document.getElementById('ja').textContent = ja;
   document.getElementById('en').textContent = en;
 }
 
 function clearHighlight() {
-  if (highlighted) {
-    highlighted.material = highlighted.userData.baseMaterial;
-    highlighted = null;
-  }
+  selectedGroup = [];
+  pressedGroup = [];
+  applyFades();
 }
 
 function pickHit(clientX, clientY) {
@@ -774,25 +854,31 @@ function centerOfSameName(mesh) {
   return box.getCenter(new THREE.Vector3());
 }
 
-// 押した瞬間に色を変える（応答は待たせない）
+// 押した瞬間に色を変える（応答は待たせない）。確定した選択は消さない
 renderer.domElement.addEventListener('pointerdown', (e) => {
   downAt = { x: e.clientX, y: e.clientY, t: performance.now() };
   const hit = pickAt(e.clientX, e.clientY);
-  clearHighlight();
+  pressedMesh = hit;
+  pressedGroup = hit ? sameNameMeshes(hit) : [];
+  applyFades();
   if (hit) {
-    hit.material = highlightMaterial;
-    highlighted = hit;
     const lab = labelOf(hit.userData.entry);
     setLabel(lab.ja, lab.en);
   }
 });
 
-// 回し始めたら、選んでいた色は戻す（回転と取り違えない）
+// 回し始めたら、押している間の光りだけ戻す（確定した選択は光ったまま）
 renderer.domElement.addEventListener('pointermove', (e) => {
-  if (!downAt || !highlighted) return;
+  if (!downAt || !pressedGroup.length) return;
   if (Math.hypot(e.clientX - downAt.x, e.clientY - downAt.y) > 6) {
-    clearHighlight();
-    setLabel('', '');
+    pressedGroup = [];
+    applyFades();
+    if (selectedGroup.length) {
+      const lab = labelOf(selectedGroup[0].userData.entry);
+      setLabel(lab.ja, lab.en);
+    } else {
+      setLabel('', '');
+    }
   }
 });
 
@@ -803,7 +889,21 @@ renderer.domElement.addEventListener('pointerup', (e) => {
   if (!downAt) return;
   const moved = Math.hypot(e.clientX - downAt.x, e.clientY - downAt.y);
   downAt = null;
-  if (moved > 6) { clearHighlight(); return; }   // 回しただけ
+  if (moved > 6) { pressedGroup = []; applyFades(); return; }   // 回しただけ
+
+  // はがすモード：さわった部位をその場で1枚はがす（2回たたく寄りは使わない）
+  if (peelMode) {
+    const hit = pickAt(e.clientX, e.clientY);
+    pressedGroup = [];
+    applyFades();
+    if (hit) {
+      const lab = labelOf(hit.userData.entry);
+      peelGroup(hit);
+      setLabel(lab.ja, 'はがした（' + hideStack.length + '枚）');
+    }
+    return;
+  }
+
   const now = performance.now();
   if (lastTap && now - lastTap.t < 320
       && Math.hypot(e.clientX - lastTap.x, e.clientY - lastTap.y) < 30) {
@@ -819,8 +919,22 @@ renderer.domElement.addEventListener('pointerup', (e) => {
     return;
   }
   lastTap = { t: now, x: e.clientX, y: e.clientY };
-  if (!highlighted) { closeSheet(); setLabel('', ''); return; }
-  openSheetFor(highlighted);
+
+  const hit = pressedMesh;
+  pressedMesh = null;
+  if (!hit || !pressedGroup.length) {
+    selectedGroup = [];
+    pressedGroup = [];
+    applyFades();
+    closeSheet();
+    setLabel('', '');
+    return;
+  }
+  // 選択を確定する。左右・複製のまとまりごと光らせ、視点を変えても光ったまま
+  selectedGroup = pressedGroup;
+  pressedGroup = [];
+  applyFades();
+  openSheetFor(hit);
   const hint = document.getElementById('hint');
   if (hint) hint.style.opacity = '0';
 });
@@ -907,6 +1021,33 @@ function openSheetFor(mesh) {
       grp,
     ].filter(Boolean).join('　・　') : '';
 
+  // 筋なら起始・停止・支配神経を出す（原本を目視で確かめたデータのある筋だけ）
+  const factsEl = document.getElementById('s-facts');
+  if (factsEl) {
+    factsEl.replaceChildren();
+    const f = factsFor(e, mesh);
+    if (f) {
+      const row = (label, text) => {
+        if (!text) return;
+        const r = document.createElement('div');
+        r.className = 'frow';
+        const k = document.createElement('span'); k.className = 'k'; k.textContent = label;
+        const v = document.createElement('span'); v.className = 'v'; v.textContent = text;
+        r.append(k, v);
+        factsEl.appendChild(r);
+      };
+      row('起始', f.起始);
+      row('停止', f.停止);
+      row('支配神経', f.神経);
+      if (f.頁) {
+        const s = document.createElement('div');
+        s.className = 'src';
+        s.textContent = '出典：プロメテウス解剖学アトラス 解剖学総論／運動器系 p.' + f.頁;
+        factsEl.appendChild(s);
+      }
+    }
+  }
+
   const box = document.getElementById('s-link');
   const key = mesh.userData.partKey;
   const L = key && PART_LESSONS[key] ? PART_LESSONS[key][0] : null;
@@ -982,6 +1123,7 @@ async function buildSearchIndex() {
           ja: (v.ja || '').trim(),
           enLower: en.toLowerCase(),
           key: conf.file + '/' + pid,     // 分類（部位・区画）を引くための鍵
+          tag: (v.system || conf.label),  // 札の表示（大腰筋などは「筋」と出す）
         });
       }
     } catch (e) { console.error('検索の索引', sys, e); }
@@ -1024,7 +1166,7 @@ function renderSearchResults(items) {
     name.textContent = item.ja || item.en;
     const tag = document.createElement('span');
     tag.className = 'tag';
-    tag.textContent = LOOK.layers[item.sys].label + (item.ja ? '　' + item.en : '');
+    tag.textContent = (item.tag || LOOK.layers[item.sys].label) + (item.ja ? '　' + item.en : '');
     b.append(name, tag);
     // blur より先に動くように pointerdown で受ける
     b.addEventListener('pointerdown', (e) => { e.preventDefault(); chooseSearchResult(item); });

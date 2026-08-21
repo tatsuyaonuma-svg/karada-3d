@@ -106,6 +106,7 @@
   @media (min-width:700px){ .row{justify-content:center} }
   /* 広い画面では列を広げて、横に流さず全部見せる */
   @media (min-width:1000px){ .row{max-width:960px} }
+  @media (min-width:1240px){ .row{max-width:1180px} }
   button{
     font:inherit;font-size:.9375rem;line-height:1;white-space:nowrap;
     min-height:44px;padding:0 15px;border-radius:999px;
@@ -187,6 +188,18 @@
   #sheet .name{font-size:1.5rem;font-weight:600;line-height:1.25;letter-spacing:-.015em}
   #sheet .sub{font-size:.875rem;color:var(--ink2);margin-top:.35em;letter-spacing:.01em}
   #sheet .meta{font-size:.8125rem;color:var(--ink3);margin-top:.9em}
+  /* 筋の起始・停止・支配神経（データのある筋だけに出る） */
+  #s-facts{margin-top:10px}
+  #s-facts .frow{
+    display:grid;grid-template-columns:5.5em 1fr;gap:6px;
+    padding:5px 0;border-top:1px solid var(--hair);
+    font-size:.8125rem;line-height:1.6;
+  }
+  #s-facts .frow:first-child{border-top:none}
+  #s-facts .k{color:var(--ink3)}
+  #s-facts .v{color:var(--ink)}
+  #s-facts .src{font-size:.71875rem;color:var(--ink3);margin-top:4px}
+
   /* 名前の下の操作（売れているアプリと同じ4つ組） */
   #s-ops{display:flex;gap:6px;margin-top:14px;overflow-x:auto;scrollbar-width:none}
   #s-ops::-webkit-scrollbar{display:none}
@@ -251,6 +264,8 @@
     <div class="row">
       <span id="strata" style="display:contents"></span>
       <span class="divider" aria-hidden="true"></span>
+      <span id="peel" style="display:contents"></span>
+      <span class="divider" aria-hidden="true"></span>
       <span id="layers" style="display:contents"></span>
     </div>
     <div class="row" id="views"></div>
@@ -264,6 +279,7 @@
     <div class="name" id="s-name"></div>
     <div class="sub" id="s-sub"></div>
     <div class="meta" id="s-meta"></div>
+    <div id="s-facts"></div>
     <div id="s-ops">
       <button id="op-isolate">これだけ見る</button>
       <button id="op-fade-others">まわりを薄く</button>
@@ -275,6 +291,6 @@
 
   <div id="loading">読み込んでいます…</div>
 
-  <script type="module" src="./app.js?v=7"></script>
+  <script type="module" src="./app.js?v=8"></script>
 </body>
 </html>
