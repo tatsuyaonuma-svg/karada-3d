@@ -5,18 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
 <title>からだの立体図鑑｜感じて覚える運動解剖学</title>
 <style>
-  /* 【令和8年8月21日】世界一売れている解剖アプリ（Essential Anatomy 5）の実画面に合わせた黒基調。
-     背景は黒・文字は白・選択はオレンジ・操作は縁の細いボタン帯。 */
   :root{
-    --bg:#0b0b0d;
-    --ink:#f4f4f6;
-    --ink2:#c9c9d0;
-    --ink3:#8f8f98;
-    --hair:rgba(255,255,255,.14);
-    --glass:rgba(18,18,22,.78);
-    --glass-strong:rgba(24,24,28,.92);
-    --accent:#e08a3c;
-    --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 32px rgba(0,0,0,.5);
+    --bg:#f4f1ec;
+    --ink:#26221c;
+    --ink2:#5a5347;
+    --ink3:#8a8175;
+    --hair:rgba(38,34,28,.14);
+    --glass:rgba(252,250,247,.72);
+    --glass-strong:rgba(252,250,247,.9);
+    --accent:#9c635a;
+    --shadow:0 1px 2px rgba(40,34,26,.06), 0 12px 32px rgba(40,34,26,.10);
   }
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html,body{
@@ -35,14 +33,12 @@
   }
   #label .ja{
     font-size:1.35rem;font-weight:600;line-height:1.3;
-    letter-spacing:-.01em;
+    letter-spacing:-.01em;              /* 大きい字は詰める */
     min-height:1.3em;
-    text-shadow:0 1px 8px rgba(0,0,0,.8);
   }
   #label .en{
     font-size:.8125rem;color:var(--ink2);margin-top:.15em;
     letter-spacing:.01em;min-height:1.2em;
-    text-shadow:0 1px 6px rgba(0,0,0,.8);
   }
   #hint{
     font-size:.8125rem;color:var(--ink3);margin-top:.6em;
@@ -53,23 +49,52 @@
     position:fixed;top:calc(12px + env(safe-area-inset-top));right:12px;z-index:5;
     font:inherit;font-size:.8125rem;line-height:1;
     padding:10px 14px;border-radius:999px;
-    border:1px solid var(--hair);background:var(--glass);color:var(--ink);
+    border:1px solid var(--hair);background:var(--glass-strong);color:var(--ink);
     backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
-    cursor:pointer;
+    box-shadow:var(--shadow);cursor:pointer;
   }
   #restore:active{transform:scale(.95)}
 
-  /* ── 下：操作板（黒のすりガラス） ── */
+  /* ── 目次（系統→区画・部位→構造の一覧から辿る） ── */
+  #catalog{
+    position:absolute;left:10px;right:10px;bottom:calc(100% + 8px);z-index:7;
+    max-width:680px;margin:0 auto;
+    max-height:66vh;overflow-y:auto;
+    background:var(--glass-strong);
+    backdrop-filter:blur(30px) saturate(180%);
+    -webkit-backdrop-filter:blur(30px) saturate(180%);
+    border:1px solid rgba(255,255,255,.6);
+    border-radius:16px;box-shadow:var(--shadow);
+    padding:8px;
+  }
+  #catalog .lv1, #catalog .lv2{
+    display:flex;justify-content:space-between;align-items:center;gap:8px;
+    width:100%;min-height:48px;padding:8px 14px;border:none;border-radius:10px;
+    background:transparent;text-align:left;font-weight:600;
+  }
+  #catalog .lv2{font-weight:500;padding-left:26px;min-height:44px}
+  #catalog .lv1:active, #catalog .lv2:active, #catalog .item:active{background:rgba(38,34,28,.06);transform:none}
+  #catalog .count{font-size:.75rem;color:var(--ink3);font-weight:400}
+  #catalog .item{
+    display:block;width:100%;min-height:42px;padding:6px 14px 6px 40px;
+    border:none;border-radius:10px;background:transparent;text-align:left;
+    font-size:.9375rem;color:var(--ink2);
+  }
+  #catalog .item .en{display:block;font-size:.71875rem;color:var(--ink3)}
+
+  /* ── 下：半透明のガラスの操作板 ── */
   #dock{
     position:fixed;left:0;right:0;bottom:0;z-index:4;
     padding:8px 10px calc(8px + env(safe-area-inset-bottom));
     display:flex;flex-direction:column;gap:6px;align-items:center;
     transition:transform .32s cubic-bezier(.2,0,0,1), opacity .24s ease;
     background:var(--glass);
-    backdrop-filter:blur(24px) saturate(140%);
-    -webkit-backdrop-filter:blur(24px) saturate(140%);
-    border-top:1px solid var(--hair);
+    backdrop-filter:blur(24px) saturate(180%);
+    -webkit-backdrop-filter:blur(24px) saturate(180%);
+    border-top:1px solid rgba(255,255,255,.55);
+    box-shadow:0 -1px 0 var(--hair);
   }
+  /* 高さを取らないよう、はみ出す分は横に流す（折り返して2段3段にしない） */
   .row{
     display:flex;gap:6px;flex-wrap:nowrap;justify-content:flex-start;
     width:100%;max-width:680px;overflow-x:auto;overflow-y:hidden;
@@ -79,26 +104,28 @@
   .row::-webkit-scrollbar{display:none}
   .row > *{flex:0 0 auto;scroll-snap-align:start}
   @media (min-width:700px){ .row{justify-content:center} }
+  /* 広い画面では列を広げて、横に流さず全部見せる */
   @media (min-width:1000px){ .row{max-width:960px} }
   button{
     font:inherit;font-size:.9375rem;line-height:1;white-space:nowrap;
     min-height:44px;padding:0 15px;border-radius:999px;
-    border:1px solid var(--hair);background:rgba(255,255,255,.06);color:var(--ink2);
+    border:1px solid var(--hair);background:rgba(255,255,255,.7);color:var(--ink2);
     cursor:pointer;
+    /* 押した瞬間に応える。離してからではない */
     transition:transform .1s cubic-bezier(.2,0,0,1), background .16s ease, color .16s ease, border-color .16s ease;
   }
   button:active{transform:scale(.94)}
-  button.on{background:#f4f4f6;border-color:#f4f4f6;color:#111}
+  button.on{background:var(--ink);border-color:var(--ink);color:#fff}
   button.busy{opacity:.5}
   button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
   #regions button{font-weight:600}
-  #regions button.on{background:var(--accent);border-color:var(--accent);color:#161006}
-  #subregions button{font-size:.875rem;min-height:38px}
-  #strata button.on{background:#f4f4f6;border-color:#f4f4f6;color:#111}
-  .divider{width:1px;align-self:stretch;background:var(--hair);margin:4px 3px}
+  #regions button.on{background:var(--accent);border-color:var(--accent);color:#fff}
   #dock.down{transform:translate3d(0,100%,0);opacity:0;pointer-events:none}
   #credit{font-size:.6875rem;color:var(--ink3);text-align:center;line-height:1.4;letter-spacing:.01em}
   #credit a{color:var(--ink3)}
+  #subregions button{font-size:.875rem;min-height:38px}
+  #strata button.on{background:var(--ink);border-color:var(--ink);color:#fff}
+  .divider{width:1px;align-self:stretch;background:var(--hair);margin:4px 3px}
 
   /* ── なまえで引く ── */
   #searchrow{align-items:center}
@@ -106,7 +133,7 @@
     flex:1 1 auto;min-width:0;
     font:inherit;font-size:16px;   /* 16px未満だとiPhoneが勝手に拡大する */
     min-height:44px;padding:0 16px;border-radius:999px;
-    border:1px solid var(--hair);background:rgba(255,255,255,.06);color:var(--ink);
+    border:1px solid var(--hair);background:rgba(255,255,255,.7);color:var(--ink);
     outline:none;
   }
   #search:focus{border-color:var(--accent)}
@@ -116,25 +143,21 @@
     max-width:680px;margin:0 auto;
     max-height:46vh;overflow-y:auto;
     background:var(--glass-strong);
-    backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);
-    border:1px solid var(--hair);
+    backdrop-filter:blur(30px) saturate(180%);
+    -webkit-backdrop-filter:blur(30px) saturate(180%);
+    border:1px solid rgba(255,255,255,.6);
     border-radius:16px;box-shadow:var(--shadow);
     padding:6px;
   }
   #search-results .result{
     display:flex;flex-direction:column;align-items:flex-start;gap:2px;
     width:100%;min-height:48px;padding:8px 14px;border:none;border-radius:10px;
-    background:transparent;text-align:left;color:var(--ink);
+    background:transparent;text-align:left;
   }
-  #search-results .result:active{background:rgba(255,255,255,.08);transform:none}
+  #search-results .result:active{background:rgba(38,34,28,.06);transform:none}
   #search-results .result .tag{font-size:.75rem;color:var(--ink3)}
 
   /* 2回目以降の読み込み表示は、画面を隠さない小さな札にする */
-  #loading{
-    position:fixed;inset:0;z-index:8;display:grid;place-items:center;
-    background:var(--bg);font-size:.9375rem;color:var(--ink2);
-  }
-  #loading.hidden{display:none}
   #loading.pill{
     inset:auto;left:50%;top:calc(10px + env(safe-area-inset-top));
     transform:translateX(-50%);
@@ -143,58 +166,64 @@
     box-shadow:var(--shadow);place-items:unset;display:block;
   }
 
-  /* ── 下から出る名前の板。売れているアプリの「名前＋操作の4つ組」 ── */
+  /* ── 下から出るシート。掴んで下げられる ── */
   #sheet{
     position:fixed;left:0;right:0;bottom:0;z-index:6;
     transform:translate3d(0,100%,0);
     will-change:transform;
     background:var(--glass-strong);
-    backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);
+    backdrop-filter:blur(30px) saturate(180%);
+    -webkit-backdrop-filter:blur(30px) saturate(180%);
     border-radius:20px 20px 0 0;
-    border-top:1px solid var(--hair);
+    border-top:1px solid rgba(255,255,255,.6);
     box-shadow:var(--shadow);
     padding:8px 20px calc(22px + env(safe-area-inset-bottom));
     touch-action:none;
   }
   #grip{
-    width:38px;height:5px;border-radius:99px;background:rgba(255,255,255,.25);
+    width:38px;height:5px;border-radius:99px;background:rgba(38,34,28,.2);
     margin:0 auto 14px;
   }
   #sheet .name{font-size:1.5rem;font-weight:600;line-height:1.25;letter-spacing:-.015em}
   #sheet .sub{font-size:.875rem;color:var(--ink2);margin-top:.35em;letter-spacing:.01em}
   #sheet .meta{font-size:.8125rem;color:var(--ink3);margin-top:.9em}
-  #s-ops{
-    display:flex;gap:6px;margin-top:14px;
-    overflow-x:auto;scrollbar-width:none;
-  }
+  /* 名前の下の操作（売れているアプリと同じ4つ組） */
+  #s-ops{display:flex;gap:6px;margin-top:14px;overflow-x:auto;scrollbar-width:none}
   #s-ops::-webkit-scrollbar{display:none}
   #s-ops button{font-size:.875rem;min-height:40px;flex:0 0 auto}
   #sheet a.go{
     display:flex;align-items:center;justify-content:space-between;gap:12px;
-    margin-top:12px;padding:15px 18px;border-radius:14px;
-    background:var(--accent);color:#161006;text-decoration:none;
+    margin-top:16px;padding:15px 18px;border-radius:14px;
+    background:var(--ink);color:#fff;text-decoration:none;
     font-size:.9375rem;font-weight:600;letter-spacing:.005em;
     transition:transform .1s cubic-bezier(.2,0,0,1), opacity .16s ease;
   }
   a.go:active{transform:scale(.985);opacity:.9}
   a.go .arrow{opacity:.65;font-weight:400}
   #sheet .none{
-    margin-top:12px;padding:14px 16px;border-radius:14px;
-    background:rgba(255,255,255,.06);color:var(--ink2);font-size:.875rem;line-height:1.6;
+    margin-top:16px;padding:14px 16px;border-radius:14px;
+    background:rgba(38,34,28,.05);color:var(--ink2);font-size:.875rem;line-height:1.6;
   }
-  #sheet .none a{color:var(--accent)}
+
+  #loading{
+    position:fixed;inset:0;z-index:8;display:grid;place-items:center;
+    background:var(--bg);font-size:.9375rem;color:var(--ink2);
+  }
+  #loading.hidden{display:none}
 
   @media (max-width:420px){
     #label .ja{font-size:1.2rem}
     button{font-size:.875rem;padding:0 13px}
     #sheet .name{font-size:1.3rem}
   }
+  /* 動きを減らす設定のときは、跳ねさせない */
   @media (prefers-reduced-motion: reduce){
     button, a.go{transition:opacity .16s ease}
     button:active, a.go:active{transform:none}
   }
+  /* 透過を減らす設定のときは、すりガラスをやめて塗る */
   @media (prefers-reduced-transparency: reduce){
-    #dock,#sheet,#search-results,#restore{background:#141418;backdrop-filter:none;-webkit-backdrop-filter:none}
+    #dock,#sheet{background:#fbf9f6;backdrop-filter:none;-webkit-backdrop-filter:none}
   }
 </style>
 </head>
@@ -211,7 +240,9 @@
 
   <div id="dock">
     <div id="search-results" hidden></div>
+    <div id="catalog" hidden></div>
     <div class="row" id="searchrow">
+      <button id="catalog-btn">目次</button>
       <input id="search" type="search" autocomplete="off" placeholder="なまえで引く（例：僧帽筋）">
       <button id="search-clear" class="plain" hidden>もどす</button>
     </div>
@@ -244,6 +275,6 @@
 
   <div id="loading">読み込んでいます…</div>
 
-  <script type="module" src="./app.js?v=4"></script>
+  <script type="module" src="./app.js?v=5"></script>
 </body>
 </html>

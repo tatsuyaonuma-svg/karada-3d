@@ -25,10 +25,10 @@ gltfLoader.setDRACOLoader(dracoLoader);
 // glbに材質が入っている（export_system.py が元の色を取り出して同梱する）。
 // 下の color は、万一材質が入っていないメッシュのための代えでしかない。
 const LOOK = {
-  // 【令和8年8月21日・大沼指示「抜本的に改革してくれ。売れてるアプリはどうなってるのか」】
-  // 世界一売れている解剖アプリ（Essential Anatomy 5）の実画面を確認して合わせた：
-  // 背景は黒。模型が浮き上がる。選んだものはオレンジ。下に大きな名前と操作が出る。
-  bg: 0x0b0b0d,
+  // 【令和8年8月21日・大沼指示「色とかは前のままでいいんだよ。まずはシステムだ」】
+  // 見た目は元データの材質＋明るい背景のまま。作り込むのは仕組みの方
+  // （目次から辿る・これだけ見る/隠す の4つ組・層を剥ぐ・部位の絞り・なまえで引く）。
+  bg: 0xf4f1ec,
   layers: {
     '骨':        { color: 0xcc8b50, label: '骨',        file: 'bone' },
     '関節・靭帯': { color: 0xe5fef9, label: '関節・靱帯', file: 'joint' },
@@ -114,7 +114,7 @@ function meshRank(m) {
 // 名前で引いたとき、その名前のものだけを出す
 let searchTarget = null;    // { en, sys }
 
-fetch('./data/regions.json?v=2').then(r => r.json()).then(j => {
+const classifyReady = fetch('./data/regions.json?v=2').then(r => r.json()).then(j => {
   GROUPS = j._groups || [];
   delete j._groups;
   CLASSIFY = j;
@@ -179,45 +179,17 @@ controls.dampingFactor = 0.08;
 controls.rotateSpeed = 0.9;
 controls.zoomSpeed = 0.9;
 
-// 光：黒背景で模型を浮き上がらせる（Essential Anatomy 5の見え方に合わせる）。
-// 正面からの強い主光＋上からの柔らかい光＋背中からの縁の光（黒に沈まないように）。
+// 光：上からの柔らかい光＋正面からの主光＋うしろからの弱い返し（前の見た目のまま）。
 // 色は材質が持っているので、光は白のまま強さだけで整える。
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1.1;
-scene.add(new THREE.HemisphereLight(0xffffff, 0x2a2a2e, 0.55));
-const key = new THREE.DirectionalLight(0xffffff, 1.9);
-key.position.set(0.4, 0.9, 1.0);
+renderer.toneMappingExposure = 1.15;
+scene.add(new THREE.HemisphereLight(0xffffff, 0xb8b0a4, 0.9));
+const key = new THREE.DirectionalLight(0xffffff, 1.5);
+key.position.set(0.5, 1.0, 0.8);
 scene.add(key);
-const rimL = new THREE.DirectionalLight(0xffffff, 0.7);
-rimL.position.set(-1.0, 0.4, -0.8);
-scene.add(rimL);
-const rimR = new THREE.DirectionalLight(0xffffff, 0.5);
-rimR.position.set(1.0, 0.2, -0.8);
-scene.add(rimR);
-
-// 映り込み：光る板を並べた小さな撮影部屋を作り、そこからの照り返しでつやを出す。
-// （外部の部品は使わない。three.js本体のPMREMだけで作る）
-{
-  const envScene = new THREE.Scene();
-  const panel = (color, x, y, z, w, h, rx, ry) => {
-    const m = new THREE.Mesh(
-      new THREE.PlaneGeometry(w, h),
-      new THREE.MeshBasicMaterial({ color, side: THREE.DoubleSide }));
-    m.position.set(x, y, z);
-    m.rotation.set(rx, ry, 0);
-    envScene.add(m);
-  };
-  const room = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 10, 10),
-    new THREE.MeshBasicMaterial({ color: 0x1c1c1f, side: THREE.BackSide }));
-  envScene.add(room);
-  panel(0xffffff, 0, 4, 0, 4, 4, Math.PI / 2, 0);      // 天井の大きな白い板
-  panel(0xdddddd, -3, 1, 3, 3, 5, 0, Math.PI / 4);     // 左前
-  panel(0x888888, 3, 0.5, -3, 3, 5, 0, -Math.PI * 0.75); // 右うしろ（弱め）
-  const pmrem = new THREE.PMREMGenerator(renderer);
-  scene.environment = pmrem.fromScene(envScene, 0.06).texture;
-  pmrem.dispose();
-}
+const backLight = new THREE.DirectionalLight(0xffffff, 0.45);
+backLight.position.set(-0.6, 0.3, -0.7);
+scene.add(backLight);
 
 // ---------------------------------------------------------------- 材質（元データのものを使う）
 // glbに入っているZ-Anatomy自身の材質をそのまま使う。触るのは2点だけ：
@@ -654,10 +626,9 @@ const pointer = new THREE.Vector2();
 let downAt = null;
 let highlighted = null;
 let PART_LESSONS = {};
-// 選んだものはオレンジに光らせる（Essential Anatomy 5の選択の見え方）
+// 選んだものは青くする（前の見た目のまま。元データの色と混ざらない色）
 const highlightMaterial = new THREE.MeshStandardMaterial({
-  color: 0xe07a20, emissive: 0x903f08, emissiveIntensity: 0.55,
-  roughness: 0.35, side: THREE.DoubleSide,
+  color: 0x4d7fae, roughness: 0.5, side: THREE.DoubleSide,
 });
 
 // ---------------------------------------------------------------- 部位ごとの操作
@@ -926,14 +897,19 @@ async function buildSearchIndex() {
         || await fetch(`./data/${conf.file}_names.json?v=${DATA_VERSION}`).then(r => r.json());
       if (!NAME_MAPS[sys]) NAME_MAPS[sys] = table;
       const seen = new Set();
-      for (const v of Object.values(table)) {
+      for (const [pid, v] of Object.entries(table)) {
         const en = (v.en || '').trim();
         if (!en) continue;
-        if (isLabelObject(v)) continue;    // 目次用の文字物体は索引にも入れない
+        if (isLabelObject(v)) continue;    // 説明用の文字物体は索引にも入れない
         const uniq = sys + '|' + en;          // 左右・複製は1行にまとめる
         if (seen.has(uniq)) continue;
         seen.add(uniq);
-        idx.push({ sys, en, ja: (v.ja || '').trim(), enLower: en.toLowerCase() });
+        idx.push({
+          sys, en,
+          ja: (v.ja || '').trim(),
+          enLower: en.toLowerCase(),
+          key: conf.file + '/' + pid,     // 分類（部位・区画）を引くための鍵
+        });
       }
     } catch (e) { console.error('検索の索引', sys, e); }
   }
@@ -1031,6 +1007,107 @@ if (searchInput) {
     setTimeout(() => { searchResults.hidden = true; }, 150);
   });
   searchClearBtn.addEventListener('click', () => clearSearch());
+}
+
+// ---------------------------------------------------------------- 目次から辿る
+// 売れている解剖アプリの背骨は「系統 → 区画・部位 → 構造」を一覧から辿れること。
+// 筋は区画（回旋筋腱板・前腕の前面など）で、それ以外の系統は部位で束ねる。
+// 構造を選ぶと、なまえで引いたときと同じ動きをする（その部位だけ残して寄る）。
+const catalogEl = document.getElementById('catalog');
+const catalogBtn = document.getElementById('catalog-btn');
+let catalogBuilt = false;
+const REGION_ORDER = ['head', 'neck', 'trunk', 'back', 'thorax', 'abdomen', 'pelvis', 'arm', 'hand', 'leg', 'foot'];
+
+function catalogGroupOf(e) {
+  const c = CLASSIFY[e.key];
+  // 筋は区画（回旋筋腱板など）が先。区画が無いものは部位で束ねて後ろに置く
+  if (e.sys === '筋' && c && c.g !== undefined && GROUPS[c.g]) {
+    return { kind: 'g', label: GROUPS[c.g].ja || GROUPS[c.g].en, order: c.g };
+  }
+  if (c && c.r) {
+    const base = (e.sys === '筋') ? 100 : 0;
+    return { kind: 'r', label: REGION_JA[c.r], order: base + REGION_ORDER.indexOf(c.r) };
+  }
+  return { kind: 'x', label: 'そのほか', order: 999 };
+}
+
+function buildCatalogDOM() {
+  catalogEl.replaceChildren();
+  for (const [sys, conf] of Object.entries(LOOK.layers)) {
+    const entries = SEARCH_INDEX.filter(e => e.sys === sys);
+    if (!entries.length) continue;
+
+    const lv1 = document.createElement('button');
+    lv1.className = 'lv1';
+    lv1.append(
+      Object.assign(document.createElement('span'), { textContent: conf.label }),
+      Object.assign(document.createElement('span'), { className: 'count', textContent: entries.length + '種 ▾' }),
+    );
+    const box1 = document.createElement('div');
+    box1.hidden = true;
+    lv1.addEventListener('click', () => {
+      if (box1.hidden && !box1.children.length) {
+        // 開いたときにはじめて中身を作る（全部先に作ると重い）
+        const groups = new Map();
+        for (const e of entries) {
+          const g = catalogGroupOf(e);
+          if (!groups.has(g.label)) groups.set(g.label, { order: g.order, items: [] });
+          groups.get(g.label).items.push(e);
+        }
+        const sorted = [...groups.entries()].sort((a, b) => a[1].order - b[1].order);
+        for (const [label, g] of sorted) {
+          const lv2 = document.createElement('button');
+          lv2.className = 'lv2';
+          lv2.append(
+            Object.assign(document.createElement('span'), { textContent: label }),
+            Object.assign(document.createElement('span'), { className: 'count', textContent: g.items.length + '種 ▾' }),
+          );
+          const box2 = document.createElement('div');
+          box2.hidden = true;
+          lv2.addEventListener('click', () => {
+            if (box2.hidden && !box2.children.length) {
+              g.items.sort((a, b) => (a.ja || a.en).localeCompare(b.ja || b.en, 'ja'));
+              for (const e of g.items) {
+                const it = document.createElement('button');
+                it.className = 'item';
+                it.textContent = e.ja || e.en;
+                if (e.ja) {
+                  const enEl = document.createElement('span');
+                  enEl.className = 'en';
+                  enEl.textContent = e.en;
+                  it.appendChild(enEl);
+                }
+                it.addEventListener('click', () => {
+                  catalogEl.hidden = true;
+                  chooseSearchResult(e);
+                });
+                box2.appendChild(it);
+              }
+            }
+            box2.hidden = !box2.hidden;
+          });
+          box1.append(lv2, box2);
+        }
+      }
+      box1.hidden = !box1.hidden;
+    });
+    catalogEl.append(lv1, box1);
+  }
+}
+
+if (catalogBtn) {
+  catalogBtn.addEventListener('click', async () => {
+    if (!catalogEl.hidden) { catalogEl.hidden = true; return; }
+    catalogBtn.classList.add('busy');
+    await buildSearchIndex();
+    await classifyReady;
+    catalogBtn.classList.remove('busy');
+    if (!catalogBuilt) { buildCatalogDOM(); catalogBuilt = true; }
+    if (searchResults) searchResults.hidden = true;
+    catalogEl.hidden = false;
+  });
+  // 検索を打ち始めたら目次は引っ込める
+  if (searchInput) searchInput.addEventListener('focus', () => { catalogEl.hidden = true; });
 }
 
 // 名前の下の操作ボタン（隠す・薄くする・まわりを薄く・これだけ見る）と「表示を元に戻す」
