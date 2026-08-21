@@ -18,20 +18,24 @@ const gltfLoader = new GLTFLoader();
 gltfLoader.setDRACOLoader(dracoLoader);
 
 // ---------------------------------------------------------------- 見た目の設定
+// 【令和8年8月21日・大沼指示「みにくい」「いっそのこと元データそのままでもいいかも。
+// 君がつくるとどこかでずれていくのかもしれない」】
+// イラスト風（3段の塗り＋輪郭線）をやめた。色はこちらで決めず、
+// **Z-Anatomy自身の材質（骨=象牙色・筋=赤・靱帯=白・筋膜=半透明の青）をそのまま表示する**。
+// glbに材質が入っている（export_system.py が元の色を取り出して同梱する）。
+// 下の color は、万一材質が入っていないメッシュのための代えでしかない。
 const LOOK = {
-  bg:       0xf9f7f3,
-  outline:  0x6b5d4f,
-  thickness: 0.0016,
+  bg: 0xf4f1ec,
   layers: {
-    '骨':        { color: 0xf0e9dd, label: '骨',        file: 'bone' },
-    '関節・靭帯': { color: 0xe2dac6, label: '関節・靱帯', file: 'joint' },
-    '筋':        { color: 0xd99a8f, label: '筋',        file: 'muscle' },
-    '腱・筋膜':   { color: 0xded3bd, label: '腱・筋膜',   file: 'tendon' },
-    '神経':      { color: 0xd9cf9a, label: '神経',      file: 'nerve' },
-    '血管':      { color: 0xc98f8f, label: '脈管',      file: 'vessel' },
-    '脳':        { color: 0xdcc4cc, label: '脳',        file: 'brain' },
-    'その他':     { color: 0xd6cfc0, label: 'その他',    file: 'other' },
-    '未分類':     { color: 0xcfc8ba, label: '未分類',    file: 'misc' },
+    '骨':        { color: 0xcc8b50, label: '骨',        file: 'bone' },
+    '関節・靭帯': { color: 0xe5fef9, label: '関節・靱帯', file: 'joint' },
+    '筋':        { color: 0xcc2718, label: '筋',        file: 'muscle' },
+    '腱・筋膜':   { color: 0xecd8d6, label: '腱・筋膜',   file: 'tendon' },
+    '神経':      { color: 0xd8c26a, label: '神経',      file: 'nerve' },
+    '血管':      { color: 0xa23430, label: '脈管',      file: 'vessel' },
+    '脳':        { color: 0xe5985f, label: '脳',        file: 'brain' },
+    'その他':     { color: 0xbfb2a2, label: 'その他',    file: 'other' },
+    '未分類':     { color: 0xb9ab99, label: '未分類',    file: 'misc' },
   },
 };
 // 最初に読むもの（骨をまず出す）。続きは boot() が順に読み、着た姿（浅層まで）にする。
@@ -172,52 +176,39 @@ controls.dampingFactor = 0.08;
 controls.rotateSpeed = 0.9;
 controls.zoomSpeed = 0.9;
 
-// 光は2つだけ。影を落とさず、面の向きの差だけを出す。
-scene.add(new THREE.AmbientLight(0xffffff, 0.62));
-const key = new THREE.DirectionalLight(0xffffff, 0.85);
-key.position.set(0.6, 1.0, 0.9);
+// 光：上からの柔らかい光＋正面からの主光＋うしろからの弱い返し。
+// 色は材質が持っているので、光は白のまま強さだけで整える。
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.15;
+scene.add(new THREE.HemisphereLight(0xffffff, 0xb8b0a4, 0.9));
+const key = new THREE.DirectionalLight(0xffffff, 1.5);
+key.position.set(0.5, 1.0, 0.8);
 scene.add(key);
+const backLight = new THREE.DirectionalLight(0xffffff, 0.45);
+backLight.position.set(-0.6, 0.3, -0.7);
+scene.add(backLight);
 
-// ---------------------------------------------------------------- イラスト風の材質
-// 明暗を3段に切って、面をべたっと塗る（写真ではなく絵に見せる）。
-function makeStepGradient() {
-  const steps = new Uint8Array([116, 190, 255]);
-  const tex = new THREE.DataTexture(steps, steps.length, 1, THREE.RedFormat);
-  tex.minFilter = THREE.NearestFilter;
-  tex.magFilter = THREE.NearestFilter;
-  tex.generateMipmaps = false;
-  tex.needsUpdate = true;
-  return tex;
+// ---------------------------------------------------------------- 材質（元データのものを使う）
+// glbに入っているZ-Anatomy自身の材質をそのまま使う。触るのは2点だけ：
+// ・薄い膜（横隔膜・筋膜）は袋のように閉じていないので、両面を塗る
+// ・半透明（筋膜など）は、透けたぶん奥が見えるように描く順を整える
+const preparedMaterials = new Map();
+function prepareMaterial(srcMat, sys) {
+  if (!srcMat) {
+    // 材質が入っていないときだけ、系統の代えの色を使う
+    if (!preparedMaterials.has(sys)) {
+      preparedMaterials.set(sys, new THREE.MeshStandardMaterial({
+        color: LOOK.layers[sys].color, roughness: 0.55, side: THREE.DoubleSide,
+      }));
+    }
+    return preparedMaterials.get(sys);
+  }
+  if (preparedMaterials.has(srcMat.uuid)) return preparedMaterials.get(srcMat.uuid);
+  srcMat.side = THREE.DoubleSide;
+  if (srcMat.transparent) srcMat.depthWrite = false;
+  preparedMaterials.set(srcMat.uuid, srcMat);
+  return srcMat;
 }
-const GRADIENT = makeStepGradient();
-
-// 横隔膜や筋膜は薄い膜で、袋のように閉じていない。片面だけ塗ると裏側から
-// 輪郭線（黒）が見えて穴が空いたように見えるので、両面を塗る。
-const fillMaterials = {};
-for (const [k, v] of Object.entries(LOOK.layers)) {
-  fillMaterials[k] = new THREE.MeshToonMaterial({
-    color: v.color, gradientMap: GRADIENT, side: THREE.DoubleSide,
-  });
-}
-
-// 輪郭線：形を法線の向きに少しふくらませて裏面だけ描く。
-// 太さを世界の長さで持つので、部品の大小によらず線の太さがそろう。
-const outlineMaterial = new THREE.ShaderMaterial({
-  uniforms: {
-    thickness: { value: LOOK.thickness },
-    lineColor: { value: new THREE.Color(LOOK.outline) },
-  },
-  vertexShader: `
-    uniform float thickness;
-    void main() {
-      vec3 pushed = position + normalize(normal) * thickness;
-      gl_Position = projectionMatrix * modelViewMatrix * vec4(pushed, 1.0);
-    }`,
-  fragmentShader: `
-    uniform vec3 lineColor;
-    void main() { gl_FragColor = vec4(lineColor, 1.0); }`,
-  side: THREE.BackSide,
-});
 
 // 三角形の頂点の並びを逆にして、面の表と裏を入れ替える
 function flipWinding(geo) {
@@ -274,7 +265,7 @@ for (const k of Object.keys(LOOK.layers)) {
   layerGroups[k] = g;
 }
 
-const DATA_VERSION = '2';
+const DATA_VERSION = '3';   // 3=元データの材質つきglb（令和8年8月21日）
 const loaded = {};       // 読み終わった系統
 const loading = {};      // 読み込み中の系統
 
@@ -309,16 +300,13 @@ async function loadSystem(sys) {
       // 右側は左を鏡に映して作られているので、面の表裏を戻す（そうしないと右半分が黒くなる）
       if (mesh.matrixWorld.determinant() < 0) flipWinding(geo);
 
-      const fill = new THREE.Mesh(geo, fillMaterials[sys]);
+      const fill = new THREE.Mesh(geo, prepareMaterial(mesh.material, sys));
+      fill.userData.baseMaterial = fill.material;   // 選択の色から戻すときに使う
       fill.userData.entry = entry;
       fill.userData.layer = sys;
       fill.userData.partKey = entry ? (LOOK.layers[sys].file + '/' + entry._key) : null;
       layerGroups[sys].add(fill);
       pickable.push(fill);
-
-      const line = new THREE.Mesh(geo, outlineMaterial);
-      line.userData.isOutline = true;
-      layerGroups[sys].add(line);
     }
     loaded[sys] = true;
     applyVisibility();
@@ -364,13 +352,9 @@ function meshVisible(m) {
 function applyVisibility() {
   let shown = 0;
   for (const sys of Object.keys(layerGroups)) {
-    const g = layerGroups[sys];
-    for (let i = 0; i < g.children.length; i += 2) {
-      const fill = g.children[i];
-      const line = g.children[i + 1];
-      const on = meshVisible(fill);
-      fill.visible = on;
-      if (line) line.visible = on;
+    for (const m of layerGroups[sys].children) {
+      const on = meshVisible(m);
+      m.visible = on;
       if (on) shown++;
     }
   }
@@ -633,8 +617,9 @@ const pointer = new THREE.Vector2();
 let downAt = null;
 let highlighted = null;
 let PART_LESSONS = {};
-const highlightMaterial = new THREE.MeshToonMaterial({
-  color: 0xd8a7a0, gradientMap: GRADIENT, side: THREE.DoubleSide,
+// 選んだものは青くする（解剖アプリの選択の見え方に合わせた。元データの色と混ざらない色）
+const highlightMaterial = new THREE.MeshStandardMaterial({
+  color: 0x4d7fae, roughness: 0.5, side: THREE.DoubleSide,
 });
 
 fetch('./data/part_lessons.json?v=2').then(r => r.json()).then(j => { PART_LESSONS = j; });
@@ -646,7 +631,7 @@ function setLabel(ja, en) {
 
 function clearHighlight() {
   if (highlighted) {
-    highlighted.material = fillMaterials[highlighted.userData.layer];
+    highlighted.material = highlighted.userData.baseMaterial;
     highlighted = null;
   }
 }
