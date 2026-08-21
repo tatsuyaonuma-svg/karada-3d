@@ -182,6 +182,12 @@ controls.zoomSpeed = 0.9;
 // カーソル・つまんだ指の位置に向かって寄る（地図アプリと同じ寄り方）
 controls.zoomToCursor = true;
 
+// 【令和8年8月22日・操作の直し④】読み込みの続き（筋・関節…と着ていく間）で、
+// 層が読み終わるたびにカメラが初期位置へ戻り、その間の拡大・回転が巻き戻っていた。
+// 一度でも動かしたら、読み込みではカメラを戻さない。部位や層を選び直したときだけ戻す。
+let userMoved = false;
+controls.addEventListener('start', () => { userMoved = true; });
+
 // 光：上からの柔らかい光＋正面からの主光＋うしろからの弱い返し（前の見た目のまま）。
 // 色は材質が持っているので、光は白のまま強さだけで整える。
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
@@ -413,6 +419,7 @@ function afterFilterChange() {
   closeSheet();
   clearHighlight();
   setLabel('', '');
+  userMoved = false;                      // 選び直したときは、選んだ範囲に合わせて寄り直す
   applyVisibility();
 }
 
@@ -449,7 +456,7 @@ function fitToVisible() {
   modelSize = after.getSize(new THREE.Vector3());
   homeTarget = new THREE.Vector3(0, 0, 0);
   updateFitDistance();
-  applyView(currentView);
+  if (!userMoved) applyView(currentView);   // 動かしたあとの読み込みでは、カメラを戻さない
 }
 
 // 中身に合わせて位置と距離を決め直す
@@ -508,6 +515,7 @@ function applyView(name) {
 }
 
 function resetView(clearSelection = true) {
+  userMoved = false;
   applyView('前');
   if (clearSelection) {
     clearSearch(false);
@@ -695,6 +703,7 @@ function opIsolate(mesh) {
   if (!e) return;
   searchTarget = { en: e.en, sys: mesh.userData.layer };
   clearHighlight();
+  userMoved = false;   // 残した部位に寄り直す
   applyVisibility();
   updateRestoreChip();
 }
@@ -1033,6 +1042,7 @@ async function chooseSearchResult(item) {
   searchTarget = { en: item.en, sys: item.sys };
   searchClearBtn.hidden = false;
   clearHighlight();
+  userMoved = false;   // 選んだ部位に寄り直す
   applyVisibility();   // その名前のものだけが残り、そこへ寄る
   updateRestoreChip();
   const g = layerGroups[item.sys];
@@ -1049,7 +1059,7 @@ function clearSearch(refresh = true) {
   if (searchInput) searchInput.value = '';
   if (searchResults) searchResults.hidden = true;
   if (searchClearBtn) searchClearBtn.hidden = true;
-  if (refresh) { closeSheet(); applyVisibility(); }
+  if (refresh) { closeSheet(); userMoved = false; applyVisibility(); }
   updateRestoreChip();
 }
 
@@ -1187,6 +1197,7 @@ if (catalogBtn) {
   const chip = document.getElementById('restore');
   if (chip) chip.addEventListener('click', () => {
     clearSearch(false);
+    userMoved = false;   // 全身が見える位置に戻す
     restoreOps();
     closeSheet();
     clearHighlight();
