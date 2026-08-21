@@ -101,8 +101,15 @@ const EXTRA_SYSTEMS = ['神経', '血管', '脳', 'その他', '未分類'];
 const extraOn = {};
 for (const s of EXTRA_SYSTEMS) extraOn[s] = false;
 
+// 筋膜（ファシア）は初期表示に出さない（令和8年8月22日・大沼指示「ファシアいらないかも。邪魔だわ」）。
+// 検索・目次から引いたときだけ出る。腱（アキレス腱など）は筋膜ではないので残す。
+function isFasciaEntry(e) {
+  return !!(e && /fascia|aponeurosis|iliotibial tract/i.test(e.en || ''));
+}
+
 // メッシュ1個の層の深さ。浅層の印がいちばん強い（「その他」の筋膜もここで拾う）。
 function meshRank(m) {
+  if (isFasciaEntry(m.userData.entry)) return null;   // 筋膜は層に出さない
   const c = CLASSIFY[m.userData.partKey];
   if (c && c.s) return 3;
   // 筋の実体が別の系統に入っているもの（大腰筋・横隔膜・膝関節筋・外眼筋・会陰筋・耳小骨筋）は
@@ -203,6 +210,30 @@ scene.add(key);
 const backLight = new THREE.DirectionalLight(0xffffff, 0.45);
 backLight.position.set(-0.6, 0.3, -0.7);
 scene.add(backLight);
+
+// ---------------------------------------------------------------- 輪郭線（スケッチ調）
+// 【令和8年8月22日・大沼指示「視認性を保ちつつ、スケッチのような美しいものに」】
+// 色は元データのまま、部品の縁にだけ細い線を引く（解剖図版の描き方）。
+// 形を法線の向きにわずかにふくらませて裏面だけ描く。太さは世界の長さで持つ。
+const outlineMaterial = new THREE.ShaderMaterial({
+  uniforms: {
+    thickness: { value: 0.0009 },
+    lineColor: { value: new THREE.Color(0x5c5044) },
+    lineAlpha: { value: 0.6 },
+  },
+  vertexShader: `
+    uniform float thickness;
+    void main() {
+      vec3 pushed = position + normalize(normal) * thickness;
+      gl_Position = projectionMatrix * modelViewMatrix * vec4(pushed, 1.0);
+    }`,
+  fragmentShader: `
+    uniform vec3 lineColor;
+    uniform float lineAlpha;
+    void main() { gl_FragColor = vec4(lineColor, lineAlpha); }`,
+  side: THREE.BackSide,
+  transparent: true,
+});
 
 // ---------------------------------------------------------------- 材質（元データのものを使う）
 // glbに入っているZ-Anatomy自身の材質をそのまま使う。触るのは2点だけ：
@@ -323,6 +354,13 @@ async function loadSystem(sys) {
       fill.userData.partKey = entry ? (LOOK.layers[sys].file + '/' + entry._key) : null;
       layerGroups[sys].add(fill);
       pickable.push(fill);
+
+      // 輪郭線は部品の子に付ける（見える・見えないが親と一緒に切り替わる）
+      if (!(fill.material.transparent)) {           // 半透明のものに線を引くと汚れる
+        const line = new THREE.Mesh(geo, outlineMaterial);
+        line.raycast = () => {};                    // 触っても当たらない
+        fill.add(line);
+      }
     }
     loaded[sys] = true;
     applyVisibility();
@@ -582,7 +620,7 @@ function buildControlsUI() {
   const peelRow = document.getElementById('peel');
   if (peelRow && !peelRow.children.length) {
     const b = document.createElement('button');
-    b.textContent = 'はがす';
+    b.textContent = 'はがすモード';
     b.addEventListener('click', () => {
       peelMode = !peelMode;
       b.classList.toggle('on', peelMode);
