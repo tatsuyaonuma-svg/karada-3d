@@ -25,7 +25,10 @@ gltfLoader.setDRACOLoader(dracoLoader);
 // glbに材質が入っている（export_system.py が元の色を取り出して同梱する）。
 // 下の color は、万一材質が入っていないメッシュのための代えでしかない。
 const LOOK = {
-  bg: 0xf4f1ec,
+  // 【令和8年8月21日・大沼指示「抜本的に改革してくれ。売れてるアプリはどうなってるのか」】
+  // 世界一売れている解剖アプリ（Essential Anatomy 5）の実画面を確認して合わせた：
+  // 背景は黒。模型が浮き上がる。選んだものはオレンジ。下に大きな名前と操作が出る。
+  bg: 0x0b0b0d,
   layers: {
     '骨':        { color: 0xcc8b50, label: '骨',        file: 'bone' },
     '関節・靭帯': { color: 0xe5fef9, label: '関節・靱帯', file: 'joint' },
@@ -176,17 +179,45 @@ controls.dampingFactor = 0.08;
 controls.rotateSpeed = 0.9;
 controls.zoomSpeed = 0.9;
 
-// 光：上からの柔らかい光＋正面からの主光＋うしろからの弱い返し。
+// 光：黒背景で模型を浮き上がらせる（Essential Anatomy 5の見え方に合わせる）。
+// 正面からの強い主光＋上からの柔らかい光＋背中からの縁の光（黒に沈まないように）。
 // 色は材質が持っているので、光は白のまま強さだけで整える。
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1.15;
-scene.add(new THREE.HemisphereLight(0xffffff, 0xb8b0a4, 0.9));
-const key = new THREE.DirectionalLight(0xffffff, 1.5);
-key.position.set(0.5, 1.0, 0.8);
+renderer.toneMappingExposure = 1.1;
+scene.add(new THREE.HemisphereLight(0xffffff, 0x2a2a2e, 0.55));
+const key = new THREE.DirectionalLight(0xffffff, 1.9);
+key.position.set(0.4, 0.9, 1.0);
 scene.add(key);
-const backLight = new THREE.DirectionalLight(0xffffff, 0.45);
-backLight.position.set(-0.6, 0.3, -0.7);
-scene.add(backLight);
+const rimL = new THREE.DirectionalLight(0xffffff, 0.7);
+rimL.position.set(-1.0, 0.4, -0.8);
+scene.add(rimL);
+const rimR = new THREE.DirectionalLight(0xffffff, 0.5);
+rimR.position.set(1.0, 0.2, -0.8);
+scene.add(rimR);
+
+// 映り込み：光る板を並べた小さな撮影部屋を作り、そこからの照り返しでつやを出す。
+// （外部の部品は使わない。three.js本体のPMREMだけで作る）
+{
+  const envScene = new THREE.Scene();
+  const panel = (color, x, y, z, w, h, rx, ry) => {
+    const m = new THREE.Mesh(
+      new THREE.PlaneGeometry(w, h),
+      new THREE.MeshBasicMaterial({ color, side: THREE.DoubleSide }));
+    m.position.set(x, y, z);
+    m.rotation.set(rx, ry, 0);
+    envScene.add(m);
+  };
+  const room = new THREE.Mesh(
+    new THREE.BoxGeometry(10, 10, 10),
+    new THREE.MeshBasicMaterial({ color: 0x1c1c1f, side: THREE.BackSide }));
+  envScene.add(room);
+  panel(0xffffff, 0, 4, 0, 4, 4, Math.PI / 2, 0);      // 天井の大きな白い板
+  panel(0xdddddd, -3, 1, 3, 3, 5, 0, Math.PI / 4);     // 左前
+  panel(0x888888, 3, 0.5, -3, 3, 5, 0, -Math.PI * 0.75); // 右うしろ（弱め）
+  const pmrem = new THREE.PMREMGenerator(renderer);
+  scene.environment = pmrem.fromScene(envScene, 0.06).texture;
+  pmrem.dispose();
+}
 
 // ---------------------------------------------------------------- 材質（元データのものを使う）
 // glbに入っているZ-Anatomy自身の材質をそのまま使う。触るのは2点だけ：
@@ -333,6 +364,9 @@ function meshVisible(m) {
     const e = m.userData.entry;
     return !!(e && e.en === searchTarget.en && m.userData.layer === searchTarget.sys);
   }
+
+  // 「隠す」で消したもの
+  if (m.userData.hidden) return false;
 
   // 部位の絞り
   const rg = c ? c.r : null;
@@ -502,13 +536,16 @@ function resetView(clearSelection = true) {
   applyView('前');
   if (clearSelection) {
     clearSearch(false);
+    restoreOps(false);
     currentRegion = 'all';
     currentSub = null;
     currentStratum = 3;
     for (const s of EXTRA_SYSTEMS) extraOn[s] = false;
     document.querySelectorAll('[data-layer]').forEach(b => b.classList.remove('on'));
     setLabel('', '');
+    applyFades();
     applyVisibility();
+    updateRestoreChip();
   }
 }
 
@@ -617,10 +654,75 @@ const pointer = new THREE.Vector2();
 let downAt = null;
 let highlighted = null;
 let PART_LESSONS = {};
-// 選んだものは青くする（解剖アプリの選択の見え方に合わせた。元データの色と混ざらない色）
+// 選んだものはオレンジに光らせる（Essential Anatomy 5の選択の見え方）
 const highlightMaterial = new THREE.MeshStandardMaterial({
-  color: 0x4d7fae, roughness: 0.5, side: THREE.DoubleSide,
+  color: 0xe07a20, emissive: 0x903f08, emissiveIntensity: 0.55,
+  roughness: 0.35, side: THREE.DoubleSide,
 });
+
+// ---------------------------------------------------------------- 部位ごとの操作
+// 売れているアプリの4つ組：隠す・薄くする・まわりを薄く・これだけ見る。
+// 同じ名前（左右・複製）をひとまとめに扱う。
+const fadedCache = new Map();
+function fadedOf(base) {
+  if (!fadedCache.has(base.uuid)) {
+    const m = base.clone();
+    m.transparent = true;
+    m.opacity = 0.16;
+    m.depthWrite = false;
+    fadedCache.set(base.uuid, m);
+  }
+  return fadedCache.get(base.uuid);
+}
+
+function sameNameMeshes(mesh) {
+  const e = mesh.userData.entry;
+  if (!e) return [mesh];
+  const out = [];
+  for (const m of layerGroups[mesh.userData.layer].children) {
+    if (m.userData.entry && m.userData.entry.en === e.en) out.push(m);
+  }
+  return out;
+}
+
+function anyOps() {
+  return pickable.some(m => m.userData.hidden || m.userData.faded);
+}
+
+function applyFades() {
+  for (const m of pickable) {
+    if (m === highlighted) continue;
+    const base = m.userData.baseMaterial;
+    m.material = m.userData.faded ? fadedOf(base) : base;
+  }
+}
+
+function updateRestoreChip() {
+  const chip = document.getElementById('restore');
+  if (chip) chip.hidden = !(anyOps() || searchTarget);
+}
+
+function restoreOps(refresh = true) {
+  for (const m of pickable) { m.userData.hidden = false; m.userData.faded = false; }
+  if (refresh) { applyFades(); applyVisibility(); }
+  updateRestoreChip();
+}
+
+function opHide(mesh)  { sameNameMeshes(mesh).forEach(m => { m.userData.hidden = true; }); closeSheet(); clearHighlight(); setLabel('', ''); applyVisibility(); updateRestoreChip(); }
+function opFade(mesh)  { sameNameMeshes(mesh).forEach(m => { m.userData.faded = true; }); clearHighlight(); applyFades(); updateRestoreChip(); }
+function opFadeOthers(mesh) {
+  const keep = new Set(sameNameMeshes(mesh));
+  for (const m of pickable) { if (m.visible && !keep.has(m)) m.userData.faded = true; }
+  applyFades(); updateRestoreChip();
+}
+function opIsolate(mesh) {
+  const e = mesh.userData.entry;
+  if (!e) return;
+  searchTarget = { en: e.en, sys: mesh.userData.layer };
+  clearHighlight();
+  applyVisibility();
+  updateRestoreChip();
+}
 
 fetch('./data/part_lessons.json?v=2').then(r => r.json()).then(j => { PART_LESSONS = j; });
 
@@ -740,7 +842,10 @@ function closeSheet(v0) {
   sheetOpen = false;
 }
 
+let bannerMesh = null;   // いま名前を出している部品（操作の対象）
+
 function openSheetFor(mesh) {
+  bannerMesh = mesh;
   const e = mesh.userData.entry;
   const lab = labelOf(e);
   document.getElementById('s-name').textContent = lab.ja || '（名前が入っていません）';
@@ -775,7 +880,7 @@ function openSheetFor(mesh) {
 {
   let dragging = false, startY = 0, startV = 0, hist = [];
   sheet.addEventListener('pointerdown', (e) => {
-    if (e.target.closest('a')) return;       // リンクを押したときは掴まない
+    if (e.target.closest('a,button')) return;   // リンクや操作ボタンを押したときは掴まない
     sheet.setPointerCapture(e.pointerId);
     measureSheet();
     dragging = true;
@@ -889,6 +994,7 @@ async function chooseSearchResult(item) {
   searchClearBtn.hidden = false;
   clearHighlight();
   applyVisibility();   // その名前のものだけが残り、そこへ寄る
+  updateRestoreChip();
   const g = layerGroups[item.sys];
   const first = g.children.find(m => !m.userData.isOutline && m.visible);
   if (first) {
@@ -904,6 +1010,7 @@ function clearSearch(refresh = true) {
   if (searchResults) searchResults.hidden = true;
   if (searchClearBtn) searchClearBtn.hidden = true;
   if (refresh) { closeSheet(); applyVisibility(); }
+  updateRestoreChip();
 }
 
 if (searchInput) {
@@ -924,6 +1031,26 @@ if (searchInput) {
     setTimeout(() => { searchResults.hidden = true; }, 150);
   });
   searchClearBtn.addEventListener('click', () => clearSearch());
+}
+
+// 名前の下の操作ボタン（隠す・薄くする・まわりを薄く・これだけ見る）と「表示を元に戻す」
+{
+  const bind = (id, fn) => {
+    const b = document.getElementById(id);
+    if (b) b.addEventListener('click', () => { if (bannerMesh) fn(bannerMesh); });
+  };
+  bind('op-hide', opHide);
+  bind('op-fade', opFade);
+  bind('op-fade-others', opFadeOthers);
+  bind('op-isolate', opIsolate);
+  const chip = document.getElementById('restore');
+  if (chip) chip.addEventListener('click', () => {
+    clearSearch(false);
+    restoreOps();
+    closeSheet();
+    clearHighlight();
+    setLabel('', '');
+  });
 }
 
 // ---------------------------------------------------------------- 画像に保存
