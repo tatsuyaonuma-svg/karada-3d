@@ -125,7 +125,7 @@ function meshRank(m) {
 // 名前で引いたとき、その名前のものだけを出す
 let searchTarget = null;    // { en, sys }
 
-const classifyReady = fetch('./data/regions.json?v=4').then(r => r.json()).then(j => {
+const classifyReady = fetch('./data/regions.json?v=5').then(r => r.json()).then(j => {
   GROUPS = j._groups || [];
   delete j._groups;
   CLASSIFY = j;
@@ -407,7 +407,7 @@ for (const k of Object.keys(LOOK.layers)) {
   layerGroups[k] = g;
 }
 
-const DATA_VERSION = '4';   // 4=大腰筋など6種の筋の印と和名（令和8年8月22日）
+const DATA_VERSION = '5';   // 5=筋データ第二陣・総指伸筋と回旋筋の救出（令和8年8月22日）
 const loaded = {};       // 読み終わった系統
 const loading = {};      // 読み込み中の系統
 
@@ -928,7 +928,7 @@ fetch('./data/part_lessons.json?v=2').then(r => r.json()).then(j => { PART_LESSO
 
 // 筋の起始・停止・支配神経（出典：プロメテウス。原本の頁を目視で確かめて転記したものだけ載せる）
 let MUSCLE_FACTS = null;
-fetch('./data/muscle_facts.json?v=3')
+fetch('./data/muscle_facts.json?v=4')
   .then(r => (r.ok ? r.json() : null))
   .then(j => { MUSCLE_FACTS = j; })
   .catch(() => {});
@@ -1154,9 +1154,18 @@ function openSheet() {
 function closeSheet(v0) {
   measureSheet();
   document.getElementById('dock').classList.remove('down');
+  const info = document.getElementById('info');
+  if (info) info.hidden = true;      // 解説の箱も一緒に閉じる
   if (reduceMotion) { sheetSpring.stop(); sheetSpring.value = sheetH; sheetOpen = false; return; }
   sheetSpring.to(sheetH, v0);
   sheetOpen = false;
+}
+
+// 解説の箱を、アクションの帯のすぐ上に置く
+function placeInfo() {
+  const info = document.getElementById('info');
+  if (!info || info.hidden) return;
+  info.style.bottom = (sheet.offsetHeight + 10) + 'px';
 }
 
 let bannerMesh = null;   // いま名前を出している部品（操作の対象）
@@ -1214,6 +1223,7 @@ function openSheetFor(mesh) {
       <a href="https://www.somaticstudiojapan.com/kanjite-undou-kaibou" target="_blank" rel="noopener" style="color:var(--accent)">感じて覚える運動解剖学の一覧を見る →</a></div>`;
   }
   openSheet();
+  placeInfo();   // 解説の箱を開いたままなら、位置を合わせて中身も切り替わる
 }
 
 // シートを掴んで下げる（指から離れない・投げたら勢いで閉じる）
@@ -1496,6 +1506,13 @@ if (catalogBtn) {
     const b = document.getElementById(id);
     if (b) b.addEventListener('click', () => { if (bannerMesh) fn(bannerMesh); });
   };
+  const infoBtn = document.getElementById('op-info');
+  if (infoBtn) infoBtn.addEventListener('click', () => {
+    const info = document.getElementById('info');
+    info.hidden = !info.hidden;
+    infoBtn.classList.toggle('on', !info.hidden);
+    placeInfo();
+  });
   bind('op-zoom', opZoom);
   bind('op-hide', opHide);
   bind('op-fade', opFade);

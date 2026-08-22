@@ -243,16 +243,30 @@
     border-radius:20px 20px 0 0;
     border-top:1px solid rgba(255,255,255,.6);
     box-shadow:var(--shadow);
-    padding:8px 20px calc(22px + env(safe-area-inset-bottom));
+    padding:6px 20px calc(14px + env(safe-area-inset-bottom));
     touch-action:none;
   }
   #grip{
     width:38px;height:5px;border-radius:99px;background:rgba(38,34,28,.2);
     margin:0 auto 14px;
   }
-  #sheet .name{font-size:1.5rem;font-weight:600;line-height:1.25;letter-spacing:-.015em}
-  #sheet .sub{font-size:.875rem;color:var(--ink2);margin-top:.35em;letter-spacing:.01em}
-  #sheet .meta{font-size:.8125rem;color:var(--ink3);margin-top:.9em}
+  #sheet .who{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:2px}
+  #sheet .name{font-size:1.125rem;font-weight:600;line-height:1.25;letter-spacing:-.01em}
+  #sheet .sub{font-size:.75rem;color:var(--ink3);letter-spacing:.01em}
+
+  /* 解説の箱（アクションの帯と別表示） */
+  #info{
+    position:fixed;left:10px;right:10px;z-index:6;
+    max-width:560px;margin:0 auto;
+    max-height:48vh;overflow-y:auto;
+    background:var(--glass-strong);
+    backdrop-filter:blur(30px) saturate(180%);
+    -webkit-backdrop-filter:blur(30px) saturate(180%);
+    border:1px solid rgba(255,255,255,.6);
+    border-radius:16px;box-shadow:var(--shadow);
+    padding:16px 20px;
+  }
+  #info .meta{font-size:.8125rem;color:var(--ink3)}
   /* 筋の起始・停止・支配神経（データのある筋だけに出る） */
   #s-facts{margin-top:10px}
   #s-facts .frow{
@@ -360,13 +374,22 @@
     </div>
   </div>
 
-  <div id="sheet" aria-hidden="true">
-    <div id="grip"></div>
-    <div class="name" id="s-name"></div>
-    <div class="sub" id="s-sub"></div>
+  <!-- 解説の箱（アクションの帯とは別表示。帯の「解説」で開く） -->
+  <div id="info" hidden>
     <div class="meta" id="s-meta"></div>
     <div id="s-facts"></div>
+    <div id="s-link"></div>
+  </div>
+
+  <!-- 選んだときのアクションの帯（細く・ボタンだけ） -->
+  <div id="sheet" aria-hidden="true">
+    <div id="grip"></div>
+    <div class="who">
+      <span class="name" id="s-name"></span>
+      <span class="sub" id="s-sub"></span>
+    </div>
     <div id="s-ops">
+      <button id="op-info">解説</button>
       <button id="op-zoom">寄る</button>
       <button id="op-isolate">これだけ見る</button>
       <button id="op-fade-others">まわりを薄く</button>
@@ -375,11 +398,10 @@
       <button id="op-hide">隠す</button>
       <button id="op-shot">撮影</button>
     </div>
-    <div id="s-link"></div>
   </div>
 
   <div id="loading">読み込んでいます…</div>
 
-  <script type="module" src="./app.js?v=12"></script>
+  <script type="module" src="./app.js?v=14"></script>
 </body>
 </html>

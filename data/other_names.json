@@ -1359,16 +1359,16 @@
  },
  "ot0195": {
   "en": "Extensor digitorum",
-  "ja": "指伸筋（総指伸筋）",
+  "ja": "総指伸筋",
   "side": "左",
-  "system": "その他",
+  "system": "筋",
   "raw": "Extensor digitorum.l"
  },
  "ot0196": {
   "en": "Extensor digitorum",
-  "ja": "指伸筋（総指伸筋）",
+  "ja": "総指伸筋",
   "side": "右",
-  "system": "その他",
+  "system": "筋",
   "raw": "Extensor digitorum.r"
  },
  "ot0197": {
@@ -4691,23 +4691,23 @@
  },
  "ot0671": {
   "en": "Rotatores",
-  "ja": "",
+  "ja": "回旋筋",
   "side": "",
-  "system": "その他",
+  "system": "筋",
   "raw": "Rotatores.j"
  },
  "ot0672": {
   "en": "Rotatores",
-  "ja": "",
+  "ja": "回旋筋",
   "side": "左",
-  "system": "その他",
+  "system": "筋",
   "raw": "Rotatores.l"
  },
  "ot0673": {
   "en": "Rotatores",
-  "ja": "",
+  "ja": "回旋筋",
   "side": "右",
-  "system": "その他",
+  "system": "筋",
   "raw": "Rotatores.r"
  },
  "ot0674": {
