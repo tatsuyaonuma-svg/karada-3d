@@ -169,7 +169,26 @@ function labelOf(entry) {
 // ---------------------------------------------------------------- 土台
 const stage = document.getElementById('stage');
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(LOOK.bg);
+// 紙の質感の背景（弱いざらつき。スケッチの台紙）
+function makePaperTexture() {
+  const c = document.createElement('canvas');
+  c.width = c.height = 1024;
+  const ctx = c.getContext('2d');
+  ctx.fillStyle = '#f0eadf';
+  ctx.fillRect(0, 0, 1024, 1024);
+  const img = ctx.getImageData(0, 0, 1024, 1024);
+  for (let i = 0; i < img.data.length; i += 4) {
+    const n = (Math.random() - 0.5) * 9;
+    img.data[i] += n;
+    img.data[i + 1] += n;
+    img.data[i + 2] += n * 0.85;
+  }
+  ctx.putImageData(img, 0, 0);
+  const tex = new THREE.CanvasTexture(c);
+  tex.colorSpace = THREE.SRGBColorSpace;
+  return tex;
+}
+scene.background = makePaperTexture();
 
 const camera = new THREE.PerspectiveCamera(35, 1, 0.01, 100);
 // 【落とし穴・令和8年8月11日】カメラの位置と見る先が両方とも原点だと、
@@ -217,9 +236,9 @@ scene.add(backLight);
 // 形を法線の向きにわずかにふくらませて裏面だけ描く。太さは世界の長さで持つ。
 const outlineMaterial = new THREE.ShaderMaterial({
   uniforms: {
-    thickness: { value: 0.0009 },
-    lineColor: { value: new THREE.Color(0x5c5044) },
-    lineAlpha: { value: 0.6 },
+    thickness: { value: 0.0013 },
+    lineColor: { value: new THREE.Color(0x4e4438) },
+    lineAlpha: { value: 0.72 },
   },
   vertexShader: `
     uniform float thickness;
@@ -235,26 +254,47 @@ const outlineMaterial = new THREE.ShaderMaterial({
   transparent: true,
 });
 
-// ---------------------------------------------------------------- 材質（元データのものを使う）
-// glbに入っているZ-Anatomy自身の材質をそのまま使う。触るのは2点だけ：
-// ・薄い膜（横隔膜・筋膜）は袋のように閉じていないので、両面を塗る
-// ・半透明（筋膜など）は、透けたぶん奥が見えるように描く順を整える
+// ---------------------------------------------------------------- 材質（スケッチ調）
+// 【令和8年8月22日・大沼指示「もっとスケッチ風に。色も全体的にもうちょっとダスティな方がいい」】
+// 色相は元データのまま、鮮やかさを落として紙の色へ少し寄せ（ダスティ）、
+// 塗りをなだらかな数段の絵の調子にする（水彩の図版のような塗り）。
+const PAPER = new THREE.Color(0xefe8db);
+function dustyColor(src) {
+  const c = src.clone();
+  const hsl = { h: 0, s: 0, l: 0 };
+  c.getHSL(hsl);
+  c.setHSL(hsl.h, hsl.s * 0.45, Math.min(1, hsl.l * 0.92 + 0.10));
+  c.lerp(PAPER, 0.18);
+  return c;
+}
+function makeSketchGradient() {
+  const steps = new Uint8Array([112, 152, 192, 226, 250]);
+  const tex = new THREE.DataTexture(steps, steps.length, 1, THREE.RedFormat);
+  tex.minFilter = THREE.NearestFilter;
+  tex.magFilter = THREE.NearestFilter;
+  tex.generateMipmaps = false;
+  tex.needsUpdate = true;
+  return tex;
+}
+const SKETCH_GRADIENT = makeSketchGradient();
+
 const preparedMaterials = new Map();
 function prepareMaterial(srcMat, sys) {
-  if (!srcMat) {
-    // 材質が入っていないときだけ、系統の代えの色を使う
-    if (!preparedMaterials.has(sys)) {
-      preparedMaterials.set(sys, new THREE.MeshStandardMaterial({
-        color: LOOK.layers[sys].color, roughness: 0.55, side: THREE.DoubleSide,
-      }));
-    }
-    return preparedMaterials.get(sys);
+  const cacheKey = srcMat ? srcMat.uuid : ('sys:' + sys);
+  if (preparedMaterials.has(cacheKey)) return preparedMaterials.get(cacheKey);
+  const baseColor = srcMat ? srcMat.color : new THREE.Color(LOOK.layers[sys].color);
+  const m = new THREE.MeshToonMaterial({
+    color: dustyColor(baseColor),
+    gradientMap: SKETCH_GRADIENT,
+    side: THREE.DoubleSide,           // 薄い膜は袋のように閉じていないので両面を塗る
+  });
+  if (srcMat && srcMat.transparent) { // 半透明（筋膜など）は透けたまま
+    m.transparent = true;
+    m.opacity = srcMat.opacity;
+    m.depthWrite = false;
   }
-  if (preparedMaterials.has(srcMat.uuid)) return preparedMaterials.get(srcMat.uuid);
-  srcMat.side = THREE.DoubleSide;
-  if (srcMat.transparent) srcMat.depthWrite = false;
-  preparedMaterials.set(srcMat.uuid, srcMat);
-  return srcMat;
+  preparedMaterials.set(cacheKey, m);
+  return m;
 }
 
 // 三角形の頂点の並びを逆にして、面の表と裏を入れ替える
@@ -702,9 +742,9 @@ const pointer = new THREE.Vector2();
 let downAt = null;
 let peelMode = false;   // オンのとき、さわった部位を1枚ずつはがす
 let PART_LESSONS = {};
-// 選んだものは青くする（前の見た目のまま。元データの色と混ざらない色）
-const highlightMaterial = new THREE.MeshStandardMaterial({
-  color: 0x4d7fae, roughness: 0.5, side: THREE.DoubleSide,
+// 選んだものは青くする（くすんだ青。元データの色と混ざらない色）
+const highlightMaterial = new THREE.MeshToonMaterial({
+  color: 0x5b7fa0, gradientMap: SKETCH_GRADIENT, side: THREE.DoubleSide,
 });
 
 // ---------------------------------------------------------------- 部位ごとの操作
@@ -793,6 +833,18 @@ function opFadeOthers(mesh) {
   applyFades(); updateRestoreChip();
   glideTo(centerOfSameName(mesh));   // 残した部位が回転の軸になる
 }
+// まわりを隠す（Essential Anatomy 5 の Hide others にあたる。ひとかたまりで積むので一枚戻すで戻る）
+function opHideOthers(mesh) {
+  const keep = new Set(sameNameMeshes(mesh));
+  const g = [];
+  for (const m of pickable) {
+    if (m.visible && !keep.has(m)) { m.userData.hidden = true; g.push(m); }
+  }
+  if (g.length) hideStack.push(g);
+  applyVisibility(false);
+  updateRestoreChip();
+  glideTo(centerOfSameName(mesh));
+}
 function opIsolate(mesh) {
   const e = mesh.userData.entry;
   if (!e) return;
@@ -807,7 +859,7 @@ fetch('./data/part_lessons.json?v=2').then(r => r.json()).then(j => { PART_LESSO
 
 // 筋の起始・停止・支配神経（出典：プロメテウス。原本の頁を目視で確かめて転記したものだけ載せる）
 let MUSCLE_FACTS = null;
-fetch('./data/muscle_facts.json?v=1')
+fetch('./data/muscle_facts.json?v=2')
   .then(r => (r.ok ? r.json() : null))
   .then(j => { MUSCLE_FACTS = j; })
   .catch(() => {});
@@ -1077,6 +1129,7 @@ function openSheetFor(mesh) {
       row('起始', f.起始);
       row('停止', f.停止);
       row('支配神経', f.神経);
+      row('作用', f.作用);
       if (f.頁) {
         const s = document.createElement('div');
         s.className = 'src';
@@ -1373,6 +1426,7 @@ if (catalogBtn) {
   bind('op-hide', opHide);
   bind('op-fade', opFade);
   bind('op-fade-others', opFadeOthers);
+  bind('op-hide-others', opHideOthers);
   bind('op-isolate', opIsolate);
   const chip = document.getElementById('restore');
   if (chip) chip.addEventListener('click', () => {
