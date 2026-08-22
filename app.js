@@ -230,6 +230,29 @@ const backLight = new THREE.DirectionalLight(0xffffff, 0.45);
 backLight.position.set(-0.6, 0.3, -0.7);
 scene.add(backLight);
 
+// 映り込み：光る板を並べた小さな部屋からの弱い照り返し（質感のもと）。外部の部品は使わない
+{
+  const envScene = new THREE.Scene();
+  const panel = (color, x, y, z, w, h, rx, ry) => {
+    const p = new THREE.Mesh(
+      new THREE.PlaneGeometry(w, h),
+      new THREE.MeshBasicMaterial({ color, side: THREE.DoubleSide }));
+    p.position.set(x, y, z);
+    p.rotation.set(rx, ry, 0);
+    envScene.add(p);
+  };
+  const room = new THREE.Mesh(
+    new THREE.BoxGeometry(10, 10, 10),
+    new THREE.MeshBasicMaterial({ color: 0x8d867b, side: THREE.BackSide }));
+  envScene.add(room);
+  panel(0xfff6e8, 0, 4, 0, 4, 4, Math.PI / 2, 0);        // 天井の柔らかい光
+  panel(0xe8dfd2, -3, 1, 3, 3, 5, 0, Math.PI / 4);       // 左前
+  panel(0xa89f92, 3, 0.5, -3, 3, 5, 0, -Math.PI * 0.75); // 右うしろ（弱め）
+  const pmrem = new THREE.PMREMGenerator(renderer);
+  scene.environment = pmrem.fromScene(envScene, 0.06).texture;
+  pmrem.dispose();
+}
+
 // ---------------------------------------------------------------- 輪郭線（スケッチ調）
 // 【令和8年8月22日・大沼指示「視認性を保ちつつ、スケッチのような美しいものに」】
 // 色は元データのまま、部品の縁にだけ細い線を引く（解剖図版の描き方）。
@@ -267,27 +290,59 @@ function dustyColor(src) {
   c.lerp(PAPER, 0.18);
   return c;
 }
-function makeSketchGradient() {
-  const steps = new Uint8Array([112, 152, 192, 226, 250]);
-  const tex = new THREE.DataTexture(steps, steps.length, 1, THREE.RedFormat);
-  tex.minFilter = THREE.NearestFilter;
-  tex.magFilter = THREE.NearestFilter;
-  tex.generateMipmaps = false;
-  tex.needsUpdate = true;
-  return tex;
+// 質感：のっぺりした均一の塗りをやめ、柔らかい写実の陰影に戻す（つやが質感を作る）。
+// そのうえで、表面に水彩の紙のようなむら（顔料のたまり）を薄くのせる。
+// むらは世界の座標から作る細かい濃淡（2つの大きさを重ねる）で、絵の具の粒のように見える。
+function addWatercolorGrain(material) {
+  material.onBeforeCompile = (shader) => {
+    shader.vertexShader = shader.vertexShader
+      .replace('#include <common>', '#include <common>\nvarying vec3 vGrainPos;')
+      .replace('#include <worldpos_vertex>',
+        '#include <worldpos_vertex>\nvGrainPos = (modelMatrix * vec4(position, 1.0)).xyz;');
+    shader.fragmentShader = shader.fragmentShader
+      .replace('#include <common>', `#include <common>
+        varying vec3 vGrainPos;
+        float grainHash(vec3 p) {
+          return fract(sin(dot(p, vec3(127.1, 311.7, 74.7))) * 43758.5453);
+        }
+        float grainNoise(vec3 p) {
+          vec3 i = floor(p);
+          vec3 f = fract(p);
+          f = f * f * (3.0 - 2.0 * f);
+          float a000 = grainHash(i);
+          float a100 = grainHash(i + vec3(1.0, 0.0, 0.0));
+          float a010 = grainHash(i + vec3(0.0, 1.0, 0.0));
+          float a110 = grainHash(i + vec3(1.0, 1.0, 0.0));
+          float a001 = grainHash(i + vec3(0.0, 0.0, 1.0));
+          float a101 = grainHash(i + vec3(1.0, 0.0, 1.0));
+          float a011 = grainHash(i + vec3(0.0, 1.0, 1.0));
+          float a111 = grainHash(i + vec3(1.0, 1.0, 1.0));
+          return mix(mix(mix(a000, a100, f.x), mix(a010, a110, f.x), f.y),
+                     mix(mix(a001, a101, f.x), mix(a011, a111, f.x), f.y), f.z);
+        }`)
+      .replace('#include <map_fragment>', `#include <map_fragment>
+        {
+          float g1 = grainNoise(vGrainPos * 90.0);    // 細かい紙目
+          float g2 = grainNoise(vGrainPos * 14.0);    // 大きな絵の具のむら
+          float g = g1 * 0.5 + g2 * 0.5;
+          diffuseColor.rgb *= (0.93 + 0.12 * g);
+        }`);
+  };
+  return material;
 }
-const SKETCH_GRADIENT = makeSketchGradient();
 
 const preparedMaterials = new Map();
 function prepareMaterial(srcMat, sys) {
   const cacheKey = srcMat ? srcMat.uuid : ('sys:' + sys);
   if (preparedMaterials.has(cacheKey)) return preparedMaterials.get(cacheKey);
   const baseColor = srcMat ? srcMat.color : new THREE.Color(LOOK.layers[sys].color);
-  const m = new THREE.MeshToonMaterial({
+  const m = new THREE.MeshStandardMaterial({
     color: dustyColor(baseColor),
-    gradientMap: SKETCH_GRADIENT,
+    roughness: 0.6,
+    envMapIntensity: 0.55,            // 弱い照り返し（つやが出すぎない程度）
     side: THREE.DoubleSide,           // 薄い膜は袋のように閉じていないので両面を塗る
   });
+  addWatercolorGrain(m);
   if (srcMat && srcMat.transparent) { // 半透明（筋膜など）は透けたまま
     m.transparent = true;
     m.opacity = srcMat.opacity;
@@ -743,8 +798,8 @@ let downAt = null;
 let peelMode = false;   // オンのとき、さわった部位を1枚ずつはがす
 let PART_LESSONS = {};
 // 選んだものは青くする（くすんだ青。元データの色と混ざらない色）
-const highlightMaterial = new THREE.MeshToonMaterial({
-  color: 0x5b7fa0, gradientMap: SKETCH_GRADIENT, side: THREE.DoubleSide,
+const highlightMaterial = new THREE.MeshStandardMaterial({
+  color: 0x5b7fa0, roughness: 0.5, envMapIntensity: 0.55, side: THREE.DoubleSide,
 });
 
 // ---------------------------------------------------------------- 部位ごとの操作
