@@ -125,7 +125,27 @@
   button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
   #dock.down{transform:translate3d(0,100%,0);opacity:0;pointer-events:none}
   #credit{font-size:.6875rem;color:var(--ink3);text-align:center;line-height:1.4;letter-spacing:.01em}
-  #credit a{color:var(--ink3)}
+  #credit button{
+    background:transparent;border:none;color:var(--ink3);
+    font-size:.6875rem;letter-spacing:.06em;min-height:28px;padding:0 8px;
+    text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--hair);
+  }
+  #credit button:active{transform:none;color:var(--ink2)}
+  /* 参考文献のまとまり（見たい人だけ開く） */
+  #refs{
+    position:absolute;left:10px;right:10px;bottom:calc(100% + 8px);z-index:7;
+    max-width:560px;margin:0 auto;
+    background:var(--glass-strong);
+    backdrop-filter:blur(30px) saturate(180%);
+    -webkit-backdrop-filter:blur(30px) saturate(180%);
+    border:1px solid rgba(255,255,255,.6);
+    border-radius:16px;box-shadow:var(--shadow);
+    padding:18px 22px;
+    font-size:.8125rem;line-height:1.8;color:var(--ink2);
+  }
+  #refs .rtitle{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;letter-spacing:.2em;color:var(--ink);margin-bottom:6px}
+  #refs p{margin:.4em 0}
+  #refs a{color:var(--accent)}
 
   /* ── 操作の列：紙の上の文字。選んでいるものだけ下線 ── */
   #controls{
@@ -329,8 +349,14 @@
         <div class="btns" id="views"></div>
       </div>
     </div>
+    <div id="refs" hidden>
+      <div class="rtitle">参考文献・データ</div>
+      <p>3Dデータ：Z-Anatomy / BodyParts3D（CC BY-SA 4.0）　<a href="https://github.com/tatsuyaonuma-svg/karada-3d" target="_blank" rel="noopener">データとコード</a></p>
+      <p>筋の起始・停止・支配神経・作用の参考：プロメテウス解剖学アトラス 解剖学総論／運動器系（医学書院）。事実データのみを参照し、図版・解説文は使っていません。</p>
+      <p>各部位の読みもの：<a href="https://www.somaticstudiojapan.com/kanjite-undou-kaibou" target="_blank" rel="noopener">感じて覚える運動解剖学</a>（somatic studio）</p>
+    </div>
     <div id="credit">
-      3Dデータ：Z-Anatomy / BodyParts3D（CC BY-SA 4.0）
+      <button id="refs-btn">参考文献・データ</button>
     </div>
   </div>
 
@@ -354,6 +380,6 @@
 
   <div id="loading">読み込んでいます…</div>
 
-  <script type="module" src="./app.js?v=11"></script>
+  <script type="module" src="./app.js?v=12"></script>
 </body>
 </html>

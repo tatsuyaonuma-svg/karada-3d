@@ -928,7 +928,7 @@ fetch('./data/part_lessons.json?v=2').then(r => r.json()).then(j => { PART_LESSO
 
 // 筋の起始・停止・支配神経（出典：プロメテウス。原本の頁を目視で確かめて転記したものだけ載せる）
 let MUSCLE_FACTS = null;
-fetch('./data/muscle_facts.json?v=2')
+fetch('./data/muscle_facts.json?v=3')
   .then(r => (r.ok ? r.json() : null))
   .then(j => { MUSCLE_FACTS = j; })
   .catch(() => {});
@@ -1199,12 +1199,7 @@ function openSheetFor(mesh) {
       row('停止', f.停止);
       row('支配神経', f.神経);
       row('作用', f.作用);
-      if (f.頁) {
-        const s = document.createElement('div');
-        s.className = 'src';
-        s.textContent = '出典：プロメテウス解剖学アトラス 解剖学総論／運動器系 p.' + f.頁;
-        factsEl.appendChild(s);
-      }
+      // 出典はここには出さない（見た目を軽くする）。まとめて「参考文献」で見られる
     }
   }
 
@@ -1484,6 +1479,15 @@ if (catalogBtn) {
   });
   // 検索を打ち始めたら目次は引っ込める
   if (searchInput) searchInput.addEventListener('focus', () => { catalogEl.hidden = true; });
+}
+
+// 参考文献のまとまり（見たい人だけ開く）
+{
+  const refsBtn = document.getElementById('refs-btn');
+  const refs = document.getElementById('refs');
+  if (refsBtn && refs) {
+    refsBtn.addEventListener('click', () => { refs.hidden = !refs.hidden; });
+  }
 }
 
 // 名前の下の操作ボタン（隠す・薄くする・まわりを薄く・これだけ見る）と「表示を元に戻す」
