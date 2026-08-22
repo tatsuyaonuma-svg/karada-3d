@@ -25,6 +25,14 @@
   #stage{position:fixed;inset:0}
   canvas{display:block;touch-action:none}
 
+  /* 左上の表題（図版の署名のように置く） */
+  #wordmark{
+    position:fixed;top:calc(16px + env(safe-area-inset-top));left:20px;z-index:3;
+    font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
+    font-size:.9375rem;letter-spacing:.3em;color:var(--ink2);
+    pointer-events:none;
+  }
+
   /* ── 上：いま触っているものの名前。3Dの上に浮かせる ── */
   #label{
     position:fixed;top:0;left:0;right:0;z-index:3;
@@ -82,17 +90,13 @@
   }
   #catalog .item .en{display:block;font-size:.71875rem;color:var(--ink3)}
 
-  /* ── 下：半透明のガラスの操作板 ── */
+  /* ── 下：操作は紙の上に文字を置くだけ（板を作らない） ── */
   #dock{
     position:fixed;left:0;right:0;bottom:0;z-index:4;
-    padding:8px 10px calc(8px + env(safe-area-inset-bottom));
-    display:flex;flex-direction:column;gap:6px;align-items:center;
+    padding:34px 18px calc(10px + env(safe-area-inset-bottom));
+    display:flex;flex-direction:column;gap:10px;align-items:center;
     transition:transform .32s cubic-bezier(.2,0,0,1), opacity .24s ease;
-    background:var(--glass);
-    backdrop-filter:blur(24px) saturate(180%);
-    -webkit-backdrop-filter:blur(24px) saturate(180%);
-    border-top:1px solid rgba(255,255,255,.55);
-    box-shadow:0 -1px 0 var(--hair);
+    background:linear-gradient(to top, rgba(240,234,223,.96) 60%, rgba(240,234,223,0));
   }
   /* 高さを取らないよう、はみ出す分は横に流す（折り返して2段3段にしない） */
   .row{
@@ -123,7 +127,7 @@
   #credit{font-size:.6875rem;color:var(--ink3);text-align:center;line-height:1.4;letter-spacing:.01em}
   #credit a{color:var(--ink3)}
 
-  /* ── 操作の列：見出しつきの一列（静かな見た目） ── */
+  /* ── 操作の列：紙の上の文字。選んでいるものだけ下線 ── */
   #controls{
     display:flex;align-items:stretch;
     width:100%;max-width:680px;overflow-x:auto;overflow-y:hidden;
@@ -132,41 +136,53 @@
   }
   #controls::-webkit-scrollbar{display:none}
   .grp{
-    display:flex;flex-direction:column;gap:3px;
-    padding:0 16px;border-left:1px solid var(--hair);
+    display:flex;flex-direction:column;gap:0;
+    padding:0 20px;border-left:1px solid var(--hair);
     flex:0 0 auto;
   }
   .grp:first-child{border-left:none;padding-left:2px}
   .cap{
-    font-size:.6875rem;color:var(--ink3);letter-spacing:.14em;
+    font-size:.625rem;color:var(--ink3);letter-spacing:.22em;
     padding-left:10px;
   }
-  .btns{display:flex;gap:2px}
+  .btns{display:flex;gap:0}
   #controls button{
-    background:transparent;border:none;color:var(--ink2);
-    min-height:40px;padding:0 12px;border-radius:10px;
-    font-size:.875rem;
+    background:transparent;border:none;color:var(--ink3);
+    min-height:40px;padding:0 11px;border-radius:0;
+    font-size:.875rem;letter-spacing:.02em;
+    transition:color .16s ease;
   }
-  #controls button.on{background:var(--ink);color:#fff}
-  #controls button:active{background:rgba(38,34,28,.08);transform:scale(.96)}
-  #controls button.on:active{background:var(--ink)}
-  #subregions button{min-height:36px;font-size:.8125rem;color:var(--ink3)}
-  #subregions button.on{background:var(--ink);color:#fff}
+  #controls button.on{
+    background:transparent;color:var(--ink);font-weight:600;
+    text-decoration:underline;text-underline-offset:7px;
+    text-decoration-thickness:1.5px;text-decoration-color:var(--accent);
+  }
+  #controls button:active{background:transparent;transform:none;color:var(--ink)}
+  #controls button.on:active{background:transparent}
+  #subregions button{min-height:34px;font-size:.8125rem}
   /* 広い画面では折り返して全部見せる（真ん中寄せ＋はみ出しは左端が画面の外に出るので使わない） */
   @media (min-width:1000px){
-    #controls{max-width:1180px;flex-wrap:wrap;justify-content:center;overflow:visible;row-gap:8px}
+    #controls{max-width:1180px;flex-wrap:wrap;justify-content:center;overflow:visible;row-gap:10px}
   }
 
-  /* ── なまえで引く ── */
-  #searchrow{align-items:center}
+  /* ── なまえで引く（下線一本の欄） ── */
+  #searchrow{align-items:center;gap:14px;max-width:560px}
+  #searchrow button{
+    background:transparent;border:none;color:var(--ink2);
+    min-height:44px;padding:0 6px;border-radius:0;
+    font-size:.875rem;letter-spacing:.06em;
+    border-bottom:1px solid transparent;
+  }
+  #searchrow button:active{transform:none;color:var(--ink)}
   #search{
     flex:1 1 auto;min-width:0;
     font:inherit;font-size:16px;   /* 16px未満だとiPhoneが勝手に拡大する */
-    min-height:44px;padding:0 16px;border-radius:999px;
-    border:1px solid var(--hair);background:rgba(255,255,255,.7);color:var(--ink);
+    min-height:44px;padding:0 4px;border-radius:0;
+    border:none;border-bottom:1px solid var(--hair);
+    background:transparent;color:var(--ink);
     outline:none;
   }
-  #search:focus{border-color:var(--accent)}
+  #search:focus{border-bottom-color:var(--ink2)}
   #search::placeholder{color:var(--ink3)}
   #search-results{
     position:absolute;left:10px;right:10px;bottom:calc(100% + 8px);z-index:7;
@@ -272,6 +288,8 @@
 <body>
   <div id="stage"></div>
 
+  <div id="wordmark">からだの立体図鑑</div>
+
   <div id="label">
     <div class="ja" id="ja"></div>
     <div class="en" id="en"></div>
@@ -323,11 +341,13 @@
     <div class="meta" id="s-meta"></div>
     <div id="s-facts"></div>
     <div id="s-ops">
+      <button id="op-zoom">寄る</button>
       <button id="op-isolate">これだけ見る</button>
       <button id="op-fade-others">まわりを薄く</button>
       <button id="op-hide-others">まわりを隠す</button>
       <button id="op-fade">薄くする</button>
       <button id="op-hide">隠す</button>
+      <button id="op-shot">撮影</button>
     </div>
     <div id="s-link"></div>
   </div>

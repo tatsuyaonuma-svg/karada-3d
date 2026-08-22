@@ -772,7 +772,7 @@ function buildControlsUI() {
   viewsRow.appendChild(reset);
 
   const save = document.createElement('button');
-  save.textContent = '画像に保存';
+  save.textContent = '撮影';
   save.classList.add('plain');
   save.addEventListener('click', saveImage);
   viewsRow.appendChild(save);
@@ -900,6 +900,20 @@ function opHideOthers(mesh) {
   updateRestoreChip();
   glideTo(centerOfSameName(mesh));
 }
+// 寄る（2回たたくのと同じ動き。選んだ部位が回転の軸になる）
+function opZoom(mesh) {
+  const box = new THREE.Box3();
+  for (const m of sameNameMeshes(mesh)) {
+    if (!m.geometry.boundingBox) m.geometry.computeBoundingBox();
+    const b = m.geometry.boundingBox.clone();
+    b.applyMatrix4(m.matrixWorld);
+    box.union(b);
+  }
+  const size = box.getSize(new THREE.Vector3()).length();
+  const dist = Math.max(size * 1.6, controls.minDistance * 1.05);
+  glideTo(box.getCenter(new THREE.Vector3()), dist);
+}
+
 function opIsolate(mesh) {
   const e = mesh.userData.entry;
   if (!e) return;
@@ -1478,11 +1492,14 @@ if (catalogBtn) {
     const b = document.getElementById(id);
     if (b) b.addEventListener('click', () => { if (bannerMesh) fn(bannerMesh); });
   };
+  bind('op-zoom', opZoom);
   bind('op-hide', opHide);
   bind('op-fade', opFade);
   bind('op-fade-others', opFadeOthers);
   bind('op-hide-others', opHideOthers);
   bind('op-isolate', opIsolate);
+  const shot = document.getElementById('op-shot');
+  if (shot) shot.addEventListener('click', saveImage);
   const chip = document.getElementById('restore');
   if (chip) chip.addEventListener('click', () => {
     clearSearch(false);
@@ -1494,15 +1511,66 @@ if (catalogBtn) {
   });
 }
 
-// ---------------------------------------------------------------- 画像に保存
-function saveImage() {
+// ---------------------------------------------------------------- 撮影（署名入り・共有できる）
+// 【令和8年8月22日・大沼指示「SNS共有OKなので撮影もできるように。
+// そこには tatsuya onuma somatic studio の名前も入るように」】
+// 右下に署名、左下にデータの出典（CC BY-SAの決まりで必要）、選択中なら部位の名前を入れる。
+function composeShot() {
   renderer.render(scene, camera);
-  const url = renderer.domElement.toDataURL('image/png');
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = '感じて覚える運動解剖学_全身.png';
-  a.click();
+  const src = renderer.domElement;
+  const w = src.width, h = src.height;
+  const c = document.createElement('canvas');
+  c.width = w; c.height = h;
+  const ctx = c.getContext('2d');
+  ctx.drawImage(src, 0, 0);
+  const s = w / src.clientWidth;   // 画面の細かさに合わせる
+
+  const serif = '"Hiragino Mincho ProN","Yu Mincho",serif';
+  // 左上：表題
+  ctx.fillStyle = 'rgba(90,83,71,.9)';
+  ctx.font = `${14 * s}px ${serif}`;
+  ctx.textAlign = 'left';
+  ctx.fillText('からだの立体図鑑', 18 * s, 32 * s);
+  // 選択中の部位の名前（表題の下）
+  if (selectedGroup.length) {
+    const lab = labelOf(selectedGroup[0].userData.entry);
+    ctx.fillStyle = 'rgba(38,34,28,.92)';
+    ctx.font = `600 ${21 * s}px ${serif}`;
+    ctx.fillText(lab.ja, 18 * s, 62 * s);
+    if (lab.en) {
+      ctx.fillStyle = 'rgba(90,83,71,.8)';
+      ctx.font = `${11 * s}px sans-serif`;
+      ctx.fillText(lab.en, 18 * s, 80 * s);
+    }
+  }
+  // 右下：署名
+  ctx.fillStyle = 'rgba(38,34,28,.85)';
+  ctx.font = `${13 * s}px ${serif}`;
+  ctx.textAlign = 'right';
+  ctx.fillText('tatsuya onuma｜somatic studio', w - 18 * s, h - 18 * s);
+  // 左下：データの出典（CC BY-SAの決まり）
+  ctx.fillStyle = 'rgba(90,83,71,.65)';
+  ctx.font = `${10 * s}px sans-serif`;
+  ctx.textAlign = 'left';
+  ctx.fillText('3D: Z-Anatomy / BodyParts3D（CC BY-SA 4.0）', 18 * s, h - 18 * s);
+  return c;
 }
+
+async function saveImage() {
+  const c = composeShot();
+  const blob = await new Promise(res => c.toBlob(res, 'image/png'));
+  const file = new File([blob], 'からだの立体図鑑.png', { type: 'image/png' });
+  // スマホなら共有画面をそのまま開く。開けない環境は保存になる
+  if (navigator.canShare && navigator.canShare({ files: [file] })) {
+    try { await navigator.share({ files: [file] }); return; } catch (e) { /* やめたら保存へ */ }
+  }
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'からだの立体図鑑.png';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+window.__capture = () => composeShot().toDataURL('image/png');   // 確認用
 
 // ---------------------------------------------------------------- 動かす
 // 確認用（中の数値を外から見るため）
